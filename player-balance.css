@@ -1,0 +1,23 @@
+/* The title, spectrum, and transport share one compact column. */
+#listening-room.is-floating:not(.is-minimized){--player-pad:16px;--control-size:38px;padding:var(--player-pad);gap:12px 16px;width:540px;height:360px;min-width:380px;min-height:320px;grid-template-columns:minmax(200px,42%) minmax(0,1fr);grid-template-rows:28px minmax(0,1fr);grid-template-areas:'toolbar toolbar' 'media info'}
+#listening-room.is-floating.is-horizontal:not(.is-minimized){width:auto;height:300px;min-height:300px;grid-template-columns:240px minmax(0,1fr);grid-template-rows:28px minmax(0,1fr);grid-template-areas:'toolbar toolbar' 'media info'}
+#listening-room:not(.is-minimized) .player-toolbar{padding:0;background:none}
+#listening-room:not(.is-minimized) .now-playing{padding:0;gap:7px;align-self:center;justify-content:center;align-items:flex-start}
+#listening-room:not(.is-minimized) .now-playing h3{font-size:28px;line-height:1.15;max-width:100%;-webkit-line-clamp:2}
+#listening-room:not(.is-minimized) #playing-artist{font-size:15px}
+#listening-room:not(.is-minimized) .player-transport{grid-area:auto;padding:0!important;align-self:stretch;justify-content:center;gap:8px;flex-direction:row;align-items:center;flex-wrap:wrap}
+#listening-room:not(.is-minimized) .transport-main,#listening-room:not(.is-minimized) .queue-options{gap:7px;flex-wrap:nowrap}
+#listening-room:not(.is-minimized) .player-transport button{width:38px;height:38px;padding:7px}
+#listening-room:not(.is-minimized) .player-transport .transport-play{width:42px;height:42px}
+#listening-room:not(.is-minimized) .queue-options button{width:30px;height:30px;padding:5px}
+.player-visualizer{display:block;width:100%;height:44px;max-width:100%;flex:0 0 44px;align-self:stretch;margin:5px 0 7px}
+#listening-room:not(.is-minimized) .player-screen{border:0;border-radius:6px}
+.is-minimized .player-visualizer{display:none}
+/* Transport lives in the title column when expanded, but stays on the strip. */
+#listening-room.is-minimized .now-playing{display:contents}
+#listening-room.is-minimized .now-playing>div:not(.player-transport),#listening-room.is-minimized .now-playing>p,#listening-room.is-minimized .now-playing>.eyebrow{display:none}
+#listening-room.is-minimized .player-transport{grid-area:controls}
+.has-floating-player:has(.is-horizontal:not(.is-minimized)){padding-bottom:330px}
+@media(max-width:700px){#listening-room.is-floating:not(.is-minimized),#listening-room.is-floating.is-horizontal:not(.is-minimized){width:calc(100vw - 24px);grid-template-columns:minmax(180px,45%) minmax(0,1fr);height:370px;min-height:340px;--player-pad:12px;gap:10px 12px}#listening-room:not(.is-minimized) .now-playing h3{font-size:23px}#listening-room:not(.is-minimized) .player-actions{gap:4px}#listening-room:not(.is-minimized) .player-actions button,#listening-room:not(.is-minimized) .player-actions a{width:28px;height:28px;padding:5px}#listening-room:not(.is-minimized) .player-transport{justify-content:flex-start}.has-floating-player:has(.is-horizontal:not(.is-minimized)){padding-bottom:400px}}
+#listening-room.is-floating.is-tiny:not(.is-minimized){grid-template-columns:1fr;grid-template-rows:28px minmax(200px,1fr) auto;grid-template-areas:'toolbar' 'media' 'info';height:540px;min-height:510px}
+@media(max-width:400px){.has-floating-player:has(.is-horizontal:not(.is-minimized)){padding-bottom:570px}}

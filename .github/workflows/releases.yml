@@ -1,0 +1,66 @@
+name: Refresh latest release and publish
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: chicken-balls-pages
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    outputs:
+      publish: ${{ steps.save.outputs.publish }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check public music channels
+        id: check
+        continue-on-error: true
+        run: node scripts/update-latest.mjs
+      - name: Save refreshed release
+        id: save
+        run: |
+          git config user.name "Chicken Balls release updater"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add latest-release.json latest-release.js catalog.json catalog.js artwork.js assets/artwork/
+          if ! git diff --cached --quiet; then
+            git add release-sync-status.json
+            git commit -m "Refresh latest release metadata"
+            git push
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/configure-pages@v5
+        if: steps.save.outputs.publish == 'true'
+      - name: Prepare public site
+        if: steps.save.outputs.publish == 'true'
+        run: |
+          mkdir _public
+          rsync -a --exclude='.git' --exclude='.github' --exclude='_public' --exclude='scripts' --exclude='README.md' --exclude='LATEST-RELEASE-SETUP.md' ./ _public/
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.save.outputs.publish == 'true'
+        with:
+          path: _public
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish site
+        id: deployment
+        uses: actions/deploy-pages@v4

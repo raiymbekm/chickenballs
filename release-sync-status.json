@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-04T08:46:06.681Z",
+  "sources": [
+    {
+      "source": "YouTube peacepipe04",
+      "ok": true,
+      "detail": "peacepipe04: 30 uploads checked"
+    },
+    {
+      "source": "YouTube Music Fetch Quest",
+      "ok": false,
+      "detail": "No channel videos found"
+    },
+    {
+      "source": "SoundCloud",
+      "ok": true,
+      "detail": "10 SoundCloud uploads checked"
+    },
+    {
+      "source": "Spotify",
+      "ok": true,
+      "detail": "Spotify: 8 releases checked, 8 verified releases (excluded titles skipped)"
+    }
+  ],
+  "candidateCount": 19
+}
