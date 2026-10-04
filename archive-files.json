@@ -154,13 +154,6 @@
     "format": "audio/mpeg"
   },
   {
-    "id": "1y5SXzC3ghlOTNYttMBNiZAvvwAuwN7Rl",
-    "title": "Angry teens_wav_mastered.wav",
-    "source": "https://drive.google.com/file/d/1y5SXzC3ghlOTNYttMBNiZAvvwAuwN7Rl/view?usp=drivesdk",
-    "bytes": 40144036,
-    "format": "audio/wav"
-  },
-  {
     "id": "1_k9OPWQCXHEKLnILJZVIF2G8Wi-CQs6d",
     "title": "peacepipe04 - baccpacc.mp3",
     "source": "https://drive.google.com/file/d/1_k9OPWQCXHEKLnILJZVIF2G8Wi-CQs6d/view?usp=drivesdk",
@@ -180,13 +173,6 @@
     "source": "https://drive.google.com/file/d/1RLEEN6zarL0kVFI16ESl-xB3oj-nO6tx/view?usp=drivesdk",
     "bytes": 8740641,
     "format": "audio/mpeg"
-  },
-  {
-    "id": "1xUlTfOH9uUcs0zrH7IytErr3QXfEC3Pu",
-    "title": "WAV_Eliminate - Walk Away (Fetch Quest Remix).wav",
-    "source": "https://drive.google.com/file/d/1xUlTfOH9uUcs0zrH7IytErr3QXfEC3Pu/view?usp=drivesdk",
-    "bytes": 38537698,
-    "format": "audio/wav"
   },
   {
     "id": "1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ",
@@ -274,17 +260,10 @@
   },
   {
     "id": "1Vvrzml_z_ajhz7DZ474lthCMf5p9QYxV",
-    "title": "Guesswork_Bass House 10_Mastered.wav",
+    "title": "Guesswork_Bass House 10_Mastered.mp3",
     "source": "https://drive.google.com/file/d/1Vvrzml_z_ajhz7DZ474lthCMf5p9QYxV/view?usp=drivesdk",
-    "bytes": 37979546,
-    "format": "audio/wav"
-  },
-  {
-    "id": "1GhvLHE0uDRVt8wONpy4-t4iXdt4h29Ha",
-    "title": "Pseudoscience_Tech House 08_Mastered.wav",
-    "source": "https://drive.google.com/file/d/1GhvLHE0uDRVt8wONpy4-t4iXdt4h29Ha/view?usp=drivesdk",
-    "bytes": 63858844,
-    "format": "audio/wav"
+    "bytes": 8614216,
+    "format": "audio/mpeg"
   },
   {
     "id": "1SuGyvk7Qm_oKYxHhPyZ4S49fRfLCfSF4",
@@ -302,10 +281,10 @@
   },
   {
     "id": "15VBuSTsUeZtW9am90hMDDp53plVVV5iE",
-    "title": "Mutation_Mastered.wav",
+    "title": "Mutation_Mastered.mp3",
     "source": "https://drive.google.com/file/d/15VBuSTsUeZtW9am90hMDDp53plVVV5iE/view?usp=drivesdk",
-    "bytes": 40683868,
-    "format": "audio/wav"
+    "bytes": 9227567,
+    "format": "audio/mpeg"
   },
   {
     "id": "1rIn_zRT1H1dT9oI2DGNjINC90cq0f38E",
@@ -315,25 +294,11 @@
     "format": "audio/mpeg"
   },
   {
-    "id": "1STTKvP7ZLBq7Ltc7pCYRK9y95NTxC3Ms",
-    "title": "Bones_mastered.wav",
-    "source": "https://drive.google.com/file/d/1STTKvP7ZLBq7Ltc7pCYRK9y95NTxC3Ms/view?usp=drivesdk",
-    "bytes": 74176210,
-    "format": "audio/wav"
-  },
-  {
     "id": "1luP0dlNDMDc9dDYEp6QVDZg7ocMdxe7e",
     "title": "Zoology_mastered.mp3",
     "source": "https://drive.google.com/file/d/1luP0dlNDMDc9dDYEp6QVDZg7ocMdxe7e/view?usp=drivesdk",
     "bytes": 11477229,
     "format": "audio/mpeg"
-  },
-  {
-    "id": "1jOG7w-WPrsVIH5H9Ul5uC2gFieHT2BX1",
-    "title": "Zoology_Mastered.wav",
-    "source": "https://drive.google.com/file/d/1jOG7w-WPrsVIH5H9Ul5uC2gFieHT2BX1/view?usp=drivesdk",
-    "bytes": 75910780,
-    "format": "audio/wav"
   },
   {
     "id": "1n8oH5mWffB2W6VkkAujS3cPSEiErPslL",
@@ -379,10 +344,10 @@
   },
   {
     "id": "0B6qg46ChnRO7MW92eUxzLW1yVjg",
-    "title": "DanchikBaha [minus wave].wav",
+    "title": "DanchikBaha [minus wave].mp3",
     "source": "https://drive.google.com/file/d/0B6qg46ChnRO7MW92eUxzLW1yVjg/view?usp=drivesdk&resourcekey=0-EiGW4HMnNhsS5P2MqMxtUw",
-    "bytes": 21125914,
-    "format": "audio/x-wav"
+    "bytes": 4792991,
+    "format": "audio/mpeg"
   },
   {
     "id": "0B6qg46ChnRO7b0lIcUpyeC1DNGM",
@@ -491,24 +456,17 @@
   },
   {
     "id": "1yATBQ2IaHV05AuTaA7_w3W5yPIFo_uNa",
-    "title": "AP mastered.wav",
+    "title": "AP mastered.mp3",
     "source": "https://drive.google.com/file/d/1yATBQ2IaHV05AuTaA7_w3W5yPIFo_uNa/view?usp=drivesdk",
-    "bytes": 55734106,
-    "format": "audio/wav"
+    "bytes": 12641219,
+    "format": "audio/mpeg"
   },
   {
     "id": "13eas8jXbRojM-rvWChDiEa1wq4IMOVk0",
-    "title": "Decoy mastered.wav",
+    "title": "Decoy mastered.mp3",
     "source": "https://drive.google.com/file/d/13eas8jXbRojM-rvWChDiEa1wq4IMOVk0/view?usp=drivesdk",
-    "bytes": 44345626,
-    "format": "audio/wav"
-  },
-  {
-    "id": "1HskL29bbbQtAqxFDdX9X-HT4LI7tEqjT",
-    "title": "INTRUDER FINAL MASTERED.wav",
-    "source": "https://drive.google.com/file/d/1HskL29bbbQtAqxFDdX9X-HT4LI7tEqjT/view?usp=drivesdk",
-    "bytes": 61213874,
-    "format": "audio/wav"
+    "bytes": 10058231,
+    "format": "audio/mpeg"
   },
   {
     "id": "1EkqauHpyLz4rKh8p0g5YMWyYJNfoDoNt",
@@ -519,17 +477,10 @@
   },
   {
     "id": "1EcHk60ZVhAA2G8q_Gw_ti-8TdKnSeh9b",
-    "title": "Audionerds - Crossover.wav",
+    "title": "Audionerds - Crossover.mp3",
     "source": "https://drive.google.com/file/d/1EcHk60ZVhAA2G8q_Gw_ti-8TdKnSeh9b/view?usp=drivesdk",
-    "bytes": 54326726,
-    "format": "audio/wav"
-  },
-  {
-    "id": "1VvOPFTcqVLKkwFDLcFByH8fVLVqaT-dI",
-    "title": "Audionerds - Say No More.wav",
-    "source": "https://drive.google.com/file/d/1VvOPFTcqVLKkwFDLcFByH8fVLVqaT-dI/view?usp=drivesdk",
-    "bytes": 46740886,
-    "format": "audio/wav"
+    "bytes": 12321480,
+    "format": "audio/mpeg"
   },
   {
     "id": "1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-",
@@ -537,13 +488,6 @@
     "source": "https://drive.google.com/file/d/1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-/view?usp=drivesdk",
     "bytes": 10600559,
     "format": "audio/mpeg"
-  },
-  {
-    "id": "14TNpcAHcB-u-18qepK5KHCnIEqwURuha",
-    "title": "Audionerds - Hitchhike.wav",
-    "source": "https://drive.google.com/file/d/14TNpcAHcB-u-18qepK5KHCnIEqwURuha/view?usp=drivesdk",
-    "bytes": 42999402,
-    "format": "audio/wav"
   },
   {
     "id": "1MZq8yde9SGTceGrj81AsoaSDubp1j7tc",
@@ -560,25 +504,11 @@
     "format": "audio/mpeg"
   },
   {
-    "id": "1NQ8EqajgG3O5xIj2pdzsKywmmKHZORJ7",
-    "title": "Audionerds - Payload FINAL VER.wav",
-    "source": "https://drive.google.com/file/d/1NQ8EqajgG3O5xIj2pdzsKywmmKHZORJ7/view?usp=drivesdk",
-    "bytes": 60032166,
-    "format": "audio/wav"
-  },
-  {
     "id": "1NMzkImRHV1mO67gOR9Q729tgtNZ2B_Sk",
     "title": "Audionerds - Payload (Original mix).mp3",
     "source": "https://drive.google.com/file/d/1NMzkImRHV1mO67gOR9Q729tgtNZ2B_Sk/view?usp=drivesdk",
     "bytes": 13614045,
     "format": "audio/mpeg"
-  },
-  {
-    "id": "12YI26M_tPJPmTT-fRlLG-l1EDr8uF3GI",
-    "title": "Audionerds - Back (Original Mix).wav",
-    "source": "https://drive.google.com/file/d/12YI26M_tPJPmTT-fRlLG-l1EDr8uF3GI/view?usp=drivesdk",
-    "bytes": 52259538,
-    "format": "audio/wav"
   },
   {
     "id": "1jpPghjKjV_cZ6aH2eHNoPUOYbtpildcl",

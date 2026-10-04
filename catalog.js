@@ -19,12 +19,17 @@ const catalog = [
   {
     "title": "Hotwire",
     "id": "0jZfu7AWHM0",
-    "duration": "3:34",
+    "duration": "3:33",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
     "spotify": "2sJNzaaelWiQBhxULA4DPO",
-    "youtube": "0jZfu7AWHM0"
+    "youtube": "0jZfu7AWHM0",
+    "audio": "assets/audio/platform-0jZfu7AWHM0.mp3",
+    "audioBytes": 4950189,
+    "originalFilename": "Fetch Quest - Hotwire.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=0jZfu7AWHM0"
   },
   {
     "title": "Concentrated Madness",
@@ -128,7 +133,7 @@ const catalog = [
   {
     "title": "Zircon",
     "id": "X5Rpm8JVQBg",
-    "duration": "4:56",
+    "duration": "4:55",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -136,28 +141,43 @@ const catalog = [
     "youtube": "X5Rpm8JVQBg",
     "soundcloud": "https://soundcloud.com/fetchquest/zircon",
     "soundcloudId": 555284271,
-    "releaseDate": "2019-01-07"
+    "releaseDate": "2019-01-07",
+    "audio": "assets/audio/platform-X5Rpm8JVQBg.mp3",
+    "audioBytes": 7171293,
+    "originalFilename": "Fetch Quest - Zircon.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=X5Rpm8JVQBg"
   },
   {
     "title": "Framework",
     "id": "ZCJ1nJ3Q79E",
-    "duration": "5:16",
+    "duration": "5:15",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
-    "youtube": "ZCJ1nJ3Q79E"
+    "youtube": "ZCJ1nJ3Q79E",
+    "audio": "assets/audio/platform-ZCJ1nJ3Q79E.mp3",
+    "audioBytes": 8169741,
+    "originalFilename": "Fetch Quest - Framework.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=ZCJ1nJ3Q79E"
   },
   {
     "title": "Touchstone",
     "id": "hL2ZWAv0278",
-    "duration": "4:07",
+    "duration": "4:06",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
     "youtube": "hL2ZWAv0278",
     "soundcloud": "https://soundcloud.com/fetchquest/touchstone",
     "soundcloudId": 335548866,
-    "releaseDate": "2017-07-30"
+    "releaseDate": "2017-07-30",
+    "audio": "assets/audio/platform-hL2ZWAv0278.mp3",
+    "audioBytes": 5865741,
+    "originalFilename": "Fetch Quest - Touchstone.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=hL2ZWAv0278"
   },
   {
     "title": "Dog’s Dogma",
@@ -223,12 +243,17 @@ const catalog = [
   {
     "title": "Nanowire",
     "id": "5OS3_Y8_raw",
-    "duration": "4:10",
+    "duration": "4:09",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
     "spotify": "6MUmAIq7I603kHWlb7cYSz",
-    "youtube": "5OS3_Y8_raw"
+    "youtube": "5OS3_Y8_raw",
+    "audio": "assets/audio/platform-5OS3_Y8_raw.mp3",
+    "audioBytes": 6321549,
+    "originalFilename": "Fetch Quest - Nanowire.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=5OS3_Y8_raw"
   },
   {
     "title": "Kinship",
@@ -261,12 +286,17 @@ const catalog = [
   {
     "title": "Trapwire",
     "id": "s4lCTG9Pzq4",
-    "duration": "3:18",
+    "duration": "3:17",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
     "spotify": "6oazKy3qGZImKZWp8SEKyf",
-    "youtube": "s4lCTG9Pzq4"
+    "youtube": "s4lCTG9Pzq4",
+    "audio": "assets/audio/platform-s4lCTG9Pzq4.mp3",
+    "audioBytes": 4549533,
+    "originalFilename": "Fetch Quest - Trapwire.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=s4lCTG9Pzq4"
   },
   {
     "title": "Ascendant Decade",
@@ -318,26 +348,41 @@ const catalog = [
   {
     "title": "Ian Oliver ft. Eastenders - Vino Vino_-_slowed w reverb",
     "id": "Ruk54SRuRJg",
-    "duration": "",
+    "duration": "3:11",
     "artist": "peacepipe04",
     "type": "Remix / edit",
-    "youtube": "Ruk54SRuRJg"
+    "youtube": "Ruk54SRuRJg",
+    "audio": "assets/audio/platform-Ruk54SRuRJg.mp3",
+    "audioBytes": 5226429,
+    "originalFilename": "peacepipe04 - Ian Oliver ft. Eastenders - Vino Vino_-_slowed w reverb.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=Ruk54SRuRJg"
   },
   {
     "title": "generic indie pop song",
     "id": "oasfLfWYgTo",
-    "duration": "",
+    "duration": "3:28",
     "artist": "peacepipe04",
     "type": "Channel archive",
-    "youtube": "oasfLfWYgTo"
+    "youtube": "oasfLfWYgTo",
+    "audio": "assets/audio/platform-oasfLfWYgTo.mp3",
+    "audioBytes": 5275845,
+    "originalFilename": "peacepipe04 - generic indie pop song.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=oasfLfWYgTo"
   },
   {
     "title": "the trashbird",
     "id": "Z6MmnzhYt7I",
-    "duration": "",
+    "duration": "2:15",
     "artist": "peacepipe04",
     "type": "Channel archive",
-    "youtube": "Z6MmnzhYt7I"
+    "youtube": "Z6MmnzhYt7I",
+    "audio": "assets/audio/platform-Z6MmnzhYt7I.mp3",
+    "audioBytes": 3398925,
+    "originalFilename": "peacepipe04 - the trashbird.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=Z6MmnzhYt7I"
   },
   {
     "title": "Cupcakke - Duck Duck Goose but it’s disco INSTRUMENTAL",
@@ -450,10 +495,15 @@ const catalog = [
   {
     "title": "naya - bubble town (peacepipe04 remix)",
     "id": "p8XDTN84aKs",
-    "duration": "",
+    "duration": "4:15",
     "artist": "peacepipe04",
     "type": "Remix / edit",
-    "youtube": "p8XDTN84aKs"
+    "youtube": "p8XDTN84aKs",
+    "audio": "assets/audio/platform-p8XDTN84aKs.mp3",
+    "audioBytes": 6575733,
+    "originalFilename": "peacepipe04 - naya - bubble town (peacepipe04 remix).mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=p8XDTN84aKs"
   },
   {
     "title": "The Surfaris - Wipe out (peacepipe04 remix)",
@@ -572,43 +622,63 @@ const catalog = [
   {
     "title": "crossover",
     "id": "_YEfQaKH8FU",
-    "duration": "",
+    "duration": "5:04",
     "artist": "Fetch Quest",
     "type": "Channel archive",
     "youtube": "_YEfQaKH8FU",
     "soundcloud": "https://soundcloud.com/fetchquest/crossover",
     "soundcloudId": 291556091,
-    "releaseDate": "2016-11-04"
+    "releaseDate": "2016-11-04",
+    "audio": "assets/audio/platform-_YEfQaKH8FU.mp3",
+    "audioBytes": 7909029,
+    "originalFilename": "Fetch Quest - crossover.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=_YEfQaKH8FU"
   },
   {
     "title": "badlands",
     "id": "WLgIaGV4_3U",
-    "duration": "",
+    "duration": "4:35",
     "artist": "Fetch Quest",
     "type": "Channel archive",
     "youtube": "WLgIaGV4_3U",
     "soundcloud": "https://soundcloud.com/fetchquest/badlands",
     "soundcloudId": 291373617,
-    "releaseDate": "2016-11-03"
+    "releaseDate": "2016-11-03",
+    "audio": "assets/audio/platform-WLgIaGV4_3U.mp3",
+    "audioBytes": 6966285,
+    "originalFilename": "Fetch Quest - badlands.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=WLgIaGV4_3U"
   },
   {
     "title": "the unalived mouse & the gang of wolves",
     "id": "AF9uT6lS8rI",
-    "duration": "",
+    "duration": "5:28",
     "artist": "peacepipe04",
     "type": "Channel archive",
-    "youtube": "AF9uT6lS8rI"
+    "youtube": "AF9uT6lS8rI",
+    "audio": "assets/audio/platform-AF9uT6lS8rI.mp3",
+    "audioBytes": 8472549,
+    "originalFilename": "peacepipe04 - the unalived mouse & the gang of wolves.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=AF9uT6lS8rI"
   },
   {
     "title": "maledict",
     "id": "nH3TaACFswM",
-    "duration": "",
+    "duration": "4:25",
     "artist": "Fetch Quest",
     "type": "Channel archive",
     "youtube": "nH3TaACFswM",
     "soundcloud": "https://soundcloud.com/fetchquest/maledict",
     "soundcloudId": 296967983,
-    "releaseDate": "2016-12-09"
+    "releaseDate": "2016-12-09",
+    "audio": "assets/audio/platform-nH3TaACFswM.mp3",
+    "audioBytes": 6615741,
+    "originalFilename": "Fetch Quest - maledict.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=nH3TaACFswM"
   },
   {
     "title": "intruder",
@@ -640,40 +710,60 @@ const catalog = [
   {
     "title": "atomic punch",
     "id": "3ouEy-bigYQ",
-    "duration": "",
+    "duration": "5:16",
     "artist": "Fetch Quest",
     "type": "Channel archive",
     "youtube": "3ouEy-bigYQ",
     "soundcloud": "https://soundcloud.com/fetchquest/atomic-punch",
     "soundcloudId": 302823612,
-    "releaseDate": "2017-01-15"
+    "releaseDate": "2017-01-15",
+    "audio": "assets/audio/platform-3ouEy-bigYQ.mp3",
+    "audioBytes": 8026269,
+    "originalFilename": "Fetch Quest - atomic punch.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=3ouEy-bigYQ"
   },
   {
     "title": "hitchhiker",
     "id": "JOwroFzvAXA",
-    "duration": "",
+    "duration": "4:03",
     "artist": "Fetch Quest",
     "type": "Channel archive",
     "youtube": "JOwroFzvAXA",
     "soundcloud": "https://soundcloud.com/fetchquest/hitchhiker",
     "soundcloudId": 318697607,
-    "releaseDate": "2017-04-20"
+    "releaseDate": "2017-04-20",
+    "audio": "assets/audio/platform-JOwroFzvAXA.mp3",
+    "audioBytes": 6165981,
+    "originalFilename": "Fetch Quest - hitchhiker.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=JOwroFzvAXA"
   },
   {
     "title": "Soulja boy X piano fantasia - crank that song for Denise mashup",
     "id": "MkgNTNv5Bhw",
-    "duration": "",
+    "duration": "1:45",
     "artist": "peacepipe04",
     "type": "Remix / edit",
-    "youtube": "MkgNTNv5Bhw"
+    "youtube": "MkgNTNv5Bhw",
+    "audio": "assets/audio/platform-MkgNTNv5Bhw.mp3",
+    "audioBytes": 2484933,
+    "originalFilename": "peacepipe04 - Soulja boy X piano fantasia - crank that song for Denise mashup.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=MkgNTNv5Bhw"
   },
   {
     "title": "SexyBack but it’s only Timbaland",
     "id": "KV1enCR_pSA",
-    "duration": "",
+    "duration": "3:17",
     "artist": "peacepipe04",
     "type": "Remix / edit",
-    "youtube": "KV1enCR_pSA"
+    "youtube": "KV1enCR_pSA",
+    "audio": "assets/audio/platform-KV1enCR_pSA.mp3",
+    "audioBytes": 4395381,
+    "originalFilename": "peacepipe04 - SexyBack but it’s only Timbaland.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=KV1enCR_pSA"
   },
   {
     "title": "Loompaskettee & Bandlez - Riddim Track (peacepipe04 carnival color rawstyle ReR)",
@@ -690,10 +780,15 @@ const catalog = [
   {
     "title": "sigma boy 🗿 but it’s cheap orchestra",
     "id": "O0sTEAC7zsA",
-    "duration": "",
+    "duration": "0:53",
     "artist": "peacepipe04",
     "type": "Remix / edit",
-    "youtube": "O0sTEAC7zsA"
+    "youtube": "O0sTEAC7zsA",
+    "audio": "assets/audio/platform-O0sTEAC7zsA.mp3",
+    "audioBytes": 1298733,
+    "originalFilename": "peacepipe04 - sigma boy 🗿 but it’s cheap orchestra.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=O0sTEAC7zsA"
   },
   {
     "title": "epic cheesy toast - art of war (peacepipe04 art of peace recolor)",
@@ -710,21 +805,31 @@ const catalog = [
   {
     "title": "super cool pumping music in the car",
     "id": "7dySB-q3W1w",
-    "duration": "",
+    "duration": "3:15",
     "artist": "peacepipe04",
     "type": "Channel archive",
-    "youtube": "7dySB-q3W1w"
+    "youtube": "7dySB-q3W1w",
+    "audio": "assets/audio/platform-7dySB-q3W1w.mp3",
+    "audioBytes": 4839861,
+    "originalFilename": "peacepipe04 - super cool pumping music in the car.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=7dySB-q3W1w"
   },
   {
     "title": "unity",
     "id": "-jZKuY45FeQ",
-    "duration": "",
+    "duration": "5:19",
     "artist": "Fetch Quest",
     "type": "Channel archive",
     "youtube": "-jZKuY45FeQ",
     "soundcloud": "https://soundcloud.com/fetchquest/unity",
     "soundcloudId": 432172938,
-    "releaseDate": "2018-04-19"
+    "releaseDate": "2018-04-19",
+    "audio": "assets/audio/platform--jZKuY45FeQ.mp3",
+    "audioBytes": 7360457,
+    "originalFilename": "Fetch Quest - unity.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=-jZKuY45FeQ"
   },
   {
     "title": "baccpacc",
@@ -741,10 +846,15 @@ const catalog = [
   {
     "title": "taurine groove",
     "id": "HSOTOJjwgC8",
-    "duration": "",
+    "duration": "3:53",
     "artist": "peacepipe04",
     "type": "Channel archive",
-    "youtube": "HSOTOJjwgC8"
+    "youtube": "HSOTOJjwgC8",
+    "audio": "assets/audio/platform-HSOTOJjwgC8.mp3",
+    "audioBytes": 5717133,
+    "originalFilename": "peacepipe04 - taurine groove.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=HSOTOJjwgC8"
   },
   {
     "title": "spankox - to the club (fetch quest remix)🕺🏽",
@@ -764,26 +874,41 @@ const catalog = [
   {
     "title": "i like trains 🚂 [ambient]",
     "id": "GW5OeSKUGGE",
-    "duration": "",
+    "duration": "2:32",
     "artist": "peacepipe04",
     "type": "Channel archive",
-    "youtube": "GW5OeSKUGGE"
+    "youtube": "GW5OeSKUGGE",
+    "audio": "assets/audio/platform-GW5OeSKUGGE.mp3",
+    "audioBytes": 3464397,
+    "originalFilename": "peacepipe04 - i like trains 🚂 [ambient].mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=GW5OeSKUGGE"
   },
   {
     "title": "lepidoptera 🦋",
     "id": "Gm4EFFE6PFM",
-    "duration": "",
+    "duration": "1:52",
     "artist": "peacepipe04",
     "type": "Channel archive",
-    "youtube": "Gm4EFFE6PFM"
+    "youtube": "Gm4EFFE6PFM",
+    "audio": "assets/audio/platform-Gm4EFFE6PFM.mp3",
+    "audioBytes": 2830893,
+    "originalFilename": "peacepipe04 - lepidoptera 🦋.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=Gm4EFFE6PFM"
   },
   {
     "title": "sport 🏀🥊",
     "id": "sf4qEpelhqQ",
-    "duration": "",
+    "duration": "1:27",
     "artist": "peacepipe04",
     "type": "Channel archive",
-    "youtube": "sf4qEpelhqQ"
+    "youtube": "sf4qEpelhqQ",
+    "audio": "assets/audio/platform-sf4qEpelhqQ.mp3",
+    "audioBytes": 2182221,
+    "originalFilename": "peacepipe04 - sport 🏀🥊.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=sf4qEpelhqQ"
   },
   {
     "id": "sc-218046485",
@@ -793,7 +918,12 @@ const catalog = [
     "duration": "6:02",
     "soundcloud": "https://soundcloud.com/fetchquest/horizon-out-now",
     "soundcloudId": 218046485,
-    "releaseDate": "2015-08-06"
+    "releaseDate": "2015-08-06",
+    "audio": "assets/audio/platform-sc-218046485.mp3",
+    "audioBytes": 5793331,
+    "originalFilename": "Audionerds - Horizon.mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/horizon-out-now"
   },
   {
     "id": "sc-211693501",
@@ -803,7 +933,12 @@ const catalog = [
     "duration": "3:48",
     "soundcloud": "https://soundcloud.com/fetchquest/crimson-out-now",
     "soundcloudId": 211693501,
-    "releaseDate": "2015-06-23"
+    "releaseDate": "2015-06-23",
+    "audio": "assets/audio/platform-sc-211693501.mp3",
+    "audioBytes": 5168817,
+    "originalFilename": "Audionerds - Crimson.mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/crimson-out-now"
   },
   {
     "id": "sc-191959883",
@@ -827,7 +962,12 @@ const catalog = [
     "duration": "4:17",
     "soundcloud": "https://soundcloud.com/fetchquest/rush-original-mix",
     "soundcloudId": 181225059,
-    "releaseDate": "2014-12-12"
+    "releaseDate": "2014-12-12",
+    "audio": "assets/audio/platform-sc-181225059.mp3",
+    "audioBytes": 4125256,
+    "originalFilename": "Audionerds - Rush.mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/rush-original-mix"
   },
   {
     "id": "sc-166192778",
@@ -837,7 +977,12 @@ const catalog = [
     "duration": "4:58",
     "soundcloud": "https://soundcloud.com/fetchquest/cerberus-original-mix",
     "soundcloudId": 166192778,
-    "releaseDate": "2014-09-04"
+    "releaseDate": "2014-09-04",
+    "audio": "assets/audio/platform-sc-166192778.mp3",
+    "audioBytes": 4778944,
+    "originalFilename": "Audionerds - Cerberus.mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/cerberus-original-mix"
   },
   {
     "id": "sc-162264310",
@@ -847,7 +992,12 @@ const catalog = [
     "duration": "3:53",
     "soundcloud": "https://soundcloud.com/fetchquest/wanderlust-original-mix",
     "soundcloudId": 162264310,
-    "releaseDate": "2014-08-08"
+    "releaseDate": "2014-08-08",
+    "audio": "assets/audio/platform-sc-162264310.mp3",
+    "audioBytes": 3738643,
+    "originalFilename": "Audionerds - Wanderlust.mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/wanderlust-original-mix"
   },
   {
     "id": "sc-161938426",
@@ -871,7 +1021,12 @@ const catalog = [
     "duration": "5:16",
     "soundcloud": "https://soundcloud.com/fetchquest/sander-van-doorn-martin-garrix-dvbbs-ft-aleesia-gold-skies-audionerds-remix",
     "soundcloudId": 159426983,
-    "releaseDate": "2014-07-19"
+    "releaseDate": "2014-07-19",
+    "audio": "assets/audio/platform-sc-159426983.mp3",
+    "audioBytes": 5057305,
+    "originalFilename": "Audionerds - Sander van Doorn, Martin Garrix, DVBBS ft. Aleesia - Gold Skies (Audionerds Remix).mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/sander-van-doorn-martin-garrix-dvbbs-ft-aleesia-gold-skies-audionerds-remix"
   },
   {
     "id": "sc-157018699",
@@ -881,7 +1036,12 @@ const catalog = [
     "duration": "5:54",
     "soundcloud": "https://soundcloud.com/fetchquest/cowboy-original-mix",
     "soundcloudId": 157018699,
-    "releaseDate": "2014-07-02"
+    "releaseDate": "2014-07-02",
+    "audio": "assets/audio/platform-sc-157018699.mp3",
+    "audioBytes": 5671287,
+    "originalFilename": "Epic Cheesy Toast - Cowboy.mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/cowboy-original-mix"
   },
   {
     "id": "sc-151646095",
@@ -891,7 +1051,12 @@ const catalog = [
     "duration": "0:49",
     "soundcloud": "https://soundcloud.com/fetchquest/cataclysm-preview-1",
     "soundcloudId": 151646095,
-    "releaseDate": "2014-05-28"
+    "releaseDate": "2014-05-28",
+    "audio": "assets/audio/platform-sc-151646095.mp3",
+    "audioBytes": 786180,
+    "originalFilename": "Epic Cheesy Toast - Cataclysm (Preview).mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/cataclysm-preview-1"
   },
   {
     "id": "sc-148327923",
@@ -901,7 +1066,12 @@ const catalog = [
     "duration": "4:50",
     "soundcloud": "https://soundcloud.com/fetchquest/nerd-original-mix",
     "soundcloudId": 148327923,
-    "releaseDate": "2014-05-07"
+    "releaseDate": "2014-05-07",
+    "audio": "assets/audio/platform-sc-148327923.mp3",
+    "audioBytes": 4651466,
+    "originalFilename": "Epic Cheesy Toast - #NERD.mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/nerd-original-mix"
   },
   {
     "id": "sc-143482171",
@@ -911,7 +1081,12 @@ const catalog = [
     "duration": "4:48",
     "soundcloud": "https://soundcloud.com/fetchquest/popeska-feat-denny-white-heart",
     "soundcloudId": 143482171,
-    "releaseDate": "2014-04-07"
+    "releaseDate": "2014-04-07",
+    "audio": "assets/audio/platform-sc-143482171.mp3",
+    "audioBytes": 4621373,
+    "originalFilename": "Epic Cheesy Toast - Popeska feat. Denny White - Heart Of Glass (Audionerds Remix).mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/popeska-feat-denny-white-heart"
   },
   {
     "id": "sc-141846543",
@@ -921,7 +1096,12 @@ const catalog = [
     "duration": "4:06",
     "soundcloud": "https://soundcloud.com/fetchquest/havoc-original-mix",
     "soundcloudId": 141846543,
-    "releaseDate": "2014-03-28"
+    "releaseDate": "2014-03-28",
+    "audio": "assets/audio/platform-sc-141846543.mp3",
+    "audioBytes": 3941354,
+    "originalFilename": "Epic Cheesy Toast - Havoc.mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/havoc-original-mix"
   },
   {
     "id": "sc-123517237",
@@ -931,7 +1111,12 @@ const catalog = [
     "duration": "2:15",
     "soundcloud": "https://soundcloud.com/fetchquest/prmt-preview",
     "soundcloudId": 123517237,
-    "releaseDate": "2013-12-06"
+    "releaseDate": "2013-12-06",
+    "audio": "assets/audio/platform-sc-123517237.mp3",
+    "audioBytes": 3158152,
+    "originalFilename": "Epic Cheesy Toast - PRMT [Preview].mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/prmt-preview"
   },
   {
     "id": "sc-123516494",
@@ -942,7 +1127,12 @@ const catalog = [
     "soundcloud": "https://soundcloud.com/fetchquest/framework-original-mix-1",
     "soundcloudId": 123516494,
     "releaseDate": "2013-12-06",
-    "youtube": "eM5e2KXR2d8"
+    "youtube": "eM5e2KXR2d8",
+    "audio": "assets/audio/platform-sc-123516494.mp3",
+    "audioBytes": 7598901,
+    "originalFilename": "Epic Cheesy Toast - Framework.mp3",
+    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audioSource": "https://www.youtube.com/watch?v=eM5e2KXR2d8"
   },
   {
     "id": "sc-118080584",
@@ -952,7 +1142,12 @@ const catalog = [
     "duration": "4:03",
     "soundcloud": "https://soundcloud.com/fetchquest/kids-original-mix",
     "soundcloudId": 118080584,
-    "releaseDate": "2013-11-01"
+    "releaseDate": "2013-11-01",
+    "audio": "assets/audio/platform-sc-118080584.mp3",
+    "audioBytes": 3898722,
+    "originalFilename": "Epic Cheesy Toast - Kids.mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/kids-original-mix"
   },
   {
     "id": "sc-113620964",
@@ -962,7 +1157,12 @@ const catalog = [
     "duration": "5:22",
     "soundcloud": "https://soundcloud.com/fetchquest/the-origin-of-life",
     "soundcloudId": 113620964,
-    "releaseDate": "2013-10-03"
+    "releaseDate": "2013-10-03",
+    "audio": "assets/audio/platform-sc-113620964.mp3",
+    "audioBytes": 5161377,
+    "originalFilename": "Epic Cheesy Toast - The Origin Of Life.mp3",
+    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audioSource": "https://soundcloud.com/fetchquest/the-origin-of-life"
   },
   {
     "id": "sc-105887583",
@@ -1340,3 +1540,4 @@ const catalog = [
     "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup."
   }
 ];
+

@@ -12,5 +12,12 @@
   "sourceUrl": "https://www.youtube.com/watch?v=oasfLfWYgTo",
   "artwork": "assets/artwork/oasfLfWYgTo.jpg",
   "artworkNote": "Original release artwork",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-04",
+  "audio": "assets/audio/platform-oasfLfWYgTo.mp3",
+  "audioBytes": 5275845,
+  "duration": "3:28",
+  "originalFilename": "peacepipe04 - generic indie pop song.mp3",
+  "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+  "audioSource": "https://www.youtube.com/watch?v=oasfLfWYgTo"
 }
+

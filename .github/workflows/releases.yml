@@ -50,7 +50,7 @@ jobs:
         if: steps.save.outputs.publish == 'true'
         run: |
           mkdir _public
-          rsync -a --exclude='.git' --exclude='.github' --exclude='_public' --exclude='scripts' --exclude='README.md' --exclude='LATEST-RELEASE-SETUP.md' ./ _public/
+          rsync -a --exclude='*.[wW][aA][vV]' --exclude='.git' --exclude='.github' --exclude='_public' --exclude='scripts' --exclude='README.md' --exclude='LATEST-RELEASE-SETUP.md' ./ _public/
       - uses: actions/upload-pages-artifact@v3
         if: steps.save.outputs.publish == 'true'
         with:

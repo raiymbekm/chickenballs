@@ -42,7 +42,7 @@
    const rect=canvas.getBoundingClientRect(),ratio=Math.min(devicePixelRatio||1,2),w=Math.round(rect.width*ratio),h=Math.round(rect.height*ratio);
    if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}
    ctx.clearRect(0,0,w,h);const target=spectrumLevels(),bars=28,gap=2*ratio,bw=Math.max(1,(w-gap*(bars-1))/bars);ctx.fillStyle='#bcff35';
-   for(let i=0;i<bars;i++){levels[i]+=(target[i]-levels[i])*.35;const bh=Math.max(3*ratio,Math.round(levels[i]*(h-4*ratio)/(3*ratio))*3*ratio);ctx.beginPath();ctx.roundRect(i*(bw+gap),h-bh,bw,bh,[ratio,2*ratio,ratio,2*ratio]);ctx.fill();}
+   for(let i=0;i<bars;i++){levels[i]+=(target[i]-levels[i])*.35;const bh=Math.max(3*ratio,Math.round(levels[i]*(h-4*ratio)/(3*ratio))*3*ratio);ctx.fillRect(i*(bw+gap),h-bh,bw,bh);}
    canvas.dataset.lastBands=Array.from(levels.slice(-4)).map(v=>v.toFixed(3)).join(',');
   }requestAnimationFrame(draw);
  }
