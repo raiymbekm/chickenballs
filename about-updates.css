@@ -1,5 +1,5 @@
 /* Clear rectangular controls and personal links for About us. */
-.header-random{border-radius:10px}
+.header-random{border-radius:999px}
 #listening-room.is-floating{border:3px solid var(--purple)}
 .dark-mode #listening-room.is-floating{border-color:var(--white)}
 .seek-range::-webkit-slider-runnable-track{border-radius:0}
@@ -11,4 +11,12 @@
 .people-grid .person-links .text-link{margin-top:0}
 .person-links a:focus-visible{outline-color:var(--green)}
 @media(max-width:560px){header nav a:last-child{display:inline-flex}.person-links{gap:16px 20px}}
+.volume-range{-webkit-appearance:none;appearance:none;width:100px;min-width:64px;height:30px;padding:0;border:0;background:transparent;cursor:pointer;flex-shrink:0;--volume-progress:100%}
+.volume-range::-webkit-slider-runnable-track{height:6px;border-radius:0;background:linear-gradient(to right,var(--green) var(--volume-progress),#4c5058 var(--volume-progress))}
+.volume-range::-webkit-slider-thumb{-webkit-appearance:none;width:10px;height:16px;border:0;border-radius:0;background:var(--green);margin-top:-5px}
+.volume-range::-moz-range-track{height:6px;border-radius:0;background:#4c5058}
+.volume-range::-moz-range-progress{height:6px;border-radius:0;background:var(--green)}
+.volume-range::-moz-range-thumb{width:10px;height:16px;border:0;border-radius:0;background:var(--green)}
+.volume-range:focus-visible{outline-color:var(--green)}
+@media(max-width:700px){.volume-range{width:64px}}
 
