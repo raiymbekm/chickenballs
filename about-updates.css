@@ -1,5 +1,9 @@
 /* Clear rectangular controls and personal links for About us. */
 .header-random{border-radius:999px}
+body .header-random[data-color="purple"],body .header-random[data-color="purple"]:hover{background:var(--purple);border-color:var(--purple);color:var(--white)}
+body .header-random[data-color="green"],body .header-random[data-color="green"]:hover{background:var(--green);border-color:var(--green);color:var(--black)}
+.hero #hero-title{color:var(--black)}
+.dark-mode .hero #hero-title{color:var(--white)}
 #listening-room.is-floating{border:3px solid var(--purple)}
 .dark-mode #listening-room.is-floating{border-color:var(--white)}
 .seek-range::-webkit-slider-runnable-track{border-radius:0}
