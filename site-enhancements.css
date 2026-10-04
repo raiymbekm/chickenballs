@@ -7,6 +7,13 @@ body.dark-mode{background:#101318;color:#f7f7f2;--line:#3b3e45}body.dark-mode he
 .artwork-grid .art-play>span,.art-badge{border-radius:8px}.square-period{width:.11em;height:.11em}
 
 /* The header carries only the label description, navigation, and theme icon. */
+/* Match the label's stepped, rounded shapes without using a circular pill. */
+.header-random{display:inline-flex;align-items:center;justify-content:center;gap:10px;margin-left:28px;padding:12px 17px;border:2px solid var(--purple);border-radius:8px 16px 8px 16px;background:var(--purple);color:var(--white);font-size:13px;font-weight:700;line-height:1.2;white-space:nowrap}
+.header-random svg{width:20px;height:20px;fill:currentColor;flex-shrink:0}.header-random:hover{background:var(--green);border-color:var(--black);color:var(--black)}
+.dark-mode .header-random{background:var(--green);border-color:var(--green);color:var(--black)}.dark-mode .header-random:hover{background:var(--purple);border-color:var(--purple);color:var(--white)}
+#latest-release.latest-release{border:3px solid var(--black)}.dark-mode #latest-release.latest-release{border-color:var(--white)}
+@media(max-width:800px){.header-random{font-size:11px;padding:10px 12px;margin-left:16px;gap:6px}}
+@media(max-width:560px){header{flex-wrap:wrap;height:auto;min-height:98px;gap:12px;padding-top:14px;padding-bottom:14px}.header-random{order:3;margin-left:0;width:100%;font-size:12px;padding:10px}.theme-toggle{flex-shrink:0}}
 .hero-top{font-size:16.25px;line-height:1.4}.theme-toggle,.theme-toggle[aria-pressed=true]{border:0;background:transparent;color:var(--purple);margin-left:34px;margin-right:0;padding:7px;width:44px;height:44px;border-radius:0}.theme-toggle svg{fill:currentColor}.theme-toggle:hover{color:var(--black)}.dark-mode .theme-toggle{color:var(--green)}.dark-mode .theme-toggle:hover{color:var(--white)}
 @media(max-width:800px){.hero-top{font-size:15px}.theme-toggle{margin-left:18px}}
 @media(max-width:560px){header nav a:last-child{display:block}.hero-top{font-size:15px;max-width:100%;position:relative;z-index:1}.theme-toggle{width:36px;height:36px;margin-left:10px;padding:5px}header nav{gap:10px;font-size:10px}}
