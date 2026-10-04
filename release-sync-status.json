@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-10-04T15:32:35.769Z",
+  "checkedAt": "2026-10-04T15:51:14.473Z",
   "sources": [
     {
       "source": "YouTube peacepipe04",
-      "ok": false,
-      "detail": "429 https://www.youtube.com/watch?v=oasfLfWYgTo"
+      "ok": true,
+      "detail": "peacepipe04: 30 uploads checked"
     },
     {
       "source": "YouTube Music Fetch Quest",
