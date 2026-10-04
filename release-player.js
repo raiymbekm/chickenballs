@@ -19,10 +19,10 @@
  const info=panel.querySelector('.now-playing'),title=document.getElementById('playing-title');
  const canvas=document.createElement('canvas');canvas.className='player-visualizer';canvas.setAttribute('aria-label','Live audio spectrum');
  const caption=document.createElement('span');caption.className='visualizer-caption sr-only';caption.setAttribute('role','status');
- info.append(canvas,caption,panel.querySelector('.player-transport'));
+ const spectrum=document.createElement('div');spectrum.className='player-spectrum';spectrum.append(canvas,caption);panel.append(spectrum);info.append(panel.querySelector('.player-transport'));
  const ctx=canvas.getContext('2d');
  function fitSpectrum(){canvas.style.width='100%';}
- const spectrumSizeObserver=new ResizeObserver(fitSpectrum);spectrumSizeObserver.observe(info);document.fonts.ready.then(fitSpectrum);
+ const spectrumSizeObserver=new ResizeObserver(fitSpectrum);spectrumSizeObserver.observe(spectrum);document.fonts.ready.then(fitSpectrum);
  window.addEventListener('trackchange',()=>requestAnimationFrame(fitSpectrum));
  let context,analyser,audio,data;const wired=new WeakMap();
  function connect(){const element=playerScreen.querySelector('audio');audio=element;if(!element){analyser=null;caption.textContent='Live spectrum is available for saved audio; streaming playback uses the embedded player.';return;}if(!context){const Audio=window.AudioContext||window.webkitAudioContext;if(!Audio){caption.textContent='Live spectrum is unavailable in this browser.';return;}context=new Audio();}if(wired.has(element)){analyser=wired.get(element);}else{analyser=context.createAnalyser();analyser.fftSize=2048;analyser.minDecibels=-90;analyser.maxDecibels=-18;analyser.smoothingTimeConstant=.65;const source=context.createMediaElementSource(element);source.connect(analyser);analyser.connect(context.destination);wired.set(element,analyser);}data=new Uint8Array(analyser.frequencyBinCount);caption.textContent='Live spectrum · '+currentTrack.title;if(!element.paused)context.resume().catch(()=>{});}
