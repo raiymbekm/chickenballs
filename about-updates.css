@@ -6,7 +6,7 @@
 .seek-range::-webkit-slider-thumb{border-radius:0}
 .seek-range::-moz-range-track,.seek-range::-moz-range-progress,.seek-range::-moz-range-thumb{border-radius:0}
 .seek-mute,.seek-download{border-radius:0}
-.people-grid .person-name{font-family:'Space Grotesk',Arial,sans-serif;font-size:clamp(20px,2vw,28px);font-weight:500;line-height:1.35;color:var(--white);margin:-9px 0 22px}
+.people-grid .person-name{font-family:'Geist',Arial,sans-serif;font-size:clamp(20px,2vw,28px);font-weight:500;line-height:1.35;color:var(--white);margin:-9px 0 22px}
 .person-links{display:flex;flex-wrap:wrap;gap:16px 24px;margin-top:26px}
 .people-grid .person-links .text-link{margin-top:0}
 .person-links a:focus-visible{outline-color:var(--green)}
