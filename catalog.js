@@ -2,7 +2,7 @@ const catalog = [
   {
     "title": "Waverider",
     "id": "WrjCeMjexWc",
-    "duration": "3:13",
+    "duration": "3:14",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -27,21 +27,30 @@ const catalog = [
     },
     "officialReleaseDate": "2020-02-25",
     "officialReleaseDateSource": "https://music.apple.com/us/album/waverider/1500466022?i=1500466023&uo=4",
-    "durationSeconds": 193.59
+    "durationSeconds": 193.593,
+    "audioBitrateKbps": 320,
+    "audioSha256": "f5993692b2ed3a7871a22b46886f6b9929212e2dd044cf56006b03313f3d3f9e",
+    "archiveSources": [
+      {
+        "driveId": "1rxBwwts7B2R8tWpnunV1HZhdZfPUePM_",
+        "filename": "Fetch Quest - Waverider_Mastered.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1rxBwwts7B2R8tWpnunV1HZhdZfPUePM_/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Hotwire",
     "id": "0jZfu7AWHM0",
-    "duration": "3:33",
+    "duration": "3:34",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
     "spotify": "2sJNzaaelWiQBhxULA4DPO",
     "youtube": "0jZfu7AWHM0",
-    "audio": "assets/audio/platform-0jZfu7AWHM0.mp3",
-    "audioBytes": 4950189,
-    "originalFilename": "Fetch Quest - Hotwire.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/17fmDyedU5LGkiYeYWXyQHtN6S2uSBJo7.mp3",
+    "audioBytes": 8557784,
+    "originalFilename": "FQ - Hotwire.mp3",
     "audioSource": "https://www.youtube.com/watch?v=0jZfu7AWHM0",
     "releaseStatus": "official",
     "streamingLinks": {
@@ -55,7 +64,24 @@ const catalog = [
     },
     "officialReleaseDate": "2023-07-20",
     "officialReleaseDateSource": "https://music.apple.com/us/album/hotwire/1698509712?i=1698509715&uo=4",
-    "durationSeconds": 213.98
+    "durationSeconds": 213.943,
+    "drive": "https://drive.google.com/file/d/17fmDyedU5LGkiYeYWXyQHtN6S2uSBJo7/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "a30059c8edb8aa4ca1d4250de80b4d84ae7e7185cf9458bf6d60f47b9c69650d",
+    "archiveSources": [
+      {
+        "driveId": "17fmDyedU5LGkiYeYWXyQHtN6S2uSBJo7",
+        "filename": "FQ - Hotwire.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/17fmDyedU5LGkiYeYWXyQHtN6S2uSBJo7/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1RcaPdDgxc-ClBYeQAn0bWHCVTv_hNS6s",
+        "filename": "Oldschool_Mastered_MP3.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1RcaPdDgxc-ClBYeQAn0bWHCVTv_hNS6s/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Concentrated Madness",
@@ -85,7 +111,17 @@ const catalog = [
     },
     "officialReleaseDate": "2020-06-19",
     "officialReleaseDateSource": "https://music.apple.com/us/album/concentrated-madness/1519691406?i=1519691407&uo=4",
-    "durationSeconds": 260.31
+    "durationSeconds": 260.31,
+    "audioBitrateKbps": 320,
+    "audioSha256": "a87320065404d24b5117aa515619f660e32e7b6405af7558291a174ac6a0856e",
+    "archiveSources": [
+      {
+        "driveId": "10R598uT3w4Iz9hNRdLg9GeTHEYPcKrOB",
+        "filename": "Fetch Quest - Concentrated Madness_Mastered.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/10R598uT3w4Iz9hNRdLg9GeTHEYPcKrOB/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Guesswork",
@@ -99,11 +135,10 @@ const catalog = [
     "soundcloud": "https://soundcloud.com/fetchquest/guesswork",
     "soundcloudId": 596056938,
     "releaseDate": "2019-03-26",
-    "audio": "assets/audio/1Vvrzml_z_ajhz7DZ474lthCMf5p9QYxV.mp3",
-    "drive": "https://drive.google.com/file/d/1Vvrzml_z_ajhz7DZ474lthCMf5p9QYxV/view?usp=drivesdk",
-    "originalFilename": "Guesswork_Bass House 10_Mastered.mp3",
-    "audioBytes": 8614216,
-    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/11e98gEtdgoEHNVWgihVrB3CR7Ur7hIJF.mp3",
+    "drive": "https://drive.google.com/file/d/11e98gEtdgoEHNVWgihVrB3CR7Ur7hIJF/view?usp=drivesdk",
+    "originalFilename": "Guesswork_Mastered.mp3",
+    "audioBytes": 8614208,
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/guesswork/1457449419?i=1457449420&uo=4",
@@ -116,12 +151,22 @@ const catalog = [
     },
     "officialReleaseDate": "2019-03-23",
     "officialReleaseDateSource": "https://music.apple.com/us/album/guesswork/1457449419?i=1457449420&uo=4",
-    "durationSeconds": 215.33
+    "durationSeconds": 215.353,
+    "audioBitrateKbps": 320,
+    "audioSha256": "c0e15cb6236138388456d023ae1d77001b686b863fad86e6165181cd987391bf",
+    "archiveSources": [
+      {
+        "driveId": "11e98gEtdgoEHNVWgihVrB3CR7Ur7hIJF",
+        "filename": "Guesswork_Mastered.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/11e98gEtdgoEHNVWgihVrB3CR7Ur7hIJF/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Vernyi",
     "id": "dG6aKvJk3sM",
-    "duration": "4:20",
+    "duration": "4:21",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -143,12 +188,22 @@ const catalog = [
     },
     "officialReleaseDate": "2022-04-28",
     "officialReleaseDateSource": "https://music.apple.com/us/album/vernyi/1621539544?i=1621539545&uo=4",
-    "durationSeconds": 260.65
+    "durationSeconds": 260.65,
+    "audioBitrateKbps": 320,
+    "audioSha256": "0b46d3003e5d8f48cb146b83f3c2d657955077db23d4a7d6c9363261362f1e75",
+    "archiveSources": [
+      {
+        "driveId": "1IMs9FXrFzrL2ZCcvLcjmgfXRKvwZViOy",
+        "filename": "Fetch Quest - Vernyi_Mastered.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1IMs9FXrFzrL2ZCcvLcjmgfXRKvwZViOy/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Speedrun",
     "id": "d7FTtwyaIcI",
-    "duration": "3:38",
+    "duration": "3:39",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -173,12 +228,22 @@ const catalog = [
     },
     "officialReleaseDate": "2021-10-21",
     "officialReleaseDateSource": "https://music.apple.com/us/album/speedrun/1591400901?i=1591400902&uo=4",
-    "durationSeconds": 218.62
+    "durationSeconds": 218.619,
+    "audioBitrateKbps": 320,
+    "audioSha256": "b333f53d5fa0351e2ac33659bf6d534d8ca8df4d6241e4706bcc3383d1c511f5",
+    "archiveSources": [
+      {
+        "driveId": "1WzZFax8dq3MkmSioaY1j_vOKAlOlaxJX",
+        "filename": "Fetch Quest - SpeedRun_Mastered.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1WzZFax8dq3MkmSioaY1j_vOKAlOlaxJX/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Zoology",
     "id": "FPeV7PODP1s",
-    "duration": "4:46",
+    "duration": "4:47",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -201,12 +266,22 @@ const catalog = [
     },
     "officialReleaseDate": "2018-10-01",
     "officialReleaseDateSource": "https://music.apple.com/us/album/zoology/1437852738?i=1437852751&uo=4",
-    "durationSeconds": 286.93
+    "durationSeconds": 286.929,
+    "audioBitrateKbps": 320,
+    "audioSha256": "712713e9a84d45e3bb2a26eb09641675f5592949980ad5b7fde497f9c07a6a28",
+    "archiveSources": [
+      {
+        "driveId": "1luP0dlNDMDc9dDYEp6QVDZg7ocMdxe7e",
+        "filename": "Zoology_mastered.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1luP0dlNDMDc9dDYEp6QVDZg7ocMdxe7e/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Flesh",
     "id": "ATNTVVZCWkU",
-    "duration": "3:56",
+    "duration": "3:57",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -231,7 +306,17 @@ const catalog = [
     },
     "officialReleaseDate": "2020-11-29",
     "officialReleaseDateSource": "https://music.apple.com/us/album/flesh/1542545741?i=1542545742&uo=4",
-    "durationSeconds": 236.72
+    "durationSeconds": 236.722,
+    "audioBitrateKbps": 320,
+    "audioSha256": "ff22815c3132413971b70fc5366dc0ade1273219cde5a982864d135609d39aef",
+    "archiveSources": [
+      {
+        "driveId": "13zcnVLAT8_zfe7RYHU-JUWt8EsZ7irXX",
+        "filename": "Fetch Quest - Flesh.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/13zcnVLAT8_zfe7RYHU-JUWt8EsZ7irXX/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Zircon",
@@ -245,10 +330,9 @@ const catalog = [
     "soundcloud": "https://soundcloud.com/fetchquest/zircon",
     "soundcloudId": 555284271,
     "releaseDate": "2019-01-07",
-    "audio": "assets/audio/platform-X5Rpm8JVQBg.mp3",
-    "audioBytes": 7171293,
-    "originalFilename": "Fetch Quest - Zircon.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1MOcYwUQw-WJujIqmB7woE51xqtvKc8oh.mp3",
+    "audioBytes": 11814731,
+    "originalFilename": "Zircon (Final).mp3",
     "audioSource": "https://www.youtube.com/watch?v=X5Rpm8JVQBg",
     "releaseStatus": "official",
     "streamingLinks": {
@@ -262,7 +346,24 @@ const catalog = [
     },
     "officialReleaseDate": "2019-01-06",
     "officialReleaseDateSource": "https://music.apple.com/us/album/zircon/1448618026?i=1448618027&uo=4",
-    "durationSeconds": 295.54
+    "durationSeconds": 295.367,
+    "drive": "https://drive.google.com/file/d/1MOcYwUQw-WJujIqmB7woE51xqtvKc8oh/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "26aab7eb76405d477418fe00a312756c45c149200b74179d328ed16cfbeb0308",
+    "archiveSources": [
+      {
+        "driveId": "1skYZRhaWLjCML-dSQlirnMBs0TBRZl04",
+        "filename": "Zircon Experimental4.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1skYZRhaWLjCML-dSQlirnMBs0TBRZl04/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1MOcYwUQw-WJujIqmB7woE51xqtvKc8oh",
+        "filename": "Zircon (Final).mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1MOcYwUQw-WJujIqmB7woE51xqtvKc8oh/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Framework",
@@ -272,10 +373,9 @@ const catalog = [
     "type": "Release",
     "credit": null,
     "youtube": "ZCJ1nJ3Q79E",
-    "audio": "assets/audio/platform-ZCJ1nJ3Q79E.mp3",
-    "audioBytes": 8169741,
-    "originalFilename": "Fetch Quest - Framework.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/17w9D3EZyBoccoez7Qv4OL9laTYNu0Lhx.mp3",
+    "audioBytes": 14559017,
+    "originalFilename": "Framework (Original Mix).mp3",
     "audioSource": "https://www.youtube.com/watch?v=ZCJ1nJ3Q79E",
     "releaseStatus": "official",
     "streamingLinks": {
@@ -288,7 +388,21 @@ const catalog = [
     },
     "officialReleaseDate": "2023-01-09",
     "officialReleaseDateSource": "https://music.apple.com/us/album/framework/1663900487?i=1663900488&uo=4",
-    "durationSeconds": 315.14
+    "durationSeconds": 315.115,
+    "soundcloud": "https://soundcloud.com/fetchquest/framework-original-mix-1",
+    "soundcloudId": 123516494,
+    "releaseDate": "2013-12-06",
+    "drive": "https://drive.google.com/file/d/17w9D3EZyBoccoez7Qv4OL9laTYNu0Lhx/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "4c4891ac0a9fe4f45bb331d95b6847ac553aafdf3e74d5f3c8ebd2f8f368a834",
+    "archiveSources": [
+      {
+        "driveId": "17w9D3EZyBoccoez7Qv4OL9laTYNu0Lhx",
+        "filename": "Framework (Original Mix).mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/17w9D3EZyBoccoez7Qv4OL9laTYNu0Lhx/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Touchstone",
@@ -317,12 +431,13 @@ const catalog = [
     },
     "officialReleaseDate": "2018-09-28",
     "officialReleaseDateSource": "https://music.apple.com/us/album/touchstone/1437694439?i=1437694442&uo=4",
-    "durationSeconds": 246.48
+    "durationSeconds": 246.439,
+    "audioBitrateKbps": 320
   },
   {
     "title": "Dog’s Dogma",
     "id": "3wdB6cA1KX4",
-    "duration": "3:50",
+    "duration": "3:51",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -344,7 +459,17 @@ const catalog = [
     },
     "officialReleaseDate": "2023-07-08",
     "officialReleaseDateSource": "https://music.apple.com/us/album/dogs-dogma/1696443364?i=1696443365&uo=4",
-    "durationSeconds": 230.66
+    "durationSeconds": 230.661,
+    "audioBitrateKbps": 320,
+    "audioSha256": "85626a444ba77386ab20935b671b95fdfbc4702b664e0f54b6678edd11bce988",
+    "archiveSources": [
+      {
+        "driveId": "1cpz3FTZkRqJycxs7AnvxOc6ackZqUMfk",
+        "filename": "Fetch Quest - Dog's Dogma.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1cpz3FTZkRqJycxs7AnvxOc6ackZqUMfk/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Pseudoscience",
@@ -374,12 +499,22 @@ const catalog = [
     },
     "officialReleaseDate": "2018-12-26",
     "officialReleaseDateSource": "https://music.apple.com/us/album/pseudoscience/1447895947?i=1447895950&uo=4",
-    "durationSeconds": 362.06
+    "durationSeconds": 362.057,
+    "audioBitrateKbps": 320,
+    "audioSha256": "3d05af0420084216505d45a1542f7257281d271ee0de58624ee0492229fee6f8",
+    "archiveSources": [
+      {
+        "driveId": "1SuGyvk7Qm_oKYxHhPyZ4S49fRfLCfSF4",
+        "filename": "Pseudoscience_Mastered.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1SuGyvk7Qm_oKYxHhPyZ4S49fRfLCfSF4/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Omnipotence",
     "id": "KRCBjxM92Uk",
-    "duration": "3:37",
+    "duration": "3:38",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -402,12 +537,28 @@ const catalog = [
     },
     "officialReleaseDate": "2019-11-21",
     "officialReleaseDateSource": "https://music.apple.com/us/album/omnipotence/1488831034?i=1488831035&uo=4",
-    "durationSeconds": 217.63
+    "durationSeconds": 217.626,
+    "audioBitrateKbps": 320,
+    "audioSha256": "80cbd4b6f491e8bb4517d7afc1b156b12def1da5ca04d89253d4ce768fc0cc48",
+    "archiveSources": [
+      {
+        "driveId": "1fqzUS4AEY8ukTSiCC6uhrmZmJTYEddD9",
+        "filename": "Fetch Quest - Omnipotence_Mastered.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1fqzUS4AEY8ukTSiCC6uhrmZmJTYEddD9/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1Gs-1MtGGYxzo2EVjnS2-Snt7gB0dYjko",
+        "filename": "Fetch Quest - Omnipotent ili Massacre ili Mutation ili Chyo-Nibud' Tvoyo.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1Gs-1MtGGYxzo2EVjnS2-Snt7gB0dYjko/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Angry Teenagers",
     "id": "f0JpJon_YqM",
-    "duration": "3:47",
+    "duration": "3:48",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -429,12 +580,22 @@ const catalog = [
     },
     "officialReleaseDate": "2023-06-26",
     "officialReleaseDateSource": "https://music.apple.com/us/album/angry-teenagers/1694287202?i=1694287203&uo=4",
-    "durationSeconds": 227.6
+    "durationSeconds": 227.605,
+    "audioBitrateKbps": 320,
+    "audioSha256": "86e55011351b31a13eb854ebcca4d8d1140bbb9a465a05776d08517b708bccc4",
+    "archiveSources": [
+      {
+        "driveId": "1ECdYg9Nkm8F_cR6G-q-q5sQJ2Dc9-5XA",
+        "filename": "Fetch Quest - Angry Teenagers.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1ECdYg9Nkm8F_cR6G-q-q5sQJ2Dc9-5XA/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Nanowire",
     "id": "5OS3_Y8_raw",
-    "duration": "4:09",
+    "duration": "4:10",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -457,12 +618,13 @@ const catalog = [
     },
     "officialReleaseDate": "2023-07-20",
     "officialReleaseDateSource": "https://music.apple.com/us/album/nanowire/1698509712?i=1698510076&uo=4",
-    "durationSeconds": 249.65
+    "durationSeconds": 249.612,
+    "audioBitrateKbps": 202
   },
   {
     "title": "Kinship",
     "id": "JpVo3seANv0",
-    "duration": "2:55",
+    "duration": "2:56",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -484,12 +646,22 @@ const catalog = [
     },
     "officialReleaseDate": "2023-07-03",
     "officialReleaseDateSource": "https://music.apple.com/us/album/kinship/1695575385?i=1695575626&uo=4",
-    "durationSeconds": 175.67
+    "durationSeconds": 175.673,
+    "audioBitrateKbps": 320,
+    "audioSha256": "8adb2cded060fb3dfe47e492f065e45c3e4a4380b016b784541daa79cf841fed",
+    "archiveSources": [
+      {
+        "driveId": "1LV0MeSyB4RKbEIPOe3XY6vIov0NyW0QP",
+        "filename": "Fetch Quest - Kinship.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1LV0MeSyB4RKbEIPOe3XY6vIov0NyW0QP/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Disco Mbobulate",
     "id": "XP1oxENYnQ4",
-    "duration": "4:22",
+    "duration": "4:23",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -511,12 +683,28 @@ const catalog = [
     },
     "officialReleaseDate": "2023-07-08",
     "officialReleaseDateSource": "https://music.apple.com/us/album/disco-mbobulate/1696443364?i=1696443366&uo=4",
-    "durationSeconds": 262.56
+    "durationSeconds": 262.557,
+    "audioBitrateKbps": 320,
+    "audioSha256": "0a73143daa286873fc96ff151b91b26dfd66f509c100915c3e039b56ad20bba2",
+    "archiveSources": [
+      {
+        "driveId": "1n8oH5mWffB2W6VkkAujS3cPSEiErPslL",
+        "filename": "Fetch Quest - Disco Mbobulate.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1n8oH5mWffB2W6VkkAujS3cPSEiErPslL/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1cTCGkUdW5mMeoeDSkXMVPJ8Dw7SbRtQ0",
+        "filename": "Rebirth_mastered.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1cTCGkUdW5mMeoeDSkXMVPJ8Dw7SbRtQ0/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Trapwire",
     "id": "s4lCTG9Pzq4",
-    "duration": "3:17",
+    "duration": "3:18",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -539,7 +727,16 @@ const catalog = [
     },
     "officialReleaseDate": "2023-07-20",
     "officialReleaseDateSource": "https://music.apple.com/us/album/trapwire/1698509712?i=1698509713&uo=4",
-    "durationSeconds": 197.64
+    "durationSeconds": 197.604,
+    "audioBitrateKbps": 184,
+    "archiveSources": [
+      {
+        "driveId": "1R4CaMAEBwYmGL0XZpH8_A0eDe6-XhOkw",
+        "filename": "Trap_INS_mp3.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1R4CaMAEBwYmGL0XZpH8_A0eDe6-XhOkw/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Ascendant Decade",
@@ -567,7 +764,17 @@ const catalog = [
     },
     "officialReleaseDate": "2020-03-07",
     "officialReleaseDateSource": "https://music.apple.com/us/album/ascendant-decade/1501971778?i=1501971779&uo=4",
-    "durationSeconds": 344.45
+    "durationSeconds": 344.451,
+    "audioBitrateKbps": 320,
+    "audioSha256": "37cbe6d7045f550a1cc6678e5115e7aa437cf0e8369faa1b0ecb4186d31ac053",
+    "archiveSources": [
+      {
+        "driveId": "1BbKcctxJKvDMP4UdmMTeh9rEhl7gw240",
+        "filename": "Fetch Quest - Ascendant Decade_Mastered.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1BbKcctxJKvDMP4UdmMTeh9rEhl7gw240/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Glazed Curd",
@@ -597,12 +804,22 @@ const catalog = [
     },
     "officialReleaseDate": "2021-03-29",
     "officialReleaseDateSource": "https://music.apple.com/us/album/glazed-curd/6806023982?i=6806023984&uo=4",
-    "durationSeconds": 226.12
+    "durationSeconds": 226.116,
+    "audioBitrateKbps": 320,
+    "audioSha256": "bf8c8b4d641a8f330a952074aed2476a4f336244f903f119ce85c5d656477b7c",
+    "archiveSources": [
+      {
+        "driveId": "1BkWdPxkScQ0pEaIH7JlgNRS3_8WK-pS9",
+        "filename": "Fetch Quest - Glazed Curd_Mastered.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1BkWdPxkScQ0pEaIH7JlgNRS3_8WK-pS9/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Bones",
     "id": "6UAUJfoGDfI",
-    "duration": "3:56",
+    "duration": "3:57",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -624,7 +841,17 @@ const catalog = [
     },
     "officialReleaseDate": "2020-11-29",
     "officialReleaseDateSource": "https://music.apple.com/us/album/bones/1542545741?i=1542545743&uo=4",
-    "durationSeconds": 236.56
+    "durationSeconds": 236.565,
+    "audioBitrateKbps": 320,
+    "audioSha256": "d6082c8f5b04bbdcb31a126fdf4c05bd87d458ff1561ac4233fc864827c1d289",
+    "archiveSources": [
+      {
+        "driveId": "17z6KRmOQrbcfmkhWgUf3oB2jnM2_5r3K",
+        "filename": "Bones.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/17z6KRmOQrbcfmkhWgUf3oB2jnM2_5r3K/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Ian Oliver ft. Eastenders - Vino Vino_-_slowed w reverb",
@@ -645,21 +872,21 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 191.42,
+    "durationSeconds": 191.379,
     "releaseDate": "2026-09-19",
-    "releaseDateSource": "https://www.youtube.com/watch?v=Ruk54SRuRJg"
+    "releaseDateSource": "https://www.youtube.com/watch?v=Ruk54SRuRJg",
+    "audioBitrateKbps": 218
   },
   {
     "title": "generic indie pop song",
     "id": "oasfLfWYgTo",
-    "duration": "3:28",
+    "duration": "3:29",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "oasfLfWYgTo",
-    "audio": "assets/audio/platform-oasfLfWYgTo.mp3",
-    "audioBytes": 5275845,
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1TyzUHLWybby4NPNgcZBQTxFaD_EcXwMv.mp3",
+    "audioBytes": 8354015,
     "originalFilename": "peacepipe04 - generic indie pop song.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
     "audioSource": "https://www.youtube.com/watch?v=oasfLfWYgTo",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -668,8 +895,19 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 208.94,
-    "releaseDate": "2026-06-21"
+    "durationSeconds": 208.849,
+    "releaseDate": "2026-06-21",
+    "drive": "https://drive.google.com/file/d/1TyzUHLWybby4NPNgcZBQTxFaD_EcXwMv/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "d7cc29f96aaeaf86ddc68d3d03ad87fe4f28e51052194216537e803c7dd86e9b",
+    "archiveSources": [
+      {
+        "driveId": "1TyzUHLWybby4NPNgcZBQTxFaD_EcXwMv",
+        "filename": "peacepipe04 - generic indie pop song.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1TyzUHLWybby4NPNgcZBQTxFaD_EcXwMv/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "the trashbird",
@@ -678,10 +916,9 @@ const catalog = [
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "Z6MmnzhYt7I",
-    "audio": "assets/audio/platform-Z6MmnzhYt7I.mp3",
-    "audioBytes": 3398925,
-    "originalFilename": "peacepipe04 - the trashbird.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1gMfudIIuyRE65N0sL85iQuBXIaWDrYEW.mp3",
+    "audioBytes": 5415762,
+    "originalFilename": "the trashbird.mp3",
     "audioSource": "https://www.youtube.com/watch?v=Z6MmnzhYt7I",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -690,9 +927,20 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 135.46,
+    "durationSeconds": 135.393,
     "releaseDate": "2026-05-09",
-    "releaseDateSource": "https://www.youtube.com/watch?v=Z6MmnzhYt7I"
+    "releaseDateSource": "https://www.youtube.com/watch?v=Z6MmnzhYt7I",
+    "drive": "https://drive.google.com/file/d/1gMfudIIuyRE65N0sL85iQuBXIaWDrYEW/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "0f62ff20024df6bbec1dcefaa34e69b0a65c23c40d61c2fa2a9dd8a255f9ec3c",
+    "archiveSources": [
+      {
+        "driveId": "1gMfudIIuyRE65N0sL85iQuBXIaWDrYEW",
+        "filename": "the trashbird.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1gMfudIIuyRE65N0sL85iQuBXIaWDrYEW/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Cupcakke - Duck Duck Goose but it’s disco INSTRUMENTAL",
@@ -712,14 +960,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 150.05,
+    "durationSeconds": 150.047,
     "releaseDate": "2026-05-09",
-    "releaseDateSource": "https://www.youtube.com/watch?v=ZODS3DRGkhc"
+    "releaseDateSource": "https://www.youtube.com/watch?v=ZODS3DRGkhc",
+    "audioBitrateKbps": 320,
+    "audioSha256": "350947b5cd22b41f10ec8f998d6298e52e7306ce42c160dd8bd2ed4ab6cd0a62",
+    "archiveSources": [
+      {
+        "driveId": "1lwZiPgcz-1PF-RVO4AzwHLEhjfJL3WUc",
+        "filename": "Instrumental_Cupcakke - Duck Duck Goose peacepipe04 disco remix.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1lwZiPgcz-1PF-RVO4AzwHLEhjfJL3WUc/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Cupcakke - Duck Duck Goose but it’s disco",
     "id": "4DikQvqlHYI",
-    "duration": "2:34",
+    "duration": "2:35",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "4DikQvqlHYI",
@@ -736,7 +994,17 @@ const catalog = [
     },
     "durationSeconds": 154.88,
     "releaseDate": "2026-04-13",
-    "releaseDateSource": "https://www.youtube.com/watch?v=4DikQvqlHYI"
+    "releaseDateSource": "https://www.youtube.com/watch?v=4DikQvqlHYI",
+    "audioBitrateKbps": 320,
+    "audioSha256": "6296363aaf6d79592e24bf08a04a8e8bf5c763f5460e0aef1e1df75d9a9b386a",
+    "archiveSources": [
+      {
+        "driveId": "11KmavVwV2B3bz45uOEUph4G-I_9sFcLU",
+        "filename": "Cupcakke - Duck Duck Goose peacepipe04 disco remix.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/11KmavVwV2B3bz45uOEUph4G-I_9sFcLU/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Martin Garrix - Animals (peacepipe04 cheap cumbia remix)",
@@ -756,9 +1024,19 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 122.23,
+    "durationSeconds": 122.227,
     "releaseDate": "2026-02-21",
-    "releaseDateSource": "https://www.youtube.com/watch?v=h8mS3jgxp58"
+    "releaseDateSource": "https://www.youtube.com/watch?v=h8mS3jgxp58",
+    "audioBitrateKbps": 320,
+    "audioSha256": "d1825046b5a5b573d4e152e41a71c9552f2f502b97b6a6c595f009a0dc0063dc",
+    "archiveSources": [
+      {
+        "driveId": "18WlrYhLvsZqqFJcSAichEuj0AVXO5VjT",
+        "filename": "Animals remix.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/18WlrYhLvsZqqFJcSAichEuj0AVXO5VjT/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Payload",
@@ -782,12 +1060,22 @@ const catalog = [
     },
     "officialReleaseDate": "2015-07-27",
     "officialReleaseDateSource": "https://music.apple.com/us/album/payload/1018861953?i=1018862849&uo=4",
-    "durationSeconds": 340.35
+    "durationSeconds": 340.349,
+    "audioBitrateKbps": 320,
+    "audioSha256": "56904bdeab510445cfcd83d51ad3c20bfff7bdda2368e48866d5958ef9458b04",
+    "archiveSources": [
+      {
+        "driveId": "1NMzkImRHV1mO67gOR9Q729tgtNZ2B_Sk",
+        "filename": "Audionerds - Payload (Original mix).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1NMzkImRHV1mO67gOR9Q729tgtNZ2B_Sk/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Phil Fuldner - Miami Pop (peacepipe04 remix)",
     "id": "k9DkmBd2SFg",
-    "duration": "2:31",
+    "duration": "2:32",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "k9DkmBd2SFg",
@@ -802,14 +1090,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 151.95,
+    "durationSeconds": 151.954,
     "releaseDate": "2025-12-24",
-    "releaseDateSource": "https://www.youtube.com/watch?v=k9DkmBd2SFg"
+    "releaseDateSource": "https://www.youtube.com/watch?v=k9DkmBd2SFg",
+    "audioBitrateKbps": 320,
+    "audioSha256": "d2646ddcaaa9a1719fc035ad21ba0377699dbb1cbeef8c164ee97f51f264659e",
+    "archiveSources": [
+      {
+        "driveId": "1P8pH3wu4Bm5bOPX7bk9KzPz1jgfgrnzR",
+        "filename": "Phil Fuldner - Miami Pop (peacepipe04 remix).mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1P8pH3wu4Bm5bOPX7bk9KzPz1jgfgrnzR/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "um jogo no paraíso SPED UP",
     "id": "ZAHhsKEW2jk",
-    "duration": "3:00",
+    "duration": "3:01",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "ZAHhsKEW2jk",
@@ -824,14 +1122,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 180.98,
+    "durationSeconds": 180.976,
     "releaseDate": "2025-11-13",
-    "releaseDateSource": "https://www.youtube.com/watch?v=ZAHhsKEW2jk"
+    "releaseDateSource": "https://www.youtube.com/watch?v=ZAHhsKEW2jk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "49acaa8bfa2ece80059ab0cfe0d0a592d426f7bf53f461aea0c42c4aa15b65d0",
+    "archiveSources": [
+      {
+        "driveId": "1Ni6SDJkM4WDSafBrux8DBZm8nXw3NtLa",
+        "filename": "peacepipe04 - um jogo no paraiso_SPED UP.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1Ni6SDJkM4WDSafBrux8DBZm8nXw3NtLa/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "um jogo no paraíso",
     "id": "zB1mfz7o_-0",
-    "duration": "3:33",
+    "duration": "3:34",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "zB1mfz7o_-0",
@@ -846,9 +1154,19 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 213.89,
+    "durationSeconds": 213.891,
     "releaseDate": "2025-11-11",
-    "releaseDateSource": "https://www.youtube.com/watch?v=zB1mfz7o_-0"
+    "releaseDateSource": "https://www.youtube.com/watch?v=zB1mfz7o_-0",
+    "audioBitrateKbps": 320,
+    "audioSha256": "e4198c5f0e3a5cb8614cb258396ce9ee0799296018551c90baaa62e218ac8bb5",
+    "archiveSources": [
+      {
+        "driveId": "1SQRtHh-nH0mgMdWE0p8RFYmOHJ_NoQVZ",
+        "filename": "peacepipe04 - um jogo no paraiso.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1SQRtHh-nH0mgMdWE0p8RFYmOHJ_NoQVZ/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Cupcakke - CPR but it’s 70s corno music INSTRUMENTAL",
@@ -870,7 +1188,17 @@ const catalog = [
     },
     "durationSeconds": 187.22,
     "releaseDate": "2025-11-06",
-    "releaseDateSource": "https://www.youtube.com/watch?v=GL55YP8_0E4"
+    "releaseDateSource": "https://www.youtube.com/watch?v=GL55YP8_0E4",
+    "audioBitrateKbps": 320,
+    "audioSha256": "5efa4413bd27a42de1b3315fd2e0cfdde5b4de42159aa9c39ecc4edddbd908dc",
+    "archiveSources": [
+      {
+        "driveId": "1i-MH0v35eHFjeIHpJJiQ9Fyj1zUr5wjN",
+        "filename": "Cupcakke - CPR but its 70s corno music_INSTRUMENTAL.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1i-MH0v35eHFjeIHpJJiQ9Fyj1zUr5wjN/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Cupcakke - CPR but it’s 70s corno music",
@@ -892,7 +1220,17 @@ const catalog = [
     },
     "durationSeconds": 187.22,
     "releaseDate": "2025-10-11",
-    "releaseDateSource": "https://www.youtube.com/watch?v=ngFdLogRMtg"
+    "releaseDateSource": "https://www.youtube.com/watch?v=ngFdLogRMtg",
+    "audioBitrateKbps": 320,
+    "audioSha256": "280c9e801487e4a4d89d90676148c626a5b81d867c1ace1e853776a1fb0afb53",
+    "archiveSources": [
+      {
+        "driveId": "10i5S83Tww9JX4zEGZqTwNhMJi6wDJYOq",
+        "filename": "Cupcakke - CPR but its 70s corno music.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/10i5S83Tww9JX4zEGZqTwNhMJi6wDJYOq/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "naya - bubble town (peacepipe04 remix)",
@@ -901,10 +1239,9 @@ const catalog = [
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "p8XDTN84aKs",
-    "audio": "assets/audio/platform-p8XDTN84aKs.mp3",
-    "audioBytes": 6575733,
-    "originalFilename": "peacepipe04 - naya - bubble town (peacepipe04 remix).mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1qXqk5dcgKeJjk_bwZe7qOivwEThicPjR.mp3",
+    "audioBytes": 10201394,
+    "originalFilename": "naya - bubble town (peacepipe04 remix).mp3",
     "audioSource": "https://www.youtube.com/watch?v=p8XDTN84aKs",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -913,9 +1250,20 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 255.12,
+    "durationSeconds": 255.033,
     "releaseDate": "2025-07-28",
-    "releaseDateSource": "https://www.youtube.com/watch?v=p8XDTN84aKs"
+    "releaseDateSource": "https://www.youtube.com/watch?v=p8XDTN84aKs",
+    "drive": "https://drive.google.com/file/d/1qXqk5dcgKeJjk_bwZe7qOivwEThicPjR/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "f4fa69b089a0bef3c4afa7d2a884a6ab45e711866d5d74cd28bf3cf40a527b69",
+    "archiveSources": [
+      {
+        "driveId": "1qXqk5dcgKeJjk_bwZe7qOivwEThicPjR",
+        "filename": "naya - bubble town (peacepipe04 remix).mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1qXqk5dcgKeJjk_bwZe7qOivwEThicPjR/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "The Surfaris - Wipe out (peacepipe04 remix)",
@@ -935,14 +1283,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 111.28,
+    "durationSeconds": 111.282,
     "releaseDate": "2025-07-15",
-    "releaseDateSource": "https://www.youtube.com/watch?v=T3e_CcZFl9w"
+    "releaseDateSource": "https://www.youtube.com/watch?v=T3e_CcZFl9w",
+    "audioBitrateKbps": 320,
+    "audioSha256": "3568d8b73c85f6a391040882c1c678f0ed136147ee1a8879915eb82dec45f990",
+    "archiveSources": [
+      {
+        "driveId": "15oyIgTutaewP4sC-Ipybq9-EX7BVbuE7",
+        "filename": "wipeout final pp04 remix.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/15oyIgTutaewP4sC-Ipybq9-EX7BVbuE7/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "UZI boomstick",
     "id": "G1nBOYhlirA",
-    "duration": "3:16",
+    "duration": "3:17",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "G1nBOYhlirA",
@@ -959,12 +1317,22 @@ const catalog = [
     },
     "durationSeconds": 196.78,
     "releaseDate": "2025-06-20",
-    "releaseDateSource": "https://www.youtube.com/watch?v=G1nBOYhlirA"
+    "releaseDateSource": "https://www.youtube.com/watch?v=G1nBOYhlirA",
+    "audioBitrateKbps": 320,
+    "audioSha256": "cb22da85fe25690f840735834651bf14dc0feb1ab61cbd70fdfc759cd5e5d1c9",
+    "archiveSources": [
+      {
+        "driveId": "1okU0lcY0mQbmWU1wZLx8rRVU9SjZ6oFH",
+        "filename": "peacepipe04 - UZI boomstick.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1okU0lcY0mQbmWU1wZLx8rRVU9SjZ6oFH/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "mad woman ting",
     "id": "VHzt6B4mPl4",
-    "duration": "3:44",
+    "duration": "3:45",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "VHzt6B4mPl4",
@@ -979,14 +1347,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 224.55,
+    "durationSeconds": 224.549,
     "releaseDate": "2025-04-24",
-    "releaseDateSource": "https://www.youtube.com/watch?v=VHzt6B4mPl4"
+    "releaseDateSource": "https://www.youtube.com/watch?v=VHzt6B4mPl4",
+    "audioBitrateKbps": 320,
+    "audioSha256": "c68e3e4bcc90aa0b407d73229c1be74ae7760ba3c5c21345a50499ef5e2b2626",
+    "archiveSources": [
+      {
+        "driveId": "1skceFpjQ_E0n_Wx5t_NQVwZA5aUvkZhY",
+        "filename": "peacepipe04 - mad woman ting [ffll].mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1skceFpjQ_E0n_Wx5t_NQVwZA5aUvkZhY/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "a room of tools guided by marked knight",
     "id": "TXr-XnyhmzQ",
-    "duration": "3:36",
+    "duration": "3:37",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "TXr-XnyhmzQ",
@@ -1001,14 +1379,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 216.82,
+    "durationSeconds": 216.816,
     "releaseDate": "2025-04-24",
-    "releaseDateSource": "https://www.youtube.com/watch?v=TXr-XnyhmzQ"
+    "releaseDateSource": "https://www.youtube.com/watch?v=TXr-XnyhmzQ",
+    "audioBitrateKbps": 320,
+    "audioSha256": "e519551a8cf9e65fefd522c31f6024c1dfd8d244bdfcfb705a8813f4491e42f6",
+    "archiveSources": [
+      {
+        "driveId": "1uVE_U4BtbIX4U3bPeKzZY4o0PXAs2xqN",
+        "filename": "peacepipe04 - a room of tools guided by marked knight [ffll].mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1uVE_U4BtbIX4U3bPeKzZY4o0PXAs2xqN/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "descendant decade",
     "id": "ju_Drex7dG8",
-    "duration": "3:21",
+    "duration": "3:22",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "ju_Drex7dG8",
@@ -1023,9 +1411,19 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 201.95,
+    "durationSeconds": 201.953,
     "releaseDate": "2025-04-24",
-    "releaseDateSource": "https://www.youtube.com/watch?v=ju_Drex7dG8"
+    "releaseDateSource": "https://www.youtube.com/watch?v=ju_Drex7dG8",
+    "audioBitrateKbps": 320,
+    "audioSha256": "ea2a8ac6a9eaa17e799b7669d6ba221a71a43acd1f96435a246cc72ec595773f",
+    "archiveSources": [
+      {
+        "driveId": "1XS8rW6VENFUvNPyfcLinHP2QRd0rVDEY",
+        "filename": "peacepipe04 - descendant decade [ffll].mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1XS8rW6VENFUvNPyfcLinHP2QRd0rVDEY/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "ûëçåøßœîæ",
@@ -1045,9 +1443,19 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 105.04,
+    "durationSeconds": 105.038,
     "releaseDate": "2025-04-24",
-    "releaseDateSource": "https://www.youtube.com/watch?v=xPmZbntLoDQ"
+    "releaseDateSource": "https://www.youtube.com/watch?v=xPmZbntLoDQ",
+    "audioBitrateKbps": 320,
+    "audioSha256": "4bd7779c5773ff871359f8e63edb542aaaefcd84b7d266d60cf884f09fd95443",
+    "archiveSources": [
+      {
+        "driveId": "19THyla51bqK_EMltZZ1nQy2iRnfATPMu",
+        "filename": "peacepipe04 - ûëçåøßœîæ [ffll].mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/19THyla51bqK_EMltZZ1nQy2iRnfATPMu/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "ainsley kensington",
@@ -1067,14 +1475,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 205.19,
+    "durationSeconds": 205.192,
     "releaseDate": "2025-04-24",
-    "releaseDateSource": "https://www.youtube.com/watch?v=lOeJPbG_mtw"
+    "releaseDateSource": "https://www.youtube.com/watch?v=lOeJPbG_mtw",
+    "audioBitrateKbps": 320,
+    "audioSha256": "257d2ba77b34a492bcb92a9348d4364e406110c1e602080a4b990060ecfb24b2",
+    "archiveSources": [
+      {
+        "driveId": "1uyfUwfXk7CC15fL47rzKwOQuzdx-Xv0k",
+        "filename": "peacepipe04 - ainsley kensington [ffll].mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1uyfUwfXk7CC15fL47rzKwOQuzdx-Xv0k/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Eliminate - Walk Away (fetch quest remix)",
     "id": "geLKG9QxbeU",
-    "duration": "3:38",
+    "duration": "3:39",
     "artist": "Fetch Quest",
     "type": "Remix / edit",
     "youtube": "geLKG9QxbeU",
@@ -1092,7 +1510,17 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 218.51
+    "durationSeconds": 218.514,
+    "audioBitrateKbps": 320,
+    "audioSha256": "b082a16d51b7374d7c1e2e7607b67a9c0a9dfded52bfec2c8266a7a91b0acfb1",
+    "archiveSources": [
+      {
+        "driveId": "1RLEEN6zarL0kVFI16ESl-xB3oj-nO6tx",
+        "filename": "Eliminate - Walk Away (Fetch Quest Remix).mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1RLEEN6zarL0kVFI16ESl-xB3oj-nO6tx/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "daft punk - technologic (audionerds remix)",
@@ -1115,22 +1543,31 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 221.31
+    "durationSeconds": 221.309,
+    "audioBitrateKbps": 320,
+    "audioSha256": "64cabd2c81775bfb24fb998f719bed9199b4fda4c15bb462a6c0bcb071129850",
+    "archiveSources": [
+      {
+        "driveId": "1wPtHHAI5SJeUeJSCIKWNMSRT30l8e3Ht",
+        "filename": "Daft Punk - Technologic (Audionerds Remix).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1wPtHHAI5SJeUeJSCIKWNMSRT30l8e3Ht/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "crossover",
     "id": "_YEfQaKH8FU",
-    "duration": "5:04",
+    "duration": "5:08",
     "artist": "Fetch Quest",
     "type": "Channel archive",
     "youtube": "_YEfQaKH8FU",
     "soundcloud": "https://soundcloud.com/fetchquest/crossover",
     "soundcloudId": 291556091,
     "releaseDate": "2016-11-04",
-    "audio": "assets/audio/platform-_YEfQaKH8FU.mp3",
-    "audioBytes": 7909029,
-    "originalFilename": "Fetch Quest - crossover.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1MSLrKcb8F93w_SbmpgtNHonH7TZG5sh6.mp3",
+    "audioBytes": 12859790,
+    "originalFilename": "Crossover.mp3",
     "audioSource": "https://www.youtube.com/watch?v=_YEfQaKH8FU",
     "releaseStatus": "unverified",
     "streamingLinks": {},
@@ -1139,22 +1576,32 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 304.99
+    "durationSeconds": 308.036,
+    "drive": "https://drive.google.com/file/d/1MSLrKcb8F93w_SbmpgtNHonH7TZG5sh6/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "cff5dd2f9a400dca7096a581396c582cf428c73ee9e5eb260a0564e78aa5b75c",
+    "archiveSources": [
+      {
+        "driveId": "1MSLrKcb8F93w_SbmpgtNHonH7TZG5sh6",
+        "filename": "Crossover.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1MSLrKcb8F93w_SbmpgtNHonH7TZG5sh6/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "badlands",
     "id": "WLgIaGV4_3U",
-    "duration": "4:35",
+    "duration": "4:36",
     "artist": "Fetch Quest",
     "type": "Channel archive",
     "youtube": "WLgIaGV4_3U",
     "soundcloud": "https://soundcloud.com/fetchquest/badlands",
     "soundcloudId": 291373617,
     "releaseDate": "2016-11-03",
-    "audio": "assets/audio/platform-WLgIaGV4_3U.mp3",
-    "audioBytes": 6966285,
-    "originalFilename": "Fetch Quest - badlands.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/12f5lsd535s_NMbQH3PORrhByB_jS7KPP.mp3",
+    "audioBytes": 11903182,
+    "originalFilename": "Badlands.mp3",
     "audioSource": "https://www.youtube.com/watch?v=WLgIaGV4_3U",
     "releaseStatus": "unverified",
     "streamingLinks": {},
@@ -1163,7 +1610,18 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 275.74
+    "durationSeconds": 275.67,
+    "drive": "https://drive.google.com/file/d/12f5lsd535s_NMbQH3PORrhByB_jS7KPP/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "d3facfc02003c65051498bc524863bea0b256bbd289b2494e2b96e78b41ffde3",
+    "archiveSources": [
+      {
+        "driveId": "12f5lsd535s_NMbQH3PORrhByB_jS7KPP",
+        "filename": "Badlands.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/12f5lsd535s_NMbQH3PORrhByB_jS7KPP/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "the unalived mouse & the gang of wolves",
@@ -1172,10 +1630,9 @@ const catalog = [
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "AF9uT6lS8rI",
-    "audio": "assets/audio/platform-AF9uT6lS8rI.mp3",
-    "audioBytes": 8472549,
-    "originalFilename": "peacepipe04 - the unalived mouse & the gang of wolves.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1bpJ_KMI7OKsKYpWf2XSUinUNjsGmqofg.mp3",
+    "audioBytes": 13127123,
+    "originalFilename": "Audionerds - I HOUSE U.mp3",
     "audioSource": "https://www.youtube.com/watch?v=AF9uT6lS8rI",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -1184,9 +1641,20 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 328.22,
+    "durationSeconds": 328.176,
     "releaseDate": "2025-04-04",
-    "releaseDateSource": "https://www.youtube.com/watch?v=AF9uT6lS8rI"
+    "releaseDateSource": "https://www.youtube.com/watch?v=AF9uT6lS8rI",
+    "drive": "https://drive.google.com/file/d/1bpJ_KMI7OKsKYpWf2XSUinUNjsGmqofg/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "678be6a7fffacfe9f1c7403b3d27335a2898fd23ca30949e2bf52ad8ae021410",
+    "archiveSources": [
+      {
+        "driveId": "1bpJ_KMI7OKsKYpWf2XSUinUNjsGmqofg",
+        "filename": "Audionerds - I HOUSE U.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1bpJ_KMI7OKsKYpWf2XSUinUNjsGmqofg/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "maledict",
@@ -1198,10 +1666,9 @@ const catalog = [
     "soundcloud": "https://soundcloud.com/fetchquest/maledict",
     "soundcloudId": 296967983,
     "releaseDate": "2016-12-09",
-    "audio": "assets/audio/platform-nH3TaACFswM.mp3",
-    "audioBytes": 6615741,
-    "originalFilename": "Fetch Quest - maledict.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "assets/audio/1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-.mp3",
+    "audioBytes": 10600559,
+    "originalFilename": "Audionerds - Say No More (Original Mix).mp3",
     "audioSource": "https://www.youtube.com/watch?v=nH3TaACFswM",
     "releaseStatus": "unverified",
     "streamingLinks": {},
@@ -1210,7 +1677,24 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 265.15
+    "durationSeconds": 265.012,
+    "drive": "https://drive.google.com/file/d/1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "9da87c7f634225b75e912d6d9240cffee82e2cb939d508b61947703b3befa4fa",
+    "archiveSources": [
+      {
+        "driveId": "1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-",
+        "filename": "Audionerds - Say No More (Original Mix).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1BHP7cl6aecDgNUQkY1PZyuxmaU4oag04",
+        "filename": "Maledict.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1BHP7cl6aecDgNUQkY1PZyuxmaU4oag04/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "intruder",
@@ -1233,12 +1717,28 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 347.06
+    "durationSeconds": 347.063,
+    "audioBitrateKbps": 320,
+    "audioSha256": "2b3692447f78fa767199926538e47a3f4719b7aae56ca239acc51238da7a1ee0",
+    "archiveSources": [
+      {
+        "driveId": "1EkqauHpyLz4rKh8p0g5YMWyYJNfoDoNt",
+        "filename": "INTRUDER FINAL MASTERED.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1EkqauHpyLz4rKh8p0g5YMWyYJNfoDoNt/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1e-hIMQRenk-cBfelIUcGkiDzFBdrw7HV",
+        "filename": "INTRUDER FINAL MASTERED.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1e-hIMQRenk-cBfelIUcGkiDzFBdrw7HV/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "jaeger (1st version)",
     "id": "HFJkEa3rylQ",
-    "duration": "5:05",
+    "duration": "5:06",
     "artist": "Audionerds",
     "type": "Channel archive",
     "youtube": "HFJkEa3rylQ",
@@ -1253,9 +1753,19 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 305.66,
+    "durationSeconds": 305.659,
     "releaseDate": "2025-03-23",
-    "releaseDateSource": "https://www.youtube.com/watch?v=HFJkEa3rylQ"
+    "releaseDateSource": "https://www.youtube.com/watch?v=HFJkEa3rylQ",
+    "audioBitrateKbps": 320,
+    "audioSha256": "e707f55db700127e87cc3f9243a789f47f4d057803ce3ccc427daca7e851833b",
+    "archiveSources": [
+      {
+        "driveId": "1HBcGQpYBeEasBJt9fnsCoiZLe5z2xGJi",
+        "filename": "Audionerds - Jaeger ver. 1_MASTERED.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1HBcGQpYBeEasBJt9fnsCoiZLe5z2xGJi/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "atomic punch",
@@ -1267,10 +1777,9 @@ const catalog = [
     "soundcloud": "https://soundcloud.com/fetchquest/atomic-punch",
     "soundcloudId": 302823612,
     "releaseDate": "2017-01-15",
-    "audio": "assets/audio/platform-3ouEy-bigYQ.mp3",
-    "audioBytes": 8026269,
-    "originalFilename": "Fetch Quest - atomic punch.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1sIErhkE0YSUHuHxAETg7QccFckwJlmmj.mp3",
+    "audioBytes": 12640200,
+    "originalFilename": "Atomic Punch Mastered Final.mp3",
     "audioSource": "https://www.youtube.com/watch?v=3ouEy-bigYQ",
     "releaseStatus": "unverified",
     "streamingLinks": {},
@@ -1279,22 +1788,32 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 316.08
+    "durationSeconds": 316.003,
+    "drive": "https://drive.google.com/file/d/1sIErhkE0YSUHuHxAETg7QccFckwJlmmj/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "a8b43df4733d70081aa1799b1e32c7122dc7c7bd92aceccabf3f9bd8d5ddffbe",
+    "archiveSources": [
+      {
+        "driveId": "1sIErhkE0YSUHuHxAETg7QccFckwJlmmj",
+        "filename": "Atomic Punch Mastered Final.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1sIErhkE0YSUHuHxAETg7QccFckwJlmmj/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "hitchhiker",
     "id": "JOwroFzvAXA",
-    "duration": "4:03",
+    "duration": "4:04",
     "artist": "Fetch Quest",
     "type": "Channel archive",
     "youtube": "JOwroFzvAXA",
     "soundcloud": "https://soundcloud.com/fetchquest/hitchhiker",
     "soundcloudId": 318697607,
     "releaseDate": "2017-04-20",
-    "audio": "assets/audio/platform-JOwroFzvAXA.mp3",
-    "audioBytes": 6165981,
-    "originalFilename": "Fetch Quest - hitchhiker.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "assets/audio/1MZq8yde9SGTceGrj81AsoaSDubp1j7tc.mp3",
+    "audioBytes": 9752102,
+    "originalFilename": "Audionerds - Hitchhike (Original Mix).mp3",
     "audioSource": "https://www.youtube.com/watch?v=JOwroFzvAXA",
     "releaseStatus": "unverified",
     "streamingLinks": {},
@@ -1303,7 +1822,18 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 243.89
+    "durationSeconds": 243.801,
+    "drive": "https://drive.google.com/file/d/1MZq8yde9SGTceGrj81AsoaSDubp1j7tc/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "4e7e07962bef6d79fe7fdc9debf9e39e99e67e85b90ccd14ded94e7d1f622137",
+    "archiveSources": [
+      {
+        "driveId": "1MZq8yde9SGTceGrj81AsoaSDubp1j7tc",
+        "filename": "Audionerds - Hitchhike (Original Mix).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1MZq8yde9SGTceGrj81AsoaSDubp1j7tc/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "Soulja boy X piano fantasia - crank that song for Denise mashup",
@@ -1312,10 +1842,9 @@ const catalog = [
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "MkgNTNv5Bhw",
-    "audio": "assets/audio/platform-MkgNTNv5Bhw.mp3",
-    "audioBytes": 2484933,
-    "originalFilename": "peacepipe04 - Soulja boy X piano fantasia - crank that song for Denise mashup.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1usWl6aPdz9qIbZOeNlBP__0Hz6WFv2jz.mp3",
+    "audioBytes": 4219368,
+    "originalFilename": "Soulja Boy X Wide Putin.mp3",
     "audioSource": "https://www.youtube.com/watch?v=MkgNTNv5Bhw",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -1324,9 +1853,20 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 105.55,
+    "durationSeconds": 105.482,
     "releaseDate": "2025-02-28",
-    "releaseDateSource": "https://www.youtube.com/watch?v=MkgNTNv5Bhw"
+    "releaseDateSource": "https://www.youtube.com/watch?v=MkgNTNv5Bhw",
+    "drive": "https://drive.google.com/file/d/1usWl6aPdz9qIbZOeNlBP__0Hz6WFv2jz/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "843ad31fd2026e33a2c1cd9da947af6d6ca741660c229985652d638df161aa4b",
+    "archiveSources": [
+      {
+        "driveId": "1usWl6aPdz9qIbZOeNlBP__0Hz6WFv2jz",
+        "filename": "Soulja Boy X Wide Putin.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1usWl6aPdz9qIbZOeNlBP__0Hz6WFv2jz/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "SexyBack but it’s only Timbaland",
@@ -1347,14 +1887,15 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 197.02,
+    "durationSeconds": 196.975,
     "releaseDate": "2025-02-18",
-    "releaseDateSource": "https://www.youtube.com/watch?v=KV1enCR_pSA"
+    "releaseDateSource": "https://www.youtube.com/watch?v=KV1enCR_pSA",
+    "audioBitrateKbps": 178
   },
   {
     "title": "Loompaskettee & Bandlez - Riddim Track (peacepipe04 carnival color rawstyle ReR)",
     "id": "JEctLae7BG0",
-    "duration": "2:08",
+    "duration": "2:09",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "JEctLae7BG0",
@@ -1369,9 +1910,19 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 128.91,
+    "durationSeconds": 128.914,
     "releaseDate": "2025-02-01",
-    "releaseDateSource": "https://www.youtube.com/watch?v=JEctLae7BG0"
+    "releaseDateSource": "https://www.youtube.com/watch?v=JEctLae7BG0",
+    "audioBitrateKbps": 320,
+    "audioSha256": "35a2ebab09c834782a6627a2eadecc6c540e7831495a4c23fe7536979c013789",
+    "archiveSources": [
+      {
+        "driveId": "1kvWaGTc-_Lb0bbdUyAL84ako7oSD5Z7D",
+        "filename": "Loompaskettee & Bandlez - Riddim Track (peacepipe04 carnival color rawstyle rer).mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1kvWaGTc-_Lb0bbdUyAL84ako7oSD5Z7D/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "sigma boy 🗿 but it’s cheap orchestra",
@@ -1392,14 +1943,15 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 53.54,
+    "durationSeconds": 53.499,
     "releaseDate": "2025-01-26",
-    "releaseDateSource": "https://www.youtube.com/watch?v=O0sTEAC7zsA"
+    "releaseDateSource": "https://www.youtube.com/watch?v=O0sTEAC7zsA",
+    "audioBitrateKbps": 194
   },
   {
     "title": "epic cheesy toast - art of war (peacepipe04 art of peace recolor)",
     "id": "up0emSzVhuQ",
-    "duration": "2:45",
+    "duration": "2:46",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "up0emSzVhuQ",
@@ -1414,21 +1966,30 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 165.51,
+    "durationSeconds": 165.512,
     "releaseDate": "2025-01-12",
-    "releaseDateSource": "https://www.youtube.com/watch?v=up0emSzVhuQ"
+    "releaseDateSource": "https://www.youtube.com/watch?v=up0emSzVhuQ",
+    "audioBitrateKbps": 320,
+    "audioSha256": "7de0d948ad5046cfbd8e21294fc190ab0db5ded43e47483cf2bafef4ab75f16c",
+    "archiveSources": [
+      {
+        "driveId": "1AO44wwveT8qkLuMthGv34Yl1VM0Psii5",
+        "filename": "epic cheesy toast - art of war (peacepipe04 art of peace recolor).mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1AO44wwveT8qkLuMthGv34Yl1VM0Psii5/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "super cool pumping music in the car",
     "id": "7dySB-q3W1w",
-    "duration": "3:15",
+    "duration": "3:16",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "7dySB-q3W1w",
-    "audio": "assets/audio/platform-7dySB-q3W1w.mp3",
-    "audioBytes": 4839861,
-    "originalFilename": "peacepipe04 - super cool pumping music in the car.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "assets/audio/1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ.mp3",
+    "audioBytes": 7825310,
+    "originalFilename": "Мамбетский Мидтехно 08.mp3",
     "audioSource": "https://www.youtube.com/watch?v=7dySB-q3W1w",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -1437,9 +1998,20 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 195.77,
+    "durationSeconds": 195.631,
     "releaseDate": "2025-01-02",
-    "releaseDateSource": "https://www.youtube.com/watch?v=7dySB-q3W1w"
+    "releaseDateSource": "https://www.youtube.com/watch?v=7dySB-q3W1w",
+    "drive": "https://drive.google.com/file/d/1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "ce5501530d174afc82bfdbe291ca5a425f1ae3f8eb65f796b9485f216dc8dbc8",
+    "archiveSources": [
+      {
+        "driveId": "1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ",
+        "filename": "Мамбетский Мидтехно 08.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "unity",
@@ -1451,10 +2023,9 @@ const catalog = [
     "soundcloud": "https://soundcloud.com/fetchquest/unity",
     "soundcloudId": 432172938,
     "releaseDate": "2018-04-19",
-    "audio": "assets/audio/platform--jZKuY45FeQ.mp3",
-    "audioBytes": 7360457,
-    "originalFilename": "Fetch Quest - unity.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1nheoabf04_wyMshAZcwkP-5G5v0FydDR.mp3",
+    "audioBytes": 12776037,
+    "originalFilename": "fetch quest - UNITY_mastered.mp3",
     "audioSource": "https://www.youtube.com/watch?v=-jZKuY45FeQ",
     "releaseStatus": "unverified",
     "streamingLinks": {},
@@ -1463,12 +2034,23 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 319.56
+    "durationSeconds": 319.399,
+    "drive": "https://drive.google.com/file/d/1nheoabf04_wyMshAZcwkP-5G5v0FydDR/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "54e1d271e7da8ee7bbcfd1da6b983a023bd0613059d03c156338257337a925ce",
+    "archiveSources": [
+      {
+        "driveId": "1nheoabf04_wyMshAZcwkP-5G5v0FydDR",
+        "filename": "fetch quest - UNITY_mastered.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1nheoabf04_wyMshAZcwkP-5G5v0FydDR/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "baccpacc",
     "id": "COEG8DylnGk",
-    "duration": "3:44",
+    "duration": "3:45",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "COEG8DylnGk",
@@ -1483,21 +2065,30 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 224.65,
+    "durationSeconds": 224.653,
     "releaseDate": "2024-12-16",
-    "releaseDateSource": "https://www.youtube.com/watch?v=COEG8DylnGk"
+    "releaseDateSource": "https://www.youtube.com/watch?v=COEG8DylnGk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "8236ac84b6b2e55d10bd6cf03acba59d46236b44ff086b708776dd23e895ff9d",
+    "archiveSources": [
+      {
+        "driveId": "1_k9OPWQCXHEKLnILJZVIF2G8Wi-CQs6d",
+        "filename": "peacepipe04 - baccpacc.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1_k9OPWQCXHEKLnILJZVIF2G8Wi-CQs6d/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "taurine groove",
     "id": "HSOTOJjwgC8",
-    "duration": "3:53",
+    "duration": "3:54",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "HSOTOJjwgC8",
-    "audio": "assets/audio/platform-HSOTOJjwgC8.mp3",
-    "audioBytes": 5717133,
-    "originalFilename": "peacepipe04 - taurine groove.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "assets/audio/1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr.mp3",
+    "audioBytes": 9346682,
+    "originalFilename": "Drum N Bass 03_final.mp3",
     "audioSource": "https://www.youtube.com/watch?v=HSOTOJjwgC8",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -1506,14 +2097,25 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 233.76,
+    "durationSeconds": 233.665,
     "releaseDate": "2024-12-14",
-    "releaseDateSource": "https://www.youtube.com/watch?v=HSOTOJjwgC8"
+    "releaseDateSource": "https://www.youtube.com/watch?v=HSOTOJjwgC8",
+    "drive": "https://drive.google.com/file/d/1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "f63bc57f5c8b9eb9ced44af9f664642a1a8481c68ddf68636a16a3a3d1da9d91",
+    "archiveSources": [
+      {
+        "driveId": "1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr",
+        "filename": "Drum N Bass 03_final.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "spankox - to the club (fetch quest remix)🕺🏽",
     "id": "zzK_kqMhiaE",
-    "duration": "4:16",
+    "duration": "4:17",
     "artist": "Fetch Quest",
     "type": "Remix / edit",
     "youtube": "zzK_kqMhiaE",
@@ -1531,7 +2133,17 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 256.99
+    "durationSeconds": 256.993,
+    "audioBitrateKbps": 320,
+    "audioSha256": "d9b8c0ee9e0c729434918a7eeaf45968842ad987b802a1a9596b12332f242a4d",
+    "archiveSources": [
+      {
+        "driveId": "1L5YW86ik2DwTk7XI90amAw0ULc7NtK8w",
+        "filename": "Spankox - To The Club (Fetch Quest Remix).mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1L5YW86ik2DwTk7XI90amAw0ULc7NtK8w/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "title": "i like trains 🚂 [ambient]",
@@ -1552,14 +2164,15 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 152.09,
+    "durationSeconds": 152.044,
     "releaseDate": "2024-11-30",
-    "releaseDateSource": "https://www.youtube.com/watch?v=GW5OeSKUGGE"
+    "releaseDateSource": "https://www.youtube.com/watch?v=GW5OeSKUGGE",
+    "audioBitrateKbps": 182
   },
   {
     "title": "lepidoptera 🦋",
     "id": "Gm4EFFE6PFM",
-    "duration": "1:52",
+    "duration": "1:53",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "Gm4EFFE6PFM",
@@ -1575,9 +2188,10 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 112.78,
+    "durationSeconds": 112.733,
     "releaseDate": "2024-11-27",
-    "releaseDateSource": "https://www.youtube.com/watch?v=Gm4EFFE6PFM"
+    "releaseDateSource": "https://www.youtube.com/watch?v=Gm4EFFE6PFM",
+    "audioBitrateKbps": 200
   },
   {
     "title": "sport 🏀🥊",
@@ -1586,10 +2200,9 @@ const catalog = [
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "sf4qEpelhqQ",
-    "audio": "assets/audio/platform-sf4qEpelhqQ.mp3",
-    "audioBytes": 2182221,
-    "originalFilename": "peacepipe04 - sport 🏀🥊.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/18NJn4e8CF4Rc7rfKdp4Akgb6y22ch1Hi.mp3",
+    "audioBytes": 3484790,
+    "originalFilename": "sports_1.mp3",
     "audioSource": "https://www.youtube.com/watch?v=sf4qEpelhqQ",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -1598,9 +2211,20 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 87.19,
+    "durationSeconds": 87.118,
     "releaseDate": "2024-11-17",
-    "releaseDateSource": "https://www.youtube.com/watch?v=sf4qEpelhqQ"
+    "releaseDateSource": "https://www.youtube.com/watch?v=sf4qEpelhqQ",
+    "drive": "https://drive.google.com/file/d/18NJn4e8CF4Rc7rfKdp4Akgb6y22ch1Hi/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "19a6ab5b9007dcea9456e5fb87370d87154564b04bdfac7974906e6c93086f13",
+    "archiveSources": [
+      {
+        "driveId": "18NJn4e8CF4Rc7rfKdp4Akgb6y22ch1Hi",
+        "filename": "sports_1.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/18NJn4e8CF4Rc7rfKdp4Akgb6y22ch1Hi/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "sc-218046485",
@@ -1627,14 +2251,15 @@ const catalog = [
     },
     "officialReleaseDate": "2015-08-20",
     "officialReleaseDateSource": "https://music.apple.com/us/album/horizon/1030071774?i=1030073722&uo=4",
-    "durationSeconds": 362.06
+    "durationSeconds": 362.031,
+    "audioBitrateKbps": 128
   },
   {
     "id": "sc-211693501",
     "title": "Crimson",
     "artist": "Audionerds",
     "type": "SoundCloud archive",
-    "duration": "3:48",
+    "duration": "3:49",
     "soundcloud": "https://soundcloud.com/fetchquest/crimson-out-now",
     "soundcloudId": 211693501,
     "releaseDate": "2015-06-23",
@@ -1654,7 +2279,8 @@ const catalog = [
     },
     "officialReleaseDate": "2015-07-06",
     "officialReleaseDateSource": "https://music.apple.com/us/album/crimson/1005486512?i=1005486887&uo=4",
-    "durationSeconds": 228.81
+    "durationSeconds": 228.763,
+    "audioBitrateKbps": 180
   },
   {
     "id": "sc-191959883",
@@ -1665,10 +2291,10 @@ const catalog = [
     "soundcloud": "https://soundcloud.com/fetchquest/back-original-mix-1",
     "soundcloudId": 191959883,
     "releaseDate": "2015-02-19",
-    "audio": "assets/audio/1jpPghjKjV_cZ6aH2eHNoPUOYbtpildcl.mp3",
-    "drive": "https://drive.google.com/file/d/1jpPghjKjV_cZ6aH2eHNoPUOYbtpildcl/view?usp=drivesdk",
-    "originalFilename": "Audionerds - Back (Original Mix).mp3",
-    "audioBytes": 11852347,
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1HYVBauiGWrataFVf5APSBI6pYzvYjqyK.mp3",
+    "drive": "https://drive.google.com/file/d/1HYVBauiGWrataFVf5APSBI6pYzvYjqyK/view?usp=drivesdk",
+    "originalFilename": "back + a bit of mastering.mp3",
+    "audioBytes": 11855482,
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/back/964042057?i=964042073&uo=4"
@@ -1680,21 +2306,36 @@ const catalog = [
     },
     "officialReleaseDate": "2015-03-02",
     "officialReleaseDateSource": "https://music.apple.com/us/album/back/964042057?i=964042073&uo=4",
-    "durationSeconds": 296.31
+    "durationSeconds": 296.385,
+    "audioBitrateKbps": 320,
+    "audioSha256": "f4895bcbd41081ee40e9b0f2d00c8487ae25050fd683cdb24be577af63782117",
+    "archiveSources": [
+      {
+        "driveId": "1jpPghjKjV_cZ6aH2eHNoPUOYbtpildcl",
+        "filename": "Audionerds - Back (Original Mix).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1jpPghjKjV_cZ6aH2eHNoPUOYbtpildcl/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1HYVBauiGWrataFVf5APSBI6pYzvYjqyK",
+        "filename": "back + a bit of mastering.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1HYVBauiGWrataFVf5APSBI6pYzvYjqyK/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "sc-181225059",
     "title": "Rush",
     "artist": "Audionerds",
     "type": "SoundCloud archive",
-    "duration": "4:17",
+    "duration": "4:18",
     "soundcloud": "https://soundcloud.com/fetchquest/rush-original-mix",
     "soundcloudId": 181225059,
     "releaseDate": "2014-12-12",
-    "audio": "assets/audio/platform-sc-181225059.mp3",
-    "audioBytes": 4125256,
-    "originalFilename": "Audionerds - Rush.mp3",
-    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1gtQndEy94doJk4kk9DTIgp6bqaTwD5eg.mp3",
+    "audioBytes": 10312168,
+    "originalFilename": "Rush (Remastered).mp3",
     "audioSource": "https://soundcloud.com/fetchquest/rush-original-mix",
     "releaseStatus": "unverified",
     "streamingLinks": {},
@@ -1703,14 +2344,25 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 257.8
+    "durationSeconds": 257.802,
+    "drive": "https://drive.google.com/file/d/1gtQndEy94doJk4kk9DTIgp6bqaTwD5eg/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "bdb28094ddf915f4d3d69d56ba92827c1ca6cd2be12f3eb7c9d5f40ac6e55bee",
+    "archiveSources": [
+      {
+        "driveId": "1gtQndEy94doJk4kk9DTIgp6bqaTwD5eg",
+        "filename": "Rush (Remastered).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1gtQndEy94doJk4kk9DTIgp6bqaTwD5eg/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "sc-166192778",
     "title": "Cerberus",
     "artist": "Audionerds",
     "type": "SoundCloud archive",
-    "duration": "4:58",
+    "duration": "4:59",
     "soundcloud": "https://soundcloud.com/fetchquest/cerberus-original-mix",
     "soundcloudId": 166192778,
     "releaseDate": "2014-09-04",
@@ -1726,14 +2378,15 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 298.66
+    "durationSeconds": 298.632,
+    "audioBitrateKbps": 128
   },
   {
     "id": "sc-162264310",
     "title": "Wanderlust",
     "artist": "Audionerds",
     "type": "SoundCloud archive",
-    "duration": "3:53",
+    "duration": "3:54",
     "soundcloud": "https://soundcloud.com/fetchquest/wanderlust-original-mix",
     "soundcloudId": 162264310,
     "releaseDate": "2014-08-08",
@@ -1749,14 +2402,15 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 233.64
+    "durationSeconds": 233.613,
+    "audioBitrateKbps": 128
   },
   {
     "id": "sc-161938426",
     "title": "Ramble",
     "artist": "Audionerds",
     "type": "SoundCloud archive",
-    "duration": "4:33",
+    "duration": "4:34",
     "soundcloud": "https://soundcloud.com/fetchquest/ramble-original-mix",
     "soundcloudId": 161938426,
     "releaseDate": "2014-08-06",
@@ -1771,7 +2425,23 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 273.82
+    "durationSeconds": 273.816,
+    "audioBitrateKbps": 320,
+    "audioSha256": "bc611302763ceb189f206f43a652be1eb93fc873273fdac46b659e9c3e7bafcc",
+    "archiveSources": [
+      {
+        "driveId": "1kYgx-AbHJsu5944G5khXfE12wPKlaiKU",
+        "filename": "RAMBLE.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1kYgx-AbHJsu5944G5khXfE12wPKlaiKU/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1AMZ45TafSxVsM0tYdIKApl2LkjHpzNbP",
+        "filename": "ramble mastering.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1AMZ45TafSxVsM0tYdIKApl2LkjHpzNbP/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "sc-159426983",
@@ -1794,7 +2464,8 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 316.06
+    "durationSeconds": 316.029,
+    "audioBitrateKbps": 128
   },
   {
     "id": "sc-157018699",
@@ -1817,7 +2488,8 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 354.43
+    "durationSeconds": 354.403,
+    "audioBitrateKbps": 128
   },
   {
     "id": "sc-151646095",
@@ -1840,21 +2512,21 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 49.11
+    "durationSeconds": 49.084,
+    "audioBitrateKbps": 128
   },
   {
     "id": "sc-148327923",
     "title": "#NERD",
     "artist": "Epic Cheesy Toast",
     "type": "SoundCloud archive",
-    "duration": "4:50",
+    "duration": "4:51",
     "soundcloud": "https://soundcloud.com/fetchquest/nerd-original-mix",
     "soundcloudId": 148327923,
     "releaseDate": "2014-05-07",
-    "audio": "assets/audio/platform-sc-148327923.mp3",
-    "audioBytes": 4651466,
-    "originalFilename": "Epic Cheesy Toast - #NERD.mp3",
-    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1YQC8Wg1qPkiHMqohEDi2CQvDlWv0CL2Z.mp3",
+    "audioBytes": 11627694,
+    "originalFilename": "#NERD (self-mastered).mp3",
     "audioSource": "https://soundcloud.com/fetchquest/nerd-original-mix",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -1863,21 +2535,37 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 290.69
+    "durationSeconds": 290.691,
+    "drive": "https://drive.google.com/file/d/1YQC8Wg1qPkiHMqohEDi2CQvDlWv0CL2Z/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "b333df05068b580e1e17152f8eb861c5bb00e80a97cfa31771d969e9e71f0b5c",
+    "archiveSources": [
+      {
+        "driveId": "1YQC8Wg1qPkiHMqohEDi2CQvDlWv0CL2Z",
+        "filename": "#NERD (self-mastered).mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1YQC8Wg1qPkiHMqohEDi2CQvDlWv0CL2Z/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1xsEcf2hAM-1KB-XL_nqAYL0V-1tjo_vk",
+        "filename": "ECT_-_NERD.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1xsEcf2hAM-1KB-XL_nqAYL0V-1tjo_vk/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "sc-143482171",
     "title": "Popeska feat. Denny White - Heart Of Glass (Audionerds Remix)",
     "artist": "Epic Cheesy Toast",
     "type": "SoundCloud archive",
-    "duration": "4:48",
+    "duration": "4:49",
     "soundcloud": "https://soundcloud.com/fetchquest/popeska-feat-denny-white-heart",
     "soundcloudId": 143482171,
     "releaseDate": "2014-04-07",
-    "audio": "assets/audio/platform-sc-143482171.mp3",
-    "audioBytes": 4621373,
-    "originalFilename": "Epic Cheesy Toast - Popeska feat. Denny White - Heart Of Glass (Audionerds Remix).mp3",
-    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1ma0EeWraivphpPSSSEJAJg93c93h3WxB.mp3",
+    "audioBytes": 11552461,
+    "originalFilename": "Popeska ft. Denny White- Heart of Glass (ECT Remix).mp3",
     "audioSource": "https://soundcloud.com/fetchquest/popeska-feat-denny-white-heart",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -1886,7 +2574,18 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 288.81
+    "durationSeconds": 288.81,
+    "drive": "https://drive.google.com/file/d/1ma0EeWraivphpPSSSEJAJg93c93h3WxB/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "6d1f754e60a66ccf8212f153d876365abff2994553b8c33d10bff0e8a3471be9",
+    "archiveSources": [
+      {
+        "driveId": "1ma0EeWraivphpPSSSEJAJg93c93h3WxB",
+        "filename": "Popeska ft. Denny White- Heart of Glass (ECT Remix).mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1ma0EeWraivphpPSSSEJAJg93c93h3WxB/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "sc-141846543",
@@ -1897,10 +2596,9 @@ const catalog = [
     "soundcloud": "https://soundcloud.com/fetchquest/havoc-original-mix",
     "soundcloudId": 141846543,
     "releaseDate": "2014-03-28",
-    "audio": "assets/audio/platform-sc-141846543.mp3",
-    "audioBytes": 3941354,
-    "originalFilename": "Epic Cheesy Toast - Havoc.mp3",
-    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/10wZ7YBlC-p-ApIWdnWxS4OxuqLqMqlnw.mp3",
+    "audioBytes": 10508842,
+    "originalFilename": "Epic Cheesy Toast - Havoc (Original Mix).mp3",
     "audioSource": "https://soundcloud.com/fetchquest/havoc-original-mix",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -1909,7 +2607,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 246.31
+    "durationSeconds": 246.309,
+    "drive": "https://drive.google.com/file/d/10wZ7YBlC-p-ApIWdnWxS4OxuqLqMqlnw/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "b5dd6abb17d4061edc6b99d2c833a587659249877827e5e30942be063e41e2b6",
+    "archiveSources": [
+      {
+        "driveId": "10wZ7YBlC-p-ApIWdnWxS4OxuqLqMqlnw",
+        "filename": "Epic Cheesy Toast - Havoc (Original Mix).mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/10wZ7YBlC-p-ApIWdnWxS4OxuqLqMqlnw/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1pnoALX4BELCJHf-AOFUMVPNz7lZRq3hu",
+        "filename": "Havoc (Original Mix).mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1pnoALX4BELCJHf-AOFUMVPNz7lZRq3hu/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "sc-123517237",
@@ -1920,10 +2635,9 @@ const catalog = [
     "soundcloud": "https://soundcloud.com/fetchquest/prmt-preview",
     "soundcloudId": 123517237,
     "releaseDate": "2013-12-06",
-    "audio": "assets/audio/platform-sc-123517237.mp3",
-    "audioBytes": 3158152,
-    "originalFilename": "Epic Cheesy Toast - PRMT [Preview].mp3",
-    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1IkfR18FhFs3FVb83CIk399JjUqx4OC3w.mp3",
+    "audioBytes": 6468741,
+    "originalFilename": "PRMT Preview.mp3",
     "audioSource": "https://soundcloud.com/fetchquest/prmt-preview",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -1932,45 +2646,31 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 135.16
-  },
-  {
-    "id": "sc-123516494",
-    "title": "Framework",
-    "artist": "Epic Cheesy Toast",
-    "type": "SoundCloud archive",
-    "duration": "5:15",
-    "soundcloud": "https://soundcloud.com/fetchquest/framework-original-mix-1",
-    "soundcloudId": 123516494,
-    "releaseDate": "2013-12-06",
-    "youtube": "eM5e2KXR2d8",
-    "audio": "assets/audio/platform-sc-123516494.mp3",
-    "audioBytes": 7598901,
-    "originalFilename": "Epic Cheesy Toast - Framework.mp3",
-    "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=eM5e2KXR2d8",
-    "releaseStatus": "unofficial",
-    "streamingLinks": {},
-    "releaseVerification": {
-      "checkedAt": "2026-10-05",
-      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
-      "source": "Project owner"
-    },
-    "durationSeconds": 315.29
+    "durationSeconds": 135.053,
+    "drive": "https://drive.google.com/file/d/1IkfR18FhFs3FVb83CIk399JjUqx4OC3w/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "f55fcc800c327c1de806366f230763c861e296c0c85e2b3ea20e5b6bf7b480dd",
+    "archiveSources": [
+      {
+        "driveId": "1IkfR18FhFs3FVb83CIk399JjUqx4OC3w",
+        "filename": "PRMT Preview.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1IkfR18FhFs3FVb83CIk399JjUqx4OC3w/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "sc-118080584",
     "title": "Kids",
     "artist": "Epic Cheesy Toast",
     "type": "SoundCloud archive",
-    "duration": "4:03",
+    "duration": "4:04",
     "soundcloud": "https://soundcloud.com/fetchquest/kids-original-mix",
     "soundcloudId": 118080584,
     "releaseDate": "2013-11-01",
-    "audio": "assets/audio/platform-sc-118080584.mp3",
-    "audioBytes": 3898722,
-    "originalFilename": "Epic Cheesy Toast - Kids.mp3",
-    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/16B_4VK1Pj-nd77yTB8GtIZ1JdSCzJfN5.mp3",
+    "audioBytes": 15634871,
+    "originalFilename": "Kids.mp3",
     "audioSource": "https://soundcloud.com/fetchquest/kids-original-mix",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -1979,21 +2679,31 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 243.64
+    "durationSeconds": 243.644,
+    "drive": "https://drive.google.com/file/d/16B_4VK1Pj-nd77yTB8GtIZ1JdSCzJfN5/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "b84c1adbb29b377e2f3b680db70b2da776db316552ad4ad423671692fbb24da9",
+    "archiveSources": [
+      {
+        "driveId": "16B_4VK1Pj-nd77yTB8GtIZ1JdSCzJfN5",
+        "filename": "Kids.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/16B_4VK1Pj-nd77yTB8GtIZ1JdSCzJfN5/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "sc-113620964",
     "title": "The Origin Of Life",
     "artist": "Epic Cheesy Toast",
     "type": "SoundCloud archive",
-    "duration": "5:22",
+    "duration": "5:23",
     "soundcloud": "https://soundcloud.com/fetchquest/the-origin-of-life",
     "soundcloudId": 113620964,
     "releaseDate": "2013-10-03",
-    "audio": "assets/audio/platform-sc-113620964.mp3",
-    "audioBytes": 5161377,
-    "originalFilename": "Epic Cheesy Toast - The Origin Of Life.mp3",
-    "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1IazbVm2OR_-0dLRh0ql3OtEFZM2GDPhf.mp3",
+    "audioBytes": 13483024,
+    "originalFilename": "The Origin Of Life (Original Mix) [Self-Mastered].mp3",
     "audioSource": "https://soundcloud.com/fetchquest/the-origin-of-life",
     "releaseStatus": "unofficial",
     "streamingLinks": {},
@@ -2002,14 +2712,25 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 322.56
+    "durationSeconds": 322.612,
+    "drive": "https://drive.google.com/file/d/1IazbVm2OR_-0dLRh0ql3OtEFZM2GDPhf/view?usp=drivesdk",
+    "audioBitrateKbps": 320,
+    "audioSha256": "16031c7724c40a06e2f80292454199f11ff6ca0e20480767d7eda69384f21df9",
+    "archiveSources": [
+      {
+        "driveId": "1IazbVm2OR_-0dLRh0ql3OtEFZM2GDPhf",
+        "filename": "The Origin Of Life (Original Mix) [Self-Mastered].mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1IazbVm2OR_-0dLRh0ql3OtEFZM2GDPhf/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "sc-105887583",
     "title": "Bonecrusher",
     "artist": "Epic Cheesy Toast",
     "type": "SoundCloud archive",
-    "duration": "4:52",
+    "duration": "4:53",
     "soundcloud": "https://soundcloud.com/fetchquest/bonecrusher",
     "soundcloudId": 105887583,
     "releaseDate": "2013-08-17",
@@ -2024,14 +2745,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 292.55
+    "durationSeconds": 292.545,
+    "audioBitrateKbps": 320,
+    "audioSha256": "6feadec81fe28095621e663d3df95f50a0942dfd7c406fed2286ada72314de88",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7eGV1UUFXMDVydk0",
+        "filename": "Bonecrusher.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7eGV1UUFXMDVydk0/view?usp=drivesdk&resourcekey=0-91mW5dj-LeerO3uVIBJ1rQ"
+      }
+    ]
   },
   {
     "id": "sc-78908151",
     "title": "Space-Time Continuum",
     "artist": "Epic Cheesy Toast",
     "type": "SoundCloud archive",
-    "duration": "5:16",
+    "duration": "5:17",
     "soundcloud": "https://soundcloud.com/fetchquest/epic-cheesy-toast-space-time",
     "soundcloudId": 78908151,
     "releaseDate": "2013-02-12",
@@ -2046,13 +2777,23 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 316.92
+    "durationSeconds": 316.918,
+    "audioBitrateKbps": 320,
+    "audioSha256": "6f0606c3fbbc0b5835fc5a5f5aa9bf2414ede68d8e07a486dcfd3386342796aa",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7OGhqSkRWcWFKd1k",
+        "filename": "1. Space-Time Continuum.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7OGhqSkRWcWFKd1k/view?usp=drivesdk&resourcekey=0-IexnN_zso6vtvdumLLk8Qw"
+      }
+    ]
   },
   {
     "id": "1ZwcQz0s2tg",
     "title": "First Love Twice",
     "artist": "Epic Cheesy Toast",
-    "duration": "5:43",
+    "duration": "5:44",
     "type": "Early archive",
     "youtube": "1ZwcQz0s2tg",
     "audio": "assets/audio/0B6qg46ChnRO7XzlCbFdPTVQ4VzQ.mp3",
@@ -2066,16 +2807,26 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 343.95,
+    "durationSeconds": 343.954,
     "releaseDate": "2013-02-16",
-    "releaseDateSource": "https://www.youtube.com/watch?v=1ZwcQz0s2tg"
+    "releaseDateSource": "https://www.youtube.com/watch?v=1ZwcQz0s2tg",
+    "audioBitrateKbps": 320,
+    "audioSha256": "490b1004fe25cd22578e300d71a892f2437375fa86567e75e8dcd5d42e75848e",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7XzlCbFdPTVQ4VzQ",
+        "filename": "2. First Love Twice.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7XzlCbFdPTVQ4VzQ/view?usp=drivesdk&resourcekey=0-7a9usBcIA_0Iko4NEffyEA"
+      }
+    ]
   },
   {
     "id": "drive-15P2bALLS297Ty5zmxQ-RscwPZcCvRK4r",
     "title": "lord of power 2",
-    "artist": "Unassigned",
+    "artist": "peacepipe04",
     "type": "Studio archive · credit to confirm",
-    "duration": "0:30",
+    "duration": "0:31",
     "audio": "assets/audio/15P2bALLS297Ty5zmxQ-RscwPZcCvRK4r.mp3",
     "drive": "https://drive.google.com/file/d/15P2bALLS297Ty5zmxQ-RscwPZcCvRK4r/view?usp=drivesdk",
     "originalFilename": "lord of power_2.mp3",
@@ -2087,14 +2838,24 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 30.56
+    "durationSeconds": 30.563,
+    "audioBitrateKbps": 320,
+    "audioSha256": "9ab565cc3316496f6b30a04d075de675a4ba58af4bf178bcb5053d32db577240",
+    "archiveSources": [
+      {
+        "driveId": "15P2bALLS297Ty5zmxQ-RscwPZcCvRK4r",
+        "filename": "lord of power_2.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/15P2bALLS297Ty5zmxQ-RscwPZcCvRK4r/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "drive-1OoBD5bR9l5-x2llyNMZ7uTfFQjWVjFQW",
     "title": "butterfly fever dream",
-    "artist": "Unassigned",
+    "artist": "peacepipe04",
     "type": "Studio archive · credit to confirm",
-    "duration": "1:45",
+    "duration": "1:46",
     "audio": "assets/audio/1OoBD5bR9l5-x2llyNMZ7uTfFQjWVjFQW.mp3",
     "drive": "https://drive.google.com/file/d/1OoBD5bR9l5-x2llyNMZ7uTfFQjWVjFQW/view?usp=drivesdk",
     "originalFilename": "butterfly fever dream.mp3",
@@ -2106,52 +2867,24 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 105.56
-  },
-  {
-    "id": "drive-1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr",
-    "title": "Drum N Bass 03 final",
-    "artist": "Unassigned",
-    "type": "Studio archive · credit to confirm",
-    "duration": "3:53",
-    "audio": "assets/audio/1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr.mp3",
-    "drive": "https://drive.google.com/file/d/1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr/view?usp=drivesdk",
-    "originalFilename": "Drum N Bass 03_final.mp3",
-    "audioBytes": 9346682,
-    "releaseStatus": "unverified",
-    "streamingLinks": {},
-    "releaseVerification": {
-      "checkedAt": "2026-10-05",
-      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
-      "source": null
-    },
-    "durationSeconds": 233.67
-  },
-  {
-    "id": "drive-1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ",
-    "title": "Мамбетский Мидтехно 08",
-    "artist": "Unassigned",
-    "type": "Studio archive · credit to confirm",
-    "duration": "3:15",
-    "audio": "assets/audio/1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ.mp3",
-    "drive": "https://drive.google.com/file/d/1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ/view?usp=drivesdk",
-    "originalFilename": "Мамбетский Мидтехно 08.mp3",
-    "audioBytes": 7825310,
-    "releaseStatus": "unverified",
-    "streamingLinks": {},
-    "releaseVerification": {
-      "checkedAt": "2026-10-05",
-      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
-      "source": null
-    },
-    "durationSeconds": 195.63
+    "durationSeconds": 105.561,
+    "audioBitrateKbps": 320,
+    "audioSha256": "908715d8881ec091e45462e39fe41df8007f4d361a1cf00b0ab907386ea17033",
+    "archiveSources": [
+      {
+        "driveId": "1OoBD5bR9l5-x2llyNMZ7uTfFQjWVjFQW",
+        "filename": "butterfly fever dream.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1OoBD5bR9l5-x2llyNMZ7uTfFQjWVjFQW/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "drive-1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM",
     "title": "WYCBA",
     "artist": "Fetch Quest",
     "type": "Drive original",
-    "duration": "3:03",
+    "duration": "3:04",
     "audio": "assets/audio/1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM.mp3",
     "drive": "https://drive.google.com/file/d/1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - WYCBA.mp3",
@@ -2163,33 +2896,24 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 183.93
-  },
-  {
-    "id": "drive-1rIn_zRT1H1dT9oI2DGNjINC90cq0f38E",
-    "title": "SYNTHWAVE FINAL",
-    "artist": "Unassigned",
-    "type": "Studio archive · credit to confirm",
-    "duration": "4:06",
-    "audio": "assets/audio/1rIn_zRT1H1dT9oI2DGNjINC90cq0f38E.mp3",
-    "drive": "https://drive.google.com/file/d/1rIn_zRT1H1dT9oI2DGNjINC90cq0f38E/view?usp=drivesdk",
-    "originalFilename": "SYNTHWAVE FINAL.mp3",
-    "audioBytes": 9857637,
-    "releaseStatus": "unverified",
-    "streamingLinks": {},
-    "releaseVerification": {
-      "checkedAt": "2026-10-05",
-      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
-      "source": null
-    },
-    "durationSeconds": 246.44
+    "durationSeconds": 183.928,
+    "audioBitrateKbps": 320,
+    "audioSha256": "d9905635326723a483cd803c4f5635d112914acae231a59aed99c51d6743535d",
+    "archiveSources": [
+      {
+        "driveId": "1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM",
+        "filename": "Fetch Quest - WYCBA.mp3",
+        "folder": "Fetch Quest",
+        "url": "https://drive.google.com/file/d/1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7MjBra1pOeVVjNDg",
     "title": "Sometimes Evolution Sucks",
-    "artist": "Unassigned",
+    "artist": "Epic Cheesy Toast",
     "type": "Studio archive · credit to confirm",
-    "duration": "5:21",
+    "duration": "5:22",
     "audio": "assets/audio/0B6qg46ChnRO7MjBra1pOeVVjNDg.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7MjBra1pOeVVjNDg/view?usp=drivesdk&resourcekey=0-5ns2yGpwkdGzEsHu2MGChg",
     "originalFilename": "Epic_Cheesy_Toast_-_Sometimes_Evolution_Sucks.mp3",
@@ -2201,7 +2925,17 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 321.52
+    "durationSeconds": 321.515,
+    "audioBitrateKbps": 320,
+    "audioSha256": "e56687193567a839a214fb7e0e1c74696ccdb1fc30dd632a2e166f5a7c229a91",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7MjBra1pOeVVjNDg",
+        "filename": "Epic_Cheesy_Toast_-_Sometimes_Evolution_Sucks.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7MjBra1pOeVVjNDg/view?usp=drivesdk&resourcekey=0-5ns2yGpwkdGzEsHu2MGChg"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7MkQyczU2TUVWUjg",
@@ -2220,14 +2954,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 327.29
+    "durationSeconds": 327.288,
+    "audioBitrateKbps": 320,
+    "audioSha256": "39583a911cac2d46cb012e4deb45539442ba92a9c198bc6a44e4c3966d8a55b6",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7MkQyczU2TUVWUjg",
+        "filename": "Epic Cheesy Toast - Mighty Maggots.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7MkQyczU2TUVWUjg/view?usp=drivesdk&resourcekey=0-RKDjXsGDwSW0Ceq6C4fyGA"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7aV9Ha3doNDNCNUU",
     "title": "ASIANS!",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "5:07",
+    "duration": "5:08",
     "audio": "assets/audio/0B6qg46ChnRO7aV9Ha3doNDNCNUU.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7aV9Ha3doNDNCNUU/view?usp=drivesdk&resourcekey=0-1v4SU43eo97NC8S_LeA_5A",
     "originalFilename": "Epic Cheesy Toast - ASIANS!.mp3",
@@ -2239,14 +2983,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 307.88
+    "durationSeconds": 307.879,
+    "audioBitrateKbps": 320,
+    "audioSha256": "6b4ded3ecd193752e9fe79333610c45006ce0fd4d59934ab4096bb723866937e",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7aV9Ha3doNDNCNUU",
+        "filename": "Epic Cheesy Toast - ASIANS!.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7aV9Ha3doNDNCNUU/view?usp=drivesdk&resourcekey=0-1v4SU43eo97NC8S_LeA_5A"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7YWVJeWpOWnpFMkE",
     "title": "Kleptomaniac",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "4:03",
+    "duration": "4:04",
     "audio": "assets/audio/0B6qg46ChnRO7YWVJeWpOWnpFMkE.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7YWVJeWpOWnpFMkE/view?usp=drivesdk&resourcekey=0-Vx4TrPXvmXsY_gWmYpqzUg",
     "originalFilename": "Epic Cheesy Toast - Kleptomaniac.mp3",
@@ -2258,7 +3012,17 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 243.83
+    "durationSeconds": 243.827,
+    "audioBitrateKbps": 320,
+    "audioSha256": "8b0c8d4142f31bfaad1e7401d06483b2e93390984cc0be150a06f74daa75554f",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7YWVJeWpOWnpFMkE",
+        "filename": "Epic Cheesy Toast - Kleptomaniac.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7YWVJeWpOWnpFMkE/view?usp=drivesdk&resourcekey=0-Vx4TrPXvmXsY_gWmYpqzUg"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7b0lIcUpyeC1DNGM",
@@ -2277,14 +3041,30 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 251.3
+    "durationSeconds": 251.298,
+    "audioBitrateKbps": 320,
+    "audioSha256": "214e8521910fadd8b4dc27aac7e61dbf0da092ddc586a5c7b4983a60dc4dbba8",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7b0lIcUpyeC1DNGM",
+        "filename": "Epic Cheesy Toast - Torque.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7b0lIcUpyeC1DNGM/view?usp=drivesdk&resourcekey=0-g-JE-t6YqonQhmrin0F1Kw"
+      },
+      {
+        "driveId": "13S2PQVWCuPgn6LJiSdXx2i14vUaUlF6_",
+        "filename": "epic_cheesy_toast_-_torque_(zaycev.net).mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/13S2PQVWCuPgn6LJiSdXx2i14vUaUlF6_/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7b3pYNzNkcVhCaFU",
     "title": "Chinese Mafia",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "2:32",
+    "duration": "2:33",
     "audio": "assets/audio/0B6qg46ChnRO7b3pYNzNkcVhCaFU.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7b3pYNzNkcVhCaFU/view?usp=drivesdk&resourcekey=0-EVLhW9tcekjaKVFpn2J2yQ",
     "originalFilename": "Epic Cheesy Toast - Chinese Mafia.mp3",
@@ -2296,7 +3076,17 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 152.53
+    "durationSeconds": 152.529,
+    "audioBitrateKbps": 320,
+    "audioSha256": "4965c3748e881328871f98ac4ccd4b1f2a2d5ce6bcd6b60ee4e5cc8efb50bef1",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7b3pYNzNkcVhCaFU",
+        "filename": "Epic Cheesy Toast - Chinese Mafia.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7b3pYNzNkcVhCaFU/view?usp=drivesdk&resourcekey=0-EVLhW9tcekjaKVFpn2J2yQ"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7ajRlMjFkRkZkZlE",
@@ -2315,14 +3105,30 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 134.17
+    "durationSeconds": 134.165,
+    "audioBitrateKbps": 320,
+    "audioSha256": "120ca8c624ae1702de192670cf687d5a2614ad3e0bfe028429f6d2c12417ba5e",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7ajRlMjFkRkZkZlE",
+        "filename": "Epic Cheese Toast - The Unleashed.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7ajRlMjFkRkZkZlE/view?usp=drivesdk&resourcekey=0-xry6vkcGNB-YL5wbCv8XuA"
+      },
+      {
+        "driveId": "1p75MGtHRFE_zSUwdEfuxP2MGfFGKbBie",
+        "filename": "epic cheesy toast - The Unleashed.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1p75MGtHRFE_zSUwdEfuxP2MGfFGKbBie/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7WkVJakVqZkZ6dGc",
     "title": "Coming Home",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "4:29",
+    "duration": "4:30",
     "audio": "assets/audio/0B6qg46ChnRO7WkVJakVqZkZ6dGc.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7WkVJakVqZkZ6dGc/view?usp=drivesdk&resourcekey=0-OsJtGsRJJHU6HEecg2RmLA",
     "originalFilename": "12. Coming Home.mp3",
@@ -2334,14 +3140,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 269.59
+    "durationSeconds": 269.584,
+    "audioBitrateKbps": 320,
+    "audioSha256": "b4c711f2b0c944f98c74e6e3314d934d245f1fb9c794f3fc5163af4e65d9698c",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7WkVJakVqZkZ6dGc",
+        "filename": "12. Coming Home.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7WkVJakVqZkZ6dGc/view?usp=drivesdk&resourcekey=0-OsJtGsRJJHU6HEecg2RmLA"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7R3JqYzhsV3luZVE",
     "title": "I'm Fine With That",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "5:44",
+    "duration": "5:45",
     "audio": "assets/audio/0B6qg46ChnRO7R3JqYzhsV3luZVE.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7R3JqYzhsV3luZVE/view?usp=drivesdk&resourcekey=0-vJmPclxHUtEQS1Pj7LaGHg",
     "originalFilename": "11. I'm Fine With That.mp3",
@@ -2353,14 +3169,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 344.66
+    "durationSeconds": 344.66,
+    "audioBitrateKbps": 320,
+    "audioSha256": "ca55bc3d8d14e46ec42c3f9c58367a4d1a67891656ef47be6d503cee98c9ae3a",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7R3JqYzhsV3luZVE",
+        "filename": "11. I'm Fine With That.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7R3JqYzhsV3luZVE/view?usp=drivesdk&resourcekey=0-vJmPclxHUtEQS1Pj7LaGHg"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7Uy1fTURrX0ZJOEk",
     "title": "Hello America!",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "5:34",
+    "duration": "5:35",
     "audio": "assets/audio/0B6qg46ChnRO7Uy1fTURrX0ZJOEk.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7Uy1fTURrX0ZJOEk/view?usp=drivesdk&resourcekey=0-goABhDM086CzLZW4YYJ6pw",
     "originalFilename": "10. Hello America!.mp3",
@@ -2372,7 +3198,17 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 334.68
+    "durationSeconds": 334.681,
+    "audioBitrateKbps": 320,
+    "audioSha256": "559210651ce318680800503e18b8de7f72b6e14a61b3f6454367bf954a341504",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7Uy1fTURrX0ZJOEk",
+        "filename": "10. Hello America!.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7Uy1fTURrX0ZJOEk/view?usp=drivesdk&resourcekey=0-goABhDM086CzLZW4YYJ6pw"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7RUZMek5mZjhrWkE",
@@ -2391,7 +3227,17 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 348
+    "durationSeconds": 348.003,
+    "audioBitrateKbps": 320,
+    "audioSha256": "4077f1dc6161ea289b13137e5f90cc695e80c0f62418ca872a5ef5ae60bbd40d",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7RUZMek5mZjhrWkE",
+        "filename": "9. Lunar.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7RUZMek5mZjhrWkE/view?usp=drivesdk&resourcekey=0-zY9i3OgRZUQEZoloO_KNHg"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7b1Rud1dWaThaM1k",
@@ -2410,7 +3256,23 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 338.03
+    "durationSeconds": 338.024,
+    "audioBitrateKbps": 320,
+    "audioSha256": "8de1a89a3fe9d3e899cc42a3aa2e55d9ffb71662196b6b804cfb1bfc9eaac904",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7b1Rud1dWaThaM1k",
+        "filename": "8. Art Of War.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7b1Rud1dWaThaM1k/view?usp=drivesdk&resourcekey=0-to-LQpp8OIg2aXfToHc5sg"
+      },
+      {
+        "driveId": "1V5-8UQIRfgs8p7IMd1X0I1H-HFobAygf",
+        "filename": "8. Art Of War.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1V5-8UQIRfgs8p7IMd1X0I1H-HFobAygf/view?usp=drivesdk"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7RE9qeV9JOFNRVEE",
@@ -2429,14 +3291,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 296.33
+    "durationSeconds": 296.333,
+    "audioBitrateKbps": 320,
+    "audioSha256": "374739a84d34ff7a7a1b3fd23ebf2eed98bb97b925e63c677e3ff76f57998948",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7RE9qeV9JOFNRVEE",
+        "filename": "7. Grandma's Isotopes.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7RE9qeV9JOFNRVEE/view?usp=drivesdk&resourcekey=0-JuhoKb_apJWb8AvsTdtx-g"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7bWpndnlaeWFoSzA",
     "title": "Caffeine Addicted",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "5:13",
+    "duration": "5:14",
     "audio": "assets/audio/0B6qg46ChnRO7bWpndnlaeWFoSzA.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7bWpndnlaeWFoSzA/view?usp=drivesdk&resourcekey=0-K82mmh0xojbAzZLkn257Ew",
     "originalFilename": "6. Caffeine Addicted.mp3",
@@ -2448,7 +3320,17 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 313.97
+    "durationSeconds": 313.966,
+    "audioBitrateKbps": 320,
+    "audioSha256": "76794f6983a9aceda2458fd5569f1063e0a63d17c0d7635e0798385747eecd03",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7bWpndnlaeWFoSzA",
+        "filename": "6. Caffeine Addicted.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7bWpndnlaeWFoSzA/view?usp=drivesdk&resourcekey=0-K82mmh0xojbAzZLkn257Ew"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7RUVKcTJ0RXU1RWM",
@@ -2467,14 +3349,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 312.4
+    "durationSeconds": 312.398,
+    "audioBitrateKbps": 320,
+    "audioSha256": "aac1972f2667f54179478088362937e5ad00cd81a2c4a522f68c19b18af466bb",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7RUVKcTJ0RXU1RWM",
+        "filename": "5. Bassey Trebleson.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7RUVKcTJ0RXU1RWM/view?usp=drivesdk&resourcekey=0-jGy9_3Twp6JRghRFWODkcA"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7WXFnSElYRlNYN1k",
     "title": "Humanoids",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "3:56",
+    "duration": "3:57",
     "audio": "assets/audio/0B6qg46ChnRO7WXFnSElYRlNYN1k.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7WXFnSElYRlNYN1k/view?usp=drivesdk&resourcekey=0--nvM-14-GhFa9o_D98NhPg",
     "originalFilename": "4. Humanoids.mp3",
@@ -2486,7 +3378,17 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 236.56
+    "durationSeconds": 236.565,
+    "audioBitrateKbps": 320,
+    "audioSha256": "de240801af16a3227b04854cca0667af24b25d82d062195eeeec0ab8264642e3",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7WXFnSElYRlNYN1k",
+        "filename": "4. Humanoids.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7WXFnSElYRlNYN1k/view?usp=drivesdk&resourcekey=0--nvM-14-GhFa9o_D98NhPg"
+      }
+    ]
   },
   {
     "id": "drive-0B6qg46ChnRO7V0tNUlJ5aTRHazA",
@@ -2505,52 +3407,24 @@ const catalog = [
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
     },
-    "durationSeconds": 391.44
-  },
-  {
-    "id": "drive-1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-",
-    "title": "Say No More",
-    "artist": "Audionerds",
-    "type": "Drive original",
-    "duration": "4:25",
-    "audio": "assets/audio/1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-.mp3",
-    "drive": "https://drive.google.com/file/d/1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-/view?usp=drivesdk",
-    "originalFilename": "Audionerds - Say No More (Original Mix).mp3",
-    "audioBytes": 10600559,
-    "releaseStatus": "unverified",
-    "streamingLinks": {},
-    "releaseVerification": {
-      "checkedAt": "2026-10-05",
-      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
-      "source": null
-    },
-    "durationSeconds": 265.01
-  },
-  {
-    "id": "drive-1MZq8yde9SGTceGrj81AsoaSDubp1j7tc",
-    "title": "Hitchhike",
-    "artist": "Audionerds",
-    "type": "Drive original",
-    "duration": "4:03",
-    "audio": "assets/audio/1MZq8yde9SGTceGrj81AsoaSDubp1j7tc.mp3",
-    "drive": "https://drive.google.com/file/d/1MZq8yde9SGTceGrj81AsoaSDubp1j7tc/view?usp=drivesdk",
-    "originalFilename": "Audionerds - Hitchhike (Original Mix).mp3",
-    "audioBytes": 9752102,
-    "releaseStatus": "unverified",
-    "streamingLinks": {},
-    "releaseVerification": {
-      "checkedAt": "2026-10-05",
-      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
-      "source": null
-    },
-    "durationSeconds": 243.8
+    "durationSeconds": 391.445,
+    "audioBitrateKbps": 320,
+    "audioSha256": "eeeccedceaed62ad7202fd31b5a400985fbf52c52e419fc3158e9c65010021d8",
+    "archiveSources": [
+      {
+        "driveId": "0B6qg46ChnRO7V0tNUlJ5aTRHazA",
+        "filename": "3. Reminiscence.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/0B6qg46ChnRO7V0tNUlJ5aTRHazA/view?usp=drivesdk&resourcekey=0-5UTTQGrVVy49LX5r7yuvSQ"
+      }
+    ]
   },
   {
     "id": "drive-15VBuSTsUeZtW9am90hMDDp53plVVV5iE",
     "title": "Mutation",
     "artist": "Unassigned",
     "type": "Studio archive · credit to confirm",
-    "duration": "3:50",
+    "duration": "3:51",
     "audio": "assets/audio/15VBuSTsUeZtW9am90hMDDp53plVVV5iE.mp3",
     "drive": "https://drive.google.com/file/d/15VBuSTsUeZtW9am90hMDDp53plVVV5iE/view?usp=drivesdk",
     "originalFilename": "Mutation_Mastered.mp3",
@@ -2563,14 +3437,15 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 230.66
+    "durationSeconds": 230.63,
+    "audioBitrateKbps": 320
   },
   {
     "id": "drive-0B6qg46ChnRO7MW92eUxzLW1yVjg",
     "title": "DanchikBaha [minus wave]",
     "artist": "Unassigned",
     "type": "Studio archive · credit to confirm",
-    "duration": "1:59",
+    "duration": "2:00",
     "audio": "assets/audio/0B6qg46ChnRO7MW92eUxzLW1yVjg.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7MW92eUxzLW1yVjg/view?usp=drivesdk&resourcekey=0-EiGW4HMnNhsS5P2MqMxtUw",
     "originalFilename": "DanchikBaha [minus wave].mp3",
@@ -2583,39 +3458,19 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 119.8
-  },
-  {
-    "id": "drive-1yATBQ2IaHV05AuTaA7_w3W5yPIFo_uNa",
-    "title": "AP mastered",
-    "artist": "Unassigned",
-    "type": "Studio archive · credit to confirm",
-    "duration": "5:16",
-    "audio": "assets/audio/1yATBQ2IaHV05AuTaA7_w3W5yPIFo_uNa.mp3",
-    "drive": "https://drive.google.com/file/d/1yATBQ2IaHV05AuTaA7_w3W5yPIFo_uNa/view?usp=drivesdk",
-    "originalFilename": "AP mastered.mp3",
-    "audioBytes": 12641219,
-    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup.",
-    "releaseStatus": "unverified",
-    "streamingLinks": {},
-    "releaseVerification": {
-      "checkedAt": "2026-10-05",
-      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
-      "source": null
-    },
-    "durationSeconds": 316
+    "durationSeconds": 119.76,
+    "audioBitrateKbps": 320
   },
   {
     "id": "drive-13eas8jXbRojM-rvWChDiEa1wq4IMOVk0",
     "title": "Decoy",
-    "artist": "Unassigned",
+    "artist": "Audionerds",
     "type": "Studio archive · credit to confirm",
     "duration": "4:11",
-    "audio": "assets/audio/13eas8jXbRojM-rvWChDiEa1wq4IMOVk0.mp3",
-    "drive": "https://drive.google.com/file/d/13eas8jXbRojM-rvWChDiEa1wq4IMOVk0/view?usp=drivesdk",
-    "originalFilename": "Decoy mastered.mp3",
-    "audioBytes": 10058231,
-    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup.",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/12bc_6xcM3hGz8hqjT2hw9jhN6pzt0sgx.mp3",
+    "drive": "https://drive.google.com/file/d/12bc_6xcM3hGz8hqjT2hw9jhN6pzt0sgx/view?usp=drivesdk",
+    "originalFilename": "Decoy Mastered.mp3",
+    "audioBytes": 10057212,
     "releaseStatus": "unverified",
     "streamingLinks": {},
     "releaseVerification": {
@@ -2623,27 +3478,2833 @@ const catalog = [
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
     },
-    "durationSeconds": 251.43
+    "durationSeconds": 251.429,
+    "audioBitrateKbps": 320,
+    "audioSha256": "f8946dd9fc0b8a4b3981c4dbc3a2a58ebf355b32355a4304d34c9e808e52d411",
+    "archiveSources": [
+      {
+        "driveId": "12bc_6xcM3hGz8hqjT2hw9jhN6pzt0sgx",
+        "filename": "Decoy Mastered.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/12bc_6xcM3hGz8hqjT2hw9jhN6pzt0sgx/view?usp=drivesdk"
+      }
+    ]
   },
   {
-    "id": "drive-1EcHk60ZVhAA2G8q_Gw_ti-8TdKnSeh9b",
-    "title": "Crossover",
-    "artist": "Audionerds",
-    "type": "Earlier master",
-    "duration": "5:08",
-    "audio": "assets/audio/1EcHk60ZVhAA2G8q_Gw_ti-8TdKnSeh9b.mp3",
-    "drive": "https://drive.google.com/file/d/1EcHk60ZVhAA2G8q_Gw_ti-8TdKnSeh9b/view?usp=drivesdk",
-    "originalFilename": "Audionerds - Crossover.mp3",
-    "audioBytes": 12321480,
-    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup.",
-    "releaseStatus": "unverified",
-    "streamingLinks": {},
+    "id": "drive-1TdlUMJaXf6thpFVttdsaGUOmN1iSvR5k",
+    "title": "question mark",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
     "releaseVerification": {
       "checkedAt": "2026-10-05",
-      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
-      "source": null
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
     },
-    "durationSeconds": 308.01
+    "durationSeconds": 41.953,
+    "duration": "0:42",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1TdlUMJaXf6thpFVttdsaGUOmN1iSvR5k.mp3",
+    "originalFilename": "fetch quest - question mark.mp3",
+    "drive": "https://drive.google.com/file/d/1TdlUMJaXf6thpFVttdsaGUOmN1iSvR5k/view?usp=drivesdk",
+    "audioBytes": 1684375,
+    "audioBitrateKbps": 320,
+    "audioSha256": "dab6447702300f8d1abc8714063dd7822799ed4bd41626f60ed6cd06553359b8",
+    "archiveSources": [
+      {
+        "driveId": "1TdlUMJaXf6thpFVttdsaGUOmN1iSvR5k",
+        "filename": "fetch quest - question mark.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1TdlUMJaXf6thpFVttdsaGUOmN1iSvR5k/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1G__lXeSxdSoC-x2ILMuLv_iEtCWv13-x",
+    "title": "trap",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 32.052,
+    "duration": "0:32",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1G__lXeSxdSoC-x2ILMuLv_iEtCWv13-x.mp3",
+    "originalFilename": "fetch quest - trap.mp3",
+    "drive": "https://drive.google.com/file/d/1G__lXeSxdSoC-x2ILMuLv_iEtCWv13-x/view?usp=drivesdk",
+    "audioBytes": 1339949,
+    "audioBitrateKbps": 320,
+    "audioSha256": "b0e7cf4115e1487a369313beae1a30e80dae92d5c4f99b15fc6bbd7ccfff232d",
+    "archiveSources": [
+      {
+        "driveId": "1G__lXeSxdSoC-x2ILMuLv_iEtCWv13-x",
+        "filename": "fetch quest - trap.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1G__lXeSxdSoC-x2ILMuLv_iEtCWv13-x/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1GKJxk_v8KJMbWENpNN03HFixySvjdI_J",
+    "title": "house",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 69.016,
+    "duration": "1:09",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1GKJxk_v8KJMbWENpNN03HFixySvjdI_J.mp3",
+    "originalFilename": "fq - house.mp3",
+    "drive": "https://drive.google.com/file/d/1GKJxk_v8KJMbWENpNN03HFixySvjdI_J/view?usp=drivesdk",
+    "audioBytes": 3221128,
+    "audioBitrateKbps": 320,
+    "audioSha256": "4682937bf6680e3c98c3b2f7d3400419186ea2b6097bb0e3cb49be4ec16620db",
+    "archiveSources": [
+      {
+        "driveId": "1GKJxk_v8KJMbWENpNN03HFixySvjdI_J",
+        "filename": "fq - house.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1GKJxk_v8KJMbWENpNN03HFixySvjdI_J/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1dixfOSnXOJsMNlnlSsoLtp4JUBS9Etpp",
+    "title": "synthwave3 (1)",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 69.878,
+    "duration": "1:10",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1dixfOSnXOJsMNlnlSsoLtp4JUBS9Etpp.mp3",
+    "originalFilename": "fq - synthwave3 (1).mp3",
+    "drive": "https://drive.google.com/file/d/1dixfOSnXOJsMNlnlSsoLtp4JUBS9Etpp/view?usp=drivesdk",
+    "audioBytes": 2801347,
+    "audioBitrateKbps": 320,
+    "audioSha256": "9234b411fffb33145d1c8dcc164e2a458688003e4cf0aa7bbcc685e635776123",
+    "archiveSources": [
+      {
+        "driveId": "1dixfOSnXOJsMNlnlSsoLtp4JUBS9Etpp",
+        "filename": "fq - synthwave3 (1).mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1dixfOSnXOJsMNlnlSsoLtp4JUBS9Etpp/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1145-PU2gzbjyFW5OJ0acmm2oAgoF8LXv",
+    "title": "lofi3",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 90.424,
+    "duration": "1:30",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1145-PU2gzbjyFW5OJ0acmm2oAgoF8LXv.mp3",
+    "originalFilename": "fq - lofi3.mp3",
+    "drive": "https://drive.google.com/file/d/1145-PU2gzbjyFW5OJ0acmm2oAgoF8LXv/view?usp=drivesdk",
+    "audioBytes": 3623671,
+    "audioBitrateKbps": 320,
+    "audioSha256": "e9960a128910640062c70df8a8615261653e5fcfd03d891e83e6c8712fcb2314",
+    "archiveSources": [
+      {
+        "driveId": "1145-PU2gzbjyFW5OJ0acmm2oAgoF8LXv",
+        "filename": "fq - lofi3.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1145-PU2gzbjyFW5OJ0acmm2oAgoF8LXv/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1kCRqHIcB3CamAn7GVh5BQNuF9gMsuMLf",
+    "title": "dnb1",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 24.021,
+    "duration": "0:24",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1kCRqHIcB3CamAn7GVh5BQNuF9gMsuMLf.mp3",
+    "originalFilename": "fq - dnb1.mp3",
+    "drive": "https://drive.google.com/file/d/1kCRqHIcB3CamAn7GVh5BQNuF9gMsuMLf/view?usp=drivesdk",
+    "audioBytes": 967539,
+    "audioBitrateKbps": 320,
+    "audioSha256": "5739bdcb67d9cd8c97064624febc9360e1a71d2a7f72ab9593cd079418e43f76",
+    "archiveSources": [
+      {
+        "driveId": "1kCRqHIcB3CamAn7GVh5BQNuF9gMsuMLf",
+        "filename": "fq - dnb1.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1kCRqHIcB3CamAn7GVh5BQNuF9gMsuMLf/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1DOgCwIxbJpBXLU7RMLf1591j_mj2x4nX",
+    "title": "fb2 2",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 76.84,
+    "duration": "1:17",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1DOgCwIxbJpBXLU7RMLf1591j_mj2x4nX.mp3",
+    "originalFilename": "fq - fb2_2.mp3",
+    "drive": "https://drive.google.com/file/d/1DOgCwIxbJpBXLU7RMLf1591j_mj2x4nX/view?usp=drivesdk",
+    "audioBytes": 3534595,
+    "audioBitrateKbps": 320,
+    "audioSha256": "e2095e2ad54f76943fa63025b28eb2cd727eeb6fe23cef6600eb5ae5af54509e",
+    "archiveSources": [
+      {
+        "driveId": "1DOgCwIxbJpBXLU7RMLf1591j_mj2x4nX",
+        "filename": "fq - fb2_2.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1DOgCwIxbJpBXLU7RMLf1591j_mj2x4nX/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1E8FuNmFPnjgK5uhVqb4VFfUi7Btqq5w8",
+    "title": "groovehouse1",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 45.049,
+    "duration": "0:45",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1E8FuNmFPnjgK5uhVqb4VFfUi7Btqq5w8.mp3",
+    "originalFilename": "fq - groovehouse1.mp3",
+    "drive": "https://drive.google.com/file/d/1E8FuNmFPnjgK5uhVqb4VFfUi7Btqq5w8/view?usp=drivesdk",
+    "audioBytes": 1808697,
+    "audioBitrateKbps": 320,
+    "audioSha256": "fe907c56035d8f3c093f7ad592ef51ff9a3134104ee44a3cb79b2062538c9f34",
+    "archiveSources": [
+      {
+        "driveId": "1E8FuNmFPnjgK5uhVqb4VFfUi7Btqq5w8",
+        "filename": "fq - groovehouse1.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1E8FuNmFPnjgK5uhVqb4VFfUi7Btqq5w8/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1uYf4dz8unlWpPSHdBy7X30m06GJhjG5F",
+    "title": "vapor",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 122.241,
+    "duration": "2:02",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1uYf4dz8unlWpPSHdBy7X30m06GJhjG5F.mp3",
+    "originalFilename": "fq - vapor.mp3",
+    "drive": "https://drive.google.com/file/d/1uYf4dz8unlWpPSHdBy7X30m06GJhjG5F/view?usp=drivesdk",
+    "audioBytes": 4927626,
+    "audioBitrateKbps": 320,
+    "audioSha256": "499bbfec844e8657de557d596b8a685c24034d8eea906b583d399bdb21c5fcc1",
+    "archiveSources": [
+      {
+        "driveId": "1uYf4dz8unlWpPSHdBy7X30m06GJhjG5F",
+        "filename": "fq - vapor.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1uYf4dz8unlWpPSHdBy7X30m06GJhjG5F/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1nPMS__btOTeUboCTVn5XkFgO67AiPfOD",
+    "title": "synthwave3",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 69.866,
+    "duration": "1:10",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1nPMS__btOTeUboCTVn5XkFgO67AiPfOD.mp3",
+    "originalFilename": "fq - synthwave3.mp3",
+    "drive": "https://drive.google.com/file/d/1nPMS__btOTeUboCTVn5XkFgO67AiPfOD/view?usp=drivesdk",
+    "audioBytes": 2801347,
+    "audioBitrateKbps": 320,
+    "audioSha256": "c70d0f16b8a292b2bb147cc498431b35a5c9e47aa0ff4281d2a5a83a84ae814c",
+    "archiveSources": [
+      {
+        "driveId": "1nPMS__btOTeUboCTVn5XkFgO67AiPfOD",
+        "filename": "fq - synthwave3.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1nPMS__btOTeUboCTVn5XkFgO67AiPfOD/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1vsRuvIVIg__RD0oXvnCNhYr93J03aDZl",
+    "title": "hiphop1",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 32.85,
+    "duration": "0:33",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1vsRuvIVIg__RD0oXvnCNhYr93J03aDZl.mp3",
+    "originalFilename": "fq - hiphop1.mp3",
+    "drive": "https://drive.google.com/file/d/1vsRuvIVIg__RD0oXvnCNhYr93J03aDZl/view?usp=drivesdk",
+    "audioBytes": 1320720,
+    "audioBitrateKbps": 320,
+    "audioSha256": "188d92bf8eb3b698033996beb3c47a1e0fa2b7b200c085a6e66905606d7db61a",
+    "archiveSources": [
+      {
+        "driveId": "1vsRuvIVIg__RD0oXvnCNhYr93J03aDZl",
+        "filename": "fq - hiphop1.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1vsRuvIVIg__RD0oXvnCNhYr93J03aDZl/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1x08ll07Ki7QnS2y1eKLFEAU3dZM6bUs_",
+    "title": "synthwave3 2",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 279.641,
+    "duration": "4:40",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1x08ll07Ki7QnS2y1eKLFEAU3dZM6bUs_.mp3",
+    "originalFilename": "synthwave3_2.mp3",
+    "drive": "https://drive.google.com/file/d/1x08ll07Ki7QnS2y1eKLFEAU3dZM6bUs_/view?usp=drivesdk",
+    "audioBytes": 11185702,
+    "audioBitrateKbps": 320,
+    "audioSha256": "6877860eefa195bb8467069f177119be707b366fde90544c68a540c4e12a240f",
+    "archiveSources": [
+      {
+        "driveId": "1-wKgLFJ67ItPmhoxXJiIuQ0QOoTVSKxf",
+        "filename": "fq - synthwave3_1.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1-wKgLFJ67ItPmhoxXJiIuQ0QOoTVSKxf/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1n4ZRf6bXdF3LQM2Cu3lcTseT9NeL4t81",
+        "filename": "fq - synthwave super omega track ultra.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1n4ZRf6bXdF3LQM2Cu3lcTseT9NeL4t81/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1x08ll07Ki7QnS2y1eKLFEAU3dZM6bUs_",
+        "filename": "synthwave3_2.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1x08ll07Ki7QnS2y1eKLFEAU3dZM6bUs_/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1hl1sgzpSUPPpduiz5RfzCc2JtZbp23_V",
+    "title": "hiphop1 1",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 52.233,
+    "duration": "0:52",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1hl1sgzpSUPPpduiz5RfzCc2JtZbp23_V.mp3",
+    "originalFilename": "fq - hiphop1_1.mp3",
+    "drive": "https://drive.google.com/file/d/1hl1sgzpSUPPpduiz5RfzCc2JtZbp23_V/view?usp=drivesdk",
+    "audioBytes": 2096038,
+    "audioBitrateKbps": 320,
+    "audioSha256": "2753cf37addc77bc970efafe222cbc848cb9b4df7c6980998b66024be36ae7d1",
+    "archiveSources": [
+      {
+        "driveId": "1hl1sgzpSUPPpduiz5RfzCc2JtZbp23_V",
+        "filename": "fq - hiphop1_1.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1hl1sgzpSUPPpduiz5RfzCc2JtZbp23_V/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1ghzia8hirKnQjyb8QIMJ_GRuQDawTE6P",
+    "title": "lofi4",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 76.971,
+    "duration": "1:17",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1ghzia8hirKnQjyb8QIMJ_GRuQDawTE6P.mp3",
+    "originalFilename": "fq - lofi4.mp3",
+    "drive": "https://drive.google.com/file/d/1ghzia8hirKnQjyb8QIMJ_GRuQDawTE6P/view?usp=drivesdk",
+    "audioBytes": 3085549,
+    "audioBitrateKbps": 320,
+    "audioSha256": "40d746ae46cf683504d69483e0f51dfa89923faac3368a4b203f734e63cb1b14",
+    "archiveSources": [
+      {
+        "driveId": "1ghzia8hirKnQjyb8QIMJ_GRuQDawTE6P",
+        "filename": "fq - lofi4.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1ghzia8hirKnQjyb8QIMJ_GRuQDawTE6P/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1Zw4kA2P2Z6jB4GmWVzOqj7xrx8W_LUot",
+    "title": "hiphop3",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 44.605,
+    "duration": "0:45",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1Zw4kA2P2Z6jB4GmWVzOqj7xrx8W_LUot.mp3",
+    "originalFilename": "fq - hiphop3.mp3",
+    "drive": "https://drive.google.com/file/d/1Zw4kA2P2Z6jB4GmWVzOqj7xrx8W_LUot/view?usp=drivesdk",
+    "audioBytes": 1790924,
+    "audioBitrateKbps": 320,
+    "audioSha256": "dd5143a980fa7a0f53f5c20c91d8c9a2bf74e59830f1cc08d680930c820afdaa",
+    "archiveSources": [
+      {
+        "driveId": "1Zw4kA2P2Z6jB4GmWVzOqj7xrx8W_LUot",
+        "filename": "fq - hiphop3.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1Zw4kA2P2Z6jB4GmWVzOqj7xrx8W_LUot/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1l4A78b5pRMNvfMtOD-oESdN6pcNGwOyj",
+    "title": "futurebass1 4",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 130.482,
+    "duration": "2:10",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1l4A78b5pRMNvfMtOD-oESdN6pcNGwOyj.mp3",
+    "originalFilename": "futurebass1_4.mp3",
+    "drive": "https://drive.google.com/file/d/1l4A78b5pRMNvfMtOD-oESdN6pcNGwOyj/view?usp=drivesdk",
+    "audioBytes": 5219334,
+    "audioBitrateKbps": 320,
+    "audioSha256": "bf3467b53ea8879c8d76342f4617e10fa2ed3acfb9cd663290e9062032c1e528",
+    "archiveSources": [
+      {
+        "driveId": "1AgP_jAtst2UYkqdb4cG1nY7xG-3ERy5m",
+        "filename": "fq - futurebass1_4.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1AgP_jAtst2UYkqdb4cG1nY7xG-3ERy5m/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1l4A78b5pRMNvfMtOD-oESdN6pcNGwOyj",
+        "filename": "futurebass1_4.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1l4A78b5pRMNvfMtOD-oESdN6pcNGwOyj/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1GBDjvZWVkHNgBJPlCa3fw6qnfShY8iXn",
+    "title": "piano1",
+    "artist": "Fetch Quest",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 57.64,
+    "duration": "0:58",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1GBDjvZWVkHNgBJPlCa3fw6qnfShY8iXn.mp3",
+    "originalFilename": "fq - piano1.mp3",
+    "drive": "https://drive.google.com/file/d/1GBDjvZWVkHNgBJPlCa3fw6qnfShY8iXn/view?usp=drivesdk",
+    "audioBytes": 2431303,
+    "audioBitrateKbps": 320,
+    "audioSha256": "8e07c382e0b23fb3a2e101404b76097c43358f7fc3adeec116fdba1c7d2cb74a",
+    "archiveSources": [
+      {
+        "driveId": "1GBDjvZWVkHNgBJPlCa3fw6qnfShY8iXn",
+        "filename": "fq - piano1.mp3",
+        "folder": "Archive root",
+        "url": "https://drive.google.com/file/d/1GBDjvZWVkHNgBJPlCa3fw6qnfShY8iXn/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1RcVL63QT-8yoohqUjqvf9CdAgtl3zOo2",
+    "title": "experiment3 - TBF melodic future bass4",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 212.376,
+    "duration": "3:32",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1RcVL63QT-8yoohqUjqvf9CdAgtl3zOo2.mp3",
+    "originalFilename": "experiment3 - TBF melodic future bass4.mp3",
+    "drive": "https://drive.google.com/file/d/1RcVL63QT-8yoohqUjqvf9CdAgtl3zOo2/view?usp=drivesdk",
+    "audioBytes": 8495090,
+    "audioBitrateKbps": 320,
+    "audioSha256": "fc0e1889fd1c57dbe23244d43a1a67f59d6a11663e9becceee302182736b9eba",
+    "archiveSources": [
+      {
+        "driveId": "1RcVL63QT-8yoohqUjqvf9CdAgtl3zOo2",
+        "filename": "experiment3 - TBF melodic future bass4.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1RcVL63QT-8yoohqUjqvf9CdAgtl3zOo2/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1ddlfvPPbc3_22KvMKlE6KBiScsApRxSW",
+    "title": "experiment3 - TBF melodic future bass3",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 198.531,
+    "duration": "3:19",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1ddlfvPPbc3_22KvMKlE6KBiScsApRxSW.mp3",
+    "originalFilename": "experiment3 - TBF melodic future bass3.mp3",
+    "drive": "https://drive.google.com/file/d/1ddlfvPPbc3_22KvMKlE6KBiScsApRxSW/view?usp=drivesdk",
+    "audioBytes": 7941294,
+    "audioBitrateKbps": 320,
+    "audioSha256": "f5405a6f5a4390cdb6fe4710e036ad5a02b9536f9b3469c836ed320e43f5819c",
+    "archiveSources": [
+      {
+        "driveId": "1ddlfvPPbc3_22KvMKlE6KBiScsApRxSW",
+        "filename": "experiment3 - TBF melodic future bass3.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1ddlfvPPbc3_22KvMKlE6KBiScsApRxSW/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1QJfeiyRQiSBVfTnqSzR92m8aXzb88uXq",
+    "title": "Electro House 3 - Woohoo",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 143.543,
+    "duration": "2:24",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1QJfeiyRQiSBVfTnqSzR92m8aXzb88uXq.mp3",
+    "originalFilename": "Electro House 3 - Woohoo.mp3",
+    "drive": "https://drive.google.com/file/d/1QJfeiyRQiSBVfTnqSzR92m8aXzb88uXq/view?usp=drivesdk",
+    "audioBytes": 5741784,
+    "audioBitrateKbps": 320,
+    "audioSha256": "bc7756a1ad26fc8ee032b133118b74e5a2286f215b893983e5c48ef6be2351d9",
+    "archiveSources": [
+      {
+        "driveId": "1QJfeiyRQiSBVfTnqSzR92m8aXzb88uXq",
+        "filename": "Electro House 3 - Woohoo.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1QJfeiyRQiSBVfTnqSzR92m8aXzb88uXq/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1GDDvMHkZO9g8i37XU0BLmuCyQNJpkXJG",
+    "title": "hiphop6 -weird stuf m8",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 10.736,
+    "duration": "0:11",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1GDDvMHkZO9g8i37XU0BLmuCyQNJpkXJG.mp3",
+    "originalFilename": "hiphop6 -weird stuf m8.mp3",
+    "drive": "https://drive.google.com/file/d/1GDDvMHkZO9g8i37XU0BLmuCyQNJpkXJG/view?usp=drivesdk",
+    "audioBytes": 429522,
+    "audioBitrateKbps": 320,
+    "audioSha256": "2002dde162bba8cc7663fd6e8d0248e7d71631fc1aeeff1e3922b3fb116e96b9",
+    "archiveSources": [
+      {
+        "driveId": "1GDDvMHkZO9g8i37XU0BLmuCyQNJpkXJG",
+        "filename": "hiphop6 -weird stuf m8.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1GDDvMHkZO9g8i37XU0BLmuCyQNJpkXJG/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-110dqo8utbQe-MtPTBrF3A5B4Rqh9nfVR",
+    "title": "groovehouse1 - TBF good melody for the drop",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 76.931,
+    "duration": "1:17",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/110dqo8utbQe-MtPTBrF3A5B4Rqh9nfVR.mp3",
+    "originalFilename": "groovehouse1 - TBF good melody for the drop.mp3",
+    "drive": "https://drive.google.com/file/d/110dqo8utbQe-MtPTBrF3A5B4Rqh9nfVR/view?usp=drivesdk",
+    "audioBytes": 3077294,
+    "audioBitrateKbps": 320,
+    "audioSha256": "61dff36dded1e82354aea0fc49af2f17ea1c4b1257699d95b61300bb1452dc3c",
+    "archiveSources": [
+      {
+        "driveId": "110dqo8utbQe-MtPTBrF3A5B4Rqh9nfVR",
+        "filename": "groovehouse1 - TBF good melody for the drop.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/110dqo8utbQe-MtPTBrF3A5B4Rqh9nfVR/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1wGCLhWROCQBeJUgb_DMxk2TCr8Mt15Hq",
+    "title": "groovehouse3 - TBF sick tune if done right",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 136.934,
+    "duration": "2:17",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1wGCLhWROCQBeJUgb_DMxk2TCr8Mt15Hq.mp3",
+    "originalFilename": "groovehouse3 - TBF sick tune if done right.mp3",
+    "drive": "https://drive.google.com/file/d/1wGCLhWROCQBeJUgb_DMxk2TCr8Mt15Hq/view?usp=drivesdk",
+    "audioBytes": 5477425,
+    "audioBitrateKbps": 320,
+    "audioSha256": "613aec7864401f8ce763f1abc62e208b1f4268770fb15c15d6d69078be1f531c",
+    "archiveSources": [
+      {
+        "driveId": "1wGCLhWROCQBeJUgb_DMxk2TCr8Mt15Hq",
+        "filename": "groovehouse3 - TBF sick tune if done right.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1wGCLhWROCQBeJUgb_DMxk2TCr8Mt15Hq/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1IoU5r2FGsvM3xBNqM_sNHPco26uZoUDw",
+    "title": "hiphop5-1",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 11.024,
+    "duration": "0:11",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1IoU5r2FGsvM3xBNqM_sNHPco26uZoUDw.mp3",
+    "originalFilename": "hiphop5-1.mp3",
+    "drive": "https://drive.google.com/file/d/1IoU5r2FGsvM3xBNqM_sNHPco26uZoUDw/view?usp=drivesdk",
+    "audioBytes": 441016,
+    "audioBitrateKbps": 320,
+    "audioSha256": "a85f64a1ad1f03768bd40f6b1f73bf37c2085486f17bfc9003e91449d872310a",
+    "archiveSources": [
+      {
+        "driveId": "1IoU5r2FGsvM3xBNqM_sNHPco26uZoUDw",
+        "filename": "hiphop5-1.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1IoU5r2FGsvM3xBNqM_sNHPco26uZoUDw/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1NXu-wovmzyg9rWEYDmXzlazs91I_JbX-",
+    "title": "Podcast2",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 26.462,
+    "duration": "0:26",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1NXu-wovmzyg9rWEYDmXzlazs91I_JbX-.mp3",
+    "originalFilename": "Podcast2.mp3",
+    "drive": "https://drive.google.com/file/d/1NXu-wovmzyg9rWEYDmXzlazs91I_JbX-/view?usp=drivesdk",
+    "audioBytes": 1058551,
+    "audioBitrateKbps": 320,
+    "audioSha256": "3a63dfcff5a9e9d71bb3eaab79cbc2036f7ca0c3fe797e98aa06eeb396ea3381",
+    "archiveSources": [
+      {
+        "driveId": "1NXu-wovmzyg9rWEYDmXzlazs91I_JbX-",
+        "filename": "Podcast2.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1NXu-wovmzyg9rWEYDmXzlazs91I_JbX-/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1trvXx-dmEwgskVtgOQaAFVnnYggEKeTz",
+    "title": "groovehouse1 3",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 76.931,
+    "duration": "1:17",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1trvXx-dmEwgskVtgOQaAFVnnYggEKeTz.mp3",
+    "originalFilename": "groovehouse1_3.mp3",
+    "drive": "https://drive.google.com/file/d/1trvXx-dmEwgskVtgOQaAFVnnYggEKeTz/view?usp=drivesdk",
+    "audioBytes": 3077294,
+    "audioBitrateKbps": 320,
+    "audioSha256": "e1e3c5870e680270161e6f7cdf12393141c882d95f35468762846faa32d434dc",
+    "archiveSources": [
+      {
+        "driveId": "1trvXx-dmEwgskVtgOQaAFVnnYggEKeTz",
+        "filename": "groovehouse1_3.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1trvXx-dmEwgskVtgOQaAFVnnYggEKeTz/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1Y4FMIekIZ5m8m6xbDbnzY0MiqwUZXhDE",
+    "title": "orchestral3",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 70.818,
+    "duration": "1:11",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1Y4FMIekIZ5m8m6xbDbnzY0MiqwUZXhDE.mp3",
+    "originalFilename": "orchestral3.mp3",
+    "drive": "https://drive.google.com/file/d/1Y4FMIekIZ5m8m6xbDbnzY0MiqwUZXhDE/view?usp=drivesdk",
+    "audioBytes": 2832788,
+    "audioBitrateKbps": 320,
+    "audioSha256": "48d1616a2e5ef641ef12db5368043c17c697fee191ca2123828ab39d45b39ebc",
+    "archiveSources": [
+      {
+        "driveId": "1Y4FMIekIZ5m8m6xbDbnzY0MiqwUZXhDE",
+        "filename": "orchestral3.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1Y4FMIekIZ5m8m6xbDbnzY0MiqwUZXhDE/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1EBv-7fJlarieL-f0eFgdoZSr-biyTVup",
+    "title": "Orchestral2",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 75.05,
+    "duration": "1:15",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1EBv-7fJlarieL-f0eFgdoZSr-biyTVup.mp3",
+    "originalFilename": "Orchestral2.mp3",
+    "drive": "https://drive.google.com/file/d/1EBv-7fJlarieL-f0eFgdoZSr-biyTVup/view?usp=drivesdk",
+    "audioBytes": 3002061,
+    "audioBitrateKbps": 320,
+    "audioSha256": "ae3fb66d78b13004f4f96962aee21f560de6e60297c9d672559654b3d1cc8ec7",
+    "archiveSources": [
+      {
+        "driveId": "1EBv-7fJlarieL-f0eFgdoZSr-biyTVup",
+        "filename": "Orchestral2.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1EBv-7fJlarieL-f0eFgdoZSr-biyTVup/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1QcSwSdQzzynZHsGc_R8vZU0omB5Fv2Cc",
+        "filename": "pls.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1QcSwSdQzzynZHsGc_R8vZU0omB5Fv2Cc/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1akttX9CGiVa5kdl1r8ZG_YgVzLeDM82d",
+    "title": "Orchestral1",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 56.294,
+    "duration": "0:56",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1akttX9CGiVa5kdl1r8ZG_YgVzLeDM82d.mp3",
+    "originalFilename": "Orchestral1.mp3",
+    "drive": "https://drive.google.com/file/d/1akttX9CGiVa5kdl1r8ZG_YgVzLeDM82d/view?usp=drivesdk",
+    "audioBytes": 2251825,
+    "audioBitrateKbps": 320,
+    "audioSha256": "fa8ab12cac8f448eeddb4b8367e734c5826d168c7660f4a1d39f8975805d47c8",
+    "archiveSources": [
+      {
+        "driveId": "1akttX9CGiVa5kdl1r8ZG_YgVzLeDM82d",
+        "filename": "Orchestral1.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1akttX9CGiVa5kdl1r8ZG_YgVzLeDM82d/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1dVpaRmwnG3UphYfvrVwjlEMePiwn272g",
+        "filename": "Orch.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1dVpaRmwnG3UphYfvrVwjlEMePiwn272g/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1N6xGY2KdQtjueeJ3Bt38TfzVijEkRwqd",
+    "title": "lofi5",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 96.705,
+    "duration": "1:37",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1N6xGY2KdQtjueeJ3Bt38TfzVijEkRwqd.mp3",
+    "originalFilename": "lofi5.mp3",
+    "drive": "https://drive.google.com/file/d/1N6xGY2KdQtjueeJ3Bt38TfzVijEkRwqd/view?usp=drivesdk",
+    "audioBytes": 3868281,
+    "audioBitrateKbps": 320,
+    "audioSha256": "5bc0e8ce314ca5e7334ab81c0144a0552ff2809b3f395b02186b08fdaf7915be",
+    "archiveSources": [
+      {
+        "driveId": "1N6xGY2KdQtjueeJ3Bt38TfzVijEkRwqd",
+        "filename": "lofi5.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1N6xGY2KdQtjueeJ3Bt38TfzVijEkRwqd/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1jWXrn5iaSiea0K1eQoI00-K7oZfcZUC2",
+    "title": "futurebass1 2",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 63.347,
+    "duration": "1:03",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1jWXrn5iaSiea0K1eQoI00-K7oZfcZUC2.mp3",
+    "originalFilename": "futurebass1_2.mp3",
+    "drive": "https://drive.google.com/file/d/1jWXrn5iaSiea0K1eQoI00-K7oZfcZUC2/view?usp=drivesdk",
+    "audioBytes": 2533946,
+    "audioBitrateKbps": 320,
+    "audioSha256": "8fafa41e4ebfc08c9079b50b78d3ef107f5f35bad78a2c17c4ceca8eeee80681",
+    "archiveSources": [
+      {
+        "driveId": "1jWXrn5iaSiea0K1eQoI00-K7oZfcZUC2",
+        "filename": "futurebass1_2.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1jWXrn5iaSiea0K1eQoI00-K7oZfcZUC2/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-131CSRnyJX8_Oe6Z5jW_uNzzEeFiQtLnE",
+    "title": "experiment3 3",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 175.438,
+    "duration": "2:55",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/131CSRnyJX8_Oe6Z5jW_uNzzEeFiQtLnE.mp3",
+    "originalFilename": "experiment3_3.mp3",
+    "drive": "https://drive.google.com/file/d/131CSRnyJX8_Oe6Z5jW_uNzzEeFiQtLnE/view?usp=drivesdk",
+    "audioBytes": 7017604,
+    "audioBitrateKbps": 320,
+    "audioSha256": "8dcd68e8e2a31bb1a1aea9964eca879047ef7daa555810f09c63043183f883d7",
+    "archiveSources": [
+      {
+        "driveId": "131CSRnyJX8_Oe6Z5jW_uNzzEeFiQtLnE",
+        "filename": "experiment3_3.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/131CSRnyJX8_Oe6Z5jW_uNzzEeFiQtLnE/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1gK8J4REGIHqsKGrVY9U5Ln27O-teuIRQ",
+    "title": "futurebass1 1",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 63.347,
+    "duration": "1:03",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1gK8J4REGIHqsKGrVY9U5Ln27O-teuIRQ.mp3",
+    "originalFilename": "futurebass1_1.mp3",
+    "drive": "https://drive.google.com/file/d/1gK8J4REGIHqsKGrVY9U5Ln27O-teuIRQ/view?usp=drivesdk",
+    "audioBytes": 2533946,
+    "audioBitrateKbps": 320,
+    "audioSha256": "a9e7647191d0993465520d88e755fb476edb9862383f3380d020a896c543ef81",
+    "archiveSources": [
+      {
+        "driveId": "1gK8J4REGIHqsKGrVY9U5Ln27O-teuIRQ",
+        "filename": "futurebass1_1.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1gK8J4REGIHqsKGrVY9U5Ln27O-teuIRQ/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1qlzpcG1t57ZJueUryXEQgfF45h6YGJa5",
+    "title": "oriental hip hop",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 29.074,
+    "duration": "0:29",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1qlzpcG1t57ZJueUryXEQgfF45h6YGJa5.mp3",
+    "originalFilename": "oriental hip hop.mp3",
+    "drive": "https://drive.google.com/file/d/1qlzpcG1t57ZJueUryXEQgfF45h6YGJa5/view?usp=drivesdk",
+    "audioBytes": 1163041,
+    "audioBitrateKbps": 320,
+    "audioSha256": "44e45d40d24df279c8486dc1fa6091a5f231b9088fc8c3095a16271c977de4bc",
+    "archiveSources": [
+      {
+        "driveId": "1qlzpcG1t57ZJueUryXEQgfF45h6YGJa5",
+        "filename": "oriental hip hop.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1qlzpcG1t57ZJueUryXEQgfF45h6YGJa5/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1m48gscteeE2l-NU6X5dJ5raY9c8ZuxNz",
+    "title": "test111215954",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 121.443,
+    "duration": "2:01",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1m48gscteeE2l-NU6X5dJ5raY9c8ZuxNz.mp3",
+    "originalFilename": "test111215954.mp3",
+    "drive": "https://drive.google.com/file/d/1m48gscteeE2l-NU6X5dJ5raY9c8ZuxNz/view?usp=drivesdk",
+    "audioBytes": 4857813,
+    "audioBitrateKbps": 320,
+    "audioSha256": "51d0aab0b0da8da27c18720137182c2bf3c6d2aea932315b67978b4da1688c29",
+    "archiveSources": [
+      {
+        "driveId": "1m48gscteeE2l-NU6X5dJ5raY9c8ZuxNz",
+        "filename": "test111215954.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1m48gscteeE2l-NU6X5dJ5raY9c8ZuxNz/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1vluML2zbjuwFmOWdlxpsjkRk2Kwi0NXg",
+    "title": "some piano melodies",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 158.25,
+    "duration": "2:38",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1vluML2zbjuwFmOWdlxpsjkRk2Kwi0NXg.mp3",
+    "originalFilename": "some piano melodies.mp3",
+    "drive": "https://drive.google.com/file/d/1vluML2zbjuwFmOWdlxpsjkRk2Kwi0NXg/view?usp=drivesdk",
+    "audioBytes": 6330061,
+    "audioBitrateKbps": 320,
+    "audioSha256": "c039a026fb2e52e9b941ae7bc6aa08743f1b63a3fa129ae51bbadad1fd86d030",
+    "archiveSources": [
+      {
+        "driveId": "1vluML2zbjuwFmOWdlxpsjkRk2Kwi0NXg",
+        "filename": "some piano melodies.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1vluML2zbjuwFmOWdlxpsjkRk2Kwi0NXg/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1oBfhHFx9YBiP4g-4jU8jAvM5QO4wpnO0",
+    "title": "is this epic.",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 18.338,
+    "duration": "0:18",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1oBfhHFx9YBiP4g-4jU8jAvM5QO4wpnO0.mp3",
+    "originalFilename": "is this epic..mp3",
+    "drive": "https://drive.google.com/file/d/1oBfhHFx9YBiP4g-4jU8jAvM5QO4wpnO0/view?usp=drivesdk",
+    "audioBytes": 733588,
+    "audioBitrateKbps": 320,
+    "audioSha256": "e0c366ded3af0703c96edc75f1de169a6b3fb8a0c09cf33611db2cb4e54e2b12",
+    "archiveSources": [
+      {
+        "driveId": "1oBfhHFx9YBiP4g-4jU8jAvM5QO4wpnO0",
+        "filename": "is this epic..mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1oBfhHFx9YBiP4g-4jU8jAvM5QO4wpnO0/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1j486svB5KcUAMydJOrstnx7ICBnEp4A8",
+    "title": "criteria",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 18.808,
+    "duration": "0:19",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1j486svB5KcUAMydJOrstnx7ICBnEp4A8.mp3",
+    "originalFilename": "criteria.mp3",
+    "drive": "https://drive.google.com/file/d/1j486svB5KcUAMydJOrstnx7ICBnEp4A8/view?usp=drivesdk",
+    "audioBytes": 752396,
+    "audioBitrateKbps": 320,
+    "audioSha256": "795bdadd5aba6ae470c179843e50fd0c3e958cb59ddcb384645cb4d1138b8aa5",
+    "archiveSources": [
+      {
+        "driveId": "1j486svB5KcUAMydJOrstnx7ICBnEp4A8",
+        "filename": "criteria.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1j486svB5KcUAMydJOrstnx7ICBnEp4A8/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1TnTRpbDzVWDuJE5lvz2pJfayBA17KDnP",
+    "title": "lelelleel",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 15.935,
+    "duration": "0:16",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1TnTRpbDzVWDuJE5lvz2pJfayBA17KDnP.mp3",
+    "originalFilename": "lelelleel.mp3",
+    "drive": "https://drive.google.com/file/d/1TnTRpbDzVWDuJE5lvz2pJfayBA17KDnP/view?usp=drivesdk",
+    "audioBytes": 637457,
+    "audioBitrateKbps": 320,
+    "audioSha256": "47bf6dc910460ca295e3fb3760015e03af35bcc50302a3408b2dacba333c6e9d",
+    "archiveSources": [
+      {
+        "driveId": "1TnTRpbDzVWDuJE5lvz2pJfayBA17KDnP",
+        "filename": "lelelleel.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1TnTRpbDzVWDuJE5lvz2pJfayBA17KDnP/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-10JCiLWCbQ1aStaHwCVLbdI-vKvXWtcvu",
+    "title": "Progressive 01",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 94.041,
+    "duration": "1:34",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/10JCiLWCbQ1aStaHwCVLbdI-vKvXWtcvu.mp3",
+    "originalFilename": "Progressive 01.mp3",
+    "drive": "https://drive.google.com/file/d/10JCiLWCbQ1aStaHwCVLbdI-vKvXWtcvu/view?usp=drivesdk",
+    "audioBytes": 3761702,
+    "audioBitrateKbps": 320,
+    "audioSha256": "2a99b4f1160b909f776c858e563e987f158b93de76ae227b15478c6f358c9180",
+    "archiveSources": [
+      {
+        "driveId": "10JCiLWCbQ1aStaHwCVLbdI-vKvXWtcvu",
+        "filename": "Progressive 01.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/10JCiLWCbQ1aStaHwCVLbdI-vKvXWtcvu/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-18vqWUJCyiCd0Y6xBLhhyDxh0Bt3dH7U-",
+    "title": "Vargo",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 38.478,
+    "duration": "0:38",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/18vqWUJCyiCd0Y6xBLhhyDxh0Bt3dH7U-.mp3",
+    "originalFilename": "Vargo.mp3",
+    "drive": "https://drive.google.com/file/d/18vqWUJCyiCd0Y6xBLhhyDxh0Bt3dH7U-/view?usp=drivesdk",
+    "audioBytes": 1539204,
+    "audioBitrateKbps": 320,
+    "audioSha256": "6f350bcc3199950437c3f42955a7b3584007b6669aad7675cb92982391a0e2f3",
+    "archiveSources": [
+      {
+        "driveId": "18vqWUJCyiCd0Y6xBLhhyDxh0Bt3dH7U-",
+        "filename": "Vargo.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/18vqWUJCyiCd0Y6xBLhhyDxh0Bt3dH7U-/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1zd-rqPPIZOjsLGKJ7DG2QuBVnxVxDfEa",
+    "title": "Trap (2)",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 70.557,
+    "duration": "1:11",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1zd-rqPPIZOjsLGKJ7DG2QuBVnxVxDfEa.mp3",
+    "originalFilename": "Trap (2).mp3",
+    "drive": "https://drive.google.com/file/d/1zd-rqPPIZOjsLGKJ7DG2QuBVnxVxDfEa/view?usp=drivesdk",
+    "audioBytes": 2822338,
+    "audioBitrateKbps": 320,
+    "audioSha256": "c83ff58b4aec80f5c9358dddafc63152be6493a9e2e57f1415c1c990099220dc",
+    "archiveSources": [
+      {
+        "driveId": "1zd-rqPPIZOjsLGKJ7DG2QuBVnxVxDfEa",
+        "filename": "Trap (2).mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1zd-rqPPIZOjsLGKJ7DG2QuBVnxVxDfEa/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1XnZL2UEfrBnd2FL40swGbqMrQz0ReacQ",
+    "title": "payload",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 44.199,
+    "duration": "0:44",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1XnZL2UEfrBnd2FL40swGbqMrQz0ReacQ.mp3",
+    "originalFilename": "payload.mp3",
+    "drive": "https://drive.google.com/file/d/1XnZL2UEfrBnd2FL40swGbqMrQz0ReacQ/view?usp=drivesdk",
+    "audioBytes": 1768037,
+    "audioBitrateKbps": 320,
+    "audioSha256": "26656353f7717a7103fe4d4f603aff7cd208be9ffe2517e92c1206006fa3087c",
+    "archiveSources": [
+      {
+        "driveId": "1XnZL2UEfrBnd2FL40swGbqMrQz0ReacQ",
+        "filename": "payload.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1XnZL2UEfrBnd2FL40swGbqMrQz0ReacQ/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1lRXmLpH25UQ-iz8A7CD-EXcW1rRjl5Ga",
+    "title": "future house 2",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 32.94,
+    "duration": "0:33",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1lRXmLpH25UQ-iz8A7CD-EXcW1rRjl5Ga.mp3",
+    "originalFilename": "future house 2.mp3",
+    "drive": "https://drive.google.com/file/d/1lRXmLpH25UQ-iz8A7CD-EXcW1rRjl5Ga/view?usp=drivesdk",
+    "audioBytes": 1317686,
+    "audioBitrateKbps": 320,
+    "audioSha256": "7db5b384305c1cfd39c76be547c69fd154d64c4d7edeec9cb5d1d20fdc18bb3a",
+    "archiveSources": [
+      {
+        "driveId": "1lRXmLpH25UQ-iz8A7CD-EXcW1rRjl5Ga",
+        "filename": "future house 2.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1lRXmLpH25UQ-iz8A7CD-EXcW1rRjl5Ga/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1zOOTYV-hWpuOuU_qddIsdlJDFYa8Cqk2",
+    "title": "future house",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 144.039,
+    "duration": "2:24",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1zOOTYV-hWpuOuU_qddIsdlJDFYa8Cqk2.mp3",
+    "originalFilename": "future house.mp3",
+    "drive": "https://drive.google.com/file/d/1zOOTYV-hWpuOuU_qddIsdlJDFYa8Cqk2/view?usp=drivesdk",
+    "audioBytes": 5761637,
+    "audioBitrateKbps": 320,
+    "audioSha256": "7472bbd975ae245699dbca20a637e993b9a120854a2ad60bb92052837744a05b",
+    "archiveSources": [
+      {
+        "driveId": "1zOOTYV-hWpuOuU_qddIsdlJDFYa8Cqk2",
+        "filename": "future house.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1zOOTYV-hWpuOuU_qddIsdlJDFYa8Cqk2/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1--n5YGcZ_D1QaFOhhPFbhnTWDhyKfm3g",
+    "title": "001",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 183.798,
+    "duration": "3:04",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1--n5YGcZ_D1QaFOhhPFbhnTWDhyKfm3g.mp3",
+    "originalFilename": "001.mp3",
+    "drive": "https://drive.google.com/file/d/1--n5YGcZ_D1QaFOhhPFbhnTWDhyKfm3g/view?usp=drivesdk",
+    "audioBytes": 7351972,
+    "audioBitrateKbps": 320,
+    "audioSha256": "f17e9b3fe2974df08af57ab979441a96947c2e49231fb69a6e61512b91076cb0",
+    "archiveSources": [
+      {
+        "driveId": "1--n5YGcZ_D1QaFOhhPFbhnTWDhyKfm3g",
+        "filename": "001.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1--n5YGcZ_D1QaFOhhPFbhnTWDhyKfm3g/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1EHwEGhV4OL9R8xNTZ51FX6fG34ljBwHj",
+    "title": "Collab",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 42.841,
+    "duration": "0:43",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1EHwEGhV4OL9R8xNTZ51FX6fG34ljBwHj.mp3",
+    "originalFilename": "Collab.mp3",
+    "drive": "https://drive.google.com/file/d/1EHwEGhV4OL9R8xNTZ51FX6fG34ljBwHj/view?usp=drivesdk",
+    "audioBytes": 1713702,
+    "audioBitrateKbps": 320,
+    "audioSha256": "8b3784f8b86c976ba05053d5f9a25115aeb3a04102507e63b2aa42750050c6eb",
+    "archiveSources": [
+      {
+        "driveId": "1EHwEGhV4OL9R8xNTZ51FX6fG34ljBwHj",
+        "filename": "Collab.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1EHwEGhV4OL9R8xNTZ51FX6fG34ljBwHj/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1vP-B9CQSCMhpZuyArc0SnS_HFese3JoP",
+    "title": "Unlike",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 122.593,
+    "duration": "2:03",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1vP-B9CQSCMhpZuyArc0SnS_HFese3JoP.mp3",
+    "originalFilename": "Unlike.mp3",
+    "drive": "https://drive.google.com/file/d/1vP-B9CQSCMhpZuyArc0SnS_HFese3JoP/view?usp=drivesdk",
+    "audioBytes": 4903776,
+    "audioBitrateKbps": 320,
+    "audioSha256": "ac73162512481b1bd0caea9d91366556d786074d6ccdd3ff8065e176ca3646e3",
+    "archiveSources": [
+      {
+        "driveId": "1vP-B9CQSCMhpZuyArc0SnS_HFese3JoP",
+        "filename": "Unlike.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1vP-B9CQSCMhpZuyArc0SnS_HFese3JoP/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1mnZLJcbTxWUQIE-AxfOToxgmOjYjwAZR",
+    "title": "Electro Hoose",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 32.392,
+    "duration": "0:32",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1mnZLJcbTxWUQIE-AxfOToxgmOjYjwAZR.mp3",
+    "originalFilename": "Electro Hoose.mp3",
+    "drive": "https://drive.google.com/file/d/1mnZLJcbTxWUQIE-AxfOToxgmOjYjwAZR/view?usp=drivesdk",
+    "audioBytes": 1295743,
+    "audioBitrateKbps": 320,
+    "audioSha256": "4908fd93e24aba29c009ff7910dd35669bd536e77a0a1d55baeab2587f2a1a61",
+    "archiveSources": [
+      {
+        "driveId": "1mnZLJcbTxWUQIE-AxfOToxgmOjYjwAZR",
+        "filename": "Electro Hoose.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1mnZLJcbTxWUQIE-AxfOToxgmOjYjwAZR/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1n9kX8RKdRp8bYWURmMMn-UrCvuqzRSZw",
+    "title": "Bad Boy (3)",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 98.064,
+    "duration": "1:38",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1n9kX8RKdRp8bYWURmMMn-UrCvuqzRSZw.mp3",
+    "originalFilename": "Bad Boy (3).mp3",
+    "drive": "https://drive.google.com/file/d/1n9kX8RKdRp8bYWURmMMn-UrCvuqzRSZw/view?usp=drivesdk",
+    "audioBytes": 1961344,
+    "audioBitrateKbps": 160,
+    "audioSha256": "877981be9fbc50b4cffe3e522f46046f8264d23d8757c1a3ee4db10133edbdad",
+    "archiveSources": [
+      {
+        "driveId": "1n9kX8RKdRp8bYWURmMMn-UrCvuqzRSZw",
+        "filename": "Bad Boy (3).mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1n9kX8RKdRp8bYWURmMMn-UrCvuqzRSZw/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1O5utR3n8CeT00ZAGMD8AgidxZUeK5vNU",
+    "title": "Extremely",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 70.713,
+    "duration": "1:11",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1O5utR3n8CeT00ZAGMD8AgidxZUeK5vNU.mp3",
+    "originalFilename": "Extremely.mp3",
+    "drive": "https://drive.google.com/file/d/1O5utR3n8CeT00ZAGMD8AgidxZUeK5vNU/view?usp=drivesdk",
+    "audioBytes": 1414339,
+    "audioBitrateKbps": 160,
+    "audioSha256": "17c48af93c6c21ce4b958c53291606ef9ad0e997d87a616680b84fbcd51aea3a",
+    "archiveSources": [
+      {
+        "driveId": "1O5utR3n8CeT00ZAGMD8AgidxZUeK5vNU",
+        "filename": "Extremely.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1O5utR3n8CeT00ZAGMD8AgidxZUeK5vNU/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1KFWfpgwgqfry4R0RDOKBxZbiqkTwaddU",
+    "title": "woohoo preview",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 145.711,
+    "duration": "2:26",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1KFWfpgwgqfry4R0RDOKBxZbiqkTwaddU.mp3",
+    "originalFilename": "woohoo preview.mp3",
+    "drive": "https://drive.google.com/file/d/1KFWfpgwgqfry4R0RDOKBxZbiqkTwaddU/view?usp=drivesdk",
+    "audioBytes": 5828510,
+    "audioBitrateKbps": 320,
+    "audioSha256": "b68952cd35651e5777df2c22e8841d079a37e1d00f92ab655dc07ff1ba2a77dd",
+    "archiveSources": [
+      {
+        "driveId": "1KFWfpgwgqfry4R0RDOKBxZbiqkTwaddU",
+        "filename": "woohoo preview.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1KFWfpgwgqfry4R0RDOKBxZbiqkTwaddU/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1ziPhBPgMJ0fee6H50V34jlsVMB1qv_9y",
+    "title": "prakresif haus",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 79.752,
+    "duration": "1:20",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1ziPhBPgMJ0fee6H50V34jlsVMB1qv_9y.mp3",
+    "originalFilename": "prakresif haus.mp3",
+    "drive": "https://drive.google.com/file/d/1ziPhBPgMJ0fee6H50V34jlsVMB1qv_9y/view?usp=drivesdk",
+    "audioBytes": 3190143,
+    "audioBitrateKbps": 320,
+    "audioSha256": "da8f8443a25483f73fd97c9a3619dd14f772d6a1ddade1c001256f3cf654ee71",
+    "archiveSources": [
+      {
+        "driveId": "1ziPhBPgMJ0fee6H50V34jlsVMB1qv_9y",
+        "filename": "prakresif haus.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1ziPhBPgMJ0fee6H50V34jlsVMB1qv_9y/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1jqaouaJ2R2JR1JZ8AvFgLj-RiwfR0Wur",
+    "title": "unlike edit",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 86.309,
+    "duration": "1:26",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1jqaouaJ2R2JR1JZ8AvFgLj-RiwfR0Wur.mp3",
+    "originalFilename": "unlike edit.mp3",
+    "drive": "https://drive.google.com/file/d/1jqaouaJ2R2JR1JZ8AvFgLj-RiwfR0Wur/view?usp=drivesdk",
+    "audioBytes": 3452412,
+    "audioBitrateKbps": 320,
+    "audioSha256": "99c9cffef9bf4800ad6140536605bc5d9c4d45e745b6fac4009bff4914087208",
+    "archiveSources": [
+      {
+        "driveId": "1jqaouaJ2R2JR1JZ8AvFgLj-RiwfR0Wur",
+        "filename": "unlike edit.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1jqaouaJ2R2JR1JZ8AvFgLj-RiwfR0Wur/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-15nqbOKMSome2Htd9nu2YlibMnu7tYtfF",
+    "title": "Cerberus",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 285.048,
+    "duration": "4:45",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/15nqbOKMSome2Htd9nu2YlibMnu7tYtfF.mp3",
+    "originalFilename": "Cerberus.mp3",
+    "drive": "https://drive.google.com/file/d/15nqbOKMSome2Htd9nu2YlibMnu7tYtfF/view?usp=drivesdk",
+    "audioBytes": 12003742,
+    "audioBitrateKbps": 320,
+    "audioSha256": "d678c7a0bd7b7bd5dd3a6f63b35a5556142a315d79d96b97666f31c84dd9a926",
+    "archiveSources": [
+      {
+        "driveId": "15nqbOKMSome2Htd9nu2YlibMnu7tYtfF",
+        "filename": "Cerberus.mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/15nqbOKMSome2Htd9nu2YlibMnu7tYtfF/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1M9hG1_S7q226xWJhm4o17dUvGKpvBYAB",
+    "title": "Cataclysm (3)",
+    "artist": "Raiko",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 174.707,
+    "duration": "2:55",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1M9hG1_S7q226xWJhm4o17dUvGKpvBYAB.mp3",
+    "originalFilename": "Cataclysm (3).mp3",
+    "drive": "https://drive.google.com/file/d/1M9hG1_S7q226xWJhm4o17dUvGKpvBYAB/view?usp=drivesdk",
+    "audioBytes": 6988347,
+    "audioBitrateKbps": 320,
+    "audioSha256": "c8236b87a4b57eaf3677aff76778fb87648efc97340ffad7728d1de3480852e2",
+    "archiveSources": [
+      {
+        "driveId": "1M9hG1_S7q226xWJhm4o17dUvGKpvBYAB",
+        "filename": "Cataclysm (3).mp3",
+        "folder": "Raiko",
+        "url": "https://drive.google.com/file/d/1M9hG1_S7q226xWJhm4o17dUvGKpvBYAB/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1E6CiPaasVhUWczUrbyLGB-V24korJ8Ij",
+    "title": "Unlike (Edit)",
+    "artist": "Epic Cheesy Toast",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 285.048,
+    "duration": "4:45",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1E6CiPaasVhUWczUrbyLGB-V24korJ8Ij.mp3",
+    "originalFilename": "Unlike (Edit).mp3",
+    "drive": "https://drive.google.com/file/d/1E6CiPaasVhUWczUrbyLGB-V24korJ8Ij/view?usp=drivesdk",
+    "audioBytes": 11401996,
+    "audioBitrateKbps": 320,
+    "audioSha256": "a0f6da4579041c6b053e2c36d3690b12c954ce35a9fa4a981765d1342ac3e132",
+    "archiveSources": [
+      {
+        "driveId": "1E6CiPaasVhUWczUrbyLGB-V24korJ8Ij",
+        "filename": "Unlike (Edit).mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1E6CiPaasVhUWczUrbyLGB-V24korJ8Ij/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1NpzEefGTYK-fgVmH8PnVsB8FYW7GBY2l",
+    "title": "- Cowboy",
+    "artist": "Epic Cheesy Toast",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 354.429,
+    "duration": "5:54",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1NpzEefGTYK-fgVmH8PnVsB8FYW7GBY2l.mp3",
+    "originalFilename": "ECT_-_Cowboy.mp3",
+    "drive": "https://drive.google.com/file/d/1NpzEefGTYK-fgVmH8PnVsB8FYW7GBY2l/view?usp=drivesdk",
+    "audioBytes": 14177245,
+    "audioBitrateKbps": 320,
+    "audioSha256": "e46d11a4787da9c9e728f0bb4b1885e4bddca9acc7eef65d22291bef3b797edb",
+    "archiveSources": [
+      {
+        "driveId": "1NpzEefGTYK-fgVmH8PnVsB8FYW7GBY2l",
+        "filename": "ECT_-_Cowboy.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1NpzEefGTYK-fgVmH8PnVsB8FYW7GBY2l/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1Of7d8dwFwA2qda_uTX2NOMY5bUOxDiQx",
+    "title": "Machinist",
+    "artist": "Epic Cheesy Toast",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 264.385,
+    "duration": "4:24",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1Of7d8dwFwA2qda_uTX2NOMY5bUOxDiQx.mp3",
+    "originalFilename": "ECT - Machinist.mp3",
+    "drive": "https://drive.google.com/file/d/1Of7d8dwFwA2qda_uTX2NOMY5bUOxDiQx/view?usp=drivesdk",
+    "audioBytes": 10575482,
+    "audioBitrateKbps": 320,
+    "audioSha256": "8ba11386df5e36a297ced76531593369da284facce00adec3487a7dcb0168894",
+    "archiveSources": [
+      {
+        "driveId": "1Of7d8dwFwA2qda_uTX2NOMY5bUOxDiQx",
+        "filename": "ECT - Machinist.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1Of7d8dwFwA2qda_uTX2NOMY5bUOxDiQx/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1UF8lItZ8HP2VLwIcGa8PLPiSQyZ6PhZP",
+    "title": "Unlike",
+    "artist": "Epic Cheesy Toast",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 285.048,
+    "duration": "4:45",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1UF8lItZ8HP2VLwIcGa8PLPiSQyZ6PhZP.mp3",
+    "originalFilename": "Unlike (Original Mix).mp3",
+    "drive": "https://drive.google.com/file/d/1UF8lItZ8HP2VLwIcGa8PLPiSQyZ6PhZP/view?usp=drivesdk",
+    "audioBytes": 12445471,
+    "audioBitrateKbps": 320,
+    "audioSha256": "9e4a5d79abcdf0b3fecec8c15a83e4409f6b00b75ae91d630c41c143f780ac9e",
+    "archiveSources": [
+      {
+        "driveId": "1UF8lItZ8HP2VLwIcGa8PLPiSQyZ6PhZP",
+        "filename": "Unlike (Original Mix).mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1UF8lItZ8HP2VLwIcGa8PLPiSQyZ6PhZP/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1wAKcnubIfvfjRqxEaNtp97RndJVX8inK",
+    "title": "Simon",
+    "artist": "Epic Cheesy Toast",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 69.956,
+    "duration": "1:10",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1wAKcnubIfvfjRqxEaNtp97RndJVX8inK.mp3",
+    "originalFilename": "Simon.mp3",
+    "drive": "https://drive.google.com/file/d/1wAKcnubIfvfjRqxEaNtp97RndJVX8inK/view?usp=drivesdk",
+    "audioBytes": 7686716,
+    "audioBitrateKbps": 320,
+    "audioSha256": "1e75a9c7bea4218d29f57671eef37c85b4b96b60bf571b8b3e7ed2c22b612948",
+    "archiveSources": [
+      {
+        "driveId": "1wAKcnubIfvfjRqxEaNtp97RndJVX8inK",
+        "filename": "Simon.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1wAKcnubIfvfjRqxEaNtp97RndJVX8inK/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1427NdjnKvMZqWjlXDfvYKuMNCbvuuxn-",
+    "title": "Preview ECT - Badass Gemini From Past",
+    "artist": "Epic Cheesy Toast",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 127.687,
+    "duration": "2:08",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1427NdjnKvMZqWjlXDfvYKuMNCbvuuxn-.mp3",
+    "originalFilename": "Preview_ECT_-_Badass_Gemini_From_Past.mp3",
+    "drive": "https://drive.google.com/file/d/1427NdjnKvMZqWjlXDfvYKuMNCbvuuxn-/view?usp=drivesdk",
+    "audioBytes": 5107531,
+    "audioBitrateKbps": 320,
+    "audioSha256": "c887c5769ea95109e90e0de082570e3c80ed4a73e0049cc7b11e7af5e0541409",
+    "archiveSources": [
+      {
+        "driveId": "1427NdjnKvMZqWjlXDfvYKuMNCbvuuxn-",
+        "filename": "Preview_ECT_-_Badass_Gemini_From_Past.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1427NdjnKvMZqWjlXDfvYKuMNCbvuuxn-/view?usp=drivesdk"
+      },
+      {
+        "driveId": "1QhiLuSk-bioG_fg20e-1MJQj4NPUivVe",
+        "filename": "Slide.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1QhiLuSk-bioG_fg20e-1MJQj4NPUivVe/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-15MCaSz0n5I_6nXRxEkWoz7qB4uHz7CvT",
+    "title": "Kleph",
+    "artist": "Epic Cheesy Toast",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 121.208,
+    "duration": "2:01",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/15MCaSz0n5I_6nXRxEkWoz7qB4uHz7CvT.mp3",
+    "originalFilename": "Kleph.mp3",
+    "drive": "https://drive.google.com/file/d/15MCaSz0n5I_6nXRxEkWoz7qB4uHz7CvT/view?usp=drivesdk",
+    "audioBytes": 5321460,
+    "audioBitrateKbps": 320,
+    "audioSha256": "b8eac9041ed695418f455629c1f6d86ace3b3c9f044923a68f4a420acc129b47",
+    "archiveSources": [
+      {
+        "driveId": "15MCaSz0n5I_6nXRxEkWoz7qB4uHz7CvT",
+        "filename": "Kleph.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/15MCaSz0n5I_6nXRxEkWoz7qB4uHz7CvT/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1NIxuW3RNG7SVDywqlXMR9knc5Lx00gMd",
+    "title": "Cupcake Cocktail",
+    "artist": "Epic Cheesy Toast",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 309.42,
+    "duration": "5:09",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1NIxuW3RNG7SVDywqlXMR9knc5Lx00gMd.mp3",
+    "originalFilename": "epic cheesy toast - Cupcake Cocktail.mp3",
+    "drive": "https://drive.google.com/file/d/1NIxuW3RNG7SVDywqlXMR9knc5Lx00gMd/view?usp=drivesdk",
+    "audioBytes": 12386160,
+    "audioBitrateKbps": 320,
+    "audioSha256": "745ac4c72061c17937ab5e40a38ee78214c43db3462be68c0fdd17a9bc2c16dc",
+    "archiveSources": [
+      {
+        "driveId": "1NIxuW3RNG7SVDywqlXMR9knc5Lx00gMd",
+        "filename": "epic cheesy toast - Cupcake Cocktail.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1NIxuW3RNG7SVDywqlXMR9knc5Lx00gMd/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1rNAWDWbsIn2qhoAi-GKsTIaO4yFNx2Ua",
+    "title": "Recluse",
+    "artist": "Epic Cheesy Toast",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 264.438,
+    "duration": "4:24",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1rNAWDWbsIn2qhoAi-GKsTIaO4yFNx2Ua.mp3",
+    "originalFilename": "epic cheesy toast - Recluse.mp3",
+    "drive": "https://drive.google.com/file/d/1rNAWDWbsIn2qhoAi-GKsTIaO4yFNx2Ua/view?usp=drivesdk",
+    "audioBytes": 10581711,
+    "audioBitrateKbps": 320,
+    "audioSha256": "a1e76e39d0bb251b52ec22bd9d408438177e662572a19fad2938724c079c2dd0",
+    "archiveSources": [
+      {
+        "driveId": "1rNAWDWbsIn2qhoAi-GKsTIaO4yFNx2Ua",
+        "filename": "epic cheesy toast - Recluse.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1rNAWDWbsIn2qhoAi-GKsTIaO4yFNx2Ua/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1jPNN4W2RkW2F7m64NqWLRjhaAqXMUiMq",
+    "title": "Rocket Jump",
+    "artist": "Epic Cheesy Toast",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 306.782,
+    "duration": "5:07",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1jPNN4W2RkW2F7m64NqWLRjhaAqXMUiMq.mp3",
+    "originalFilename": "epic cheesy toast - Rocket Jump.mp3",
+    "drive": "https://drive.google.com/file/d/1jPNN4W2RkW2F7m64NqWLRjhaAqXMUiMq/view?usp=drivesdk",
+    "audioBytes": 6139893,
+    "audioBitrateKbps": 160,
+    "audioSha256": "229a754e7441890cad7f9d5a13f742648f08abb80409344a6ea7eb23fcb5bedd",
+    "archiveSources": [
+      {
+        "driveId": "1jPNN4W2RkW2F7m64NqWLRjhaAqXMUiMq",
+        "filename": "epic cheesy toast - Rocket Jump.mp3",
+        "folder": "Epic Cheesy Toast",
+        "url": "https://drive.google.com/file/d/1jPNN4W2RkW2F7m64NqWLRjhaAqXMUiMq/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-131llZ3DoAj4WCt00fQh-2w9xdPd1TYtW",
+    "title": "Machinist Preview",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 123.82,
+    "duration": "2:04",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/131llZ3DoAj4WCt00fQh-2w9xdPd1TYtW.mp3",
+    "originalFilename": "Machinist Preview.mp3",
+    "drive": "https://drive.google.com/file/d/131llZ3DoAj4WCt00fQh-2w9xdPd1TYtW/view?usp=drivesdk",
+    "audioBytes": 4952886,
+    "audioBitrateKbps": 320,
+    "audioSha256": "7c6723f8b0c1f2b92394390c5c166ed6de6bcaf9c1eb3f279d9260d0b207d2af",
+    "archiveSources": [
+      {
+        "driveId": "131llZ3DoAj4WCt00fQh-2w9xdPd1TYtW",
+        "filename": "Machinist Preview.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/131llZ3DoAj4WCt00fQh-2w9xdPd1TYtW/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1IOYM-VD0hhSYsu38axBvvpSeOSODBAfl",
+    "title": "trap",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 36.989,
+    "duration": "0:37",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1IOYM-VD0hhSYsu38axBvvpSeOSODBAfl.mp3",
+    "originalFilename": "trap.mp3",
+    "drive": "https://drive.google.com/file/d/1IOYM-VD0hhSYsu38axBvvpSeOSODBAfl/view?usp=drivesdk",
+    "audioBytes": 1479645,
+    "audioBitrateKbps": 320,
+    "audioSha256": "157a011344f3045179c68622592fe0e8b55f4f95f999ed317a4cc9b713426884",
+    "archiveSources": [
+      {
+        "driveId": "1IOYM-VD0hhSYsu38axBvvpSeOSODBAfl",
+        "filename": "trap.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1IOYM-VD0hhSYsu38axBvvpSeOSODBAfl/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1MW8vwrFdng8OVlV8TR-kSsNdOEFKOzfr",
+    "title": "Caravan",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 61.492,
+    "duration": "1:01",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1MW8vwrFdng8OVlV8TR-kSsNdOEFKOzfr.mp3",
+    "originalFilename": "Caravan.mp3",
+    "drive": "https://drive.google.com/file/d/1MW8vwrFdng8OVlV8TR-kSsNdOEFKOzfr/view?usp=drivesdk",
+    "audioBytes": 2459759,
+    "audioBitrateKbps": 320,
+    "audioSha256": "04bda1636a94a3c749f8e54fa33dceecd62c0159eba123c50ba727ad88d5c789",
+    "archiveSources": [
+      {
+        "driveId": "1MW8vwrFdng8OVlV8TR-kSsNdOEFKOzfr",
+        "filename": "Caravan.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1MW8vwrFdng8OVlV8TR-kSsNdOEFKOzfr/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1fRRj3u4uJ4b2wBlV8AAKoAKO48U6S6Cg",
+    "title": "Trap",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 59.167,
+    "duration": "0:59",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1fRRj3u4uJ4b2wBlV8AAKoAKO48U6S6Cg.mp3",
+    "originalFilename": "Trap.mp3",
+    "drive": "https://drive.google.com/file/d/1fRRj3u4uJ4b2wBlV8AAKoAKO48U6S6Cg/view?usp=drivesdk",
+    "audioBytes": 2366762,
+    "audioBitrateKbps": 320,
+    "audioSha256": "845ec172c0049cf36cdde5c3c5b69818c37a9894f2a74d4e40270f8d5597d85a",
+    "archiveSources": [
+      {
+        "driveId": "1fRRj3u4uJ4b2wBlV8AAKoAKO48U6S6Cg",
+        "filename": "Trap.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1fRRj3u4uJ4b2wBlV8AAKoAKO48U6S6Cg/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1wbLQBRbx7n4DzuCTXp7WPglWdwd2m1Zx",
+    "title": "ID",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 32.758,
+    "duration": "0:33",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1wbLQBRbx7n4DzuCTXp7WPglWdwd2m1Zx.mp3",
+    "originalFilename": "ID.mp3",
+    "drive": "https://drive.google.com/file/d/1wbLQBRbx7n4DzuCTXp7WPglWdwd2m1Zx/view?usp=drivesdk",
+    "audioBytes": 1310372,
+    "audioBitrateKbps": 320,
+    "audioSha256": "d93a9a0ff9a9887685eeca74467ce6f5e835bc53ef437b0bceead7ea1ce98964",
+    "archiveSources": [
+      {
+        "driveId": "1wbLQBRbx7n4DzuCTXp7WPglWdwd2m1Zx",
+        "filename": "ID.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1wbLQBRbx7n4DzuCTXp7WPglWdwd2m1Zx/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1UU_CwjsS0R1zjR8DNlyXJQXDHNgYoKec",
+    "title": "Us",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 22.544,
+    "duration": "0:23",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1UU_CwjsS0R1zjR8DNlyXJQXDHNgYoKec.mp3",
+    "originalFilename": "Us.mp3",
+    "drive": "https://drive.google.com/file/d/1UU_CwjsS0R1zjR8DNlyXJQXDHNgYoKec/view?usp=drivesdk",
+    "audioBytes": 901817,
+    "audioBitrateKbps": 320,
+    "audioSha256": "8097754b90faa5ca787ce80d1b0a8bd4f3c8d5e439e7995d23ddf729153ac5ce",
+    "archiveSources": [
+      {
+        "driveId": "1UU_CwjsS0R1zjR8DNlyXJQXDHNgYoKec",
+        "filename": "Us.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1UU_CwjsS0R1zjR8DNlyXJQXDHNgYoKec/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1gNtE13Gk4gc2-Y_70Y9LgEbGespvaOk2",
+    "title": "Melody",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 60.421,
+    "duration": "1:00",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1gNtE13Gk4gc2-Y_70Y9LgEbGespvaOk2.mp3",
+    "originalFilename": "Melody.mp3",
+    "drive": "https://drive.google.com/file/d/1gNtE13Gk4gc2-Y_70Y9LgEbGespvaOk2/view?usp=drivesdk",
+    "audioBytes": 2416919,
+    "audioBitrateKbps": 320,
+    "audioSha256": "a3de0e483632990a5e8e3edba23db52c38bbe128d2ab8e1df6a6ca4c5eb376e5",
+    "archiveSources": [
+      {
+        "driveId": "1gNtE13Gk4gc2-Y_70Y9LgEbGespvaOk2",
+        "filename": "Melody.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1gNtE13Gk4gc2-Y_70Y9LgEbGespvaOk2/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1Tj0Cl8xFslUiHd71-wop0mHkiuFDPFJA",
+    "title": "MIX",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 202.606,
+    "duration": "3:23",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1Tj0Cl8xFslUiHd71-wop0mHkiuFDPFJA.mp3",
+    "originalFilename": "MIX.mp3",
+    "drive": "https://drive.google.com/file/d/1Tj0Cl8xFslUiHd71-wop0mHkiuFDPFJA/view?usp=drivesdk",
+    "audioBytes": 8104298,
+    "audioBitrateKbps": 320,
+    "audioSha256": "9b88a2036f1e4e1455afcf2332ff39f62eda562b67ebbc772aaf73d75ce53a7c",
+    "archiveSources": [
+      {
+        "driveId": "1Tj0Cl8xFslUiHd71-wop0mHkiuFDPFJA",
+        "filename": "MIX.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1Tj0Cl8xFslUiHd71-wop0mHkiuFDPFJA/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1Bb80Thu01X9oLH6hbPt0ijv9xkIFFxCd",
+    "title": "96",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 248.059,
+    "duration": "4:08",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1Bb80Thu01X9oLH6hbPt0ijv9xkIFFxCd.mp3",
+    "originalFilename": "96.mp3",
+    "drive": "https://drive.google.com/file/d/1Bb80Thu01X9oLH6hbPt0ijv9xkIFFxCd/view?usp=drivesdk",
+    "audioBytes": 9922434,
+    "audioBitrateKbps": 320,
+    "audioSha256": "85601f98e96d3d99447b2bd0e70cefc86bdfe527d5784c3c44a0919bdb3d2cf5",
+    "archiveSources": [
+      {
+        "driveId": "1Bb80Thu01X9oLH6hbPt0ijv9xkIFFxCd",
+        "filename": "96.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1Bb80Thu01X9oLH6hbPt0ijv9xkIFFxCd/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1527aivR5ZtboNwgss8JAC5-aY9WcOOS8",
+    "title": "Cataclysm (2)",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 93.806,
+    "duration": "1:34",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1527aivR5ZtboNwgss8JAC5-aY9WcOOS8.mp3",
+    "originalFilename": "Cataclysm (2).mp3",
+    "drive": "https://drive.google.com/file/d/1527aivR5ZtboNwgss8JAC5-aY9WcOOS8/view?usp=drivesdk",
+    "audioBytes": 3752298,
+    "audioBitrateKbps": 320,
+    "audioSha256": "e553e976265684ceceef15f3d231a4beefa5b5b54e449626ab5fa87fbfff5460",
+    "archiveSources": [
+      {
+        "driveId": "1527aivR5ZtboNwgss8JAC5-aY9WcOOS8",
+        "filename": "Cataclysm (2).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1527aivR5ZtboNwgss8JAC5-aY9WcOOS8/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1P4ECjBWTFoOYdnm4H7DY5SnZWmp2jDZN",
+    "title": "Yooooopooooo",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 165.042,
+    "duration": "2:45",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1P4ECjBWTFoOYdnm4H7DY5SnZWmp2jDZN.mp3",
+    "originalFilename": "Yooooopooooo.mp3",
+    "drive": "https://drive.google.com/file/d/1P4ECjBWTFoOYdnm4H7DY5SnZWmp2jDZN/view?usp=drivesdk",
+    "audioBytes": 6601735,
+    "audioBitrateKbps": 320,
+    "audioSha256": "6a662e1a1ac84a9308e769728393a144012114e74345f5e4908cd7f6d43560bb",
+    "archiveSources": [
+      {
+        "driveId": "1P4ECjBWTFoOYdnm4H7DY5SnZWmp2jDZN",
+        "filename": "Yooooopooooo.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1P4ECjBWTFoOYdnm4H7DY5SnZWmp2jDZN/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1nRyI_fMBui1zfTIggBY5ULZJlkYfTMim",
+    "title": "kik iz fluta",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 49.345,
+    "duration": "0:49",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1nRyI_fMBui1zfTIggBY5ULZJlkYfTMim.mp3",
+    "originalFilename": "kik iz fluta.mp3",
+    "drive": "https://drive.google.com/file/d/1nRyI_fMBui1zfTIggBY5ULZJlkYfTMim/view?usp=drivesdk",
+    "audioBytes": 1973882,
+    "audioBitrateKbps": 320,
+    "audioSha256": "0de684cfe114edef9d81a710084aa5ed364c204cc0d84188b7a8dc21818b993f",
+    "archiveSources": [
+      {
+        "driveId": "1nRyI_fMBui1zfTIggBY5ULZJlkYfTMim",
+        "filename": "kik iz fluta.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1nRyI_fMBui1zfTIggBY5ULZJlkYfTMim/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1zvJriko54wk-BiyM1aPvjXmJrlT66mp5",
+    "title": "Good Old Days",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 356.101,
+    "duration": "5:56",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1zvJriko54wk-BiyM1aPvjXmJrlT66mp5.mp3",
+    "originalFilename": "Good Old Days (Original Mix).mp3",
+    "drive": "https://drive.google.com/file/d/1zvJriko54wk-BiyM1aPvjXmJrlT66mp5/view?usp=drivesdk",
+    "audioBytes": 14244119,
+    "audioBitrateKbps": 320,
+    "audioSha256": "5d6f2d43a580c734c1e1e232edec20028accc99478aae0c8fb25cb3165603580",
+    "archiveSources": [
+      {
+        "driveId": "1zvJriko54wk-BiyM1aPvjXmJrlT66mp5",
+        "filename": "Good Old Days (Original Mix).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1zvJriko54wk-BiyM1aPvjXmJrlT66mp5/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1Q93N1YvWGPuh5aCxOMu1hvDN37H80t9g",
+    "title": "Blackout (Preview)",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 61.91,
+    "duration": "1:02",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1Q93N1YvWGPuh5aCxOMu1hvDN37H80t9g.mp3",
+    "originalFilename": "Blackout (Preview).mp3",
+    "drive": "https://drive.google.com/file/d/1Q93N1YvWGPuh5aCxOMu1hvDN37H80t9g/view?usp=drivesdk",
+    "audioBytes": 2476478,
+    "audioBitrateKbps": 320,
+    "audioSha256": "ac558af8e79c653a2085d4fdf7735d54705574c69b13ff6a6c02097e16c39c07",
+    "archiveSources": [
+      {
+        "driveId": "1Q93N1YvWGPuh5aCxOMu1hvDN37H80t9g",
+        "filename": "Blackout (Preview).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1Q93N1YvWGPuh5aCxOMu1hvDN37H80t9g/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1xjPMjxmxXP3Pbln3rN5AUxV72WgpRopJ",
+    "title": "Good Old Days (2)",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 316.212,
+    "duration": "5:16",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1xjPMjxmxXP3Pbln3rN5AUxV72WgpRopJ.mp3",
+    "originalFilename": "Good Old Days (2).mp3",
+    "drive": "https://drive.google.com/file/d/1xjPMjxmxXP3Pbln3rN5AUxV72WgpRopJ/view?usp=drivesdk",
+    "audioBytes": 12654358,
+    "audioBitrateKbps": 320,
+    "audioSha256": "ebe7c9256e6430ccd260442bfc71c356ad8f7713f76fa5df146485b53c6092c4",
+    "archiveSources": [
+      {
+        "driveId": "1xjPMjxmxXP3Pbln3rN5AUxV72WgpRopJ",
+        "filename": "Good Old Days (2).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1xjPMjxmxXP3Pbln3rN5AUxV72WgpRopJ/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1B46gE0cXUAxXMGwzeiivgxMypjcpvu_a",
+    "title": "Good Old Days",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 263.105,
+    "duration": "4:23",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1B46gE0cXUAxXMGwzeiivgxMypjcpvu_a.mp3",
+    "originalFilename": "Good Old Days.mp3",
+    "drive": "https://drive.google.com/file/d/1B46gE0cXUAxXMGwzeiivgxMypjcpvu_a/view?usp=drivesdk",
+    "audioBytes": 10529915,
+    "audioBitrateKbps": 320,
+    "audioSha256": "7054a8f87a8c29dd8e47986ff291a75161a078ae974e867194775e5a63818673",
+    "archiveSources": [
+      {
+        "driveId": "1B46gE0cXUAxXMGwzeiivgxMypjcpvu_a",
+        "filename": "Good Old Days.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1B46gE0cXUAxXMGwzeiivgxMypjcpvu_a/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1PV0e4cRacFHKiDCwNpzgYW0aBGl1b675",
+    "title": "Impulse",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 156.212,
+    "duration": "2:36",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1PV0e4cRacFHKiDCwNpzgYW0aBGl1b675.mp3",
+    "originalFilename": "Impulse.mp3",
+    "drive": "https://drive.google.com/file/d/1PV0e4cRacFHKiDCwNpzgYW0aBGl1b675/view?usp=drivesdk",
+    "audioBytes": 6248559,
+    "audioBitrateKbps": 320,
+    "audioSha256": "3df511658e4627ded0b22e8adebc67378fab35a25c4f93420f112adfe0d18a61",
+    "archiveSources": [
+      {
+        "driveId": "1PV0e4cRacFHKiDCwNpzgYW0aBGl1b675",
+        "filename": "Impulse.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1PV0e4cRacFHKiDCwNpzgYW0aBGl1b675/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1hN-0gga2Gb0hOjRIAfEPbLgf-c7HOqwI",
+    "title": "Progressive BigRoom (2)",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 108.278,
+    "duration": "1:48",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1hN-0gga2Gb0hOjRIAfEPbLgf-c7HOqwI.mp3",
+    "originalFilename": "Progressive BigRoom (2).mp3",
+    "drive": "https://drive.google.com/file/d/1hN-0gga2Gb0hOjRIAfEPbLgf-c7HOqwI/view?usp=drivesdk",
+    "audioBytes": 6287077,
+    "audioBitrateKbps": 320,
+    "audioSha256": "03f87369684cd1c36038d121cc2bf5ec5483384219d4380633057fe3c01c9412",
+    "archiveSources": [
+      {
+        "driveId": "1hN-0gga2Gb0hOjRIAfEPbLgf-c7HOqwI",
+        "filename": "Progressive BigRoom (2).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1hN-0gga2Gb0hOjRIAfEPbLgf-c7HOqwI/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1RyXloQ2Pu90inozwkloARcNLXLsNky8T",
+    "title": "Tomahawk",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 252.839,
+    "duration": "4:13",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1RyXloQ2Pu90inozwkloARcNLXLsNky8T.mp3",
+    "originalFilename": "Tomahawk.mp3",
+    "drive": "https://drive.google.com/file/d/1RyXloQ2Pu90inozwkloARcNLXLsNky8T/view?usp=drivesdk",
+    "audioBytes": 13669276,
+    "audioBitrateKbps": 320,
+    "audioSha256": "7824537dc8f76f1f3a9325c03fcff1aeee5a8d4eb5e2662462edbb9d7024d49a",
+    "archiveSources": [
+      {
+        "driveId": "1RyXloQ2Pu90inozwkloARcNLXLsNky8T",
+        "filename": "Tomahawk.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1RyXloQ2Pu90inozwkloARcNLXLsNky8T/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1Ow7vJ2jq0FI6CeZFyBbVCafZ301oQUzP",
+    "title": "dmtr vgs lk mk",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 76.669,
+    "duration": "1:17",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1Ow7vJ2jq0FI6CeZFyBbVCafZ301oQUzP.mp3",
+    "originalFilename": "dmtr_vgs_lk_mk.mp3",
+    "drive": "https://drive.google.com/file/d/1Ow7vJ2jq0FI6CeZFyBbVCafZ301oQUzP/view?usp=drivesdk",
+    "audioBytes": 1533458,
+    "audioBitrateKbps": 160,
+    "audioSha256": "beb915bc66a765e02d77f02b5b330eac2f62aad0b23289b5fcf47091d747b0b0",
+    "archiveSources": [
+      {
+        "driveId": "1Ow7vJ2jq0FI6CeZFyBbVCafZ301oQUzP",
+        "filename": "dmtr_vgs_lk_mk.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1Ow7vJ2jq0FI6CeZFyBbVCafZ301oQUzP/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1otCjJASlT_fjC5WDv5a1BTyZQ9bVm1w9",
+    "title": "Progressive BigRoom",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 79.752,
+    "duration": "1:20",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1otCjJASlT_fjC5WDv5a1BTyZQ9bVm1w9.mp3",
+    "originalFilename": "Progressive BigRoom.mp3",
+    "drive": "https://drive.google.com/file/d/1otCjJASlT_fjC5WDv5a1BTyZQ9bVm1w9/view?usp=drivesdk",
+    "audioBytes": 3190143,
+    "audioBitrateKbps": 320,
+    "audioSha256": "ae04092d39aa89bdaedef4cc7f09715f99b37da8e8b39496af0ed1cbe5e6a4dd",
+    "archiveSources": [
+      {
+        "driveId": "1otCjJASlT_fjC5WDv5a1BTyZQ9bVm1w9",
+        "filename": "Progressive BigRoom.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1otCjJASlT_fjC5WDv5a1BTyZQ9bVm1w9/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-19BWoYyeX-EBlz5RFMiX8MBX5ORxaQG1C",
+    "title": "Bad Boy",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 84.428,
+    "duration": "1:24",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/19BWoYyeX-EBlz5RFMiX8MBX5ORxaQG1C.mp3",
+    "originalFilename": "Bad Boy.mp3",
+    "drive": "https://drive.google.com/file/d/19BWoYyeX-EBlz5RFMiX8MBX5ORxaQG1C/view?usp=drivesdk",
+    "audioBytes": 3377180,
+    "audioBitrateKbps": 320,
+    "audioSha256": "aefa668951f46efc6dfb6bc605a255f951d3d9930caad95727a9ef74a2df12be",
+    "archiveSources": [
+      {
+        "driveId": "19BWoYyeX-EBlz5RFMiX8MBX5ORxaQG1C",
+        "filename": "Bad Boy.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/19BWoYyeX-EBlz5RFMiX8MBX5ORxaQG1C/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-12DwbQietrT-RczxLabcC-93PO4yDS_Mm",
+    "title": "Tomahawk (Working Title)",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 110.681,
+    "duration": "1:51",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/12DwbQietrT-RczxLabcC-93PO4yDS_Mm.mp3",
+    "originalFilename": "Tomahawk (Working Title).mp3",
+    "drive": "https://drive.google.com/file/d/12DwbQietrT-RczxLabcC-93PO4yDS_Mm/view?usp=drivesdk",
+    "audioBytes": 4427302,
+    "audioBitrateKbps": 320,
+    "audioSha256": "5582c7fb7c3661abfa8ea9ada109e2018b2fb1ba4dae4b5ba1ba557f048b062c",
+    "archiveSources": [
+      {
+        "driveId": "12DwbQietrT-RczxLabcC-93PO4yDS_Mm",
+        "filename": "Tomahawk (Working Title).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/12DwbQietrT-RczxLabcC-93PO4yDS_Mm/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1oYWIjwrkE-H22CeW4iBJLXlX98YebccS",
+    "title": "Afterlife (Working Title)",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 294.4,
+    "duration": "4:54",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1oYWIjwrkE-H22CeW4iBJLXlX98YebccS.mp3",
+    "originalFilename": "Afterlife (Working Title).mp3",
+    "drive": "https://drive.google.com/file/d/1oYWIjwrkE-H22CeW4iBJLXlX98YebccS/view?usp=drivesdk",
+    "audioBytes": 12886941,
+    "audioBitrateKbps": 320,
+    "audioSha256": "0d9a55e34cf22a5121825c29b1ab18fabdd3b624dba708065944bd468b6bde19",
+    "archiveSources": [
+      {
+        "driveId": "1oYWIjwrkE-H22CeW4iBJLXlX98YebccS",
+        "filename": "Afterlife (Working Title).mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1oYWIjwrkE-H22CeW4iBJLXlX98YebccS/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1-qhDNfXIGLDXdCGWhYotnsTnKqy1sZkT",
+    "title": "Cataclysm",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 208.431,
+    "duration": "3:28",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1-qhDNfXIGLDXdCGWhYotnsTnKqy1sZkT.mp3",
+    "originalFilename": "Cataclysm.mp3",
+    "drive": "https://drive.google.com/file/d/1-qhDNfXIGLDXdCGWhYotnsTnKqy1sZkT/view?usp=drivesdk",
+    "audioBytes": 9361972,
+    "audioBitrateKbps": 320,
+    "audioSha256": "9feef9ffb1a118ed4640b0b03f1aabe58fdf27eea1682f95de51bcfbb83d5771",
+    "archiveSources": [
+      {
+        "driveId": "1-qhDNfXIGLDXdCGWhYotnsTnKqy1sZkT",
+        "filename": "Cataclysm.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1-qhDNfXIGLDXdCGWhYotnsTnKqy1sZkT/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-14z9g2qSOLiBfAbE1SuCHG-MmYMwRdQ4S",
+    "title": "Kids 2",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 167.236,
+    "duration": "2:47",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/14z9g2qSOLiBfAbE1SuCHG-MmYMwRdQ4S.mp3",
+    "originalFilename": "Kids 2.mp3",
+    "drive": "https://drive.google.com/file/d/14z9g2qSOLiBfAbE1SuCHG-MmYMwRdQ4S/view?usp=drivesdk",
+    "audioBytes": 7935469,
+    "audioBitrateKbps": 320,
+    "audioSha256": "facb56204576aa27f51c0199086998eb702bc37284fa7a421937ba8068b1c035",
+    "archiveSources": [
+      {
+        "driveId": "14z9g2qSOLiBfAbE1SuCHG-MmYMwRdQ4S",
+        "filename": "Kids 2.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/14z9g2qSOLiBfAbE1SuCHG-MmYMwRdQ4S/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-11Wqvr8WmvAxrnDXddyOKsNSsH01WWGn5",
+    "title": "Kappa Kabanna",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 296.307,
+    "duration": "4:56",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/11Wqvr8WmvAxrnDXddyOKsNSsH01WWGn5.mp3",
+    "originalFilename": "Kappa Kabanna.mp3",
+    "drive": "https://drive.google.com/file/d/11Wqvr8WmvAxrnDXddyOKsNSsH01WWGn5/view?usp=drivesdk",
+    "audioBytes": 12076382,
+    "audioBitrateKbps": 320,
+    "audioSha256": "1bc086723bb28538c37b3d22697a9e6becafa2752af5c1d62960355b429a6ddc",
+    "archiveSources": [
+      {
+        "driveId": "11Wqvr8WmvAxrnDXddyOKsNSsH01WWGn5",
+        "filename": "Kappa Kabanna.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/11Wqvr8WmvAxrnDXddyOKsNSsH01WWGn5/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1719QNcQrOwzRU-__Hjhn7IFH6f4JA-Wr",
+    "title": "Ne Ponimation",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 422.165,
+    "duration": "7:02",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1719QNcQrOwzRU-__Hjhn7IFH6f4JA-Wr.mp3",
+    "originalFilename": "Ne Ponimation.mp3",
+    "drive": "https://drive.google.com/file/d/1719QNcQrOwzRU-__Hjhn7IFH6f4JA-Wr/view?usp=drivesdk",
+    "audioBytes": 18494054,
+    "audioBitrateKbps": 320,
+    "audioSha256": "7729442570c7d1e8a9e01683f862525c26eba627b48a37dc94ae9cfd9191c926",
+    "archiveSources": [
+      {
+        "driveId": "1719QNcQrOwzRU-__Hjhn7IFH6f4JA-Wr",
+        "filename": "Ne Ponimation.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1719QNcQrOwzRU-__Hjhn7IFH6f4JA-Wr/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1cThjpQmnYQ6w1GWONyFFfgmQYqa2xP4X",
+    "title": "Untitled",
+    "artist": "Audionerds",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 113.267,
+    "duration": "1:53",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1cThjpQmnYQ6w1GWONyFFfgmQYqa2xP4X.mp3",
+    "originalFilename": "Untitled.mp3",
+    "drive": "https://drive.google.com/file/d/1cThjpQmnYQ6w1GWONyFFfgmQYqa2xP4X/view?usp=drivesdk",
+    "audioBytes": 6406538,
+    "audioBitrateKbps": 320,
+    "audioSha256": "286ff8988dfc76d89cce736bd72b64bee2229dd97a26bddb87fe5023f3200dc3",
+    "archiveSources": [
+      {
+        "driveId": "1cThjpQmnYQ6w1GWONyFFfgmQYqa2xP4X",
+        "filename": "Untitled.mp3",
+        "folder": "Audionerds",
+        "url": "https://drive.google.com/file/d/1cThjpQmnYQ6w1GWONyFFfgmQYqa2xP4X/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1X2WDUUhKjUNCz1XC0oSqhwHDZ7BEu5vz",
+    "title": "memes through desert",
+    "artist": "peacepipe04",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 67.239,
+    "duration": "1:07",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1X2WDUUhKjUNCz1XC0oSqhwHDZ7BEu5vz.mp3",
+    "originalFilename": "memes through desert.mp3",
+    "drive": "https://drive.google.com/file/d/1X2WDUUhKjUNCz1XC0oSqhwHDZ7BEu5vz/view?usp=drivesdk",
+    "audioBytes": 2689623,
+    "audioBitrateKbps": 320,
+    "audioSha256": "ad45c77181697b2c3e974e08ad7fca33c2f34f9bc47899470d8c143ea7ae1807",
+    "archiveSources": [
+      {
+        "driveId": "1X2WDUUhKjUNCz1XC0oSqhwHDZ7BEu5vz",
+        "filename": "memes through desert.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1X2WDUUhKjUNCz1XC0oSqhwHDZ7BEu5vz/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1TwqcNVJupGz7iPsDKC3MlmZMHLJwwswl",
+    "title": "Playground Moxxy",
+    "artist": "peacepipe04",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 51.252,
+    "duration": "0:51",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1TwqcNVJupGz7iPsDKC3MlmZMHLJwwswl.mp3",
+    "originalFilename": "Playground_Moxxy.mp3",
+    "drive": "https://drive.google.com/file/d/1TwqcNVJupGz7iPsDKC3MlmZMHLJwwswl/view?usp=drivesdk",
+    "audioBytes": 717587,
+    "audioBitrateKbps": 112,
+    "audioSha256": "09f00aa8f0ef00da36802fdbca86fbd49d2c8248188ba870119cb28e20604f61",
+    "archiveSources": [
+      {
+        "driveId": "1TwqcNVJupGz7iPsDKC3MlmZMHLJwwswl",
+        "filename": "Playground_Moxxy.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1TwqcNVJupGz7iPsDKC3MlmZMHLJwwswl/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1cQuq1-wj9Ebs-K73s22a3vfHRMNwkwA0",
+    "title": "PH+SHREK",
+    "artist": "peacepipe04",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 59.899,
+    "duration": "1:00",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1cQuq1-wj9Ebs-K73s22a3vfHRMNwkwA0.mp3",
+    "originalFilename": "PH+SHREK.mp3",
+    "drive": "https://drive.google.com/file/d/1cQuq1-wj9Ebs-K73s22a3vfHRMNwkwA0/view?usp=drivesdk",
+    "audioBytes": 2396020,
+    "audioBitrateKbps": 320,
+    "audioSha256": "24546fe0c679b90434b536597263de1e1f8ad99269a25ef077612245a8376449",
+    "archiveSources": [
+      {
+        "driveId": "1cQuq1-wj9Ebs-K73s22a3vfHRMNwkwA0",
+        "filename": "PH+SHREK.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1cQuq1-wj9Ebs-K73s22a3vfHRMNwkwA0/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1O58lIMKV9fdfh9fxDWi8LQA5EkGOE8n_",
+    "title": "MASH-UP",
+    "artist": "peacepipe04",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 169.691,
+    "duration": "2:50",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1O58lIMKV9fdfh9fxDWi8LQA5EkGOE8n_.mp3",
+    "originalFilename": "MASH-UP.mp3",
+    "drive": "https://drive.google.com/file/d/1O58lIMKV9fdfh9fxDWi8LQA5EkGOE8n_/view?usp=drivesdk",
+    "audioBytes": 6787727,
+    "audioBitrateKbps": 320,
+    "audioSha256": "5cc074a80845d9ab8e4f4bce5b356e7d003b80672102b9c70006c251e28aabb3",
+    "archiveSources": [
+      {
+        "driveId": "1O58lIMKV9fdfh9fxDWi8LQA5EkGOE8n_",
+        "filename": "MASH-UP.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1O58lIMKV9fdfh9fxDWi8LQA5EkGOE8n_/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1Ss5Xfa4UHKt4zzaxlJL3ONaW8k8zzWVs",
+    "title": "MASH-UP 4 (69 + Breakbot)",
+    "artist": "peacepipe04",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 293.93,
+    "duration": "4:54",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1Ss5Xfa4UHKt4zzaxlJL3ONaW8k8zzWVs.mp3",
+    "originalFilename": "MASH-UP 4 (69 + Breakbot).mp3",
+    "drive": "https://drive.google.com/file/d/1Ss5Xfa4UHKt4zzaxlJL3ONaW8k8zzWVs/view?usp=drivesdk",
+    "audioBytes": 11757261,
+    "audioBitrateKbps": 320,
+    "audioSha256": "332ffe4fd25bcf4c183c7b5633b6f830ec04b94b2e71985128cc26f6e543b7f0",
+    "archiveSources": [
+      {
+        "driveId": "1Ss5Xfa4UHKt4zzaxlJL3ONaW8k8zzWVs",
+        "filename": "MASH-UP 4 (69 + Breakbot).mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1Ss5Xfa4UHKt4zzaxlJL3ONaW8k8zzWVs/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-14PYDrRa6XYyhetZmWTyI-KHxpdn8DMp7",
+    "title": "Madik Intro 4 Final",
+    "artist": "peacepipe04",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 22.256,
+    "duration": "0:22",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/14PYDrRa6XYyhetZmWTyI-KHxpdn8DMp7.mp3",
+    "originalFilename": "Madik_Intro_4_Final.mp3",
+    "drive": "https://drive.google.com/file/d/14PYDrRa6XYyhetZmWTyI-KHxpdn8DMp7/view?usp=drivesdk",
+    "audioBytes": 890323,
+    "audioBitrateKbps": 320,
+    "audioSha256": "12ca0c3761127734e963d46ac6bf2d4ab18bb7c88dfb08f69446c130c4431d9d",
+    "archiveSources": [
+      {
+        "driveId": "14PYDrRa6XYyhetZmWTyI-KHxpdn8DMp7",
+        "filename": "Madik_Intro_4_Final.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/14PYDrRa6XYyhetZmWTyI-KHxpdn8DMp7/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-19PfMI6f4DcwjMbkzYWL73TvL9YnH6DkD",
+    "title": "Dream",
+    "artist": "peacepipe04",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 58.671,
+    "duration": "0:59",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/19PfMI6f4DcwjMbkzYWL73TvL9YnH6DkD.mp3",
+    "originalFilename": "Dream_Mastered.mp3",
+    "drive": "https://drive.google.com/file/d/19PfMI6f4DcwjMbkzYWL73TvL9YnH6DkD/view?usp=drivesdk",
+    "audioBytes": 2346910,
+    "audioBitrateKbps": 320,
+    "audioSha256": "dce2ce08c32e5cf6b2ea3e72165602011875479cf1f070451404ffc2fae7e2b6",
+    "archiveSources": [
+      {
+        "driveId": "19PfMI6f4DcwjMbkzYWL73TvL9YnH6DkD",
+        "filename": "Dream_Mastered.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/19PfMI6f4DcwjMbkzYWL73TvL9YnH6DkD/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "id": "drive-1rhBhluiFLp3gEOEc7gpdoCar-IdK4E0l",
+    "title": "BYDILDO 4",
+    "artist": "peacepipe04",
+    "type": "Studio archive",
+    "releaseStatus": "unofficial",
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner-supplied studio archive. No verified music-service release is claimed."
+    },
+    "durationSeconds": 48.065,
+    "duration": "0:48",
+    "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/1rhBhluiFLp3gEOEc7gpdoCar-IdK4E0l.mp3",
+    "originalFilename": "BYDILDO 4.mp3",
+    "drive": "https://drive.google.com/file/d/1rhBhluiFLp3gEOEc7gpdoCar-IdK4E0l/view?usp=drivesdk",
+    "audioBytes": 1922682,
+    "audioBitrateKbps": 320,
+    "audioSha256": "23876fccbdab7f171a4a87b6f9fe5c71c5e749d029b34dd53c4e782e941ffe04",
+    "archiveSources": [
+      {
+        "driveId": "1rhBhluiFLp3gEOEc7gpdoCar-IdK4E0l",
+        "filename": "BYDILDO 4.mp3",
+        "folder": "Peacepipe04",
+        "url": "https://drive.google.com/file/d/1rhBhluiFLp3gEOEc7gpdoCar-IdK4E0l/view?usp=drivesdk"
+      }
+    ]
   }
 ];
-

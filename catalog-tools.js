@@ -18,6 +18,7 @@ window.catalogTools = (() => {
  }
  function sort(tracks,order='newest'){
   return [...tracks].sort((a,b)=>{
+   if(order==='artist-asc')return names.compare(a.artist||'',b.artist||'')||names.compare(a.title,b.title)||names.compare(a.id,b.id);
    if(order==='name-asc'||order==='name-desc')return (names.compare(a.title,b.title)||names.compare(a.artist||'',b.artist||'')||names.compare(a.id||'',b.id||''))*(order==='name-desc'?-1:1);
    const first=date(a),second=date(b);
    if(!first||!second)return first?-1:second?1:names.compare(a.title,b.title);
@@ -26,4 +27,3 @@ window.catalogTools = (() => {
  }
  return {seconds,date,filter,sort};
 })();
-
