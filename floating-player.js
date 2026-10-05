@@ -25,7 +25,7 @@ window.addEventListener('resize',()=>{if(musicPanel.style.left){const r=musicPan
 let shuffle=false,autoplay=true,repeatMode='off',shuffleBag=[],playedHistory=[],shuffleCycleStarted=false;
 function keepPlayerFloating(){musicPanel.classList.add('is-floating');document.body.classList.add('has-floating-player');}
 window.floatMusicPlayer=keepPlayerFloating;
-function availableTracks(){const query=search.value.trim().toLocaleLowerCase();return catalog.filter(t=>(selectedArtist==='All'||t.artist===selectedArtist)&&(t.title+' '+t.artist).toLocaleLowerCase().includes(query));}
+function availableTracks(){return getFilteredTracks();}
 function nextTrackId(automatic=false){
  const tracks=availableTracks();if(!tracks.length)return null;
  if(shuffle){
@@ -60,3 +60,4 @@ function setPlayLabel(playing){playButton.innerHTML=playerIcon(playing?'pause':'
 window.syncPlayerTransport=syncTransport;musicPanel.addEventListener('play',syncTransport,true);musicPanel.addEventListener('pause',syncTransport,true);musicPanel.addEventListener('ended',syncTransport,true);new MutationObserver(syncTransport).observe(playerStatus,{childList:true,characterData:true,subtree:true});
 search.addEventListener('input',()=>{shuffleBag=[];shuffleCycleStarted=false;});document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{shuffleBag=[];shuffleCycleStarted=false;}));
 keepPlayerFloating();syncTransport();
+

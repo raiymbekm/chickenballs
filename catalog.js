@@ -2,7 +2,7 @@ const catalog = [
   {
     "title": "Waverider",
     "id": "WrjCeMjexWc",
-    "duration": "3:14",
+    "duration": "3:13",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -24,7 +24,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/waverider/1500466022?i=1500466023&uo=4"
-    }
+    },
+    "officialReleaseDate": "2020-02-25",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/waverider/1500466022?i=1500466023&uo=4",
+    "durationSeconds": 193.59
   },
   {
     "title": "Hotwire",
@@ -49,12 +52,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/hotwire/1698509712?i=1698509715&uo=4"
-    }
+    },
+    "officialReleaseDate": "2023-07-20",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/hotwire/1698509712?i=1698509715&uo=4",
+    "durationSeconds": 213.98
   },
   {
     "title": "Concentrated Madness",
     "id": "3yLBYcHJ2VY",
-    "duration": "4:21",
+    "duration": "4:20",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -76,12 +82,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/concentrated-madness/1519691406?i=1519691407&uo=4"
-    }
+    },
+    "officialReleaseDate": "2020-06-19",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/concentrated-madness/1519691406?i=1519691407&uo=4",
+    "durationSeconds": 260.31
   },
   {
     "title": "Guesswork",
     "id": "IDB6aJWg4lg",
-    "duration": "3:36",
+    "duration": "3:35",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -104,12 +113,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/guesswork/1457449419?i=1457449420&uo=4"
-    }
+    },
+    "officialReleaseDate": "2019-03-23",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/guesswork/1457449419?i=1457449420&uo=4",
+    "durationSeconds": 215.33
   },
   {
     "title": "Vernyi",
     "id": "dG6aKvJk3sM",
-    "duration": "4:21",
+    "duration": "4:20",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -128,12 +140,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/vernyi/1621539544?i=1621539545&uo=4"
-    }
+    },
+    "officialReleaseDate": "2022-04-28",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/vernyi/1621539544?i=1621539545&uo=4",
+    "durationSeconds": 260.65
   },
   {
     "title": "Speedrun",
     "id": "d7FTtwyaIcI",
-    "duration": "3:39",
+    "duration": "3:38",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -155,12 +170,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/speedrun/1591400901?i=1591400902&uo=4"
-    }
+    },
+    "officialReleaseDate": "2021-10-21",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/speedrun/1591400901?i=1591400902&uo=4",
+    "durationSeconds": 218.62
   },
   {
     "title": "Zoology",
     "id": "FPeV7PODP1s",
-    "duration": "4:47",
+    "duration": "4:46",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -180,12 +198,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/zoology/1437852738?i=1437852751&uo=4"
-    }
+    },
+    "officialReleaseDate": "2018-10-01",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/zoology/1437852738?i=1437852751&uo=4",
+    "durationSeconds": 286.93
   },
   {
     "title": "Flesh",
     "id": "ATNTVVZCWkU",
-    "duration": "3:57",
+    "duration": "3:56",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -207,7 +228,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/flesh/1542545741?i=1542545742&uo=4"
-    }
+    },
+    "officialReleaseDate": "2020-11-29",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/flesh/1542545741?i=1542545742&uo=4",
+    "durationSeconds": 236.72
   },
   {
     "title": "Zircon",
@@ -235,7 +259,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/zircon/1448618026?i=1448618027&uo=4"
-    }
+    },
+    "officialReleaseDate": "2019-01-06",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/zircon/1448618026?i=1448618027&uo=4",
+    "durationSeconds": 295.54
   },
   {
     "title": "Framework",
@@ -258,7 +285,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/framework/1663900487?i=1663900488&uo=4"
-    }
+    },
+    "officialReleaseDate": "2023-01-09",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/framework/1663900487?i=1663900488&uo=4",
+    "durationSeconds": 315.14
   },
   {
     "title": "Touchstone",
@@ -284,12 +314,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/touchstone/1437694439?i=1437694442&uo=4"
-    }
+    },
+    "officialReleaseDate": "2018-09-28",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/touchstone/1437694439?i=1437694442&uo=4",
+    "durationSeconds": 246.48
   },
   {
     "title": "Dog’s Dogma",
     "id": "3wdB6cA1KX4",
-    "duration": "3:51",
+    "duration": "3:50",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -308,12 +341,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/dogs-dogma/1696443364?i=1696443365&uo=4"
-    }
+    },
+    "officialReleaseDate": "2023-07-08",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/dogs-dogma/1696443364?i=1696443365&uo=4",
+    "durationSeconds": 230.66
   },
   {
     "title": "Pseudoscience",
     "id": "BstitX2x7vM",
-    "duration": "6:03",
+    "duration": "6:02",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -335,12 +371,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/pseudoscience/1447895947?i=1447895950&uo=4"
-    }
+    },
+    "officialReleaseDate": "2018-12-26",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/pseudoscience/1447895947?i=1447895950&uo=4",
+    "durationSeconds": 362.06
   },
   {
     "title": "Omnipotence",
     "id": "KRCBjxM92Uk",
-    "duration": "3:38",
+    "duration": "3:37",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -360,12 +399,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/omnipotence/1488831034?i=1488831035&uo=4"
-    }
+    },
+    "officialReleaseDate": "2019-11-21",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/omnipotence/1488831034?i=1488831035&uo=4",
+    "durationSeconds": 217.63
   },
   {
     "title": "Angry Teenagers",
     "id": "f0JpJon_YqM",
-    "duration": "3:48",
+    "duration": "3:47",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -384,7 +426,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/angry-teenagers/1694287202?i=1694287203&uo=4"
-    }
+    },
+    "officialReleaseDate": "2023-06-26",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/angry-teenagers/1694287202?i=1694287203&uo=4",
+    "durationSeconds": 227.6
   },
   {
     "title": "Nanowire",
@@ -409,12 +454,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/nanowire/1698509712?i=1698510076&uo=4"
-    }
+    },
+    "officialReleaseDate": "2023-07-20",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/nanowire/1698509712?i=1698510076&uo=4",
+    "durationSeconds": 249.65
   },
   {
     "title": "Kinship",
     "id": "JpVo3seANv0",
-    "duration": "2:56",
+    "duration": "2:55",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -433,12 +481,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/kinship/1695575385?i=1695575626&uo=4"
-    }
+    },
+    "officialReleaseDate": "2023-07-03",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/kinship/1695575385?i=1695575626&uo=4",
+    "durationSeconds": 175.67
   },
   {
     "title": "Disco Mbobulate",
     "id": "XP1oxENYnQ4",
-    "duration": "4:23",
+    "duration": "4:22",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -457,7 +508,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/disco-mbobulate/1696443364?i=1696443366&uo=4"
-    }
+    },
+    "officialReleaseDate": "2023-07-08",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/disco-mbobulate/1696443364?i=1696443366&uo=4",
+    "durationSeconds": 262.56
   },
   {
     "title": "Trapwire",
@@ -482,12 +536,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/trapwire/1698509712?i=1698509713&uo=4"
-    }
+    },
+    "officialReleaseDate": "2023-07-20",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/trapwire/1698509712?i=1698509713&uo=4",
+    "durationSeconds": 197.64
   },
   {
     "title": "Ascendant Decade",
     "id": "Remok-ADVHM",
-    "duration": "5:45",
+    "duration": "5:44",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -507,12 +564,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/ascendant-decade/1501971778?i=1501971779&uo=4"
-    }
+    },
+    "officialReleaseDate": "2020-03-07",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/ascendant-decade/1501971778?i=1501971779&uo=4",
+    "durationSeconds": 344.45
   },
   {
     "title": "Glazed Curd",
     "id": "V0oW0gPL5vo",
-    "duration": "3:47",
+    "duration": "3:46",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -534,12 +594,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/glazed-curd/6806023982?i=6806023984&uo=4"
-    }
+    },
+    "officialReleaseDate": "2021-03-29",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/glazed-curd/6806023982?i=6806023984&uo=4",
+    "durationSeconds": 226.12
   },
   {
     "title": "Bones",
     "id": "6UAUJfoGDfI",
-    "duration": "5:51",
+    "duration": "3:56",
     "artist": "Fetch Quest",
     "type": "Release",
     "credit": null,
@@ -558,7 +621,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/bones/1542545741?i=1542545743&uo=4"
-    }
+    },
+    "officialReleaseDate": "2020-11-29",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/bones/1542545741?i=1542545743&uo=4",
+    "durationSeconds": 236.56
   },
   {
     "title": "Ian Oliver ft. Eastenders - Vino Vino_-_slowed w reverb",
@@ -578,7 +644,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 191.42,
+    "releaseDate": "2026-09-19",
+    "releaseDateSource": "https://www.youtube.com/watch?v=Ruk54SRuRJg"
   },
   {
     "title": "generic indie pop song",
@@ -598,7 +667,9 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 208.94,
+    "releaseDate": "2026-06-21"
   },
   {
     "title": "the trashbird",
@@ -618,12 +689,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 135.46,
+    "releaseDate": "2026-05-09",
+    "releaseDateSource": "https://www.youtube.com/watch?v=Z6MmnzhYt7I"
   },
   {
     "title": "Cupcakke - Duck Duck Goose but it’s disco INSTRUMENTAL",
     "id": "ZODS3DRGkhc",
-    "duration": "",
+    "duration": "2:30",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "ZODS3DRGkhc",
@@ -637,12 +711,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 150.05,
+    "releaseDate": "2026-05-09",
+    "releaseDateSource": "https://www.youtube.com/watch?v=ZODS3DRGkhc"
   },
   {
     "title": "Cupcakke - Duck Duck Goose but it’s disco",
     "id": "4DikQvqlHYI",
-    "duration": "",
+    "duration": "2:34",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "4DikQvqlHYI",
@@ -656,12 +733,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 154.88,
+    "releaseDate": "2026-04-13",
+    "releaseDateSource": "https://www.youtube.com/watch?v=4DikQvqlHYI"
   },
   {
     "title": "Martin Garrix - Animals (peacepipe04 cheap cumbia remix)",
     "id": "h8mS3jgxp58",
-    "duration": "",
+    "duration": "2:02",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "h8mS3jgxp58",
@@ -675,12 +755,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 122.23,
+    "releaseDate": "2026-02-21",
+    "releaseDateSource": "https://www.youtube.com/watch?v=h8mS3jgxp58"
   },
   {
     "title": "Payload",
     "id": "cN5RchsIaLk",
-    "duration": "",
+    "duration": "5:40",
     "artist": "Audionerds",
     "type": "Channel archive",
     "youtube": "cN5RchsIaLk",
@@ -696,12 +779,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/payload/1018861953?i=1018862849&uo=4"
-    }
+    },
+    "officialReleaseDate": "2015-07-27",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/payload/1018861953?i=1018862849&uo=4",
+    "durationSeconds": 340.35
   },
   {
     "title": "Phil Fuldner - Miami Pop (peacepipe04 remix)",
     "id": "k9DkmBd2SFg",
-    "duration": "",
+    "duration": "2:31",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "k9DkmBd2SFg",
@@ -715,12 +801,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 151.95,
+    "releaseDate": "2025-12-24",
+    "releaseDateSource": "https://www.youtube.com/watch?v=k9DkmBd2SFg"
   },
   {
     "title": "um jogo no paraíso SPED UP",
     "id": "ZAHhsKEW2jk",
-    "duration": "",
+    "duration": "3:00",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "ZAHhsKEW2jk",
@@ -734,12 +823,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 180.98,
+    "releaseDate": "2025-11-13",
+    "releaseDateSource": "https://www.youtube.com/watch?v=ZAHhsKEW2jk"
   },
   {
     "title": "um jogo no paraíso",
     "id": "zB1mfz7o_-0",
-    "duration": "",
+    "duration": "3:33",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "zB1mfz7o_-0",
@@ -753,12 +845,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 213.89,
+    "releaseDate": "2025-11-11",
+    "releaseDateSource": "https://www.youtube.com/watch?v=zB1mfz7o_-0"
   },
   {
     "title": "Cupcakke - CPR but it’s 70s corno music INSTRUMENTAL",
     "id": "GL55YP8_0E4",
-    "duration": "",
+    "duration": "3:07",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "GL55YP8_0E4",
@@ -772,12 +867,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 187.22,
+    "releaseDate": "2025-11-06",
+    "releaseDateSource": "https://www.youtube.com/watch?v=GL55YP8_0E4"
   },
   {
     "title": "Cupcakke - CPR but it’s 70s corno music",
     "id": "ngFdLogRMtg",
-    "duration": "",
+    "duration": "3:07",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "ngFdLogRMtg",
@@ -791,7 +889,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 187.22,
+    "releaseDate": "2025-10-11",
+    "releaseDateSource": "https://www.youtube.com/watch?v=ngFdLogRMtg"
   },
   {
     "title": "naya - bubble town (peacepipe04 remix)",
@@ -811,12 +912,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 255.12,
+    "releaseDate": "2025-07-28",
+    "releaseDateSource": "https://www.youtube.com/watch?v=p8XDTN84aKs"
   },
   {
     "title": "The Surfaris - Wipe out (peacepipe04 remix)",
     "id": "T3e_CcZFl9w",
-    "duration": "",
+    "duration": "1:51",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "T3e_CcZFl9w",
@@ -830,12 +934,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 111.28,
+    "releaseDate": "2025-07-15",
+    "releaseDateSource": "https://www.youtube.com/watch?v=T3e_CcZFl9w"
   },
   {
     "title": "UZI boomstick",
     "id": "G1nBOYhlirA",
-    "duration": "",
+    "duration": "3:16",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "G1nBOYhlirA",
@@ -849,12 +956,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 196.78,
+    "releaseDate": "2025-06-20",
+    "releaseDateSource": "https://www.youtube.com/watch?v=G1nBOYhlirA"
   },
   {
     "title": "mad woman ting",
     "id": "VHzt6B4mPl4",
-    "duration": "",
+    "duration": "3:44",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "VHzt6B4mPl4",
@@ -868,12 +978,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 224.55,
+    "releaseDate": "2025-04-24",
+    "releaseDateSource": "https://www.youtube.com/watch?v=VHzt6B4mPl4"
   },
   {
     "title": "a room of tools guided by marked knight",
     "id": "TXr-XnyhmzQ",
-    "duration": "",
+    "duration": "3:36",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "TXr-XnyhmzQ",
@@ -887,12 +1000,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 216.82,
+    "releaseDate": "2025-04-24",
+    "releaseDateSource": "https://www.youtube.com/watch?v=TXr-XnyhmzQ"
   },
   {
     "title": "descendant decade",
     "id": "ju_Drex7dG8",
-    "duration": "",
+    "duration": "3:21",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "ju_Drex7dG8",
@@ -906,12 +1022,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 201.95,
+    "releaseDate": "2025-04-24",
+    "releaseDateSource": "https://www.youtube.com/watch?v=ju_Drex7dG8"
   },
   {
     "title": "ûëçåøßœîæ",
     "id": "xPmZbntLoDQ",
-    "duration": "",
+    "duration": "1:45",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "xPmZbntLoDQ",
@@ -925,12 +1044,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 105.04,
+    "releaseDate": "2025-04-24",
+    "releaseDateSource": "https://www.youtube.com/watch?v=xPmZbntLoDQ"
   },
   {
     "title": "ainsley kensington",
     "id": "lOeJPbG_mtw",
-    "duration": "",
+    "duration": "3:25",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "lOeJPbG_mtw",
@@ -944,12 +1066,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 205.19,
+    "releaseDate": "2025-04-24",
+    "releaseDateSource": "https://www.youtube.com/watch?v=lOeJPbG_mtw"
   },
   {
     "title": "Eliminate - Walk Away (fetch quest remix)",
     "id": "geLKG9QxbeU",
-    "duration": "",
+    "duration": "3:38",
     "artist": "Fetch Quest",
     "type": "Remix / edit",
     "youtube": "geLKG9QxbeU",
@@ -966,12 +1091,13 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 218.51
   },
   {
     "title": "daft punk - technologic (audionerds remix)",
     "id": "XoOoF6o3_wY",
-    "duration": "",
+    "duration": "3:41",
     "artist": "Audionerds",
     "type": "Remix / edit",
     "youtube": "XoOoF6o3_wY",
@@ -988,7 +1114,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 221.31
   },
   {
     "title": "crossover",
@@ -1011,7 +1138,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 304.99
   },
   {
     "title": "badlands",
@@ -1034,7 +1162,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 275.74
   },
   {
     "title": "the unalived mouse & the gang of wolves",
@@ -1054,7 +1183,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 328.22,
+    "releaseDate": "2025-04-04",
+    "releaseDateSource": "https://www.youtube.com/watch?v=AF9uT6lS8rI"
   },
   {
     "title": "maledict",
@@ -1077,12 +1209,13 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 265.15
   },
   {
     "title": "intruder",
     "id": "LU6P3C4BhUs",
-    "duration": "",
+    "duration": "5:47",
     "artist": "Fetch Quest",
     "type": "Channel archive",
     "youtube": "LU6P3C4BhUs",
@@ -1099,12 +1232,13 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 347.06
   },
   {
     "title": "jaeger (1st version)",
     "id": "HFJkEa3rylQ",
-    "duration": "",
+    "duration": "5:05",
     "artist": "Audionerds",
     "type": "Channel archive",
     "youtube": "HFJkEa3rylQ",
@@ -1118,7 +1252,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 305.66,
+    "releaseDate": "2025-03-23",
+    "releaseDateSource": "https://www.youtube.com/watch?v=HFJkEa3rylQ"
   },
   {
     "title": "atomic punch",
@@ -1141,7 +1278,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 316.08
   },
   {
     "title": "hitchhiker",
@@ -1164,7 +1302,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 243.89
   },
   {
     "title": "Soulja boy X piano fantasia - crank that song for Denise mashup",
@@ -1184,7 +1323,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 105.55,
+    "releaseDate": "2025-02-28",
+    "releaseDateSource": "https://www.youtube.com/watch?v=MkgNTNv5Bhw"
   },
   {
     "title": "SexyBack but it’s only Timbaland",
@@ -1204,12 +1346,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 197.02,
+    "releaseDate": "2025-02-18",
+    "releaseDateSource": "https://www.youtube.com/watch?v=KV1enCR_pSA"
   },
   {
     "title": "Loompaskettee & Bandlez - Riddim Track (peacepipe04 carnival color rawstyle ReR)",
     "id": "JEctLae7BG0",
-    "duration": "",
+    "duration": "2:08",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "JEctLae7BG0",
@@ -1223,7 +1368,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 128.91,
+    "releaseDate": "2025-02-01",
+    "releaseDateSource": "https://www.youtube.com/watch?v=JEctLae7BG0"
   },
   {
     "title": "sigma boy 🗿 but it’s cheap orchestra",
@@ -1243,12 +1391,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 53.54,
+    "releaseDate": "2025-01-26",
+    "releaseDateSource": "https://www.youtube.com/watch?v=O0sTEAC7zsA"
   },
   {
     "title": "epic cheesy toast - art of war (peacepipe04 art of peace recolor)",
     "id": "up0emSzVhuQ",
-    "duration": "",
+    "duration": "2:45",
     "artist": "peacepipe04",
     "type": "Remix / edit",
     "youtube": "up0emSzVhuQ",
@@ -1262,7 +1413,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 165.51,
+    "releaseDate": "2025-01-12",
+    "releaseDateSource": "https://www.youtube.com/watch?v=up0emSzVhuQ"
   },
   {
     "title": "super cool pumping music in the car",
@@ -1282,7 +1436,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 195.77,
+    "releaseDate": "2025-01-02",
+    "releaseDateSource": "https://www.youtube.com/watch?v=7dySB-q3W1w"
   },
   {
     "title": "unity",
@@ -1305,12 +1462,13 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 319.56
   },
   {
     "title": "baccpacc",
     "id": "COEG8DylnGk",
-    "duration": "",
+    "duration": "3:44",
     "artist": "peacepipe04",
     "type": "Channel archive",
     "youtube": "COEG8DylnGk",
@@ -1324,7 +1482,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 224.65,
+    "releaseDate": "2024-12-16",
+    "releaseDateSource": "https://www.youtube.com/watch?v=COEG8DylnGk"
   },
   {
     "title": "taurine groove",
@@ -1344,12 +1505,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 233.76,
+    "releaseDate": "2024-12-14",
+    "releaseDateSource": "https://www.youtube.com/watch?v=HSOTOJjwgC8"
   },
   {
     "title": "spankox - to the club (fetch quest remix)🕺🏽",
     "id": "zzK_kqMhiaE",
-    "duration": "",
+    "duration": "4:16",
     "artist": "Fetch Quest",
     "type": "Remix / edit",
     "youtube": "zzK_kqMhiaE",
@@ -1366,7 +1530,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 256.99
   },
   {
     "title": "i like trains 🚂 [ambient]",
@@ -1386,7 +1551,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 152.09,
+    "releaseDate": "2024-11-30",
+    "releaseDateSource": "https://www.youtube.com/watch?v=GW5OeSKUGGE"
   },
   {
     "title": "lepidoptera 🦋",
@@ -1406,7 +1574,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 112.78,
+    "releaseDate": "2024-11-27",
+    "releaseDateSource": "https://www.youtube.com/watch?v=Gm4EFFE6PFM"
   },
   {
     "title": "sport 🏀🥊",
@@ -1426,7 +1597,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 87.19,
+    "releaseDate": "2024-11-17",
+    "releaseDateSource": "https://www.youtube.com/watch?v=sf4qEpelhqQ"
   },
   {
     "id": "sc-218046485",
@@ -1450,7 +1624,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/horizon/1030071774?i=1030073722&uo=4"
-    }
+    },
+    "officialReleaseDate": "2015-08-20",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/horizon/1030071774?i=1030073722&uo=4",
+    "durationSeconds": 362.06
   },
   {
     "id": "sc-211693501",
@@ -1474,7 +1651,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/crimson/1005486512?i=1005486887&uo=4"
-    }
+    },
+    "officialReleaseDate": "2015-07-06",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/crimson/1005486512?i=1005486887&uo=4",
+    "durationSeconds": 228.81
   },
   {
     "id": "sc-191959883",
@@ -1497,7 +1677,10 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
       "source": "https://music.apple.com/us/album/back/964042057?i=964042073&uo=4"
-    }
+    },
+    "officialReleaseDate": "2015-03-02",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/back/964042057?i=964042073&uo=4",
+    "durationSeconds": 296.31
   },
   {
     "id": "sc-181225059",
@@ -1519,7 +1702,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 257.8
   },
   {
     "id": "sc-166192778",
@@ -1541,7 +1725,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 298.66
   },
   {
     "id": "sc-162264310",
@@ -1563,7 +1748,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 233.64
   },
   {
     "id": "sc-161938426",
@@ -1584,7 +1770,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 273.82
   },
   {
     "id": "sc-159426983",
@@ -1606,7 +1793,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 316.06
   },
   {
     "id": "sc-157018699",
@@ -1628,7 +1816,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 354.43
   },
   {
     "id": "sc-151646095",
@@ -1650,7 +1839,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 49.11
   },
   {
     "id": "sc-148327923",
@@ -1672,7 +1862,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 290.69
   },
   {
     "id": "sc-143482171",
@@ -1694,7 +1885,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 288.81
   },
   {
     "id": "sc-141846543",
@@ -1716,7 +1908,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 246.31
   },
   {
     "id": "sc-123517237",
@@ -1738,7 +1931,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 135.16
   },
   {
     "id": "sc-123516494",
@@ -1761,7 +1955,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 315.29
   },
   {
     "id": "sc-118080584",
@@ -1783,7 +1978,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 243.64
   },
   {
     "id": "sc-113620964",
@@ -1805,7 +2001,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 322.56
   },
   {
     "id": "sc-105887583",
@@ -1826,7 +2023,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 292.55
   },
   {
     "id": "sc-78908151",
@@ -1847,13 +2045,14 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 316.92
   },
   {
     "id": "1ZwcQz0s2tg",
     "title": "First Love Twice",
     "artist": "Epic Cheesy Toast",
-    "duration": "",
+    "duration": "5:43",
     "type": "Early archive",
     "youtube": "1ZwcQz0s2tg",
     "audio": "assets/audio/0B6qg46ChnRO7XzlCbFdPTVQ4VzQ.mp3",
@@ -1866,14 +2065,17 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 343.95,
+    "releaseDate": "2013-02-16",
+    "releaseDateSource": "https://www.youtube.com/watch?v=1ZwcQz0s2tg"
   },
   {
     "id": "drive-15P2bALLS297Ty5zmxQ-RscwPZcCvRK4r",
     "title": "lord of power 2",
     "artist": "Unassigned",
     "type": "Studio archive · credit to confirm",
-    "duration": "",
+    "duration": "0:30",
     "audio": "assets/audio/15P2bALLS297Ty5zmxQ-RscwPZcCvRK4r.mp3",
     "drive": "https://drive.google.com/file/d/15P2bALLS297Ty5zmxQ-RscwPZcCvRK4r/view?usp=drivesdk",
     "originalFilename": "lord of power_2.mp3",
@@ -1884,14 +2086,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 30.56
   },
   {
     "id": "drive-1OoBD5bR9l5-x2llyNMZ7uTfFQjWVjFQW",
     "title": "butterfly fever dream",
     "artist": "Unassigned",
     "type": "Studio archive · credit to confirm",
-    "duration": "",
+    "duration": "1:45",
     "audio": "assets/audio/1OoBD5bR9l5-x2llyNMZ7uTfFQjWVjFQW.mp3",
     "drive": "https://drive.google.com/file/d/1OoBD5bR9l5-x2llyNMZ7uTfFQjWVjFQW/view?usp=drivesdk",
     "originalFilename": "butterfly fever dream.mp3",
@@ -1902,14 +2105,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 105.56
   },
   {
     "id": "drive-1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr",
     "title": "Drum N Bass 03 final",
     "artist": "Unassigned",
     "type": "Studio archive · credit to confirm",
-    "duration": "",
+    "duration": "3:53",
     "audio": "assets/audio/1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr.mp3",
     "drive": "https://drive.google.com/file/d/1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr/view?usp=drivesdk",
     "originalFilename": "Drum N Bass 03_final.mp3",
@@ -1920,14 +2124,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 233.67
   },
   {
     "id": "drive-1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ",
     "title": "Мамбетский Мидтехно 08",
     "artist": "Unassigned",
     "type": "Studio archive · credit to confirm",
-    "duration": "",
+    "duration": "3:15",
     "audio": "assets/audio/1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ.mp3",
     "drive": "https://drive.google.com/file/d/1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ/view?usp=drivesdk",
     "originalFilename": "Мамбетский Мидтехно 08.mp3",
@@ -1938,14 +2143,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 195.63
   },
   {
     "id": "drive-1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM",
     "title": "WYCBA",
     "artist": "Fetch Quest",
     "type": "Drive original",
-    "duration": "",
+    "duration": "3:03",
     "audio": "assets/audio/1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM.mp3",
     "drive": "https://drive.google.com/file/d/1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - WYCBA.mp3",
@@ -1956,14 +2162,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 183.93
   },
   {
     "id": "drive-1rIn_zRT1H1dT9oI2DGNjINC90cq0f38E",
     "title": "SYNTHWAVE FINAL",
     "artist": "Unassigned",
     "type": "Studio archive · credit to confirm",
-    "duration": "",
+    "duration": "4:06",
     "audio": "assets/audio/1rIn_zRT1H1dT9oI2DGNjINC90cq0f38E.mp3",
     "drive": "https://drive.google.com/file/d/1rIn_zRT1H1dT9oI2DGNjINC90cq0f38E/view?usp=drivesdk",
     "originalFilename": "SYNTHWAVE FINAL.mp3",
@@ -1974,14 +2181,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 246.44
   },
   {
     "id": "drive-0B6qg46ChnRO7MjBra1pOeVVjNDg",
     "title": "Sometimes Evolution Sucks",
     "artist": "Unassigned",
     "type": "Studio archive · credit to confirm",
-    "duration": "",
+    "duration": "5:21",
     "audio": "assets/audio/0B6qg46ChnRO7MjBra1pOeVVjNDg.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7MjBra1pOeVVjNDg/view?usp=drivesdk&resourcekey=0-5ns2yGpwkdGzEsHu2MGChg",
     "originalFilename": "Epic_Cheesy_Toast_-_Sometimes_Evolution_Sucks.mp3",
@@ -1992,14 +2200,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 321.52
   },
   {
     "id": "drive-0B6qg46ChnRO7MkQyczU2TUVWUjg",
     "title": "Mighty Maggots",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "5:27",
     "audio": "assets/audio/0B6qg46ChnRO7MkQyczU2TUVWUjg.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7MkQyczU2TUVWUjg/view?usp=drivesdk&resourcekey=0-RKDjXsGDwSW0Ceq6C4fyGA",
     "originalFilename": "Epic Cheesy Toast - Mighty Maggots.mp3",
@@ -2010,14 +2219,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 327.29
   },
   {
     "id": "drive-0B6qg46ChnRO7aV9Ha3doNDNCNUU",
     "title": "ASIANS!",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "5:07",
     "audio": "assets/audio/0B6qg46ChnRO7aV9Ha3doNDNCNUU.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7aV9Ha3doNDNCNUU/view?usp=drivesdk&resourcekey=0-1v4SU43eo97NC8S_LeA_5A",
     "originalFilename": "Epic Cheesy Toast - ASIANS!.mp3",
@@ -2028,14 +2238,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 307.88
   },
   {
     "id": "drive-0B6qg46ChnRO7YWVJeWpOWnpFMkE",
     "title": "Kleptomaniac",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "4:03",
     "audio": "assets/audio/0B6qg46ChnRO7YWVJeWpOWnpFMkE.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7YWVJeWpOWnpFMkE/view?usp=drivesdk&resourcekey=0-Vx4TrPXvmXsY_gWmYpqzUg",
     "originalFilename": "Epic Cheesy Toast - Kleptomaniac.mp3",
@@ -2046,14 +2257,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 243.83
   },
   {
     "id": "drive-0B6qg46ChnRO7b0lIcUpyeC1DNGM",
     "title": "Torque",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "4:11",
     "audio": "assets/audio/0B6qg46ChnRO7b0lIcUpyeC1DNGM.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7b0lIcUpyeC1DNGM/view?usp=drivesdk&resourcekey=0-g-JE-t6YqonQhmrin0F1Kw",
     "originalFilename": "Epic Cheesy Toast - Torque.mp3",
@@ -2064,14 +2276,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 251.3
   },
   {
     "id": "drive-0B6qg46ChnRO7b3pYNzNkcVhCaFU",
     "title": "Chinese Mafia",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "2:32",
     "audio": "assets/audio/0B6qg46ChnRO7b3pYNzNkcVhCaFU.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7b3pYNzNkcVhCaFU/view?usp=drivesdk&resourcekey=0-EVLhW9tcekjaKVFpn2J2yQ",
     "originalFilename": "Epic Cheesy Toast - Chinese Mafia.mp3",
@@ -2082,14 +2295,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 152.53
   },
   {
     "id": "drive-0B6qg46ChnRO7ajRlMjFkRkZkZlE",
     "title": "The Unleashed",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "2:14",
     "audio": "assets/audio/0B6qg46ChnRO7ajRlMjFkRkZkZlE.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7ajRlMjFkRkZkZlE/view?usp=drivesdk&resourcekey=0-xry6vkcGNB-YL5wbCv8XuA",
     "originalFilename": "Epic Cheese Toast - The Unleashed.mp3",
@@ -2100,14 +2314,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 134.17
   },
   {
     "id": "drive-0B6qg46ChnRO7WkVJakVqZkZ6dGc",
     "title": "Coming Home",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "4:29",
     "audio": "assets/audio/0B6qg46ChnRO7WkVJakVqZkZ6dGc.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7WkVJakVqZkZ6dGc/view?usp=drivesdk&resourcekey=0-OsJtGsRJJHU6HEecg2RmLA",
     "originalFilename": "12. Coming Home.mp3",
@@ -2118,14 +2333,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 269.59
   },
   {
     "id": "drive-0B6qg46ChnRO7R3JqYzhsV3luZVE",
     "title": "I'm Fine With That",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "5:44",
     "audio": "assets/audio/0B6qg46ChnRO7R3JqYzhsV3luZVE.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7R3JqYzhsV3luZVE/view?usp=drivesdk&resourcekey=0-vJmPclxHUtEQS1Pj7LaGHg",
     "originalFilename": "11. I'm Fine With That.mp3",
@@ -2136,14 +2352,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 344.66
   },
   {
     "id": "drive-0B6qg46ChnRO7Uy1fTURrX0ZJOEk",
     "title": "Hello America!",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "5:34",
     "audio": "assets/audio/0B6qg46ChnRO7Uy1fTURrX0ZJOEk.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7Uy1fTURrX0ZJOEk/view?usp=drivesdk&resourcekey=0-goABhDM086CzLZW4YYJ6pw",
     "originalFilename": "10. Hello America!.mp3",
@@ -2154,14 +2371,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 334.68
   },
   {
     "id": "drive-0B6qg46ChnRO7RUZMek5mZjhrWkE",
     "title": "Lunar",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "5:48",
     "audio": "assets/audio/0B6qg46ChnRO7RUZMek5mZjhrWkE.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7RUZMek5mZjhrWkE/view?usp=drivesdk&resourcekey=0-zY9i3OgRZUQEZoloO_KNHg",
     "originalFilename": "9. Lunar.mp3",
@@ -2172,14 +2390,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 348
   },
   {
     "id": "drive-0B6qg46ChnRO7b1Rud1dWaThaM1k",
     "title": "Art Of War",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "5:38",
     "audio": "assets/audio/0B6qg46ChnRO7b1Rud1dWaThaM1k.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7b1Rud1dWaThaM1k/view?usp=drivesdk&resourcekey=0-to-LQpp8OIg2aXfToHc5sg",
     "originalFilename": "8. Art Of War.mp3",
@@ -2190,14 +2409,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 338.03
   },
   {
     "id": "drive-0B6qg46ChnRO7RE9qeV9JOFNRVEE",
     "title": "Grandma's Isotopes",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "4:56",
     "audio": "assets/audio/0B6qg46ChnRO7RE9qeV9JOFNRVEE.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7RE9qeV9JOFNRVEE/view?usp=drivesdk&resourcekey=0-JuhoKb_apJWb8AvsTdtx-g",
     "originalFilename": "7. Grandma's Isotopes.mp3",
@@ -2208,14 +2428,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 296.33
   },
   {
     "id": "drive-0B6qg46ChnRO7bWpndnlaeWFoSzA",
     "title": "Caffeine Addicted",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "5:13",
     "audio": "assets/audio/0B6qg46ChnRO7bWpndnlaeWFoSzA.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7bWpndnlaeWFoSzA/view?usp=drivesdk&resourcekey=0-K82mmh0xojbAzZLkn257Ew",
     "originalFilename": "6. Caffeine Addicted.mp3",
@@ -2226,14 +2447,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 313.97
   },
   {
     "id": "drive-0B6qg46ChnRO7RUVKcTJ0RXU1RWM",
     "title": "Bassey Trebleson",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "5:12",
     "audio": "assets/audio/0B6qg46ChnRO7RUVKcTJ0RXU1RWM.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7RUVKcTJ0RXU1RWM/view?usp=drivesdk&resourcekey=0-jGy9_3Twp6JRghRFWODkcA",
     "originalFilename": "5. Bassey Trebleson.mp3",
@@ -2244,14 +2466,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 312.4
   },
   {
     "id": "drive-0B6qg46ChnRO7WXFnSElYRlNYN1k",
     "title": "Humanoids",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "3:56",
     "audio": "assets/audio/0B6qg46ChnRO7WXFnSElYRlNYN1k.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7WXFnSElYRlNYN1k/view?usp=drivesdk&resourcekey=0--nvM-14-GhFa9o_D98NhPg",
     "originalFilename": "4. Humanoids.mp3",
@@ -2262,14 +2485,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 236.56
   },
   {
     "id": "drive-0B6qg46ChnRO7V0tNUlJ5aTRHazA",
     "title": "Reminiscence",
     "artist": "Epic Cheesy Toast",
     "type": "Drive original",
-    "duration": "",
+    "duration": "6:31",
     "audio": "assets/audio/0B6qg46ChnRO7V0tNUlJ5aTRHazA.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7V0tNUlJ5aTRHazA/view?usp=drivesdk&resourcekey=0-5UTTQGrVVy49LX5r7yuvSQ",
     "originalFilename": "3. Reminiscence.mp3",
@@ -2280,14 +2504,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
       "source": "Project owner"
-    }
+    },
+    "durationSeconds": 391.44
   },
   {
     "id": "drive-1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-",
     "title": "Say No More",
     "artist": "Audionerds",
     "type": "Drive original",
-    "duration": "",
+    "duration": "4:25",
     "audio": "assets/audio/1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-.mp3",
     "drive": "https://drive.google.com/file/d/1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-/view?usp=drivesdk",
     "originalFilename": "Audionerds - Say No More (Original Mix).mp3",
@@ -2298,14 +2523,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 265.01
   },
   {
     "id": "drive-1MZq8yde9SGTceGrj81AsoaSDubp1j7tc",
     "title": "Hitchhike",
     "artist": "Audionerds",
     "type": "Drive original",
-    "duration": "",
+    "duration": "4:03",
     "audio": "assets/audio/1MZq8yde9SGTceGrj81AsoaSDubp1j7tc.mp3",
     "drive": "https://drive.google.com/file/d/1MZq8yde9SGTceGrj81AsoaSDubp1j7tc/view?usp=drivesdk",
     "originalFilename": "Audionerds - Hitchhike (Original Mix).mp3",
@@ -2316,14 +2542,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 243.8
   },
   {
     "id": "drive-15VBuSTsUeZtW9am90hMDDp53plVVV5iE",
     "title": "Mutation",
     "artist": "Unassigned",
     "type": "Studio archive · credit to confirm",
-    "duration": "",
+    "duration": "3:50",
     "audio": "assets/audio/15VBuSTsUeZtW9am90hMDDp53plVVV5iE.mp3",
     "drive": "https://drive.google.com/file/d/15VBuSTsUeZtW9am90hMDDp53plVVV5iE/view?usp=drivesdk",
     "originalFilename": "Mutation_Mastered.mp3",
@@ -2335,14 +2562,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 230.66
   },
   {
     "id": "drive-0B6qg46ChnRO7MW92eUxzLW1yVjg",
     "title": "DanchikBaha [minus wave]",
     "artist": "Unassigned",
     "type": "Studio archive · credit to confirm",
-    "duration": "",
+    "duration": "1:59",
     "audio": "assets/audio/0B6qg46ChnRO7MW92eUxzLW1yVjg.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7MW92eUxzLW1yVjg/view?usp=drivesdk&resourcekey=0-EiGW4HMnNhsS5P2MqMxtUw",
     "originalFilename": "DanchikBaha [minus wave].mp3",
@@ -2354,14 +2582,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 119.8
   },
   {
     "id": "drive-1yATBQ2IaHV05AuTaA7_w3W5yPIFo_uNa",
     "title": "AP mastered",
     "artist": "Unassigned",
     "type": "Studio archive · credit to confirm",
-    "duration": "",
+    "duration": "5:16",
     "audio": "assets/audio/1yATBQ2IaHV05AuTaA7_w3W5yPIFo_uNa.mp3",
     "drive": "https://drive.google.com/file/d/1yATBQ2IaHV05AuTaA7_w3W5yPIFo_uNa/view?usp=drivesdk",
     "originalFilename": "AP mastered.mp3",
@@ -2373,14 +2602,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 316
   },
   {
     "id": "drive-13eas8jXbRojM-rvWChDiEa1wq4IMOVk0",
     "title": "Decoy",
     "artist": "Unassigned",
     "type": "Studio archive · credit to confirm",
-    "duration": "",
+    "duration": "4:11",
     "audio": "assets/audio/13eas8jXbRojM-rvWChDiEa1wq4IMOVk0.mp3",
     "drive": "https://drive.google.com/file/d/13eas8jXbRojM-rvWChDiEa1wq4IMOVk0/view?usp=drivesdk",
     "originalFilename": "Decoy mastered.mp3",
@@ -2392,14 +2622,15 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 251.43
   },
   {
     "id": "drive-1EcHk60ZVhAA2G8q_Gw_ti-8TdKnSeh9b",
     "title": "Crossover",
     "artist": "Audionerds",
     "type": "Earlier master",
-    "duration": "",
+    "duration": "5:08",
     "audio": "assets/audio/1EcHk60ZVhAA2G8q_Gw_ti-8TdKnSeh9b.mp3",
     "drive": "https://drive.google.com/file/d/1EcHk60ZVhAA2G8q_Gw_ti-8TdKnSeh9b/view?usp=drivesdk",
     "originalFilename": "Audionerds - Crossover.mp3",
@@ -2411,7 +2642,8 @@ const catalog = [
       "checkedAt": "2026-10-05",
       "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
       "source": null
-    }
+    },
+    "durationSeconds": 308.01
   }
 ];
 

@@ -28,9 +28,12 @@ for (const name of await readdir(root)) {
     async ([, quote, url]) => `url(${quote}${await version(url)}${quote})`);
   if (updated !== original) await writeFile(file, updated);
 }
-const htmlFile = path.join(root, 'index.html');
-const original = await readFile(htmlFile, 'utf8');
-const updated = await replaceAsync(original, /\b(src|href)="([^"<>]+\.(?:js|css|ttf|woff2?)(?:\?[^"<>]*)?)"/g,
-  async ([, attribute, url]) => `${attribute}="${await version(url)}"`);
-if (updated !== original) await writeFile(htmlFile, updated);
-console.log('Validated and versioned scripts, stylesheets and fonts.');
+for (const name of (await readdir(root)).filter(name=>name.endsWith('.html'))) {
+ const htmlFile=path.join(root,name);
+ const original=await readFile(htmlFile,'utf8');
+ const updated=await replaceAsync(original, /\b(src|href)="([^"<>]+\.(?:js|css|ttf|woff2?)(?:\?[^"<>]*)?)"/g,
+  async ([,attribute,url])=>`${attribute}="${await version(url)}"`);
+ if(updated!==original)await writeFile(htmlFile,updated);
+}
+console.log('Validated and versioned scripts, stylesheets and fonts on every page.');
+
