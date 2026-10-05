@@ -18,6 +18,13 @@ window.latestRelease = {
   "duration": "3:28",
   "originalFilename": "peacepipe04 - generic indie pop song.mp3",
   "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-  "audioSource": "https://www.youtube.com/watch?v=oasfLfWYgTo"
+  "audioSource": "https://www.youtube.com/watch?v=oasfLfWYgTo",
+  "releaseStatus": "unofficial",
+  "streamingLinks": {},
+  "releaseVerification": {
+    "checkedAt": "2026-10-05",
+    "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+    "source": "Project owner"
+  }
 };
 

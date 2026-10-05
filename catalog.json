@@ -14,7 +14,17 @@
     "audio": "assets/audio/1rxBwwts7B2R8tWpnunV1HZhdZfPUePM_.mp3",
     "drive": "https://drive.google.com/file/d/1rxBwwts7B2R8tWpnunV1HZhdZfPUePM_/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - Waverider_Mastered.mp3",
-    "audioBytes": 7743808
+    "audioBytes": 7743808,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/waverider/1500466022?i=1500466023&uo=4",
+      "spotify": "https://open.spotify.com/track/0DXO8YcURVZYbte55K0kwI"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/waverider/1500466022?i=1500466023&uo=4"
+    }
   },
   {
     "title": "Hotwire",
@@ -29,7 +39,17 @@
     "audioBytes": 4950189,
     "originalFilename": "Fetch Quest - Hotwire.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=0jZfu7AWHM0"
+    "audioSource": "https://www.youtube.com/watch?v=0jZfu7AWHM0",
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/hotwire/1698509712?i=1698509715&uo=4",
+      "spotify": "https://open.spotify.com/track/2sJNzaaelWiQBhxULA4DPO"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/hotwire/1698509712?i=1698509715&uo=4"
+    }
   },
   {
     "title": "Concentrated Madness",
@@ -46,7 +66,17 @@
     "audio": "assets/audio/10R598uT3w4Iz9hNRdLg9GeTHEYPcKrOB.mp3",
     "drive": "https://drive.google.com/file/d/10R598uT3w4Iz9hNRdLg9GeTHEYPcKrOB/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - Concentrated Madness_Mastered.mp3",
-    "audioBytes": 10412478
+    "audioBytes": 10412478,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/concentrated-madness/1519691406?i=1519691407&uo=4",
+      "spotify": "https://open.spotify.com/track/0c1S2sFCGTHT63Mmt4WkSx"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/concentrated-madness/1519691406?i=1519691407&uo=4"
+    }
   },
   {
     "title": "Guesswork",
@@ -64,7 +94,17 @@
     "drive": "https://drive.google.com/file/d/1Vvrzml_z_ajhz7DZ474lthCMf5p9QYxV/view?usp=drivesdk",
     "originalFilename": "Guesswork_Bass House 10_Mastered.mp3",
     "audioBytes": 8614216,
-    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup."
+    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup.",
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/guesswork/1457449419?i=1457449420&uo=4",
+      "spotify": "https://open.spotify.com/track/1Nbf5DvMU1xk51bEazSVVW"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/guesswork/1457449419?i=1457449420&uo=4"
+    }
   },
   {
     "title": "Vernyi",
@@ -78,7 +118,17 @@
     "audio": "assets/audio/1IMs9FXrFzrL2ZCcvLcjmgfXRKvwZViOy.mp3",
     "drive": "https://drive.google.com/file/d/1IMs9FXrFzrL2ZCcvLcjmgfXRKvwZViOy/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - Vernyi_Mastered.mp3",
-    "audioBytes": 10426061
+    "audioBytes": 10426061,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/vernyi/1621539544?i=1621539545&uo=4",
+      "spotify": "https://open.spotify.com/track/2wYSq6zpv2SKQsYevyVcsn"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/vernyi/1621539544?i=1621539545&uo=4"
+    }
   },
   {
     "title": "Speedrun",
@@ -95,7 +145,17 @@
     "audio": "assets/audio/1WzZFax8dq3MkmSioaY1j_vOKAlOlaxJX.mp3",
     "drive": "https://drive.google.com/file/d/1WzZFax8dq3MkmSioaY1j_vOKAlOlaxJX/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - SpeedRun_Mastered.mp3",
-    "audioBytes": 8744821
+    "audioBytes": 8744821,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/speedrun/1591400901?i=1591400902&uo=4",
+      "spotify": "https://open.spotify.com/track/1wqZVMQ1dQfcktU46SXzFy"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/speedrun/1591400901?i=1591400902&uo=4"
+    }
   },
   {
     "title": "Zoology",
@@ -111,7 +171,16 @@
     "audio": "assets/audio/1luP0dlNDMDc9dDYEp6QVDZg7ocMdxe7e.mp3",
     "drive": "https://drive.google.com/file/d/1luP0dlNDMDc9dDYEp6QVDZg7ocMdxe7e/view?usp=drivesdk",
     "originalFilename": "Zoology_mastered.mp3",
-    "audioBytes": 11477229
+    "audioBytes": 11477229,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/zoology/1437852738?i=1437852751&uo=4"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/zoology/1437852738?i=1437852751&uo=4"
+    }
   },
   {
     "title": "Flesh",
@@ -128,7 +197,17 @@
     "audio": "assets/audio/13zcnVLAT8_zfe7RYHU-JUWt8EsZ7irXX.mp3",
     "drive": "https://drive.google.com/file/d/13zcnVLAT8_zfe7RYHU-JUWt8EsZ7irXX/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - Flesh.mp3",
-    "audioBytes": 9468935
+    "audioBytes": 9468935,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/flesh/1542545741?i=1542545742&uo=4",
+      "spotify": "https://open.spotify.com/track/5f6GQPC488w6wzycnY7lpo"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/flesh/1542545741?i=1542545742&uo=4"
+    }
   },
   {
     "title": "Zircon",
@@ -146,7 +225,17 @@
     "audioBytes": 7171293,
     "originalFilename": "Fetch Quest - Zircon.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=X5Rpm8JVQBg"
+    "audioSource": "https://www.youtube.com/watch?v=X5Rpm8JVQBg",
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/zircon/1448618026?i=1448618027&uo=4",
+      "spotify": "https://open.spotify.com/track/1XqhwzdZIB6ahY1u07ZtFk"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/zircon/1448618026?i=1448618027&uo=4"
+    }
   },
   {
     "title": "Framework",
@@ -160,7 +249,16 @@
     "audioBytes": 8169741,
     "originalFilename": "Fetch Quest - Framework.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=ZCJ1nJ3Q79E"
+    "audioSource": "https://www.youtube.com/watch?v=ZCJ1nJ3Q79E",
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/framework/1663900487?i=1663900488&uo=4"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/framework/1663900487?i=1663900488&uo=4"
+    }
   },
   {
     "title": "Touchstone",
@@ -177,7 +275,16 @@
     "audioBytes": 5865741,
     "originalFilename": "Fetch Quest - Touchstone.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=hL2ZWAv0278"
+    "audioSource": "https://www.youtube.com/watch?v=hL2ZWAv0278",
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/touchstone/1437694439?i=1437694442&uo=4"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/touchstone/1437694439?i=1437694442&uo=4"
+    }
   },
   {
     "title": "Dog’s Dogma",
@@ -191,7 +298,17 @@
     "audio": "assets/audio/1cpz3FTZkRqJycxs7AnvxOc6ackZqUMfk.mp3",
     "drive": "https://drive.google.com/file/d/1cpz3FTZkRqJycxs7AnvxOc6ackZqUMfk/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - Dog's Dogma.mp3",
-    "audioBytes": 9226519
+    "audioBytes": 9226519,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/dogs-dogma/1696443364?i=1696443365&uo=4",
+      "spotify": "https://open.spotify.com/track/1XUNDs23cW4UI6C1OPZSft"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/dogs-dogma/1696443364?i=1696443365&uo=4"
+    }
   },
   {
     "title": "Pseudoscience",
@@ -208,7 +325,17 @@
     "audio": "assets/audio/1SuGyvk7Qm_oKYxHhPyZ4S49fRfLCfSF4.mp3",
     "drive": "https://drive.google.com/file/d/1SuGyvk7Qm_oKYxHhPyZ4S49fRfLCfSF4/view?usp=drivesdk",
     "originalFilename": "Pseudoscience_Mastered.mp3",
-    "audioBytes": 14482355
+    "audioBytes": 14482355,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/pseudoscience/1447895947?i=1447895950&uo=4",
+      "spotify": "https://open.spotify.com/track/4PjDcRrjThtPVomTW4P6ek"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/pseudoscience/1447895947?i=1447895950&uo=4"
+    }
   },
   {
     "title": "Omnipotence",
@@ -224,7 +351,16 @@
     "audio": "assets/audio/1fqzUS4AEY8ukTSiCC6uhrmZmJTYEddD9.mp3",
     "drive": "https://drive.google.com/file/d/1fqzUS4AEY8ukTSiCC6uhrmZmJTYEddD9/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - Omnipotence_Mastered.mp3",
-    "audioBytes": 8705114
+    "audioBytes": 8705114,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/omnipotence/1488831034?i=1488831035&uo=4"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/omnipotence/1488831034?i=1488831035&uo=4"
+    }
   },
   {
     "title": "Angry Teenagers",
@@ -238,7 +374,17 @@
     "audio": "assets/audio/1ECdYg9Nkm8F_cR6G-q-q5sQJ2Dc9-5XA.mp3",
     "drive": "https://drive.google.com/file/d/1ECdYg9Nkm8F_cR6G-q-q5sQJ2Dc9-5XA/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - Angry Teenagers.mp3",
-    "audioBytes": 9104266
+    "audioBytes": 9104266,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/angry-teenagers/1694287202?i=1694287203&uo=4",
+      "spotify": "https://open.spotify.com/track/0nRVlYqSikAT7XlELocwEn"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/angry-teenagers/1694287202?i=1694287203&uo=4"
+    }
   },
   {
     "title": "Nanowire",
@@ -253,7 +399,17 @@
     "audioBytes": 6321549,
     "originalFilename": "Fetch Quest - Nanowire.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=5OS3_Y8_raw"
+    "audioSource": "https://www.youtube.com/watch?v=5OS3_Y8_raw",
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/nanowire/1698509712?i=1698510076&uo=4",
+      "spotify": "https://open.spotify.com/track/6MUmAIq7I603kHWlb7cYSz"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/nanowire/1698509712?i=1698510076&uo=4"
+    }
   },
   {
     "title": "Kinship",
@@ -267,7 +423,17 @@
     "audio": "assets/audio/1LV0MeSyB4RKbEIPOe3XY6vIov0NyW0QP.mp3",
     "drive": "https://drive.google.com/file/d/1LV0MeSyB4RKbEIPOe3XY6vIov0NyW0QP/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - Kinship.mp3",
-    "audioBytes": 7027008
+    "audioBytes": 7027008,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/kinship/1695575385?i=1695575626&uo=4",
+      "spotify": "https://open.spotify.com/track/5SpiIyEcPyajfs1kPQ8qce"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/kinship/1695575385?i=1695575626&uo=4"
+    }
   },
   {
     "title": "Disco Mbobulate",
@@ -281,7 +447,17 @@
     "audio": "assets/audio/1n8oH5mWffB2W6VkkAujS3cPSEiErPslL.mp3",
     "drive": "https://drive.google.com/file/d/1n8oH5mWffB2W6VkkAujS3cPSEiErPslL/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - Disco Mbobulate.mp3",
-    "audioBytes": 10502339
+    "audioBytes": 10502339,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/disco-mbobulate/1696443364?i=1696443366&uo=4",
+      "spotify": "https://open.spotify.com/track/0Yg5C3y4fZ1E7d7GbxAgVq"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/disco-mbobulate/1696443364?i=1696443366&uo=4"
+    }
   },
   {
     "title": "Trapwire",
@@ -296,7 +472,17 @@
     "audioBytes": 4549533,
     "originalFilename": "Fetch Quest - Trapwire.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=s4lCTG9Pzq4"
+    "audioSource": "https://www.youtube.com/watch?v=s4lCTG9Pzq4",
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/trapwire/1698509712?i=1698509713&uo=4",
+      "spotify": "https://open.spotify.com/track/6oazKy3qGZImKZWp8SEKyf"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/trapwire/1698509712?i=1698509713&uo=4"
+    }
   },
   {
     "title": "Ascendant Decade",
@@ -312,7 +498,16 @@
     "audio": "assets/audio/1BbKcctxJKvDMP4UdmMTeh9rEhl7gw240.mp3",
     "drive": "https://drive.google.com/file/d/1BbKcctxJKvDMP4UdmMTeh9rEhl7gw240/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - Ascendant Decade_Mastered.mp3",
-    "audioBytes": 13778094
+    "audioBytes": 13778094,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/ascendant-decade/1501971778?i=1501971779&uo=4"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/ascendant-decade/1501971778?i=1501971779&uo=4"
+    }
   },
   {
     "title": "Glazed Curd",
@@ -329,7 +524,17 @@
     "audio": "assets/audio/1BkWdPxkScQ0pEaIH7JlgNRS3_8WK-pS9.mp3",
     "drive": "https://drive.google.com/file/d/1BkWdPxkScQ0pEaIH7JlgNRS3_8WK-pS9/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - Glazed Curd_Mastered.mp3",
-    "audioBytes": 9044706
+    "audioBytes": 9044706,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/glazed-curd/6806023982?i=6806023984&uo=4",
+      "spotify": "https://open.spotify.com/track/157cUaqPeIFLb6h8Lu2Dor"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/glazed-curd/6806023982?i=6806023984&uo=4"
+    }
   },
   {
     "title": "Bones",
@@ -343,7 +548,17 @@
     "audio": "assets/audio/17z6KRmOQrbcfmkhWgUf3oB2jnM2_5r3K.mp3",
     "drive": "https://drive.google.com/file/d/17z6KRmOQrbcfmkhWgUf3oB2jnM2_5r3K/view?usp=drivesdk",
     "originalFilename": "Bones.mp3",
-    "audioBytes": 9462666
+    "audioBytes": 9462666,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/bones/1542545741?i=1542545743&uo=4",
+      "spotify": "https://open.spotify.com/track/3TVG0C7iy3Pfg9t3ibD578"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/bones/1542545741?i=1542545743&uo=4"
+    }
   },
   {
     "title": "Ian Oliver ft. Eastenders - Vino Vino_-_slowed w reverb",
@@ -356,7 +571,14 @@
     "audioBytes": 5226429,
     "originalFilename": "peacepipe04 - Ian Oliver ft. Eastenders - Vino Vino_-_slowed w reverb.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=Ruk54SRuRJg"
+    "audioSource": "https://www.youtube.com/watch?v=Ruk54SRuRJg",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "generic indie pop song",
@@ -369,7 +591,14 @@
     "audioBytes": 5275845,
     "originalFilename": "peacepipe04 - generic indie pop song.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=oasfLfWYgTo"
+    "audioSource": "https://www.youtube.com/watch?v=oasfLfWYgTo",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "the trashbird",
@@ -382,7 +611,14 @@
     "audioBytes": 3398925,
     "originalFilename": "peacepipe04 - the trashbird.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=Z6MmnzhYt7I"
+    "audioSource": "https://www.youtube.com/watch?v=Z6MmnzhYt7I",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "Cupcakke - Duck Duck Goose but it’s disco INSTRUMENTAL",
@@ -394,7 +630,14 @@
     "audio": "assets/audio/1lwZiPgcz-1PF-RVO4AzwHLEhjfJL3WUc.mp3",
     "drive": "https://drive.google.com/file/d/1lwZiPgcz-1PF-RVO4AzwHLEhjfJL3WUc/view?usp=drivesdk",
     "originalFilename": "Instrumental_Cupcakke - Duck Duck Goose peacepipe04 disco remix.mp3",
-    "audioBytes": 6001949
+    "audioBytes": 6001949,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "Cupcakke - Duck Duck Goose but it’s disco",
@@ -406,7 +649,14 @@
     "audio": "assets/audio/11KmavVwV2B3bz45uOEUph4G-I_9sFcLU.mp3",
     "drive": "https://drive.google.com/file/d/11KmavVwV2B3bz45uOEUph4G-I_9sFcLU/view?usp=drivesdk",
     "originalFilename": "Cupcakke - Duck Duck Goose peacepipe04 disco remix.mp3",
-    "audioBytes": 6195256
+    "audioBytes": 6195256,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "Martin Garrix - Animals (peacepipe04 cheap cumbia remix)",
@@ -418,7 +668,14 @@
     "audio": "assets/audio/18WlrYhLvsZqqFJcSAichEuj0AVXO5VjT.mp3",
     "drive": "https://drive.google.com/file/d/18WlrYhLvsZqqFJcSAichEuj0AVXO5VjT/view?usp=drivesdk",
     "originalFilename": "Animals remix.mp3",
-    "audioBytes": 4889133
+    "audioBytes": 4889133,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "Payload",
@@ -430,7 +687,16 @@
     "audio": "assets/audio/1NMzkImRHV1mO67gOR9Q729tgtNZ2B_Sk.mp3",
     "drive": "https://drive.google.com/file/d/1NMzkImRHV1mO67gOR9Q729tgtNZ2B_Sk/view?usp=drivesdk",
     "originalFilename": "Audionerds - Payload (Original mix).mp3",
-    "audioBytes": 13614045
+    "audioBytes": 13614045,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/payload/1018861953?i=1018862849&uo=4"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/payload/1018861953?i=1018862849&uo=4"
+    }
   },
   {
     "title": "Phil Fuldner - Miami Pop (peacepipe04 remix)",
@@ -442,7 +708,14 @@
     "audio": "assets/audio/1P8pH3wu4Bm5bOPX7bk9KzPz1jgfgrnzR.mp3",
     "drive": "https://drive.google.com/file/d/1P8pH3wu4Bm5bOPX7bk9KzPz1jgfgrnzR/view?usp=drivesdk",
     "originalFilename": "Phil Fuldner - Miami Pop (peacepipe04 remix).mp3",
-    "audioBytes": 6078227
+    "audioBytes": 6078227,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "um jogo no paraíso SPED UP",
@@ -454,7 +727,14 @@
     "audio": "assets/audio/1Ni6SDJkM4WDSafBrux8DBZm8nXw3NtLa.mp3",
     "drive": "https://drive.google.com/file/d/1Ni6SDJkM4WDSafBrux8DBZm8nXw3NtLa/view?usp=drivesdk",
     "originalFilename": "peacepipe04 - um jogo no paraiso_SPED UP.mp3",
-    "audioBytes": 7239109
+    "audioBytes": 7239109,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "um jogo no paraíso",
@@ -466,7 +746,14 @@
     "audio": "assets/audio/1SQRtHh-nH0mgMdWE0p8RFYmOHJ_NoQVZ.mp3",
     "drive": "https://drive.google.com/file/d/1SQRtHh-nH0mgMdWE0p8RFYmOHJ_NoQVZ/view?usp=drivesdk",
     "originalFilename": "peacepipe04 - um jogo no paraiso.mp3",
-    "audioBytes": 8555680
+    "audioBytes": 8555680,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "Cupcakke - CPR but it’s 70s corno music INSTRUMENTAL",
@@ -478,7 +765,14 @@
     "audio": "assets/audio/1i-MH0v35eHFjeIHpJJiQ9Fyj1zUr5wjN.mp3",
     "drive": "https://drive.google.com/file/d/1i-MH0v35eHFjeIHpJJiQ9Fyj1zUr5wjN/view?usp=drivesdk",
     "originalFilename": "Cupcakke - CPR but its 70s corno music_INSTRUMENTAL.mp3",
-    "audioBytes": 7488839
+    "audioBytes": 7488839,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "Cupcakke - CPR but it’s 70s corno music",
@@ -490,7 +784,14 @@
     "audio": "assets/audio/10i5S83Tww9JX4zEGZqTwNhMJi6wDJYOq.mp3",
     "drive": "https://drive.google.com/file/d/10i5S83Tww9JX4zEGZqTwNhMJi6wDJYOq/view?usp=drivesdk",
     "originalFilename": "Cupcakke - CPR but its 70s corno music.mp3",
-    "audioBytes": 7488839
+    "audioBytes": 7488839,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "naya - bubble town (peacepipe04 remix)",
@@ -503,7 +804,14 @@
     "audioBytes": 6575733,
     "originalFilename": "peacepipe04 - naya - bubble town (peacepipe04 remix).mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=p8XDTN84aKs"
+    "audioSource": "https://www.youtube.com/watch?v=p8XDTN84aKs",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "The Surfaris - Wipe out (peacepipe04 remix)",
@@ -515,7 +823,14 @@
     "audio": "assets/audio/15oyIgTutaewP4sC-Ipybq9-EX7BVbuE7.mp3",
     "drive": "https://drive.google.com/file/d/15oyIgTutaewP4sC-Ipybq9-EX7BVbuE7/view?usp=drivesdk",
     "originalFilename": "wipeout final pp04 remix.mp3",
-    "audioBytes": 4451321
+    "audioBytes": 4451321,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "UZI boomstick",
@@ -527,7 +842,14 @@
     "audio": "assets/audio/1okU0lcY0mQbmWU1wZLx8rRVU9SjZ6oFH.mp3",
     "drive": "https://drive.google.com/file/d/1okU0lcY0mQbmWU1wZLx8rRVU9SjZ6oFH/view?usp=drivesdk",
     "originalFilename": "peacepipe04 - UZI boomstick.mp3",
-    "audioBytes": 7871272
+    "audioBytes": 7871272,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "mad woman ting",
@@ -539,7 +861,14 @@
     "audio": "assets/audio/1skceFpjQ_E0n_Wx5t_NQVwZA5aUvkZhY.mp3",
     "drive": "https://drive.google.com/file/d/1skceFpjQ_E0n_Wx5t_NQVwZA5aUvkZhY/view?usp=drivesdk",
     "originalFilename": "peacepipe04 - mad woman ting [ffll].mp3",
-    "audioBytes": 8981998
+    "audioBytes": 8981998,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "a room of tools guided by marked knight",
@@ -551,7 +880,14 @@
     "audio": "assets/audio/1uVE_U4BtbIX4U3bPeKzZY4o0PXAs2xqN.mp3",
     "drive": "https://drive.google.com/file/d/1uVE_U4BtbIX4U3bPeKzZY4o0PXAs2xqN/view?usp=drivesdk",
     "originalFilename": "peacepipe04 - a room of tools guided by marked knight [ffll].mp3",
-    "audioBytes": 8672709
+    "audioBytes": 8672709,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "descendant decade",
@@ -563,7 +899,14 @@
     "audio": "assets/audio/1XS8rW6VENFUvNPyfcLinHP2QRd0rVDEY.mp3",
     "drive": "https://drive.google.com/file/d/1XS8rW6VENFUvNPyfcLinHP2QRd0rVDEY/view?usp=drivesdk",
     "originalFilename": "peacepipe04 - descendant decade [ffll].mp3",
-    "audioBytes": 8078162
+    "audioBytes": 8078162,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "ûëçåøßœîæ",
@@ -575,7 +918,14 @@
     "audio": "assets/audio/19THyla51bqK_EMltZZ1nQy2iRnfATPMu.mp3",
     "drive": "https://drive.google.com/file/d/19THyla51bqK_EMltZZ1nQy2iRnfATPMu/view?usp=drivesdk",
     "originalFilename": "peacepipe04 - ûëçåøßœîæ [ffll].mp3",
-    "audioBytes": 4201590
+    "audioBytes": 4201590,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "ainsley kensington",
@@ -587,7 +937,14 @@
     "audio": "assets/audio/1uyfUwfXk7CC15fL47rzKwOQuzdx-Xv0k.mp3",
     "drive": "https://drive.google.com/file/d/1uyfUwfXk7CC15fL47rzKwOQuzdx-Xv0k/view?usp=drivesdk",
     "originalFilename": "peacepipe04 - ainsley kensington [ffll].mp3",
-    "audioBytes": 8207729
+    "audioBytes": 8207729,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "Eliminate - Walk Away (fetch quest remix)",
@@ -602,7 +959,14 @@
     "audio": "assets/audio/1RLEEN6zarL0kVFI16ESl-xB3oj-nO6tx.mp3",
     "drive": "https://drive.google.com/file/d/1RLEEN6zarL0kVFI16ESl-xB3oj-nO6tx/view?usp=drivesdk",
     "originalFilename": "Eliminate - Walk Away (Fetch Quest Remix).mp3",
-    "audioBytes": 8740641
+    "audioBytes": 8740641,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "title": "daft punk - technologic (audionerds remix)",
@@ -617,7 +981,14 @@
     "audio": "assets/audio/1wPtHHAI5SJeUeJSCIKWNMSRT30l8e3Ht.mp3",
     "drive": "https://drive.google.com/file/d/1wPtHHAI5SJeUeJSCIKWNMSRT30l8e3Ht/view?usp=drivesdk",
     "originalFilename": "Daft Punk - Technologic (Audionerds Remix).mp3",
-    "audioBytes": 8852445
+    "audioBytes": 8852445,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "title": "crossover",
@@ -633,7 +1004,14 @@
     "audioBytes": 7909029,
     "originalFilename": "Fetch Quest - crossover.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=_YEfQaKH8FU"
+    "audioSource": "https://www.youtube.com/watch?v=_YEfQaKH8FU",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "title": "badlands",
@@ -649,7 +1027,14 @@
     "audioBytes": 6966285,
     "originalFilename": "Fetch Quest - badlands.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=WLgIaGV4_3U"
+    "audioSource": "https://www.youtube.com/watch?v=WLgIaGV4_3U",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "title": "the unalived mouse & the gang of wolves",
@@ -662,7 +1047,14 @@
     "audioBytes": 8472549,
     "originalFilename": "peacepipe04 - the unalived mouse & the gang of wolves.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=AF9uT6lS8rI"
+    "audioSource": "https://www.youtube.com/watch?v=AF9uT6lS8rI",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "maledict",
@@ -678,7 +1070,14 @@
     "audioBytes": 6615741,
     "originalFilename": "Fetch Quest - maledict.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=nH3TaACFswM"
+    "audioSource": "https://www.youtube.com/watch?v=nH3TaACFswM",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "title": "intruder",
@@ -693,7 +1092,14 @@
     "audio": "assets/audio/1EkqauHpyLz4rKh8p0g5YMWyYJNfoDoNt.mp3",
     "drive": "https://drive.google.com/file/d/1EkqauHpyLz4rKh8p0g5YMWyYJNfoDoNt/view?usp=drivesdk",
     "originalFilename": "INTRUDER FINAL MASTERED.mp3",
-    "audioBytes": 13882584
+    "audioBytes": 13882584,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "title": "jaeger (1st version)",
@@ -705,7 +1111,14 @@
     "audio": "assets/audio/1HBcGQpYBeEasBJt9fnsCoiZLe5z2xGJi.mp3",
     "drive": "https://drive.google.com/file/d/1HBcGQpYBeEasBJt9fnsCoiZLe5z2xGJi/view?usp=drivesdk",
     "originalFilename": "Audionerds - Jaeger ver. 1_MASTERED.mp3",
-    "audioBytes": 12226407
+    "audioBytes": 12226407,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "title": "atomic punch",
@@ -721,7 +1134,14 @@
     "audioBytes": 8026269,
     "originalFilename": "Fetch Quest - atomic punch.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=3ouEy-bigYQ"
+    "audioSource": "https://www.youtube.com/watch?v=3ouEy-bigYQ",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "title": "hitchhiker",
@@ -737,7 +1157,14 @@
     "audioBytes": 6165981,
     "originalFilename": "Fetch Quest - hitchhiker.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=JOwroFzvAXA"
+    "audioSource": "https://www.youtube.com/watch?v=JOwroFzvAXA",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "title": "Soulja boy X piano fantasia - crank that song for Denise mashup",
@@ -750,7 +1177,14 @@
     "audioBytes": 2484933,
     "originalFilename": "peacepipe04 - Soulja boy X piano fantasia - crank that song for Denise mashup.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=MkgNTNv5Bhw"
+    "audioSource": "https://www.youtube.com/watch?v=MkgNTNv5Bhw",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "SexyBack but it’s only Timbaland",
@@ -763,7 +1197,14 @@
     "audioBytes": 4395381,
     "originalFilename": "peacepipe04 - SexyBack but it’s only Timbaland.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=KV1enCR_pSA"
+    "audioSource": "https://www.youtube.com/watch?v=KV1enCR_pSA",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "Loompaskettee & Bandlez - Riddim Track (peacepipe04 carnival color rawstyle ReR)",
@@ -775,7 +1216,14 @@
     "audio": "assets/audio/1kvWaGTc-_Lb0bbdUyAL84ako7oSD5Z7D.mp3",
     "drive": "https://drive.google.com/file/d/1kvWaGTc-_Lb0bbdUyAL84ako7oSD5Z7D/view?usp=drivesdk",
     "originalFilename": "Loompaskettee & Bandlez - Riddim Track (peacepipe04 carnival color rawstyle rer).mp3",
-    "audioBytes": 5156627
+    "audioBytes": 5156627,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "sigma boy 🗿 but it’s cheap orchestra",
@@ -788,7 +1236,14 @@
     "audioBytes": 1298733,
     "originalFilename": "peacepipe04 - sigma boy 🗿 but it’s cheap orchestra.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=O0sTEAC7zsA"
+    "audioSource": "https://www.youtube.com/watch?v=O0sTEAC7zsA",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "epic cheesy toast - art of war (peacepipe04 art of peace recolor)",
@@ -800,7 +1255,14 @@
     "audio": "assets/audio/1AO44wwveT8qkLuMthGv34Yl1VM0Psii5.mp3",
     "drive": "https://drive.google.com/file/d/1AO44wwveT8qkLuMthGv34Yl1VM0Psii5/view?usp=drivesdk",
     "originalFilename": "epic cheesy toast - art of war (peacepipe04 art of peace recolor).mp3",
-    "audioBytes": 6620529
+    "audioBytes": 6620529,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "super cool pumping music in the car",
@@ -813,7 +1275,14 @@
     "audioBytes": 4839861,
     "originalFilename": "peacepipe04 - super cool pumping music in the car.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=7dySB-q3W1w"
+    "audioSource": "https://www.youtube.com/watch?v=7dySB-q3W1w",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "unity",
@@ -829,7 +1298,14 @@
     "audioBytes": 7360457,
     "originalFilename": "Fetch Quest - unity.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=-jZKuY45FeQ"
+    "audioSource": "https://www.youtube.com/watch?v=-jZKuY45FeQ",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "title": "baccpacc",
@@ -841,7 +1317,14 @@
     "audio": "assets/audio/1_k9OPWQCXHEKLnILJZVIF2G8Wi-CQs6d.mp3",
     "drive": "https://drive.google.com/file/d/1_k9OPWQCXHEKLnILJZVIF2G8Wi-CQs6d/view?usp=drivesdk",
     "originalFilename": "peacepipe04 - baccpacc.mp3",
-    "audioBytes": 8986192
+    "audioBytes": 8986192,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "taurine groove",
@@ -854,7 +1337,14 @@
     "audioBytes": 5717133,
     "originalFilename": "peacepipe04 - taurine groove.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=HSOTOJjwgC8"
+    "audioSource": "https://www.youtube.com/watch?v=HSOTOJjwgC8",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "spankox - to the club (fetch quest remix)🕺🏽",
@@ -869,7 +1359,14 @@
     "audio": "assets/audio/1L5YW86ik2DwTk7XI90amAw0ULc7NtK8w.mp3",
     "drive": "https://drive.google.com/file/d/1L5YW86ik2DwTk7XI90amAw0ULc7NtK8w/view?usp=drivesdk",
     "originalFilename": "Spankox - To The Club (Fetch Quest Remix).mp3",
-    "audioBytes": 10279776
+    "audioBytes": 10279776,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "title": "i like trains 🚂 [ambient]",
@@ -882,7 +1379,14 @@
     "audioBytes": 3464397,
     "originalFilename": "peacepipe04 - i like trains 🚂 [ambient].mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=GW5OeSKUGGE"
+    "audioSource": "https://www.youtube.com/watch?v=GW5OeSKUGGE",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "lepidoptera 🦋",
@@ -895,7 +1399,14 @@
     "audioBytes": 2830893,
     "originalFilename": "peacepipe04 - lepidoptera 🦋.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=Gm4EFFE6PFM"
+    "audioSource": "https://www.youtube.com/watch?v=Gm4EFFE6PFM",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "title": "sport 🏀🥊",
@@ -908,7 +1419,14 @@
     "audioBytes": 2182221,
     "originalFilename": "peacepipe04 - sport 🏀🥊.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=sf4qEpelhqQ"
+    "audioSource": "https://www.youtube.com/watch?v=sf4qEpelhqQ",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "sc-218046485",
@@ -923,7 +1441,16 @@
     "audioBytes": 5793331,
     "originalFilename": "Audionerds - Horizon.mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/horizon-out-now"
+    "audioSource": "https://soundcloud.com/fetchquest/horizon-out-now",
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/horizon/1030071774?i=1030073722&uo=4"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/horizon/1030071774?i=1030073722&uo=4"
+    }
   },
   {
     "id": "sc-211693501",
@@ -938,7 +1465,16 @@
     "audioBytes": 5168817,
     "originalFilename": "Audionerds - Crimson.mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/crimson-out-now"
+    "audioSource": "https://soundcloud.com/fetchquest/crimson-out-now",
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/crimson/1005486512?i=1005486887&uo=4"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/crimson/1005486512?i=1005486887&uo=4"
+    }
   },
   {
     "id": "sc-191959883",
@@ -952,7 +1488,16 @@
     "audio": "assets/audio/1jpPghjKjV_cZ6aH2eHNoPUOYbtpildcl.mp3",
     "drive": "https://drive.google.com/file/d/1jpPghjKjV_cZ6aH2eHNoPUOYbtpildcl/view?usp=drivesdk",
     "originalFilename": "Audionerds - Back (Original Mix).mp3",
-    "audioBytes": 11852347
+    "audioBytes": 11852347,
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/back/964042057?i=964042073&uo=4"
+    },
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Artist and exact release title matched on Apple Music; alternate versions are not inferred.",
+      "source": "https://music.apple.com/us/album/back/964042057?i=964042073&uo=4"
+    }
   },
   {
     "id": "sc-181225059",
@@ -967,7 +1512,14 @@
     "audioBytes": 4125256,
     "originalFilename": "Audionerds - Rush.mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/rush-original-mix"
+    "audioSource": "https://soundcloud.com/fetchquest/rush-original-mix",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "sc-166192778",
@@ -982,7 +1534,14 @@
     "audioBytes": 4778944,
     "originalFilename": "Audionerds - Cerberus.mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/cerberus-original-mix"
+    "audioSource": "https://soundcloud.com/fetchquest/cerberus-original-mix",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "sc-162264310",
@@ -997,7 +1556,14 @@
     "audioBytes": 3738643,
     "originalFilename": "Audionerds - Wanderlust.mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/wanderlust-original-mix"
+    "audioSource": "https://soundcloud.com/fetchquest/wanderlust-original-mix",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "sc-161938426",
@@ -1011,7 +1577,14 @@
     "audio": "assets/audio/1kYgx-AbHJsu5944G5khXfE12wPKlaiKU.mp3",
     "drive": "https://drive.google.com/file/d/1kYgx-AbHJsu5944G5khXfE12wPKlaiKU/view?usp=drivesdk",
     "originalFilename": "RAMBLE.mp3",
-    "audioBytes": 10952690
+    "audioBytes": 10952690,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "sc-159426983",
@@ -1026,7 +1599,14 @@
     "audioBytes": 5057305,
     "originalFilename": "Audionerds - Sander van Doorn, Martin Garrix, DVBBS ft. Aleesia - Gold Skies (Audionerds Remix).mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/sander-van-doorn-martin-garrix-dvbbs-ft-aleesia-gold-skies-audionerds-remix"
+    "audioSource": "https://soundcloud.com/fetchquest/sander-van-doorn-martin-garrix-dvbbs-ft-aleesia-gold-skies-audionerds-remix",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "sc-157018699",
@@ -1041,7 +1621,14 @@
     "audioBytes": 5671287,
     "originalFilename": "Epic Cheesy Toast - Cowboy.mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/cowboy-original-mix"
+    "audioSource": "https://soundcloud.com/fetchquest/cowboy-original-mix",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "sc-151646095",
@@ -1056,7 +1643,14 @@
     "audioBytes": 786180,
     "originalFilename": "Epic Cheesy Toast - Cataclysm (Preview).mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/cataclysm-preview-1"
+    "audioSource": "https://soundcloud.com/fetchquest/cataclysm-preview-1",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "sc-148327923",
@@ -1071,7 +1665,14 @@
     "audioBytes": 4651466,
     "originalFilename": "Epic Cheesy Toast - #NERD.mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/nerd-original-mix"
+    "audioSource": "https://soundcloud.com/fetchquest/nerd-original-mix",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "sc-143482171",
@@ -1086,7 +1687,14 @@
     "audioBytes": 4621373,
     "originalFilename": "Epic Cheesy Toast - Popeska feat. Denny White - Heart Of Glass (Audionerds Remix).mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/popeska-feat-denny-white-heart"
+    "audioSource": "https://soundcloud.com/fetchquest/popeska-feat-denny-white-heart",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "sc-141846543",
@@ -1101,7 +1709,14 @@
     "audioBytes": 3941354,
     "originalFilename": "Epic Cheesy Toast - Havoc.mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/havoc-original-mix"
+    "audioSource": "https://soundcloud.com/fetchquest/havoc-original-mix",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "sc-123517237",
@@ -1116,7 +1731,14 @@
     "audioBytes": 3158152,
     "originalFilename": "Epic Cheesy Toast - PRMT [Preview].mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/prmt-preview"
+    "audioSource": "https://soundcloud.com/fetchquest/prmt-preview",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "sc-123516494",
@@ -1132,7 +1754,14 @@
     "audioBytes": 7598901,
     "originalFilename": "Epic Cheesy Toast - Framework.mp3",
     "audioNote": "MP3 listening copy from the project’s YouTube upload.",
-    "audioSource": "https://www.youtube.com/watch?v=eM5e2KXR2d8"
+    "audioSource": "https://www.youtube.com/watch?v=eM5e2KXR2d8",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "sc-118080584",
@@ -1147,7 +1776,14 @@
     "audioBytes": 3898722,
     "originalFilename": "Epic Cheesy Toast - Kids.mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/kids-original-mix"
+    "audioSource": "https://soundcloud.com/fetchquest/kids-original-mix",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "sc-113620964",
@@ -1162,7 +1798,14 @@
     "audioBytes": 5161377,
     "originalFilename": "Epic Cheesy Toast - The Origin Of Life.mp3",
     "audioNote": "MP3 listening copy from the project’s SoundCloud upload.",
-    "audioSource": "https://soundcloud.com/fetchquest/the-origin-of-life"
+    "audioSource": "https://soundcloud.com/fetchquest/the-origin-of-life",
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "sc-105887583",
@@ -1176,7 +1819,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7eGV1UUFXMDVydk0.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7eGV1UUFXMDVydk0/view?usp=drivesdk&resourcekey=0-91mW5dj-LeerO3uVIBJ1rQ",
     "originalFilename": "Bonecrusher.mp3",
-    "audioBytes": 11701882
+    "audioBytes": 11701882,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "sc-78908151",
@@ -1190,7 +1840,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7OGhqSkRWcWFKd1k.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7OGhqSkRWcWFKd1k/view?usp=drivesdk&resourcekey=0-IexnN_zso6vtvdumLLk8Qw",
     "originalFilename": "1. Space-Time Continuum.mp3",
-    "audioBytes": 12688275
+    "audioBytes": 12688275,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "1ZwcQz0s2tg",
@@ -1202,7 +1859,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7XzlCbFdPTVQ4VzQ.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7XzlCbFdPTVQ4VzQ/view?usp=drivesdk&resourcekey=0-7a9usBcIA_0Iko4NEffyEA",
     "originalFilename": "2. First Love Twice.mp3",
-    "audioBytes": 13769725
+    "audioBytes": 13769725,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-15P2bALLS297Ty5zmxQ-RscwPZcCvRK4r",
@@ -1213,7 +1877,14 @@
     "audio": "assets/audio/15P2bALLS297Ty5zmxQ-RscwPZcCvRK4r.mp3",
     "drive": "https://drive.google.com/file/d/15P2bALLS297Ty5zmxQ-RscwPZcCvRK4r/view?usp=drivesdk",
     "originalFilename": "lord of power_2.mp3",
-    "audioBytes": 1222586
+    "audioBytes": 1222586,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-1OoBD5bR9l5-x2llyNMZ7uTfFQjWVjFQW",
@@ -1224,7 +1895,14 @@
     "audio": "assets/audio/1OoBD5bR9l5-x2llyNMZ7uTfFQjWVjFQW.mp3",
     "drive": "https://drive.google.com/file/d/1OoBD5bR9l5-x2llyNMZ7uTfFQjWVjFQW/view?usp=drivesdk",
     "originalFilename": "butterfly fever dream.mp3",
-    "audioBytes": 4222488
+    "audioBytes": 4222488,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr",
@@ -1235,7 +1913,14 @@
     "audio": "assets/audio/1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr.mp3",
     "drive": "https://drive.google.com/file/d/1faWYK58pOnWbULvQEG_48ZMXUvi8WMpr/view?usp=drivesdk",
     "originalFilename": "Drum N Bass 03_final.mp3",
-    "audioBytes": 9346682
+    "audioBytes": 9346682,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ",
@@ -1246,7 +1931,14 @@
     "audio": "assets/audio/1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ.mp3",
     "drive": "https://drive.google.com/file/d/1A_eNHvinSMvKYUWH1WosPNZPlT9ypOWQ/view?usp=drivesdk",
     "originalFilename": "Мамбетский Мидтехно 08.mp3",
-    "audioBytes": 7825310
+    "audioBytes": 7825310,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM",
@@ -1257,7 +1949,14 @@
     "audio": "assets/audio/1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM.mp3",
     "drive": "https://drive.google.com/file/d/1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - WYCBA.mp3",
-    "audioBytes": 7357196
+    "audioBytes": 7357196,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-1rIn_zRT1H1dT9oI2DGNjINC90cq0f38E",
@@ -1268,7 +1967,14 @@
     "audio": "assets/audio/1rIn_zRT1H1dT9oI2DGNjINC90cq0f38E.mp3",
     "drive": "https://drive.google.com/file/d/1rIn_zRT1H1dT9oI2DGNjINC90cq0f38E/view?usp=drivesdk",
     "originalFilename": "SYNTHWAVE FINAL.mp3",
-    "audioBytes": 9857637
+    "audioBytes": 9857637,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7MjBra1pOeVVjNDg",
@@ -1279,7 +1985,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7MjBra1pOeVVjNDg.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7MjBra1pOeVVjNDg/view?usp=drivesdk&resourcekey=0-5ns2yGpwkdGzEsHu2MGChg",
     "originalFilename": "Epic_Cheesy_Toast_-_Sometimes_Evolution_Sucks.mp3",
-    "audioBytes": 12860674
+    "audioBytes": 12860674,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7MkQyczU2TUVWUjg",
@@ -1290,7 +2003,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7MkQyczU2TUVWUjg.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7MkQyczU2TUVWUjg/view?usp=drivesdk&resourcekey=0-RKDjXsGDwSW0Ceq6C4fyGA",
     "originalFilename": "Epic Cheesy Toast - Mighty Maggots.mp3",
-    "audioBytes": 13095777
+    "audioBytes": 13095777,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7aV9Ha3doNDNCNUU",
@@ -1301,7 +2021,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7aV9Ha3doNDNCNUU.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7aV9Ha3doNDNCNUU/view?usp=drivesdk&resourcekey=0-1v4SU43eo97NC8S_LeA_5A",
     "originalFilename": "Epic Cheesy Toast - ASIANS!.mp3",
-    "audioBytes": 12319418
+    "audioBytes": 12319418,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7YWVJeWpOWnpFMkE",
@@ -1312,7 +2039,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7YWVJeWpOWnpFMkE.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7YWVJeWpOWnpFMkE/view?usp=drivesdk&resourcekey=0-Vx4TrPXvmXsY_gWmYpqzUg",
     "originalFilename": "Epic Cheesy Toast - Kleptomaniac.mp3",
-    "audioBytes": 9757371
+    "audioBytes": 9757371,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7b0lIcUpyeC1DNGM",
@@ -1323,7 +2057,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7b0lIcUpyeC1DNGM.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7b0lIcUpyeC1DNGM/view?usp=drivesdk&resourcekey=0-g-JE-t6YqonQhmrin0F1Kw",
     "originalFilename": "Epic Cheesy Toast - Torque.mp3",
-    "audioBytes": 10056320
+    "audioBytes": 10056320,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7b3pYNzNkcVhCaFU",
@@ -1334,7 +2075,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7b3pYNzNkcVhCaFU.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7b3pYNzNkcVhCaFU/view?usp=drivesdk&resourcekey=0-EVLhW9tcekjaKVFpn2J2yQ",
     "originalFilename": "Epic Cheesy Toast - Chinese Mafia.mp3",
-    "audioBytes": 6105410
+    "audioBytes": 6105410,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7ajRlMjFkRkZkZlE",
@@ -1345,7 +2093,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7ajRlMjFkRkZkZlE.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7ajRlMjFkRkZkZlE/view?usp=drivesdk&resourcekey=0-xry6vkcGNB-YL5wbCv8XuA",
     "originalFilename": "Epic Cheese Toast - The Unleashed.mp3",
-    "audioBytes": 5377625
+    "audioBytes": 5377625,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7WkVJakVqZkZ6dGc",
@@ -1356,7 +2111,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7WkVJakVqZkZ6dGc.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7WkVJakVqZkZ6dGc/view?usp=drivesdk&resourcekey=0-OsJtGsRJJHU6HEecg2RmLA",
     "originalFilename": "12. Coming Home.mp3",
-    "audioBytes": 10795049
+    "audioBytes": 10795049,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7R3JqYzhsV3luZVE",
@@ -1367,7 +2129,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7R3JqYzhsV3luZVE.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7R3JqYzhsV3luZVE/view?usp=drivesdk&resourcekey=0-vJmPclxHUtEQS1Pj7LaGHg",
     "originalFilename": "11. I'm Fine With That.mp3",
-    "audioBytes": 13797903
+    "audioBytes": 13797903,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7Uy1fTURrX0ZJOEk",
@@ -1378,7 +2147,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7Uy1fTURrX0ZJOEk.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7Uy1fTURrX0ZJOEk/view?usp=drivesdk&resourcekey=0-goABhDM086CzLZW4YYJ6pw",
     "originalFilename": "10. Hello America!.mp3",
-    "audioBytes": 13398724
+    "audioBytes": 13398724,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7RUZMek5mZjhrWkE",
@@ -1389,7 +2165,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7RUZMek5mZjhrWkE.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7RUZMek5mZjhrWkE/view?usp=drivesdk&resourcekey=0-zY9i3OgRZUQEZoloO_KNHg",
     "originalFilename": "9. Lunar.mp3",
-    "audioBytes": 13931561
+    "audioBytes": 13931561,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7b1Rud1dWaThaM1k",
@@ -1400,7 +2183,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7b1Rud1dWaThaM1k.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7b1Rud1dWaThaM1k/view?usp=drivesdk&resourcekey=0-to-LQpp8OIg2aXfToHc5sg",
     "originalFilename": "8. Art Of War.mp3",
-    "audioBytes": 13532628
+    "audioBytes": 13532628,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7RE9qeV9JOFNRVEE",
@@ -1411,7 +2201,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7RE9qeV9JOFNRVEE.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7RE9qeV9JOFNRVEE/view?usp=drivesdk&resourcekey=0-JuhoKb_apJWb8AvsTdtx-g",
     "originalFilename": "7. Grandma's Isotopes.mp3",
-    "audioBytes": 11864879
+    "audioBytes": 11864879,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7bWpndnlaeWFoSzA",
@@ -1422,7 +2219,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7bWpndnlaeWFoSzA.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7bWpndnlaeWFoSzA/view?usp=drivesdk&resourcekey=0-K82mmh0xojbAzZLkn257Ew",
     "originalFilename": "6. Caffeine Addicted.mp3",
-    "audioBytes": 12570293
+    "audioBytes": 12570293,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7RUVKcTJ0RXU1RWM",
@@ -1433,7 +2237,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7RUVKcTJ0RXU1RWM.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7RUVKcTJ0RXU1RWM/view?usp=drivesdk&resourcekey=0-jGy9_3Twp6JRghRFWODkcA",
     "originalFilename": "5. Bassey Trebleson.mp3",
-    "audioBytes": 12507631
+    "audioBytes": 12507631,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7WXFnSElYRlNYN1k",
@@ -1444,7 +2255,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7WXFnSElYRlNYN1k.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7WXFnSElYRlNYN1k/view?usp=drivesdk&resourcekey=0--nvM-14-GhFa9o_D98NhPg",
     "originalFilename": "4. Humanoids.mp3",
-    "audioBytes": 9474147
+    "audioBytes": 9474147,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7V0tNUlJ5aTRHazA",
@@ -1455,7 +2273,14 @@
     "audio": "assets/audio/0B6qg46ChnRO7V0tNUlJ5aTRHazA.mp3",
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7V0tNUlJ5aTRHazA/view?usp=drivesdk&resourcekey=0-5UTTQGrVVy49LX5r7yuvSQ",
     "originalFilename": "3. Reminiscence.mp3",
-    "audioBytes": 15669275
+    "audioBytes": 15669275,
+    "releaseStatus": "unofficial",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "Owner confirmed this artist’s catalog is not yet officially distributed.",
+      "source": "Project owner"
+    }
   },
   {
     "id": "drive-1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-",
@@ -1466,7 +2291,14 @@
     "audio": "assets/audio/1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-.mp3",
     "drive": "https://drive.google.com/file/d/1JiVTD6zoYjeujaAZ6KtC1eLrGmeZ84f-/view?usp=drivesdk",
     "originalFilename": "Audionerds - Say No More (Original Mix).mp3",
-    "audioBytes": 10600559
+    "audioBytes": 10600559,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-1MZq8yde9SGTceGrj81AsoaSDubp1j7tc",
@@ -1477,7 +2309,14 @@
     "audio": "assets/audio/1MZq8yde9SGTceGrj81AsoaSDubp1j7tc.mp3",
     "drive": "https://drive.google.com/file/d/1MZq8yde9SGTceGrj81AsoaSDubp1j7tc/view?usp=drivesdk",
     "originalFilename": "Audionerds - Hitchhike (Original Mix).mp3",
-    "audioBytes": 9752102
+    "audioBytes": 9752102,
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-15VBuSTsUeZtW9am90hMDDp53plVVV5iE",
@@ -1489,7 +2328,14 @@
     "drive": "https://drive.google.com/file/d/15VBuSTsUeZtW9am90hMDDp53plVVV5iE/view?usp=drivesdk",
     "originalFilename": "Mutation_Mastered.mp3",
     "audioBytes": 9227567,
-    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup."
+    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup.",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-0B6qg46ChnRO7MW92eUxzLW1yVjg",
@@ -1501,7 +2347,14 @@
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7MW92eUxzLW1yVjg/view?usp=drivesdk&resourcekey=0-EiGW4HMnNhsS5P2MqMxtUw",
     "originalFilename": "DanchikBaha [minus wave].mp3",
     "audioBytes": 4792991,
-    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup."
+    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup.",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-1yATBQ2IaHV05AuTaA7_w3W5yPIFo_uNa",
@@ -1513,7 +2366,14 @@
     "drive": "https://drive.google.com/file/d/1yATBQ2IaHV05AuTaA7_w3W5yPIFo_uNa/view?usp=drivesdk",
     "originalFilename": "AP mastered.mp3",
     "audioBytes": 12641219,
-    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup."
+    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup.",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-13eas8jXbRojM-rvWChDiEa1wq4IMOVk0",
@@ -1525,7 +2385,14 @@
     "drive": "https://drive.google.com/file/d/13eas8jXbRojM-rvWChDiEa1wq4IMOVk0/view?usp=drivesdk",
     "originalFilename": "Decoy mastered.mp3",
     "audioBytes": 10058231,
-    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup."
+    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup.",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   },
   {
     "id": "drive-1EcHk60ZVhAA2G8q_Gw_ti-8TdKnSeh9b",
@@ -1537,7 +2404,14 @@
     "drive": "https://drive.google.com/file/d/1EcHk60ZVhAA2G8q_Gw_ti-8TdKnSeh9b/view?usp=drivesdk",
     "originalFilename": "Audionerds - Crossover.mp3",
     "audioBytes": 12321480,
-    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup."
+    "audioNote": "320 kbps listening copy made from the WAV master. The unmodified WAV is preserved in the original masters backup.",
+    "releaseStatus": "unverified",
+    "streamingLinks": {},
+    "releaseVerification": {
+      "checkedAt": "2026-10-05",
+      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
+      "source": null
+    }
   }
 ]
 
