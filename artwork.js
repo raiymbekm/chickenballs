@@ -1,117 +1,174 @@
 const artwork = {
   "dG6aKvJk3sM": {
     "title": "Vernyi",
-    "artwork": "assets/artwork/dG6aKvJk3sM.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0282ec4cb1324c164dbdc60459",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-16Tt6JyDwxwYtlmF0IY6dlYp8hQQoYykQ.jpg",
+    "artworkSource": "https://drive.google.com/file/d/16Tt6JyDwxwYtlmF0IY6dlYp8hQQoYykQ/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Vernyi - Final.jpg",
+    "driveFileId": "16Tt6JyDwxwYtlmF0IY6dlYp8hQQoYykQ"
   },
   "3yLBYcHJ2VY": {
     "title": "Concentrated Madness",
-    "artwork": "assets/artwork/3yLBYcHJ2VY.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02352563d1a25b8b2cbd43459f",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-10CJcB5srL_XvdYvn6k-Q_9DlPGtVK-7S.jpg",
+    "artworkSource": "https://drive.google.com/file/d/10CJcB5srL_XvdYvn6k-Q_9DlPGtVK-7S/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "concentrated madness.jpg",
+    "driveFileId": "10CJcB5srL_XvdYvn6k-Q_9DlPGtVK-7S"
   },
   "WrjCeMjexWc": {
     "title": "Waverider",
-    "artwork": "assets/artwork/WrjCeMjexWc.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024fd67d7e80a124e580120c58",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-10h7PleKawzDvDOkFE7bQUnqVSCU91oCR.jpg",
+    "artworkSource": "https://drive.google.com/file/d/10h7PleKawzDvDOkFE7bQUnqVSCU91oCR/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Waverider FINAL FINAL FINAL smaller.jpg",
+    "driveFileId": "10h7PleKawzDvDOkFE7bQUnqVSCU91oCR"
   },
   "IDB6aJWg4lg": {
     "title": "Guesswork",
-    "artwork": "assets/artwork/IDB6aJWg4lg.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020d5aae269b0a9be178745fdb",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-1JmIN33okA_gSCIrCZR4sgxDBEyELeMsN.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1JmIN33okA_gSCIrCZR4sgxDBEyELeMsN/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Guesswork Final.jpg",
+    "driveFileId": "1JmIN33okA_gSCIrCZR4sgxDBEyELeMsN"
   },
   "FPeV7PODP1s": {
     "title": "Zoology",
-    "artwork": "assets/artwork/FPeV7PODP1s.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/FPeV7PODP1s/hqdefault.jpg",
-    "provider": "YouTube"
+    "artwork": "assets/artwork/drive-1_ZqgwYc2L1XMojl5zYbw-jlGy9GA_KOB.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1_ZqgwYc2L1XMojl5zYbw-jlGy9GA_KOB/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Zoology2.jpg",
+    "driveFileId": "1_ZqgwYc2L1XMojl5zYbw-jlGy9GA_KOB"
   },
   "0jZfu7AWHM0": {
     "title": "Hotwire",
-    "artwork": "assets/artwork/0jZfu7AWHM0.jpg",
-    "artworkSource": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bfa40ba84b60ca659dc8a7bb",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-1KEj6IrB7bsKd82boLg_qwsRp6Eshc3j_.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1KEj6IrB7bsKd82boLg_qwsRp6Eshc3j_/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Fill in the blanks - Cover final.jpg",
+    "driveFileId": "1KEj6IrB7bsKd82boLg_qwsRp6Eshc3j_"
   },
   "ATNTVVZCWkU": {
     "title": "Flesh",
-    "artwork": "assets/artwork/ATNTVVZCWkU.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028c30c76296de55f1ff58f231",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-1n1qzejr59tcfEnnK8HtBHoSIGUmZZItf.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1n1qzejr59tcfEnnK8HtBHoSIGUmZZItf/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Flesh & Bones Final.jpg",
+    "driveFileId": "1n1qzejr59tcfEnnK8HtBHoSIGUmZZItf"
   },
   "ZCJ1nJ3Q79E": {
     "title": "Framework",
-    "artwork": "assets/artwork/ZCJ1nJ3Q79E.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/ZCJ1nJ3Q79E/hqdefault.jpg",
-    "provider": "YouTube"
+    "artwork": "assets/artwork/drive-1w3sTJDs5TDnVGyYLDj5SM83Z-Yy0P-QS.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1w3sTJDs5TDnVGyYLDj5SM83Z-Yy0P-QS/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Framework 2026.jpg",
+    "driveFileId": "1w3sTJDs5TDnVGyYLDj5SM83Z-Yy0P-QS"
   },
   "d7FTtwyaIcI": {
     "title": "Speedrun",
-    "artwork": "assets/artwork/d7FTtwyaIcI.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0277c64d068fe1a6c1b938c306",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-1IyOXV84xhG2_c-yF7_hwITMgx-enqK61.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1IyOXV84xhG2_c-yF7_hwITMgx-enqK61/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Speedrun.jpg",
+    "driveFileId": "1IyOXV84xhG2_c-yF7_hwITMgx-enqK61"
   },
   "hL2ZWAv0278": {
     "title": "Touchstone",
-    "artwork": "assets/artwork/hL2ZWAv0278.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/hL2ZWAv0278/hqdefault.jpg",
-    "provider": "YouTube"
+    "artwork": "assets/artwork/drive-1WQunHFdTawJeXEvJbVa19e4uIMBnafCS.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1WQunHFdTawJeXEvJbVa19e4uIMBnafCS/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "touchstone final.jpg",
+    "driveFileId": "1WQunHFdTawJeXEvJbVa19e4uIMBnafCS"
   },
   "X5Rpm8JVQBg": {
     "title": "Zircon",
-    "artwork": "assets/artwork/X5Rpm8JVQBg.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c341d5f5ae5659f9d547b274",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-17kf8bT0qT_g3gqOVFoBVNAIsPKozJMhw.jpg",
+    "artworkSource": "https://drive.google.com/file/d/17kf8bT0qT_g3gqOVFoBVNAIsPKozJMhw/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Zircon final.jpg",
+    "driveFileId": "17kf8bT0qT_g3gqOVFoBVNAIsPKozJMhw"
   },
   "3wdB6cA1KX4": {
-    "title": "Dog's Dogma",
-    "artwork": "assets/artwork/3wdB6cA1KX4.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028aae45fbb3a74456b7d61e12",
-    "provider": "Spotify"
+    "title": "Dog’s Dogma",
+    "artwork": "assets/artwork/drive-1v_dPMrrXM5N_8bujxLkthgp9RfxxjE6L.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1v_dPMrrXM5N_8bujxLkthgp9RfxxjE6L/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "AKO2T - Cover final.jpg",
+    "driveFileId": "1v_dPMrrXM5N_8bujxLkthgp9RfxxjE6L"
   },
   "KRCBjxM92Uk": {
     "title": "Omnipotence",
-    "artwork": "assets/artwork/KRCBjxM92Uk.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/KRCBjxM92Uk/hqdefault.jpg",
-    "provider": "YouTube"
+    "artwork": "assets/artwork/drive-1owhHLXPJcRbRvc5AW7GVnBNmJ2-bskiB.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1owhHLXPJcRbRvc5AW7GVnBNmJ2-bskiB/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Omnipotence",
+    "driveFileId": "1owhHLXPJcRbRvc5AW7GVnBNmJ2-bskiB"
   },
   "BstitX2x7vM": {
     "title": "Pseudoscience",
-    "artwork": "assets/artwork/BstitX2x7vM.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0291d6ac4c8c99a45007a6e602",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-1OpTP7BmTQrzNopfbvgOC2r2S5EVGJYGK.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1OpTP7BmTQrzNopfbvgOC2r2S5EVGJYGK/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Pseudoscience FINAL.jpg",
+    "driveFileId": "1OpTP7BmTQrzNopfbvgOC2r2S5EVGJYGK"
   },
   "5OS3_Y8_raw": {
     "title": "Nanowire",
-    "artwork": "assets/artwork/5OS3_Y8_raw.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bfa40ba84b60ca659dc8a7bb",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-1KEj6IrB7bsKd82boLg_qwsRp6Eshc3j_.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1KEj6IrB7bsKd82boLg_qwsRp6Eshc3j_/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Fill in the blanks - Cover final.jpg",
+    "driveFileId": "1KEj6IrB7bsKd82boLg_qwsRp6Eshc3j_"
   },
   "JpVo3seANv0": {
     "title": "Kinship",
-    "artwork": "assets/artwork/JpVo3seANv0.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a2af1d2eabf031ad644111a4",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-1h94bmviO50PxcQOwj3qV6uOY1aaoiHfB.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1h94bmviO50PxcQOwj3qV6uOY1aaoiHfB/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Kinship - Cover final.jpg",
+    "driveFileId": "1h94bmviO50PxcQOwj3qV6uOY1aaoiHfB"
   },
   "Remok-ADVHM": {
     "title": "Ascendant Decade",
-    "artwork": "assets/artwork/Remok-ADVHM.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/Remok-ADVHM/hqdefault.jpg",
-    "provider": "YouTube"
+    "artwork": "assets/artwork/drive-1vFxtmmss_DSl1PTbnF9TAW0E8JivUCAu.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1vFxtmmss_DSl1PTbnF9TAW0E8JivUCAu/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Ascendant Decade FINAL FINAL FINAL.jpg",
+    "driveFileId": "1vFxtmmss_DSl1PTbnF9TAW0E8JivUCAu"
   },
   "f0JpJon_YqM": {
     "title": "Angry Teenagers",
-    "artwork": "assets/artwork/f0JpJon_YqM.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02487b5b2ae9f0f511f1671a67",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-1RXBcv_NzsuEXv8oTsqB7D7VcshyZ_fDH.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1RXBcv_NzsuEXv8oTsqB7D7VcshyZ_fDH/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Angry Teenagers - Cover final.jpg",
+    "driveFileId": "1RXBcv_NzsuEXv8oTsqB7D7VcshyZ_fDH"
   },
   "s4lCTG9Pzq4": {
     "title": "Trapwire",
-    "artwork": "assets/artwork/s4lCTG9Pzq4.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bfa40ba84b60ca659dc8a7bb",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-1KEj6IrB7bsKd82boLg_qwsRp6Eshc3j_.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1KEj6IrB7bsKd82boLg_qwsRp6Eshc3j_/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Fill in the blanks - Cover final.jpg",
+    "driveFileId": "1KEj6IrB7bsKd82boLg_qwsRp6Eshc3j_"
   },
   "Ruk54SRuRJg": {
     "title": "Ian Oliver ft. Eastenders - Vino Vino_-_slowed w reverb",
@@ -121,9 +178,12 @@ const artwork = {
   },
   "6UAUJfoGDfI": {
     "title": "Bones",
-    "artwork": "assets/artwork/6UAUJfoGDfI.jpg",
-    "artworkSource": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028c30c76296de55f1ff58f231",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-1n1qzejr59tcfEnnK8HtBHoSIGUmZZItf.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1n1qzejr59tcfEnnK8HtBHoSIGUmZZItf/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Flesh & Bones Final.jpg",
+    "driveFileId": "1n1qzejr59tcfEnnK8HtBHoSIGUmZZItf"
   },
   "oasfLfWYgTo": {
     "title": "peacepipe04 - generic indie pop song",
@@ -241,9 +301,12 @@ const artwork = {
   },
   "geLKG9QxbeU": {
     "title": "Eliminate - Walk Away (fetch quest remix)",
-    "artwork": "assets/artwork/geLKG9QxbeU.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/geLKG9QxbeU/hqdefault.jpg",
-    "provider": "YouTube"
+    "artwork": "assets/artwork/drive-1_Ix5oZevVOQFxgVUrzCRcX6C4TpfRioJ.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1_Ix5oZevVOQFxgVUrzCRcX6C4TpfRioJ/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "NATE.jpg",
+    "driveFileId": "1_Ix5oZevVOQFxgVUrzCRcX6C4TpfRioJ"
   },
   "XoOoF6o3_wY": {
     "title": "daft punk - technologic (audionerds remix)",
@@ -252,22 +315,31 @@ const artwork = {
     "provider": "YouTube"
   },
   "_YEfQaKH8FU": {
-    "title": "fetch quest - crossover",
-    "artwork": "assets/artwork/_YEfQaKH8FU.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/_YEfQaKH8FU/hqdefault.jpg",
-    "provider": "YouTube"
+    "title": "crossover",
+    "artwork": "assets/artwork/drive-1MKuYqXp1OtI6z0wyipFkeV5G1vmrkzOb.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1MKuYqXp1OtI6z0wyipFkeV5G1vmrkzOb/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Crossover 1.jpg",
+    "driveFileId": "1MKuYqXp1OtI6z0wyipFkeV5G1vmrkzOb"
   },
   "V0oW0gPL5vo": {
     "title": "Glazed Curd",
-    "artwork": "assets/artwork/V0oW0gPL5vo.jpg",
-    "artworkSource": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028d0517e88747f10e0faab687",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-1flMkSWSQ3aelRBLG4wx8dLYy4IHT0fwO.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1flMkSWSQ3aelRBLG4wx8dLYy4IHT0fwO/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Glazed Curd final.jpg",
+    "driveFileId": "1flMkSWSQ3aelRBLG4wx8dLYy4IHT0fwO"
   },
   "XP1oxENYnQ4": {
     "title": "Disco Mbobulate",
-    "artwork": "assets/artwork/XP1oxENYnQ4.jpg",
-    "artworkSource": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028aae45fbb3a74456b7d61e12",
-    "provider": "Spotify"
+    "artwork": "assets/artwork/drive-1v_dPMrrXM5N_8bujxLkthgp9RfxxjE6L.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1v_dPMrrXM5N_8bujxLkthgp9RfxxjE6L/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "AKO2T - Cover final.jpg",
+    "driveFileId": "1v_dPMrrXM5N_8bujxLkthgp9RfxxjE6L"
   },
   "AF9uT6lS8rI": {
     "title": "peacepipe04 - the unalived mouse & the gang of wolves",
@@ -282,10 +354,13 @@ const artwork = {
     "provider": "YouTube"
   },
   "LU6P3C4BhUs": {
-    "title": "fetch quest - intruder",
-    "artwork": "assets/artwork/LU6P3C4BhUs.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/LU6P3C4BhUs/hqdefault.jpg",
-    "provider": "YouTube"
+    "title": "intruder",
+    "artwork": "assets/artwork/drive-1NWPvPGNwCGOV2LpRPuiaT6QiLJ5SPOQJ.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1NWPvPGNwCGOV2LpRPuiaT6QiLJ5SPOQJ/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "intruder4.jpg",
+    "driveFileId": "1NWPvPGNwCGOV2LpRPuiaT6QiLJ5SPOQJ"
   },
   "HFJkEa3rylQ": {
     "title": "audionerds - jaeger (1st version)",
@@ -294,16 +369,22 @@ const artwork = {
     "provider": "YouTube"
   },
   "nH3TaACFswM": {
-    "title": "fetch quest - maledict",
-    "artwork": "assets/artwork/nH3TaACFswM.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/nH3TaACFswM/hqdefault.jpg",
-    "provider": "YouTube"
+    "title": "maledict",
+    "artwork": "assets/artwork/drive-1GlzYGP37D3HBKirw0Mu8NcVHyeqaigg0.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1GlzYGP37D3HBKirw0Mu8NcVHyeqaigg0/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Maledict-1.jpg",
+    "driveFileId": "1GlzYGP37D3HBKirw0Mu8NcVHyeqaigg0"
   },
   "3ouEy-bigYQ": {
-    "title": "fetch quest - atomic punch",
-    "artwork": "assets/artwork/3ouEy-bigYQ.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/3ouEy-bigYQ/hqdefault.jpg",
-    "provider": "YouTube"
+    "title": "atomic punch",
+    "artwork": "assets/artwork/drive-1FLyU6cAy7SGzMgdlF8yc_SMU34_jO8SL.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1FLyU6cAy7SGzMgdlF8yc_SMU34_jO8SL/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Atomic Punch.jpg",
+    "driveFileId": "1FLyU6cAy7SGzMgdlF8yc_SMU34_jO8SL"
   },
   "MkgNTNv5Bhw": {
     "title": "Soulja boy X piano fantasia - crank that song for Denise mashup",
@@ -318,10 +399,13 @@ const artwork = {
     "provider": "YouTube"
   },
   "JOwroFzvAXA": {
-    "title": "fetch quest - hitchhiker",
-    "artwork": "assets/artwork/JOwroFzvAXA.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/JOwroFzvAXA/hqdefault.jpg",
-    "provider": "YouTube"
+    "title": "hitchhiker",
+    "artwork": "assets/artwork/drive-1zzahfHPn5D3v_fDvodA58T7OImTRw67i.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1zzahfHPn5D3v_fDvodA58T7OImTRw67i/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Hitchhiker1.jpg",
+    "driveFileId": "1zzahfHPn5D3v_fDvodA58T7OImTRw67i"
   },
   "up0emSzVhuQ": {
     "title": "epic cheesy toast - art of war (peacepipe04 art of peace recolor)",
@@ -348,10 +432,13 @@ const artwork = {
     "provider": "YouTube"
   },
   "-jZKuY45FeQ": {
-    "title": "fetch quest - unity",
-    "artwork": "assets/artwork/-jZKuY45FeQ.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/-jZKuY45FeQ/hqdefault.jpg",
-    "provider": "YouTube"
+    "title": "unity",
+    "artwork": "assets/artwork/drive-1sj1yaT67aG5nZJSw1e5N6aOCvVUg4hEm.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1sj1yaT67aG5nZJSw1e5N6aOCvVUg4hEm/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "unity.jpg",
+    "driveFileId": "1sj1yaT67aG5nZJSw1e5N6aOCvVUg4hEm"
   },
   "COEG8DylnGk": {
     "title": "peacepipe04 - baccpacc",
@@ -379,9 +466,12 @@ const artwork = {
   },
   "zzK_kqMhiaE": {
     "title": "spankox - to the club (fetch quest remix)🕺🏽",
-    "artwork": "assets/artwork/zzK_kqMhiaE.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/zzK_kqMhiaE/hqdefault.jpg",
-    "provider": "YouTube"
+    "artwork": "assets/artwork/drive-1k_QY8_uy2wbWcshIo39HHFYqtU35KTFp.jpg",
+    "artworkSource": "https://drive.google.com/file/d/1k_QY8_uy2wbWcshIo39HHFYqtU35KTFp/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "missing": false,
+    "originalArtworkFilename": "Remix - Cover_final.jpg",
+    "driveFileId": "1k_QY8_uy2wbWcshIo39HHFYqtU35KTFp"
   },
   "sf4qEpelhqQ": {
     "title": "sport 🏀🥊",
@@ -495,9 +585,14 @@ const artwork = {
     "missing": true
   },
   "drive-1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM": {
-    "artwork": "assets/artwork/cover-not-on-file.svg",
+    "artwork": "assets/artwork/drive-10J4WnXPPrMasxor1fI_EaVup7rRBThX3.jpg",
     "source": "https://drive.google.com/file/d/1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM/view?usp=drivesdk",
-    "missing": true
+    "missing": false,
+    "title": "WYCBA",
+    "artworkSource": "https://drive.google.com/file/d/10J4WnXPPrMasxor1fI_EaVup7rRBThX3/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "originalArtworkFilename": "Fetch Quest - WYCBA - Cover final.jpg",
+    "driveFileId": "10J4WnXPPrMasxor1fI_EaVup7rRBThX3"
   },
   "drive-1rIn_zRT1H1dT9oI2DGNjINC90cq0f38E": {
     "artwork": "assets/artwork/cover-not-on-file.svg",
@@ -612,11 +707,17 @@ const artwork = {
     "missing": true
   },
   "drive-13eas8jXbRojM-rvWChDiEa1wq4IMOVk0": {
-    "artwork": "assets/artwork/cover-not-on-file.svg",
-    "missing": true
+    "artwork": "assets/artwork/drive-1TkdGRffIY3YaijkkC4aiPKHXYw_Be8hQ.jpg",
+    "missing": false,
+    "title": "Decoy",
+    "artworkSource": "https://drive.google.com/file/d/1TkdGRffIY3YaijkkC4aiPKHXYw_Be8hQ/view?usp=drivesdk",
+    "provider": "Label-supplied artwork",
+    "originalArtworkFilename": "Decoy Cover 1.jpg",
+    "driveFileId": "1TkdGRffIY3YaijkkC4aiPKHXYw_Be8hQ"
   },
   "drive-1EcHk60ZVhAA2G8q_Gw_ti-8TdKnSeh9b": {
     "artwork": "assets/artwork/cover-not-on-file.svg",
     "missing": true
   }
 };
+
