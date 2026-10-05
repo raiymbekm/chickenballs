@@ -2831,12 +2831,11 @@ const catalog = [
     "drive": "https://drive.google.com/file/d/15P2bALLS297Ty5zmxQ-RscwPZcCvRK4r/view?usp=drivesdk",
     "originalFilename": "lord of power_2.mp3",
     "audioBytes": 1222586,
-    "releaseStatus": "unverified",
+    "releaseStatus": "unofficial",
     "streamingLinks": {},
     "releaseVerification": {
       "checkedAt": "2026-10-05",
-      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
-      "source": null
+      "reason": "Owner-confirmed unofficial archive, artist established by matching recording and Drive folder."
     },
     "durationSeconds": 30.563,
     "audioBitrateKbps": 320,
@@ -2860,12 +2859,11 @@ const catalog = [
     "drive": "https://drive.google.com/file/d/1OoBD5bR9l5-x2llyNMZ7uTfFQjWVjFQW/view?usp=drivesdk",
     "originalFilename": "butterfly fever dream.mp3",
     "audioBytes": 4222488,
-    "releaseStatus": "unverified",
+    "releaseStatus": "unofficial",
     "streamingLinks": {},
     "releaseVerification": {
       "checkedAt": "2026-10-05",
-      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
-      "source": null
+      "reason": "Owner-confirmed unofficial archive, artist established by matching recording and Drive folder."
     },
     "durationSeconds": 105.561,
     "audioBitrateKbps": 320,
@@ -2918,12 +2916,11 @@ const catalog = [
     "drive": "https://drive.google.com/file/d/0B6qg46ChnRO7MjBra1pOeVVjNDg/view?usp=drivesdk&resourcekey=0-5ns2yGpwkdGzEsHu2MGChg",
     "originalFilename": "Epic_Cheesy_Toast_-_Sometimes_Evolution_Sucks.mp3",
     "audioBytes": 12860674,
-    "releaseStatus": "unverified",
+    "releaseStatus": "unofficial",
     "streamingLinks": {},
     "releaseVerification": {
       "checkedAt": "2026-10-05",
-      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
-      "source": null
+      "reason": "Owner-confirmed unofficial archive, artist established by matching recording and Drive folder."
     },
     "durationSeconds": 321.515,
     "audioBitrateKbps": 320,
@@ -5061,7 +5058,7 @@ const catalog = [
   },
   {
     "id": "drive-1NpzEefGTYK-fgVmH8PnVsB8FYW7GBY2l",
-    "title": "- Cowboy",
+    "title": "Cowboy (Archive version)",
     "artist": "Epic Cheesy Toast",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
@@ -5115,7 +5112,7 @@ const catalog = [
   },
   {
     "id": "drive-1UF8lItZ8HP2VLwIcGa8PLPiSQyZ6PhZP",
-    "title": "Unlike",
+    "title": "Unlike (Original Mix)",
     "artist": "Epic Cheesy Toast",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
@@ -5169,7 +5166,7 @@ const catalog = [
   },
   {
     "id": "drive-1427NdjnKvMZqWjlXDfvYKuMNCbvuuxn-",
-    "title": "Preview ECT - Badass Gemini From Past",
+    "title": "Badass Gemini From Past (Preview)",
     "artist": "Epic Cheesy Toast",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
@@ -5634,7 +5631,7 @@ const catalog = [
   },
   {
     "id": "drive-1zvJriko54wk-BiyM1aPvjXmJrlT66mp5",
-    "title": "Good Old Days",
+    "title": "Good Old Days (Original Mix)",
     "artist": "Audionerds",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
