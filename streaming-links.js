@@ -31,7 +31,6 @@
  function updatePlayerLinks(){
   const actions=document.querySelector('.player-actions');actions.querySelector('.player-streaming-links')?.remove();actions.append(links(currentTrack,true));
  }
- const release=window.latestRelease;if(release){const copy=document.querySelector('#latest-release .latest-copy'),note=copy?.querySelector('.release-note');const track={...release,...catalog.find(t=>t.id===release.id)};if(copy)copy.insertBefore(links(track,false),note||null);}
+ window.renderFeaturedStreamingLinks=function(){const release=window.latestRelease;if(release){const copy=document.querySelector('#latest-release .latest-copy'),note=copy?.querySelector('.release-note');const track={...release,...catalog.find(t=>t.id===release.id)};if(copy){copy.querySelector('.streaming-links')?.remove();copy.insertBefore(links(track,false),note||null);}}};window.renderFeaturedStreamingLinks();
  window.addEventListener('trackchange',updatePlayerLinks);updatePlayerLinks();
 })();
-

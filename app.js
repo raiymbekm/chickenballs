@@ -1,7 +1,5 @@
 let selectedArtist='All';
-const isDiscography=document.body.dataset.page==='discography';
-const releaseFilter=document.getElementById('release-filter'),lengthFilter=document.getElementById('length-filter'),sortControl=document.getElementById('sort-tracks');
-const list=document.getElementById('tracks'),search=document.getElementById('search'),more=document.getElementById('more');
+let isDiscography,releaseFilter,lengthFilter,sortControl,list,search,more;
 const escapeHTML=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function trackCard(t,i){
  const cover=artwork[t.id]||{artwork:'assets/chicken-balls-logo-purple.svg',missing:true};
@@ -24,6 +22,11 @@ function render(){
  document.getElementById('total-count').textContent=isDiscography?`${catalog.length} TRACKS / EVERY CHAPTER`:'THE LATEST 12 / RELEASED MUSIC';
 }
 function chooseFilter(artist){selectedArtist=artist;document.querySelectorAll('[data-filter]').forEach(b=>{const active=b.dataset.filter===artist;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});render();}
+function mountCatalog(){
+ isDiscography=document.body.dataset.page==='discography';selectedArtist='All';
+ releaseFilter=document.getElementById('release-filter');lengthFilter=document.getElementById('length-filter');sortControl=document.getElementById('sort-tracks');
+ list=document.getElementById('tracks');search=document.getElementById('search');more=document.getElementById('more');
+ document.querySelector('.catalog-views')?.remove();
 document.querySelectorAll('[data-filter]').forEach(button=>{
  if(!isDiscography&&button.dataset.filter!=='All'&&!catalog.some(track=>track.artist===button.dataset.filter&&track.releaseStatus==='official'))button.hidden=true;
  if(!isDiscography&&button.dataset.filter==='All')button.textContent='ALL RELEASES';
@@ -37,3 +40,5 @@ const viewControls=document.createElement('div');viewControls.className='catalog
 viewControls.addEventListener('click',event=>{const button=event.target.closest('[data-view]');if(!button)return;const grid=button.dataset.view==='artwork';list.classList.toggle('artwork-grid',grid);document.querySelector('.list-header').hidden=grid;viewControls.querySelectorAll('button').forEach(b=>{const active=b===button;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});});
 render();
 
+}
+window.mountCatalog=mountCatalog;mountCatalog();

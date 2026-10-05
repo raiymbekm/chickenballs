@@ -10,6 +10,7 @@
  const sizingObserver=new ResizeObserver(entries=>{const width=entries[0].contentRect.width;panel.classList.toggle('is-narrow',width<760);panel.classList.toggle('is-tiny',width<376);});sizingObserver.observe(panel);
  panel.querySelectorAll('.horizontal-player,.compact-player').forEach(button=>button.addEventListener('click',()=>{panel.style.width='';panel.style.height='';document.body.style.paddingBottom='';}));
  const minimize=panel.querySelector('.minimize-player');let expandedSize=null;minimize.addEventListener('click',()=>{if(panel.classList.contains('is-minimized')){expandedSize={width:panel.style.width,height:panel.style.height};panel.style.width='';panel.style.height='';document.body.style.paddingBottom='';}else if(expandedSize){panel.style.width=expandedSize.width;panel.style.height=expandedSize.height;}});
+ window.renderFeaturedRelease=function(){
  const release=window.latestRelease;
  if(release&&document.getElementById('latest-release')){
  let existing=catalog.find(t=>t.id===release.id);
@@ -17,6 +18,7 @@
  const date=release.releaseDate?new Date(release.releaseDate.slice(0,10)+'T12:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'}):'Date to be confirmed';
  document.getElementById('latest-release').innerHTML=`<button class="latest-cover" data-play="${escapeHTML(release.id)}" aria-label="Play ${escapeHTML(release.title)}"><img src="${escapeHTML(release.artwork||artwork[release.id]?.artwork||'assets/chicken-balls-logo-purple.svg')}" alt="Cover artwork for ${escapeHTML(release.title)}"><span class="release-play">▶ PLAY THE RELEASE</span></button><div class="latest-copy"><span class="eyebrow">${escapeHTML(release.artist)}</span><h3>${escapeHTML(release.title)}</h3><dl class="release-details"><div><dt>${release.releaseStatus==='official'?'RELEASED':'UPLOADED'}</dt><dd>${escapeHTML(date)}</dd></div><div><dt>GENRE</dt><dd>${escapeHTML(release.genre||'Electronic / genre to be confirmed')}</dd></div></dl><p>${escapeHTML(release.description||'A new chapter in the Chicken Balls catalog. Press play and explore the release.')}</p>${release.feeling?`<p><strong>FEELING</strong> ${escapeHTML(release.feeling)}</p>`:''}<span class="release-note">${escapeHTML(release.descriptionSource||'Release notes')}</span></div>`;
  }
+ };window.renderFeaturedRelease();
  const info=panel.querySelector('.now-playing'),title=document.getElementById('playing-title');
  const canvas=document.createElement('canvas');canvas.className='player-visualizer';canvas.setAttribute('aria-label','Live audio spectrum');
  const caption=document.createElement('span');caption.className='visualizer-caption sr-only';caption.setAttribute('role','status');
@@ -49,4 +51,3 @@
  }
  connect();fitSpectrum();draw();
 })();
-
