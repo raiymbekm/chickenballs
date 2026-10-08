@@ -39,14 +39,15 @@
     const value=spectrum?.[i]||0;bands[i]+=(value-bands[i])*.32;sum+=bands[i]*bands[i];if(i<10)low+=bands[i];
    }
    energy=Math.min(1,Math.sqrt(sum/28)*1.65);bass=low/10;
-   // A slow current remains visible at rest; the actual spectrum drives brightness and speed.
-   if(!reduced)phase+=elapsed*(.00035+energy*.0014);
    while(trail.length&&now-trail[0].time>1100)trail.shift();
+   // Nearly still at rest. Keep the background drift slower than the real spectrum.
+   if(!reduced)phase+=elapsed*(.000025+energy*.00018+(trail.length?.0001:0));
+   let litCells=0;
    for(const cell of cells){
     const {x,y,w,h,gx,gy,n,quiet,caption}=cell;
-    const nx=gx/cols,ny=gy/rows,band=bands[Math.min(27,Math.floor(nx*28))];
+    const nx=gx/cols,ny=gy/rows,band=bands[Math.round(gx/Math.max(1,cols-1)*27)];
     let proximity=0;
-    if(!reduced)for(const point of trail){const distance=Math.hypot((x+w/2-point.x)/w,(y+h/2-point.y)/h);proximity=Math.max(proximity,Math.max(0,1-distance/4)*(1-(now-point.time)/1100));}
+    if(!reduced)for(const point of trail){if(point.x>=x&&point.x<x+w&&point.y>=y&&point.y<y+h)proximity=Math.max(proximity,1-(now-point.time)/1100);}
     const wave=(Math.sin(nx*11+ny*5-phase*2)+Math.sin(nx*5-ny*9+phase*1.3)+2)/4;
     const current=(Math.sin(ny*12-nx*7+phase)+1)/2;
     const response=Math.min(1,band*.9+energy*.55+bass*.25);
@@ -54,17 +55,26 @@
     if(wave>.46)color='#9754f5';
     if(wave>.69)color='#c18bff';
     if(wave<.23)color='#38117d';
-    if(n>.88&&current>.68||response>.35&&n>.72&&current>.4)color='#bcff35';
-    if(response>.68&&n>.84)color='#f7f7f2';
-    if(proximity>.22)color=proximity>.58?'#bcff35':'#e0bdff';
-    ctx.fillStyle=color;
+    if(n>.88&&current>.68)color=n>.96?'#ff9238':n>.92?'#ffe45c':'#bcff35';
     const density=.24+nx*.22+ny*.25;
-    ctx.globalAlpha=(caption?.16:quiet?.48:1)*Math.min(.96,density+wave*.24+response*.38+proximity*.5);
+    let alpha=Math.min(.82,density+wave*.24+response*.12);
+    // Bottom-anchored columns make the frequency spectrum readable as an equalizer.
+    // Their heights, tips and brightness follow the actual audio, never the idle clock.
+    const level=Math.min(1,Math.pow(band,.7)*1.2),barHeight=Math.round(level*(rows-1));
+    const inBar=energy>.015&&barHeight>0&&rows-1-gy<barHeight;
+    if(inBar){
+     const progress=(rows-1-gy)/Math.max(1,barHeight-1),tip=rows-1-gy===barHeight-1;
+     color=tip?'#ffe45c':progress>.64?'#ff9238':progress>.3?'#ffe45c':'#bcff35';
+     alpha=.78+Math.min(.22,band*.3);litCells++;
+    }
+    if(proximity>.22){color=proximity>.58?'#ffe45c':n>.5?'#ff9238':'#bcff35';alpha=Math.max(alpha,proximity);}
+    ctx.fillStyle=color;
+    ctx.globalAlpha=(caption?.16:quiet?.38:1)*alpha;
     ctx.fillRect(x,y,w,h);
-    ctx.strokeStyle='#7028dd';ctx.lineWidth=1;ctx.globalAlpha*=.45;ctx.strokeRect(x+.5,y+.5,w-1,h-1);
+    ctx.strokeStyle=inBar?'#4b16a6':'#7028dd';ctx.lineWidth=1;ctx.globalAlpha*=inBar?.65:.45;ctx.strokeRect(x+.5,y+.5,w-1,h-1);
    }
    ctx.globalAlpha=1;
-   canvas.dataset.energy=energy.toFixed(3);canvas.dataset.bass=bass.toFixed(3);canvas.dataset.pointer=String(!reduced&&trail.length>0);canvas.dataset.motion=reduced?'reduced':'active';
+   canvas.dataset.energy=energy.toFixed(3);canvas.dataset.bass=bass.toFixed(3);canvas.dataset.pointer=String(!reduced&&trail.length>0);canvas.dataset.motion=reduced?'reduced':'active';canvas.dataset.spectrumCells=String(litCells);canvas.dataset.drift=phase.toFixed(4);
   }
   function tick(now){frame=0;if(destroyed||!visible||document.hidden||motion.matches)return;const elapsed=now-last;if(elapsed>32){draw(now,Math.min(elapsed,80));last=now;}frame=requestAnimationFrame(tick);}
   function start(){if(!frame&&!destroyed&&visible&&!document.hidden&&!motion.matches){last=performance.now();frame=requestAnimationFrame(tick);}}
