@@ -43,7 +43,7 @@
  // Share the existing analyser; never connect a second audio source.
  window.readMusicSpectrum=spectrumLevels;
  function draw(){
-  if(!panel.classList.contains('is-minimized')){
+  if(!panel.classList.contains('is-minimized')&&!matchMedia('(max-width:700px)').matches){
    const rect=canvas.getBoundingClientRect(),ratio=Math.min(devicePixelRatio||1,2),w=Math.round(rect.width*ratio),h=Math.round(rect.height*ratio);
    if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}
    ctx.clearRect(0,0,w,h);const target=spectrumLevels(),bars=28,gap=2*ratio,bw=Math.max(1,(w-gap*(bars-1))/bars);ctx.fillStyle='#bcff35';
