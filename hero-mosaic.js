@@ -8,7 +8,7 @@
   const motion=matchMedia('(prefers-reduced-motion: reduce)'),events=new AbortController();
   let width=0,height=0,cols=0,rows=0,cells=[],frame=0,last=0,visible=true,destroyed=false,energy=0,bass=0,mids=0,treble=0,phase=0,previousBass=0,previousTreble=0,bassFloor=0,lastKick=-1000,lastSpark=-1000,sequence=0;
   const trail=[],pulses=[],sparks=[],bands=new Float32Array(28);
-  let idleGlow=null,nextGlow=performance.now()+4000+Math.random()*3000;
+  let idleGlow=null,nextGlow=performance.now()+1000+Math.random()*1000;
   const noise=(x,y)=>{const n=Math.sin(x*127.1+y*311.7)*43758.5453;return n-Math.floor(n);};
   const clamp=value=>Math.max(0,Math.min(1,value));
   // Fixed saturated hues preserve each frequency's identity without muddy RGB blends.
@@ -38,10 +38,10 @@
    }
    energy=clamp(Math.sqrt(sum/28)*1.5);bass=low/9;mids=middle/12;treble=high/7;rawBass/=9;rawTreble/=7;
    const media=document.querySelector('#listening-room audio'),playing=Boolean(media&&!media.paused&&!media.ended)||energy>.015;
-   if(reduced||playing){idleGlow=null;nextGlow=now+4500;}
+   if(reduced||playing){idleGlow=null;nextGlow=now+1000+Math.random()*1000;}
    else{
-    if(idleGlow&&now-idleGlow.time>1800)idleGlow=null;
-    if(!idleGlow&&now>=nextGlow){idleGlow={time:now,gx:Math.floor(Math.random()*cols),gy:Math.floor(Math.random()*rows),hue:[52,28,83,280][Math.floor(Math.random()*4)]};nextGlow=now+4500+Math.random()*4000;}
+    if(idleGlow&&now-idleGlow.time>1000)idleGlow=null;
+    if(!idleGlow&&now>=nextGlow){idleGlow={time:now,gx:Math.floor(Math.random()*cols),gy:Math.floor(Math.random()*rows),hue:[52,28,83,280][Math.floor(Math.random()*4)]};nextGlow=now+1000+Math.random()*1000;}
    }
    bassFloor+=(rawBass-bassFloor)*.035;
    // Detect low-frequency onsets rather than claiming to identify individual drum stems.
@@ -78,7 +78,7 @@
     // Continuous shading, never rectangular masks around lines of type.
     ctx.fillStyle=color;ctx.globalAlpha=alpha;ctx.fillRect(x,y,w,h);
     ctx.strokeStyle='#7028dd';ctx.lineWidth=1;ctx.globalAlpha*=.3;ctx.strokeRect(x+.5,y+.5,w-1,h-1);
-    if(idleGlow&&gx===idleGlow.gx&&gy===idleGlow.gy){const glow=Math.sin(Math.PI*clamp((now-idleGlow.time)/1800));ctx.fillStyle=vivid(idleGlow.hue,57);ctx.globalAlpha=glow*.9;ctx.fillRect(x,y,w,h);}
+    if(idleGlow&&gx===idleGlow.gx&&gy===idleGlow.gy){const glow=Math.sin(Math.PI*clamp((now-idleGlow.time)/1000));ctx.fillStyle=vivid(idleGlow.hue,57);ctx.globalAlpha=glow*.9;ctx.fillRect(x,y,w,h);}
    }
    ctx.globalAlpha=1;
    canvas.dataset.energy=energy.toFixed(3);canvas.dataset.bass=bass.toFixed(3);canvas.dataset.mids=mids.toFixed(3);canvas.dataset.treble=treble.toFixed(3);canvas.dataset.pulses=String(pulses.length);canvas.dataset.sparks=String(sparks.length);canvas.dataset.pointer=String(!reduced&&trail.length>0);canvas.dataset.motion=reduced?'reduced':'active';canvas.dataset.idleGlow=String(Boolean(idleGlow));
