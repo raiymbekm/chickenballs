@@ -4,24 +4,35 @@ const playerIcons={
 };
 function playerIcon(name){return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">'+playerIcons[name]+'</svg>';}
 function iconButton(className,name,label,pressed){return '<button class="'+className+'" aria-label="'+label+'" title="'+label+'"'+(pressed===undefined?'':' aria-pressed="'+pressed+'"')+'>'+playerIcon(name)+'</button>';}
-const toolbar=document.createElement('div');toolbar.className='player-toolbar';toolbar.innerHTML=iconButton('player-grip','drag','Move player. Drag or use arrow keys.')+'<span class="minimized-title"></span>'+'<div class="player-view-buttons">'+iconButton('horizontal-player','horizontal','Horizontal player')+iconButton('compact-player','expand','Draggable player')+iconButton('minimize-player','minimize','Minimize player')+'</div>';musicPanel.prepend(toolbar);
+const toolbar=document.createElement('div');toolbar.className='player-toolbar';toolbar.innerHTML=iconButton('player-grip','drag','Move player. Drag or use arrow keys.')+'<span class="minimized-title"></span>'+'<div class="player-view-buttons">'+iconButton('minimize-player','minimize','Minimize player')+'</div>';musicPanel.prepend(toolbar);
 const transport=document.createElement('div');transport.className='player-transport';transport.innerHTML='<div class="transport-main">'+iconButton('transport-prev','prev','Previous song')+iconButton('transport-play','play','Play current song')+iconButton('transport-next','next','Next song')+'</div><div class="queue-options">'+iconButton('shuffle-toggle','shuffle','Shuffle',false)+iconButton('autoplay-toggle','autoplay','Autoplay',true)+iconButton('repeat-toggle','repeat','Repeat: off',false)+'</div>';musicPanel.append(transport);
 const playButton=transport.querySelector('.transport-play');
 for(const [mode,button] of Object.entries(modeButtons)){button.innerHTML=playerIcon(mode);button.setAttribute('aria-label',mode.toUpperCase());button.title=mode==='audio'?'Saved archive audio':mode;}
 const originalButton=document.getElementById('original-track');originalButton.innerHTML=playerIcon('external');originalButton.setAttribute('aria-label','Open original track');originalButton.title='Open original track';
-let minimized=false,dragOffset=null,playerLayout='horizontal';
+let minimized=false,dragOffset=null,miniMoved=false;
 const minimizeButton=toolbar.querySelector('.minimize-player'),grip=toolbar.querySelector('.player-grip');
-function clampPlayer(x,y){const r=musicPanel.getBoundingClientRect();musicPanel.style.left=Math.max(12,Math.min(x,innerWidth-r.width-12))+'px';musicPanel.style.top=Math.max(12,Math.min(y,innerHeight-r.height-12))+'px';musicPanel.style.right='auto';musicPanel.style.bottom='auto';}
-minimizeButton.addEventListener('click',()=>{const r=musicPanel.getBoundingClientRect();minimized=!minimized;musicPanel.classList.toggle('is-minimized',minimized);minimizeButton.innerHTML=playerIcon(minimized?'expand':'minimize');minimizeButton.setAttribute('aria-label',minimized?'Expand player':'Minimize player');minimizeButton.title=minimized?'Expand player':'Minimize player';if(musicPanel.style.left)clampPlayer(r.x,r.y);});
-function setPlayerLayout(layout){playerLayout=layout;minimized=false;musicPanel.classList.remove('is-minimized');musicPanel.classList.toggle('is-horizontal',layout==='horizontal');musicPanel.style.left='';musicPanel.style.top='';musicPanel.style.right='';musicPanel.style.bottom='';minimizeButton.innerHTML=playerIcon('minimize');minimizeButton.setAttribute('aria-label','Minimize player');toolbar.querySelector('.horizontal-player').setAttribute('aria-pressed',String(layout==='horizontal'));toolbar.querySelector('.compact-player').setAttribute('aria-pressed',String(layout==='compact'));}
-toolbar.querySelector('.horizontal-player').addEventListener('click',()=>setPlayerLayout('horizontal'));
-toolbar.querySelector('.compact-player').addEventListener('click',()=>setPlayerLayout('compact'));
-setPlayerLayout('horizontal');
-grip.addEventListener('pointerdown',e=>{if(playerLayout==='horizontal'||e.button!==0)return;const r=musicPanel.getBoundingClientRect();dragOffset={x:e.clientX-r.left,y:e.clientY-r.top};grip.setPointerCapture(e.pointerId);e.preventDefault();});
-grip.addEventListener('pointermove',e=>{if(dragOffset)clampPlayer(e.clientX-dragOffset.x,e.clientY-dragOffset.y);});
+function clampPlayer(x,y){const r=musicPanel.getBoundingClientRect(),viewport=document.documentElement.clientWidth;musicPanel.style.setProperty('--mini-left',Math.max(12,Math.min(x,viewport-r.width-12))+'px');musicPanel.style.setProperty('--mini-top',Math.max(8,Math.min(y,innerHeight-r.height-8))+'px');}
+function dockMiniPlayer(){
+ if(!minimized||miniMoved)return;
+ const header=document.querySelector('header'),logo=header.querySelector('.wordmark'),nav=header.querySelector('nav');
+ header.classList.remove('mini-needs-row');
+ const brand=logo.getBoundingClientRect(),navigation=nav.getBoundingClientRect(),left=brand.right+28,available=navigation.left-left-28;
+ const separateRow=innerWidth<=700||available<300;header.classList.toggle('mini-needs-row',separateRow);
+ const box=header.getBoundingClientRect(),width=separateRow?Math.min(440,document.documentElement.clientWidth-24):Math.min(440,available);
+ musicPanel.style.setProperty('--mini-width',width+'px');
+ clampPlayer(separateRow?Math.max(12,box.left+12):left,separateRow?box.bottom-68:box.top+(box.height-60)/2);
+}
+musicPanel.classList.add('is-horizontal');
+minimizeButton.addEventListener('click',()=>{
+ minimized=!minimized;miniMoved=false;musicPanel.classList.toggle('is-minimized',minimized);
+ minimizeButton.innerHTML=playerIcon(minimized?'expand':'minimize');minimizeButton.setAttribute('aria-label',minimized?'Expand player':'Minimize player');minimizeButton.title=minimized?'Expand player':'Minimize player';
+ if(minimized)dockMiniPlayer();else document.querySelector('header').classList.remove('mini-needs-row');
+});
+grip.addEventListener('pointerdown',e=>{if(!minimized||e.button!==0)return;const r=musicPanel.getBoundingClientRect();dragOffset={x:e.clientX-r.left,y:e.clientY-r.top};grip.setPointerCapture(e.pointerId);e.preventDefault();});
+grip.addEventListener('pointermove',e=>{if(dragOffset){miniMoved=true;clampPlayer(e.clientX-dragOffset.x,e.clientY-dragOffset.y);}});
 grip.addEventListener('pointerup',()=>dragOffset=null);grip.addEventListener('pointercancel',()=>dragOffset=null);
-grip.addEventListener('keydown',e=>{if(playerLayout==='horizontal'||!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key))return;e.preventDefault();const r=musicPanel.getBoundingClientRect(),step=e.shiftKey?10:25;clampPlayer(r.x+(e.key==='ArrowRight'?step:e.key==='ArrowLeft'?-step:0),r.y+(e.key==='ArrowDown'?step:e.key==='ArrowUp'?-step:0));});
-window.addEventListener('resize',()=>{if(musicPanel.style.left){const r=musicPanel.getBoundingClientRect();clampPlayer(r.x,r.y);}});
+grip.addEventListener('keydown',e=>{if(!minimized||!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key))return;e.preventDefault();miniMoved=true;const r=musicPanel.getBoundingClientRect(),step=e.shiftKey?10:25;clampPlayer(r.x+(e.key==='ArrowRight'?step:e.key==='ArrowLeft'?-step:0),r.y+(e.key==='ArrowDown'?step:e.key==='ArrowUp'?-step:0));});
+window.addEventListener('resize',()=>{if(!minimized)return;if(!miniMoved)dockMiniPlayer();else{musicPanel.style.setProperty('--mini-width',Math.min(440,document.documentElement.clientWidth-24)+'px');const r=musicPanel.getBoundingClientRect();clampPlayer(r.x,r.y);}});
 let shuffle=false,autoplay=true,repeatMode='off',shuffleBag=[],playedHistory=[],shuffleCycleStarted=false;
 function keepPlayerFloating(){musicPanel.classList.add('is-floating');document.body.classList.add('has-floating-player');}
 window.floatMusicPlayer=keepPlayerFloating;
@@ -60,4 +71,3 @@ function setPlayLabel(playing){playButton.innerHTML=playerIcon(playing?'pause':'
 window.syncPlayerTransport=syncTransport;musicPanel.addEventListener('play',syncTransport,true);musicPanel.addEventListener('pause',syncTransport,true);musicPanel.addEventListener('ended',syncTransport,true);new MutationObserver(syncTransport).observe(playerStatus,{childList:true,characterData:true,subtree:true});
 search.addEventListener('input',()=>{shuffleBag=[];shuffleCycleStarted=false;});document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{shuffleBag=[];shuffleCycleStarted=false;}));
 keepPlayerFloating();syncTransport();
-

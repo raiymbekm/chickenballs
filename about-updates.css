@@ -63,3 +63,39 @@ body .header-random[data-color="green"],body .header-random[data-color="green"]:
  body.has-floating-player{padding-bottom:260px!important}body.has-floating-player:has(#listening-room.is-minimized){padding-bottom:84px!important}
  body.has-floating-player:has(#listening-room:not(.has-archive-audio):not(.is-minimized)){padding-bottom:360px!important}
 }
+/* One fixed deck, with a movable compact strip that starts beside the brand. */
+#listening-room .player-resize,#listening-room .horizontal-player,#listening-room .compact-player{display:none!important}
+#listening-room.is-floating.is-minimized{left:var(--mini-left,12px)!important;top:var(--mini-top,12px)!important;right:auto!important;bottom:auto!important;width:var(--mini-width,440px)!important;max-width:calc(100vw - 24px)!important;height:60px!important;min-height:0!important;display:grid;grid-template-columns:minmax(0,1fr) 112px!important;grid-template-rows:1fr!important;grid-template-areas:'toolbar controls'!important;padding:10px!important;gap:8px;overflow:hidden;z-index:60}
+#listening-room.is-minimized .player-toolbar{position:static;display:flex;grid-area:toolbar;padding:0;border:0;background:none;gap:8px;min-width:0}
+#listening-room.is-minimized .player-grip{display:flex!important;width:20px;height:30px;padding:2px;flex-shrink:0;cursor:grab;touch-action:none}
+#listening-room.is-minimized .minimized-title{display:block;flex:1;min-width:0;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#listening-room.is-minimized .player-view-buttons{display:flex;order:0;margin:0}
+#listening-room.is-minimized .minimize-player{width:28px;height:30px;padding:5px}
+#listening-room.is-minimized .now-playing{display:contents!important}
+#listening-room.is-minimized .player-transport{display:flex!important;grid-area:controls!important;align-items:center;padding:0!important;gap:0}
+#listening-room.is-minimized .transport-main{display:flex;gap:5px;flex-wrap:nowrap}
+#listening-room.is-minimized .transport-main button{width:32px;height:32px;min-width:0;padding:6px}
+#listening-room.is-minimized .queue-options,#listening-room.is-minimized .player-actions,#listening-room.is-minimized .player-seek,#listening-room.is-minimized .player-spectrum{display:none!important}
+header.mini-needs-row{height:auto!important;min-height:170px;padding-bottom:74px!important;padding-top:18px!important}
+body.has-floating-player:has(#listening-room.is-minimized){padding-bottom:24px!important}
+@media(min-width:701px){
+ #listening-room.is-floating.is-horizontal:not(.is-minimized){height:184px!important;min-height:0!important;width:auto;left:var(--page-gutter);right:var(--page-gutter);bottom:16px;top:auto;grid-template-columns:112px minmax(0,1fr) minmax(170px,24%)!important;grid-template-rows:minmax(0,1fr) 32px!important;grid-template-areas:'media info spectrum' 'media seek spectrum'!important;gap:10px 16px;padding:16px!important}
+ #listening-room:not(.is-minimized) .player-toolbar{position:absolute;top:12px;right:12px;padding:0;background:none;border:0;z-index:2}
+ #listening-room:not(.is-minimized) .player-grip{display:none}
+ #listening-room:not(.is-minimized) .minimized-title{display:none}
+ #listening-room:not(.is-minimized) .player-toolbar button{width:28px;height:28px;padding:5px}
+ #listening-room.is-horizontal:not(.is-minimized) .player-screen{grid-area:media;width:112px;height:112px!important;aspect-ratio:1;min-height:0;align-self:center;border:0;border-radius:8px}
+ #listening-room:not(.is-minimized) .archive-audio-player,#listening-room:not(.is-minimized) .archive-audio-player img{width:112px;height:112px!important;object-fit:contain}
+ #listening-room:not(.is-minimized) .player-screen iframe{min-height:0!important}
+ #listening-room.is-horizontal:not(.is-minimized) .now-playing{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto auto auto;gap:4px 14px;padding:0;align-self:center}
+ #listening-room:not(.is-minimized) .now-playing h3{font-size:24px;line-height:1.12;-webkit-line-clamp:2}
+ #listening-room:not(.is-minimized) #playing-artist{font-size:13px}
+ #listening-room:not(.is-minimized) #player-status{font-size:10px}
+ #listening-room.is-horizontal:not(.is-minimized) .player-transport{grid-column:2;grid-row:1 / 4;flex-direction:column;gap:6px;justify-content:center;padding:0!important}
+ #listening-room:not(.is-minimized) .transport-main button{width:34px;height:34px;padding:6px}
+ #listening-room:not(.is-minimized) .queue-options button{width:28px;height:28px;padding:5px}
+ #listening-room:not(.is-minimized) .transport-main,#listening-room:not(.is-minimized) .queue-options{gap:6px;flex-wrap:nowrap}
+ #listening-room:not(.is-minimized) .player-spectrum{padding:28px 0 0 16px;border-left:1px solid #ffffff28}
+ #listening-room:not(.is-minimized) .player-actions a{width:26px;height:26px;padding:4px}
+ body.has-floating-player{padding-bottom:216px}
+}

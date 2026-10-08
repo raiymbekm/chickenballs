@@ -1,15 +1,5 @@
 (() => {
  const panel=document.getElementById('listening-room');
- const resize=document.createElement('button');resize.className='player-resize';resize.setAttribute('aria-label','Resize player. Drag or use arrow keys.');resize.title='Resize player';resize.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 4h3v17H4v-3h14zM12 10h3v5H9v-3h3z"/></svg>';panel.append(resize);
- let resizing=null;
- function size(w,h){const narrow=innerWidth<400;const minimumW=Math.min(narrow?320:380,innerWidth-24),minimumH=narrow?460:panel.classList.contains('is-horizontal')&&innerWidth>700?250:290;const r=panel.getBoundingClientRect(),horizontal=panel.classList.contains('is-horizontal');panel.style.width=Math.max(minimumW,Math.min(w,innerWidth-Math.max(r.left,12)-12))+'px';panel.style.height=Math.max(Math.min(minimumH,innerHeight-24),Math.min(h,horizontal?innerHeight-28:innerHeight-Math.max(r.top,12)-12))+'px';if(horizontal){panel.style.left=r.left+'px';panel.style.right='auto';panel.style.top='auto';panel.style.bottom='16px';}else clampPlayer(Math.min(r.left,innerWidth-parseFloat(panel.style.width)-12),Math.min(r.top,innerHeight-parseFloat(panel.style.height)-12));document.body.style.paddingBottom=horizontal?(parseFloat(panel.style.height)+32)+'px':'';}
- resize.addEventListener('pointerdown',e=>{if(e.button!==0)return;const r=panel.getBoundingClientRect();resizing={x:e.clientX,y:e.clientY,w:r.width,h:r.height,horizontal:panel.classList.contains('is-horizontal')};resize.setPointerCapture(e.pointerId);e.preventDefault();});
- resize.addEventListener('pointermove',e=>{if(resizing)size(resizing.w+e.clientX-resizing.x,resizing.h+(resizing.horizontal?-1:1)*(e.clientY-resizing.y));});
- for(const name of ['pointerup','pointercancel'])resize.addEventListener(name,()=>resizing=null);
- resize.addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key))return;e.preventDefault();const r=panel.getBoundingClientRect();const step=e.shiftKey?10:30;size(r.width+(e.key==='ArrowRight'?step:e.key==='ArrowLeft'?-step:0),r.height+(e.key==='ArrowDown'?step:e.key==='ArrowUp'?-step:0));});
- const sizingObserver=new ResizeObserver(entries=>{const width=entries[0].contentRect.width;panel.classList.toggle('is-narrow',width<760);panel.classList.toggle('is-tiny',width<376);});sizingObserver.observe(panel);
- panel.querySelectorAll('.horizontal-player,.compact-player').forEach(button=>button.addEventListener('click',()=>{panel.style.width='';panel.style.height='';document.body.style.paddingBottom='';}));
- const minimize=panel.querySelector('.minimize-player');let expandedSize=null;minimize.addEventListener('click',()=>{if(panel.classList.contains('is-minimized')){expandedSize={width:panel.style.width,height:panel.style.height};panel.style.width='';panel.style.height='';document.body.style.paddingBottom='';}else if(expandedSize){panel.style.width=expandedSize.width;panel.style.height=expandedSize.height;}});
  window.renderFeaturedRelease=function(){
  const release=window.latestRelease;
  if(release&&document.getElementById('latest-release')){
