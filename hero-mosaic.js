@@ -12,13 +12,15 @@
   const buttons=['A','B'].map(name=>{const button=document.createElement('button');button.type='button';button.textContent=name;button.setAttribute('aria-label','Visualizer '+name);button.setAttribute('aria-pressed',String(name==='A'));if(name==='B'){button.disabled=true;button.title='B is in local preview - coming soon';}selector.append(button);return button;});hero.append(selector);
   function choose(name){if(!['A','B'].includes(name)||(name==='B'&&!drawB))return;selected=name;buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.textContent===name)));try{localStorage.setItem('chicken-balls-visualizer',name);}catch{}draw(performance.now(),0);start();}
   buttons.forEach(button=>button.addEventListener('click',()=>choose(button.textContent)));
-  if(localPreview)import('./visualizer-b-preview.js?v=20261008-1').then(module=>{if(destroyed)return;drawB=module.drawLiquidGrid;buttons[1].disabled=false;buttons[1].title='Pixelated liquid - local preview';let preferred;try{preferred=localStorage.getItem('chicken-balls-visualizer');}catch{}choose(new URLSearchParams(location.search).get('visualizer')||preferred||'A');}).catch(()=>{});
+  if(localPreview)import('./visualizer-b-preview.js?v=20261008-bloom-2').then(module=>{if(destroyed)return;drawB=module.drawLiquidGrid;buttons[1].disabled=false;buttons[1].title='Pixelated liquid - local preview';let preferred;try{preferred=localStorage.getItem('chicken-balls-visualizer');}catch{}choose(new URLSearchParams(location.search).get('visualizer')||preferred||'A');}).catch(()=>{});
   const motion=matchMedia('(prefers-reduced-motion: reduce)'),events=new AbortController(),bands=new Float32Array(28);
   let width=0,height=0,frame=0,last=0,clock=0,visible=true,destroyed=false,bass=0,mids=0,treble=0,beat=0,previousBass=0,lastBeat=0,sequence=0;
+  const pointerTrail=[];
   let pointer={x:.5,y:.5,strength:0,time:0};const clamp=n=>Math.max(0,Math.min(1,n));
   function fit(){
    const heroBox=hero.getBoundingClientRect(),titleBox=hero.querySelector('#hero-title').getBoundingClientRect();
-   if(heroBox.width>700){const left=titleBox.right-heroBox.left+Math.max(24,heroBox.width*.025);canvas.style.left=left+'px';canvas.style.width=Math.max(80,heroBox.width*.96-left)+'px';}else{canvas.style.left='';canvas.style.width='';}
+   const gutter=titleBox.left-heroBox.left;
+   if(heroBox.width>700){const left=titleBox.right-heroBox.left+gutter;canvas.style.left=left+'px';canvas.style.width=Math.max(80,heroBox.width-left)+'px';canvas.style.marginLeft='';}else{canvas.style.left='';canvas.style.width=heroBox.width+'px';canvas.style.marginLeft=-gutter+'px';}
    const box=canvas.getBoundingClientRect();width=box.width;height=box.height;
    const ratio=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(width*ratio);canvas.height=Math.round(height*ratio);ctx.setTransform(ratio,0,0,ratio,0,0);draw(performance.now(),0);start();
   }
@@ -32,8 +34,9 @@
    pointer.strength=reduced?0:clamp(1-(now-pointer.time)/1100);
    ctx.clearRect(0,0,width,height);ctx.save();
 
+   while(pointerTrail.length&&now-pointerTrail[0].time>1400)pointerTrail.shift();
+   if(selected==='B'&&drawB){drawB(ctx,{width,height,clock,bass,mids,treble,beat,bands,pointer,trail:pointerTrail,reduced,now,elapsed,sequence});}else{
    ctx.fillStyle='#211044';ctx.fillRect(0,0,width,height);
-   if(selected==='B'&&drawB){drawB(ctx,{width,height,clock,bass,mids,treble,beat,bands,pointer,reduced});}else{
    const rowCount=12,rowHeight=height/rowCount,gap=Math.max(1.5,width*.003);
    for(let row=0;row<rowCount;row++){
     const y=row*rowHeight,ny=(row+.5)/rowCount;
@@ -48,8 +51,7 @@
     let x=-width*.23+offset*width;
     for(let col=0;col<count;col++){
      const w=weights[col]/total*width*1.48;ctx.fillStyle=colors[(col+Math.floor(row/2))%colors.length];ctx.fillRect(x+gap/2,y+gap/2,w-gap,rowHeight-gap);
-     // Treble makes narrow bright cuts, not another conventional equalizer.
-     if(active&&treble>.2&&(col+row)%3===0){ctx.fillStyle='#f7f7f2';ctx.globalAlpha=clamp((treble-.2)*1.5);ctx.fillRect(x+w*.78,y+gap/2,Math.max(gap,w*.035),rowHeight-gap);ctx.globalAlpha=1;}x+=w;
+     x+=w;
     }
    }
    }
@@ -60,9 +62,19 @@
   function stop(){cancelAnimationFrame(frame);frame=0;}
   const observer=new ResizeObserver(fit);observer.observe(canvas);observer.observe(hero);observer.observe(hero.querySelector('#hero-title'));
   const intersection=new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;if(visible)start();else stop();});intersection.observe(hero);
-  hero.addEventListener('pointermove',e=>{if(motion.matches||e.pointerType==='touch')return;const r=canvas.getBoundingClientRect();pointer={x:clamp((e.clientX-r.left)/r.width),y:clamp((e.clientY-r.top)/r.height),strength:1,time:e.clientX>=r.left&&e.clientX<=r.right&&e.clientY>=r.top&&e.clientY<=r.bottom?performance.now():0};start();},{passive:true,signal:events.signal});
+  hero.addEventListener('pointermove',e=>{
+   if(motion.matches||e.pointerType==='touch')return;
+   const r=canvas.getBoundingClientRect(),inside=e.clientX>=r.left&&e.clientX<=r.right&&e.clientY>=r.top&&e.clientY<=r.bottom,now=performance.now();
+   pointer={x:clamp((e.clientX-r.left)/r.width),y:clamp((e.clientY-r.top)/r.height),strength:1,time:inside?now:0};
+   if(inside){
+    const previous=pointerTrail[pointerTrail.length-1],distance=previous?Math.hypot((pointer.x-previous.x)*r.width,(pointer.y-previous.y)*r.height):0;
+    if(!previous||now-previous.time>90){pointerTrail.push({...pointer,time:now});}
+    else if(distance>5){const steps=Math.min(12,Math.ceil(distance/10));for(let i=1;i<=steps;i++)pointerTrail.push({x:previous.x+(pointer.x-previous.x)*i/steps,y:previous.y+(pointer.y-previous.y)*i/steps,time:now});}
+    if(pointerTrail.length>90)pointerTrail.splice(0,pointerTrail.length-90);
+   }start();
+  },{passive:true,signal:events.signal});
   document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();else start();},{signal:events.signal});
-  motion.addEventListener('change',()=>{stop();bands.fill(0);beat=0;draw(performance.now(),0);start();},{signal:events.signal});fit();
+  motion.addEventListener('change',()=>{stop();bands.fill(0);pointerTrail.length=0;beat=0;draw(performance.now(),0);start();},{signal:events.signal});fit();
   dispose=()=>{destroyed=true;stop();observer.disconnect();intersection.disconnect();events.abort();canvas.remove();selector.remove();hero.classList.remove('has-mosaic');};
  }
  window.addEventListener('pagenavigate',mount);mount();

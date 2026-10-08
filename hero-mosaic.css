@@ -4,8 +4,8 @@
 .hero.has-mosaic #hero-title{color:#f7f7f2;font-size:clamp(90px,15vw,230px);line-height:.9;margin:26px 0 28px;align-self:flex-start;text-shadow:none;max-width:52%}
 .hero.has-mosaic #hero-title span{color:inherit}
 .hero.has-mosaic .hero-bottom p{font-size:clamp(12px,1.25vw,18px);font-weight:700;letter-spacing:.04em;max-width:42ch;line-height:1.5}
-.hero-mosaic{position:absolute;right:4%;top:86px;bottom:40px;width:43%;height:calc(100% - 126px);z-index:0;pointer-events:none}
-.hero-visualizer-selector{position:absolute;right:4%;top:24px;display:flex;align-items:center;gap:6px;z-index:2;color:#f7f7f2}
+.hero-mosaic{position:absolute;right:0;top:0;bottom:0;width:43%;height:100%;z-index:0;pointer-events:none}
+.hero-visualizer-selector{position:absolute;right:4%;top:24px;display:flex;align-items:center;gap:6px;z-index:2;color:#f7f7f2;background:#101010e8;padding:8px 10px;border-radius:10px}
 .hero-visualizer-selector>span{font-family:Geist,Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:.09em;margin-right:10px}
 .hero-visualizer-selector button{width:38px;height:34px;padding:0;border:1px solid #f7f7f260;border-radius:6px;background:transparent;color:#f7f7f2;font-family:Geist,Arial,sans-serif;font-size:14px;font-weight:700;transition:background .2s,color .2s}
 .hero-visualizer-selector button[aria-pressed=true]{background:#bcff35;color:#101010;border-color:#bcff35}
@@ -13,4 +13,4 @@
 .hero-visualizer-selector button:disabled{opacity:.45;cursor:default}.hero-visualizer-selector button:focus-visible{outline:2px solid white;outline-offset:4px}
 body.dark-mode .hero.has-mosaic{background:#7738eb;color:#f7f7f2}
 body.dark-mode .hero.has-mosaic #hero-title{color:#f7f7f2}
-@media(max-width:700px){.hero.has-mosaic{min-height:0;justify-content:flex-start;padding-top:80px;padding-bottom:32px}.hero.has-mosaic #hero-title{font-size:25vw;max-width:100%;margin:0 0 20px}.hero.has-mosaic .hero-bottom p{max-width:32ch;font-size:12px}.hero-mosaic{position:relative;right:auto;top:auto;bottom:auto;order:3;width:100%;height:auto;aspect-ratio:1.2;align-self:center;margin-top:32px}.hero-visualizer-selector{top:22px}}
+@media(max-width:700px){.hero.has-mosaic{min-height:0;justify-content:flex-start;padding-top:80px;padding-bottom:0}.hero.has-mosaic #hero-title{font-size:25vw;max-width:100%;margin:0 0 20px}.hero.has-mosaic .hero-bottom p{max-width:32ch;font-size:12px}.hero-mosaic{position:relative;right:auto;top:auto;bottom:auto;order:3;width:100%;height:auto;aspect-ratio:1.2;align-self:flex-start;margin-top:32px}.hero-visualizer-selector{top:22px}}
