@@ -12,14 +12,13 @@
   const trailLifetime=1100;
   const noise=(x,y)=>{const n=Math.sin(x*127.1+y*311.7)*43758.5453;return n-Math.floor(n);};
   const clamp=value=>Math.max(0,Math.min(1,value));
-  // Fixed saturated hues preserve each frequency's identity without muddy RGB blends.
-  const vivid=(hue,lightness)=>`hsl(${hue} 100% ${lightness}%)`;
-  // A cyclic, saturated palette keeps warm ribbons connected to the purple/green current.
-  const idlePalette=[266,266,238,195,83,52,8,330,285,266];
-  function currentHue(position){
-   const wrapped=((position%1)+1)%1*(idlePalette.length-1),index=Math.floor(wrapped),blend=wrapped-index;
-   const a=idlePalette[index],b=idlePalette[index+1],delta=((b-a+540)%360)-180;
-   return a+delta*blend;
+  // Shared brand palette; interpolation stays between the approved color stops.
+  const palette={purple:'#7738eb',green:'#bcff35',yellow:'#f7bb2e',red:'#fd5439',blue:'#3d52df'};
+  const blend=(a,b,t)=>{const channel=i=>Math.round(parseInt(a.slice(i,i+2),16)*(1-t)+parseInt(b.slice(i,i+2),16)*t);return `rgb(${channel(1)} ${channel(3)} ${channel(5)})`;};
+  const idlePalette=[palette.purple,palette.purple,palette.blue,palette.green,palette.yellow,palette.red,palette.purple];
+  function currentColor(position){
+   const wrapped=((position%1)+1)%1*(idlePalette.length-1),index=Math.floor(wrapped);
+   return blend(idlePalette[index],idlePalette[index+1],wrapped-index);
   }
   function fit(){
    const box=hero.getBoundingClientRect();width=box.width;height=box.height;
@@ -65,19 +64,19 @@
    for(const cell of cells){
     const {x,y,w,h,gx,gy,n}=cell,nx=(gx+.5)/cols,ny=(gy+.5)/rows;
     const wave=(Math.sin(nx*9+ny*5-phase)+Math.cos(nx*4-ny*7+phase*.7)+2)/4;
-    let color=vivid(266,30+wave*28),alpha=.72+wave*.18;
+    let color=blend(palette.blue,palette.purple,wave),alpha=.72+wave*.18;
     // Midrange bends a connected ribbon into islands and curved pixel contours.
     const contour=Math.abs(Math.sin(nx*9+ny*4+Math.sin(ny*6-phase)*1.6-phase));
     const midShape=clamp(1-contour/(.13+mids*.38))*mids;
-    if(midShape>.08){color=vivid(28,32+clamp(mids*1.8)*25);alpha=.96;}
+    if(midShape>.08){color=palette.red;alpha=.96;}
     // Account for cell proportions so bass onsets produce circular pixel rings.
     let ring=0;
     for(const pulse of pulses){const age=(now-pulse.time)/1400,distance=Math.hypot(gx-pulse.cx,(gy-pulse.cy)*(height/rows)/(width/cols)),radius=age*Math.max(cols,rows)*.65;ring=Math.max(ring,clamp(1-Math.abs(distance-radius)/1.4)*(1-age)*pulse.strength);}
-    if(ring>.035){const strength=clamp(ring*2.8);color=strength<.65?vivid(266,28+strength*48):vivid(52,50+(strength-.65)*22);alpha=.98;}
+    if(ring>.035){const strength=clamp(ring*2.8);color=strength<.65?palette.purple:palette.yellow;alpha=.98;}
     // High frequencies form short lime crosses and single-cell sparks.
     let sparkle=0;
     for(const spark of sparks){const distance=Math.abs(gx-spark.gx)+Math.abs(gy-spark.gy);if(distance<=1)sparkle=Math.max(sparkle,(1-(now-spark.time)/600)*spark.strength*(distance===0?1:.55));}
-    if(sparkle>.045){color=vivid(83,39+clamp(sparkle*3)*20);alpha=.98;}
+    if(sparkle>.045){color=palette.green;alpha=.98;}
     let proximity=0,influence=0;
     if(!reduced)for(const point of trail){
      const remaining=clamp(1-(now-point.time)/trailLifetime),fade=remaining*remaining*(3-2*remaining);
@@ -91,12 +90,12 @@
     const flowY=ny+.12*Math.sin(nx*5+idlePhase*.45);
     const current=flowX*1.05+flowY*.7-idlePhase*.12
      +.055*Math.sin(flowX*12-flowY*7+idlePhase*.65)+influence*.1;
-    const idleHue=currentHue(current),idleLight=43+5*Math.sin(flowX*7+flowY*5-idlePhase*.5);
+    const idleColor=currentColor(current);
     // Continuous shading, never rectangular masks around lines of type.
     ctx.fillStyle=color;ctx.globalAlpha=alpha;ctx.fillRect(x,y,w,h);
     ctx.strokeStyle='#7028dd';ctx.lineWidth=1;ctx.globalAlpha*=.3;ctx.strokeRect(x+.5,y+.5,w-1,h-1);
-    if(idleMix>.001){ctx.fillStyle=vivid(idleHue,idleLight);ctx.globalAlpha=idleMix;ctx.fillRect(x,y,w,h);}
-    if(proximity>.001){ctx.fillStyle=vivid(83,58);ctx.globalAlpha=proximity*.9;ctx.fillRect(x,y,w,h);}
+    if(idleMix>.001){ctx.fillStyle=idleColor;ctx.globalAlpha=idleMix;ctx.fillRect(x,y,w,h);}
+    if(proximity>.001){ctx.fillStyle=palette.green;ctx.globalAlpha=proximity*.9;ctx.fillRect(x,y,w,h);}
    }
    ctx.globalAlpha=1;
    canvas.dataset.energy=energy.toFixed(3);canvas.dataset.bass=bass.toFixed(3);canvas.dataset.mids=mids.toFixed(3);canvas.dataset.treble=treble.toFixed(3);canvas.dataset.pulses=String(pulses.length);canvas.dataset.sparks=String(sparks.length);canvas.dataset.pointer=String(!reduced&&trail.length>0);canvas.dataset.motion=reduced?'reduced':'active';canvas.dataset.idleFlow=idleMix.toFixed(3);
