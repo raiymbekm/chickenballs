@@ -1,114 +1,57 @@
 (() => {
  let dispose=()=>{};
  function mount(){
-  dispose();
-  const hero=document.querySelector('.hero');if(!hero)return;
+  dispose();const hero=document.querySelector('.hero');if(!hero)return;
   const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');if(!ctx)return;
   canvas.className='hero-mosaic';canvas.setAttribute('aria-hidden','true');hero.prepend(canvas);hero.classList.add('has-mosaic');
-  const motion=matchMedia('(prefers-reduced-motion: reduce)'),events=new AbortController();
-  let width=0,height=0,cols=0,rows=0,cells=[],frame=0,last=0,visible=true,destroyed=false,energy=0,bass=0,mids=0,treble=0,phase=0,previousBass=0,previousTreble=0,bassFloor=0,lastKick=-1000,lastSpark=-1000,sequence=0;
-  const trail=[],pulses=[],sparks=[],bands=new Float32Array(28);
-  let idlePhase=0,idleMix=1;
-  const trailLifetime=1100;
-  const noise=(x,y)=>{const n=Math.sin(x*127.1+y*311.7)*43758.5453;return n-Math.floor(n);};
-  const clamp=value=>Math.max(0,Math.min(1,value));
-  // Shared brand palette; interpolation stays between the approved color stops.
-  const palette={purple:'#7738eb',green:'#bcff35',yellow:'#f7bb2e',red:'#fd5439',blue:'#3d52df'};
-  const blend=(a,b,t)=>{const channel=i=>Math.round(parseInt(a.slice(i,i+2),16)*(1-t)+parseInt(b.slice(i,i+2),16)*t);return `rgb(${channel(1)} ${channel(3)} ${channel(5)})`;};
-  const idlePalette=[palette.purple,palette.purple,palette.blue,palette.green,palette.yellow,palette.red,palette.purple];
-  function currentColor(position){
-   const wrapped=((position%1)+1)%1*(idlePalette.length-1),index=Math.floor(wrapped);
-   return blend(idlePalette[index],idlePalette[index+1],wrapped-index);
-  }
+  const logo=new Path2D('M362.05,99.89h-29.97c-5.53,0-10.02-4.48-10.02-10.02v-29.86c0-5.53-4.48-10.02-10.02-10.02h-79.97c-5.53,0-10.02-4.48-10.02-10.02V10.02c0-5.53-4.48-10.02-10.02-10.02h-52c-5.53,0-10.02,4.48-10.02,10.02v51.86c0,5.53,4.48,10.02,10.02,10.02h29.97c5.53,0,10.02,4.48,10.02,10.02v8.07c0,5.53-4.48,10.02-10.02,10.02h-29.97c-5.53,0-10.02,4.48-10.02,10.02v29.97c0,5.53-4.48,10.02-10.02,10.02h-57.97c-5.53,0-10.02-4.48-10.02-10.02v-8.07c0-5.53,4.48-10.02,10.02-10.02h30c5.53,0,10.02-4.48,10.02-10.02v-51.86c0-5.53-4.48-10.02-10.02-10.02h-52c-5.53,0-10.02,4.48-10.02,10.02v29.86c0,5.53-4.48,10.02-10.02,10.02H10.02c-5.53,0-10.02,4.48-10.02,10.02v51.86c0,5.53,4.48,10.02,10.02,10.02h30c5.53,0,10.02,4.48,10.02,10.02v30.07c0,5.53,4.48,10.02,10.02,10.02h102.03c5.53,0,10.02-4.48,10.02-10.02v-29.97c0-5.53,4.48-10.02,10.02-10.02h29.94c5.53,0,10.02-4.48,10.02-10.02v-29.97c0-5.53,4.48-10.02,10.02-10.02h57.94c5.53,0,10.02,4.48,10.02,10.02v8.07c0,5.53-4.48,10.02-10.02,10.02h-29.94c-5.53,0-10.02,4.48-10.02,10.02v51.86c0,5.53,4.48,10.02,10.02,10.02h52c5.53,0,10.02-4.48,10.02-10.02v-30.07c0-5.53,4.48-10.02,10.02-10.02h29.94c5.53,0,10.02-4.48,10.02-10.02v-51.86c0-5.53-4.48-10.02-10.02-10.02Z'),colors=['#3b8457','#3d52df','#f7bb2e','#fd5439','#3b8457','#f7bb2e','#6430c7','#fd5439'];
+  const motion=matchMedia('(prefers-reduced-motion: reduce)'),events=new AbortController(),bands=new Float32Array(28);
+  let width=0,height=0,frame=0,last=0,clock=0,visible=true,destroyed=false,bass=0,mids=0,treble=0,beat=0,previousBass=0,lastBeat=0,sequence=0;
+  let pointer={x:.5,y:.5,strength:0,time:0};const clamp=n=>Math.max(0,Math.min(1,n));
   function fit(){
-   const box=hero.getBoundingClientRect();width=box.width;height=box.height;
-   const preferred=width<600?34:64;
-   cols=Math.max(1,Math.round(width/preferred));rows=Math.max(1,Math.round(height/preferred));
-   // Whole cells cover the header, without text-shaped exclusion rectangles.
-   const cellWidth=width/cols,cellHeight=height/rows;
-   cells=[];
-   for(let gy=0;gy<rows;gy++)for(let gx=0;gx<cols;gx++){
-    const x=Math.round(gx*cellWidth),y=Math.round(gy*cellHeight),w=Math.round((gx+1)*cellWidth)-x,h=Math.round((gy+1)*cellHeight)-y;
-    cells.push({x,y,w,h,gx,gy,n:noise(gx,gy)});
-   }
-   const ratio=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(width*ratio);canvas.height=Math.round(height*ratio);ctx.setTransform(ratio,0,0,ratio,0,0);
-   canvas.dataset.columns=String(cols);canvas.dataset.rows=String(rows);
-   draw(performance.now(),0);start();
+   const box=canvas.getBoundingClientRect();width=box.width;height=box.height;
+   const ratio=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(width*ratio);canvas.height=Math.round(height*ratio);ctx.setTransform(ratio,0,0,ratio,0,0);draw(performance.now(),0);start();
   }
   function draw(now,elapsed){
-   ctx.clearRect(0,0,width,height);
-   const reduced=motion.matches,spectrum=!reduced&&window.readMusicSpectrum?.();
-   let sum=0,low=0,middle=0,high=0,rawBass=0,rawTreble=0;
-   for(let i=0;i<28;i++){
-    const value=spectrum?.[i]||0;bands[i]+=(value-bands[i])*.3;sum+=bands[i]*bands[i];
-    if(i<9){low+=bands[i];rawBass+=value;}else if(i<21)middle+=bands[i];else{high+=bands[i];rawTreble+=value;}
-   }
-   energy=clamp(Math.sqrt(sum/28)*1.5);bass=low/9;mids=middle/12;treble=high/7;rawBass/=9;rawTreble/=7;
-   const media=document.querySelector('#listening-room audio'),playing=Boolean(media&&!media.paused&&!media.ended)||energy>.015;
-   // A slow continuous current takes over only when the music is off.
-   idleMix+=((!playing&&!reduced?1:0)-idleMix)*Math.min(1,elapsed/650);
-   if(!reduced)idlePhase+=elapsed*.00013;
-   bassFloor+=(rawBass-bassFloor)*.035;
-   // Detect low-frequency onsets rather than claiming to identify individual drum stems.
-   if(!reduced&&rawBass>.18&&rawBass-previousBass>.035&&rawBass>bassFloor*1.05&&now-lastKick>220){
-    sequence++;pulses.push({time:now,strength:rawBass,cx:cols*(.64+noise(sequence,2)*.25),cy:rows*(.28+noise(sequence,4)*.45)});lastKick=now;if(pulses.length>4)pulses.shift();
-   }
-   if(!reduced&&rawTreble>.13&&((rawTreble-previousTreble>.025)||(rawTreble>.3&&now-lastSpark>270))&&now-lastSpark>120){
-    sequence++;sparks.push({time:now,strength:rawTreble,gx:Math.floor(noise(sequence,7)*cols),gy:Math.floor(noise(sequence,9)*rows)});lastSpark=now;if(sparks.length>7)sparks.shift();
-   }
-   previousBass=rawBass;previousTreble=rawTreble;
-   while(pulses.length&&now-pulses[0].time>1400)pulses.shift();
-   while(sparks.length&&now-sparks[0].time>600)sparks.shift();
-   while(trail.length&&now-trail[0].time>trailLifetime)trail.shift();
-   if(!reduced)phase+=elapsed*(.00002+mids*.00024+(trail.length?.00008:0));
-   for(const cell of cells){
-    const {x,y,w,h,gx,gy,n}=cell,nx=(gx+.5)/cols,ny=(gy+.5)/rows;
-    const wave=(Math.sin(nx*9+ny*5-phase)+Math.cos(nx*4-ny*7+phase*.7)+2)/4;
-    let color=blend(palette.blue,palette.purple,wave),alpha=.72+wave*.18;
-    // Midrange bends a connected ribbon into islands and curved pixel contours.
-    const contour=Math.abs(Math.sin(nx*9+ny*4+Math.sin(ny*6-phase)*1.6-phase));
-    const midShape=clamp(1-contour/(.13+mids*.38))*mids;
-    if(midShape>.08){color=palette.red;alpha=.96;}
-    // Account for cell proportions so bass onsets produce circular pixel rings.
-    let ring=0;
-    for(const pulse of pulses){const age=(now-pulse.time)/1400,distance=Math.hypot(gx-pulse.cx,(gy-pulse.cy)*(height/rows)/(width/cols)),radius=age*Math.max(cols,rows)*.65;ring=Math.max(ring,clamp(1-Math.abs(distance-radius)/1.4)*(1-age)*pulse.strength);}
-    if(ring>.035){const strength=clamp(ring*2.8);color=strength<.65?palette.purple:palette.yellow;alpha=.98;}
-    // High frequencies form short lime crosses and single-cell sparks.
-    let sparkle=0;
-    for(const spark of sparks){const distance=Math.abs(gx-spark.gx)+Math.abs(gy-spark.gy);if(distance<=1)sparkle=Math.max(sparkle,(1-(now-spark.time)/600)*spark.strength*(distance===0?1:.55));}
-    if(sparkle>.045){color=palette.green;alpha=.98;}
-    let proximity=0,influence=0;
-    if(!reduced)for(const point of trail){
-     const remaining=clamp(1-(now-point.time)/trailLifetime),fade=remaining*remaining*(3-2*remaining);
-     const distance=Math.hypot((point.x-(x+w/2))/w,(point.y-(y+h/2))/h);
-     influence=Math.max(influence,Math.exp(-distance*distance/6)*fade);
-     if(point.x>=x&&point.x<x+w&&point.y>=y&&point.y<y+h)proximity=Math.max(proximity,fade);
+   if(!width||!height)return;
+   const reduced=motion.matches,spectrum=reduced?null:window.readMusicSpectrum?.();let low=0,mid=0,high=0,energy=0;
+   for(let i=0;i<28;i++){const value=spectrum?.[i]||0;bands[i]+=(value-bands[i])*(value>bands[i]?.5:.16);energy+=bands[i]*bands[i];if(i<9)low+=bands[i];else if(i<21)mid+=bands[i];else high+=bands[i];}
+   bass=low/9;mids=mid/12;treble=high/7;energy=Math.sqrt(energy/28);
+   if(!reduced&&bass>.2&&bass-previousBass>.025&&now-lastBeat>240){beat=1;sequence++;lastBeat=now;}previousBass=bass;beat*=Math.exp(-elapsed/240);
+   const active=energy>.015;if(!reduced)clock+=elapsed*(active?.0002+energy*.00065:.000045);
+   pointer.strength=reduced?0:clamp(1-(now-pointer.time)/1100);
+   ctx.clearRect(0,0,width,height);ctx.save();
+   // Clip to the exact supplied logo vector; every animated mark stays inside it.
+   ctx.scale(width/372.06,height/221.89);ctx.clip(logo);ctx.scale(372.06/width,221.89/height);
+   ctx.fillStyle='#211044';ctx.fillRect(0,0,width,height);
+   const rowCount=12,rowHeight=height/rowCount,gap=Math.max(1.5,width*.003);
+   for(let row=0;row<rowCount;row++){
+    const y=row*rowHeight,ny=(row+.5)/rowCount;
+    const bend=pointer.strength*Math.exp(-Math.pow((ny-pointer.y)*4,2))*(pointer.x-.5)*.45;
+    const offset=Math.sin(clock*(.7+row*.023)+row*.63)*(.025+mids*.09)+bend;
+    const count=8,weights=[];let total=0;
+    for(let col=0;col<count;col++){
+     const band=bands[(col*3+row*2)%28],wave=Math.sin(clock*1.8+col*.87+row*.38);
+     // Shared motion joins rows; real frequency bands expand and compress their blocks.
+     const weight=.4+(wave+1)*.38+band*2.8+(col%3===sequence%3?beat*1.15:0);weights.push(weight);total+=weight;
     }
-    // Domain-warped ribbons travel through the entire grid; layered currents keep them connected.
-    // The pointer bends their flow locally while its direct highlight remains one tile wide.
-    const flowX=nx+.13*Math.sin(ny*6-idlePhase*.55)+.05*Math.sin(nx*8+ny*5+idlePhase*.4);
-    const flowY=ny+.12*Math.sin(nx*5+idlePhase*.45);
-    const current=flowX*1.05+flowY*.7-idlePhase*.12
-     +.055*Math.sin(flowX*12-flowY*7+idlePhase*.65)+influence*.1;
-    const idleColor=currentColor(current);
-    // Continuous shading, never rectangular masks around lines of type.
-    ctx.fillStyle=color;ctx.globalAlpha=alpha;ctx.fillRect(x,y,w,h);
-    ctx.strokeStyle='#7028dd';ctx.lineWidth=1;ctx.globalAlpha*=.3;ctx.strokeRect(x+.5,y+.5,w-1,h-1);
-    if(idleMix>.001){ctx.fillStyle=idleColor;ctx.globalAlpha=idleMix;ctx.fillRect(x,y,w,h);}
-    if(proximity>.001){ctx.fillStyle=palette.green;ctx.globalAlpha=proximity*.9;ctx.fillRect(x,y,w,h);}
+    let x=-width*.23+offset*width;
+    for(let col=0;col<count;col++){
+     const w=weights[col]/total*width*1.48;ctx.fillStyle=colors[(col+Math.floor(row/2))%colors.length];ctx.fillRect(x+gap/2,y+gap/2,w-gap,rowHeight-gap);
+     // Treble makes narrow bright cuts, not another conventional equalizer.
+     if(active&&treble>.2&&(col+row)%3===0){ctx.fillStyle='#f7f7f2';ctx.globalAlpha=clamp((treble-.2)*1.5);ctx.fillRect(x+w*.78,y+gap/2,Math.max(gap,w*.035),rowHeight-gap);ctx.globalAlpha=1;}x+=w;
+    }
    }
-   ctx.globalAlpha=1;
-   canvas.dataset.energy=energy.toFixed(3);canvas.dataset.bass=bass.toFixed(3);canvas.dataset.mids=mids.toFixed(3);canvas.dataset.treble=treble.toFixed(3);canvas.dataset.pulses=String(pulses.length);canvas.dataset.sparks=String(sparks.length);canvas.dataset.pointer=String(!reduced&&trail.length>0);canvas.dataset.motion=reduced?'reduced':'active';canvas.dataset.idleFlow=idleMix.toFixed(3);
+   ctx.restore();canvas.dataset.energy=energy.toFixed(3);canvas.dataset.bass=bass.toFixed(3);canvas.dataset.mids=mids.toFixed(3);canvas.dataset.treble=treble.toFixed(3);canvas.dataset.beat=beat.toFixed(3);canvas.dataset.mode=reduced?'still':active?'audio':'idle';canvas.dataset.shape='chicken-balls-logo';
   }
-  function tick(now){frame=0;if(destroyed||!visible||document.hidden||motion.matches)return;const elapsed=now-last;if(elapsed>32){draw(now,Math.min(elapsed,80));last=now;}frame=requestAnimationFrame(tick);}
+  function tick(now){frame=0;if(destroyed||!visible||document.hidden||motion.matches)return;const elapsed=now-last;if(elapsed>=32){draw(now,Math.min(elapsed,80));last=now;}frame=requestAnimationFrame(tick);}
   function start(){if(!frame&&!destroyed&&visible&&!document.hidden&&!motion.matches){last=performance.now();frame=requestAnimationFrame(tick);}}
   function stop(){cancelAnimationFrame(frame);frame=0;}
-  const observer=new ResizeObserver(fit);observer.observe(hero);
+  const observer=new ResizeObserver(fit);observer.observe(canvas);
   const intersection=new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;if(visible)start();else stop();});intersection.observe(hero);
-  hero.addEventListener('pointermove',event=>{if(motion.matches||event.pointerType==='touch')return;const r=hero.getBoundingClientRect(),x=event.clientX-r.left,y=event.clientY-r.top,previous=trail[trail.length-1];if(!previous||Math.hypot(previous.x-x,previous.y-y)>12){trail.push({x,y,time:performance.now()});if(trail.length>128)trail.shift();}start();},{passive:true,signal:events.signal});
+  hero.addEventListener('pointermove',e=>{if(motion.matches||e.pointerType==='touch')return;const r=canvas.getBoundingClientRect();pointer={x:clamp((e.clientX-r.left)/r.width),y:clamp((e.clientY-r.top)/r.height),strength:1,time:performance.now()};start();},{passive:true,signal:events.signal});
   document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();else start();},{signal:events.signal});
-  motion.addEventListener('change',()=>{stop();trail.length=0;pulses.length=0;sparks.length=0;bands.fill(0);energy=0;bass=0;mids=0;treble=0;previousBass=0;previousTreble=0;bassFloor=0;draw(performance.now(),0);start();},{signal:events.signal});
-  document.fonts?.ready.then(()=>{if(!destroyed)fit();});fit();
+  motion.addEventListener('change',()=>{stop();bands.fill(0);beat=0;draw(performance.now(),0);start();},{signal:events.signal});fit();
   dispose=()=>{destroyed=true;stop();observer.disconnect();intersection.disconnect();events.abort();canvas.remove();hero.classList.remove('has-mosaic');};
  }
  window.addEventListener('pagenavigate',mount);mount();
