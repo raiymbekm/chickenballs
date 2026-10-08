@@ -3490,7 +3490,7 @@ const catalog = [
   {
     "id": "drive-1TdlUMJaXf6thpFVttdsaGUOmN1iSvR5k",
     "title": "question mark",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3509,15 +3509,20 @@ const catalog = [
       {
         "driveId": "1TdlUMJaXf6thpFVttdsaGUOmN1iSvR5k",
         "filename": "fetch quest - question mark.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1TdlUMJaXf6thpFVttdsaGUOmN1iSvR5k/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1G__lXeSxdSoC-x2ILMuLv_iEtCWv13-x",
     "title": "trap",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3536,15 +3541,20 @@ const catalog = [
       {
         "driveId": "1G__lXeSxdSoC-x2ILMuLv_iEtCWv13-x",
         "filename": "fetch quest - trap.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1G__lXeSxdSoC-x2ILMuLv_iEtCWv13-x/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1GKJxk_v8KJMbWENpNN03HFixySvjdI_J",
     "title": "house",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3563,15 +3573,20 @@ const catalog = [
       {
         "driveId": "1GKJxk_v8KJMbWENpNN03HFixySvjdI_J",
         "filename": "fq - house.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1GKJxk_v8KJMbWENpNN03HFixySvjdI_J/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1dixfOSnXOJsMNlnlSsoLtp4JUBS9Etpp",
     "title": "synthwave3 (1)",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3590,15 +3605,20 @@ const catalog = [
       {
         "driveId": "1dixfOSnXOJsMNlnlSsoLtp4JUBS9Etpp",
         "filename": "fq - synthwave3 (1).mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1dixfOSnXOJsMNlnlSsoLtp4JUBS9Etpp/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1145-PU2gzbjyFW5OJ0acmm2oAgoF8LXv",
     "title": "lofi3",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3617,15 +3637,20 @@ const catalog = [
       {
         "driveId": "1145-PU2gzbjyFW5OJ0acmm2oAgoF8LXv",
         "filename": "fq - lofi3.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1145-PU2gzbjyFW5OJ0acmm2oAgoF8LXv/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1kCRqHIcB3CamAn7GVh5BQNuF9gMsuMLf",
     "title": "dnb1",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3644,15 +3669,20 @@ const catalog = [
       {
         "driveId": "1kCRqHIcB3CamAn7GVh5BQNuF9gMsuMLf",
         "filename": "fq - dnb1.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1kCRqHIcB3CamAn7GVh5BQNuF9gMsuMLf/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1DOgCwIxbJpBXLU7RMLf1591j_mj2x4nX",
     "title": "fb2 2",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3671,15 +3701,20 @@ const catalog = [
       {
         "driveId": "1DOgCwIxbJpBXLU7RMLf1591j_mj2x4nX",
         "filename": "fq - fb2_2.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1DOgCwIxbJpBXLU7RMLf1591j_mj2x4nX/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1E8FuNmFPnjgK5uhVqb4VFfUi7Btqq5w8",
     "title": "groovehouse1",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3698,15 +3733,20 @@ const catalog = [
       {
         "driveId": "1E8FuNmFPnjgK5uhVqb4VFfUi7Btqq5w8",
         "filename": "fq - groovehouse1.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1E8FuNmFPnjgK5uhVqb4VFfUi7Btqq5w8/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1uYf4dz8unlWpPSHdBy7X30m06GJhjG5F",
     "title": "vapor",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3725,15 +3765,20 @@ const catalog = [
       {
         "driveId": "1uYf4dz8unlWpPSHdBy7X30m06GJhjG5F",
         "filename": "fq - vapor.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1uYf4dz8unlWpPSHdBy7X30m06GJhjG5F/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1nPMS__btOTeUboCTVn5XkFgO67AiPfOD",
     "title": "synthwave3",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3752,15 +3797,20 @@ const catalog = [
       {
         "driveId": "1nPMS__btOTeUboCTVn5XkFgO67AiPfOD",
         "filename": "fq - synthwave3.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1nPMS__btOTeUboCTVn5XkFgO67AiPfOD/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1vsRuvIVIg__RD0oXvnCNhYr93J03aDZl",
     "title": "hiphop1",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3779,15 +3829,20 @@ const catalog = [
       {
         "driveId": "1vsRuvIVIg__RD0oXvnCNhYr93J03aDZl",
         "filename": "fq - hiphop1.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1vsRuvIVIg__RD0oXvnCNhYr93J03aDZl/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1x08ll07Ki7QnS2y1eKLFEAU3dZM6bUs_",
     "title": "synthwave3 2",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3806,13 +3861,13 @@ const catalog = [
       {
         "driveId": "1-wKgLFJ67ItPmhoxXJiIuQ0QOoTVSKxf",
         "filename": "fq - synthwave3_1.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1-wKgLFJ67ItPmhoxXJiIuQ0QOoTVSKxf/view?usp=drivesdk"
       },
       {
         "driveId": "1n4ZRf6bXdF3LQM2Cu3lcTseT9NeL4t81",
         "filename": "fq - synthwave super omega track ultra.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1n4ZRf6bXdF3LQM2Cu3lcTseT9NeL4t81/view?usp=drivesdk"
       },
       {
@@ -3821,12 +3876,17 @@ const catalog = [
         "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1x08ll07Ki7QnS2y1eKLFEAU3dZM6bUs_/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1hl1sgzpSUPPpduiz5RfzCc2JtZbp23_V",
     "title": "hiphop1 1",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3845,15 +3905,20 @@ const catalog = [
       {
         "driveId": "1hl1sgzpSUPPpduiz5RfzCc2JtZbp23_V",
         "filename": "fq - hiphop1_1.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1hl1sgzpSUPPpduiz5RfzCc2JtZbp23_V/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1ghzia8hirKnQjyb8QIMJ_GRuQDawTE6P",
     "title": "lofi4",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3872,15 +3937,20 @@ const catalog = [
       {
         "driveId": "1ghzia8hirKnQjyb8QIMJ_GRuQDawTE6P",
         "filename": "fq - lofi4.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1ghzia8hirKnQjyb8QIMJ_GRuQDawTE6P/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1Zw4kA2P2Z6jB4GmWVzOqj7xrx8W_LUot",
     "title": "hiphop3",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3899,15 +3969,20 @@ const catalog = [
       {
         "driveId": "1Zw4kA2P2Z6jB4GmWVzOqj7xrx8W_LUot",
         "filename": "fq - hiphop3.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1Zw4kA2P2Z6jB4GmWVzOqj7xrx8W_LUot/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1l4A78b5pRMNvfMtOD-oESdN6pcNGwOyj",
     "title": "futurebass1 4",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3926,7 +4001,7 @@ const catalog = [
       {
         "driveId": "1AgP_jAtst2UYkqdb4cG1nY7xG-3ERy5m",
         "filename": "fq - futurebass1_4.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1AgP_jAtst2UYkqdb4cG1nY7xG-3ERy5m/view?usp=drivesdk"
       },
       {
@@ -3935,12 +4010,17 @@ const catalog = [
         "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1l4A78b5pRMNvfMtOD-oESdN6pcNGwOyj/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1GBDjvZWVkHNgBJPlCa3fw6qnfShY8iXn",
     "title": "piano1",
-    "artist": "Fetch Quest",
+    "artist": "Raiko",
     "type": "Studio archive",
     "releaseStatus": "unofficial",
     "releaseVerification": {
@@ -3959,10 +4039,15 @@ const catalog = [
       {
         "driveId": "1GBDjvZWVkHNgBJPlCa3fw6qnfShY8iXn",
         "filename": "fq - piano1.mp3",
-        "folder": "Archive root",
+        "folder": "Raiko",
         "url": "https://drive.google.com/file/d/1GBDjvZWVkHNgBJPlCa3fw6qnfShY8iXn/view?usp=drivesdk"
       }
-    ]
+    ],
+    "artistAssignment": {
+      "checkedAt": "2026-10-08",
+      "source": "Owner-confirmed current Raiko folder in Google Drive",
+      "previousArtist": "Fetch Quest"
+    }
   },
   {
     "id": "drive-1RcVL63QT-8yoohqUjqvf9CdAgtl3zOo2",
