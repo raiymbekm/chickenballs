@@ -5,14 +5,14 @@
   const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');if(!ctx)return;
   canvas.className='hero-mosaic';canvas.setAttribute('aria-hidden','true');hero.prepend(canvas);hero.classList.add('has-mosaic');
   const colors=['#bcff35','#3d52df','#f5a623','#fd5439','#bcff35','#f5a623','#7738eb','#fd5439'];
-  const localPreview=['localhost','127.0.0.1','[::1]'].includes(location.hostname);
+  hero.dataset.visualizer='A';
   let drawB=null,selected='A';
   const selector=document.createElement('div');selector.className='hero-visualizer-selector';selector.setAttribute('role','group');selector.setAttribute('aria-label','Choose visualizer');
   const label=document.createElement('span');label.textContent='VISUALIZER';selector.append(label);
-  const buttons=['A','B'].map(name=>{const button=document.createElement('button');button.type='button';button.textContent=name;button.setAttribute('aria-label','Visualizer '+name);button.setAttribute('aria-pressed',String(name==='A'));if(name==='B'){button.disabled=true;button.title='B is in local preview - coming soon';}selector.append(button);return button;});hero.append(selector);
-  function choose(name){if(!['A','B'].includes(name)||(name==='B'&&!drawB))return;selected=name;buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.textContent===name)));try{localStorage.setItem('chicken-balls-visualizer',name);}catch{}draw(performance.now(),0);start();}
+  const buttons=['A','B'].map(name=>{const button=document.createElement('button');button.type='button';button.textContent=name;button.setAttribute('aria-label','Visualizer '+name);button.setAttribute('aria-pressed',String(name==='A'));if(name==='B'){button.disabled=true;button.title='Loading liquid visualizer';}selector.append(button);return button;});hero.append(selector);
+  function choose(name){if(!['A','B'].includes(name)||(name==='B'&&!drawB))return;selected=name;hero.dataset.visualizer=name;pointerTrail.length=0;buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.textContent===name)));try{localStorage.setItem('chicken-balls-visualizer',name);}catch{}fit();}
   buttons.forEach(button=>button.addEventListener('click',()=>choose(button.textContent)));
-  if(localPreview)import('./visualizer-b-preview.js?v=20261008-bloom-2').then(module=>{if(destroyed)return;drawB=module.drawLiquidGrid;buttons[1].disabled=false;buttons[1].title='Pixelated liquid - local preview';let preferred;try{preferred=localStorage.getItem('chicken-balls-visualizer');}catch{}choose(new URLSearchParams(location.search).get('visualizer')||preferred||'A');}).catch(()=>{});
+  import('./visualizer-b.js?v=20261008-full-header-1').then(module=>{if(destroyed)return;drawB=module.drawLiquidGrid;buttons[1].disabled=false;buttons[1].title='Liquid bloom';let preferred;try{preferred=localStorage.getItem('chicken-balls-visualizer');}catch{}choose(new URLSearchParams(location.search).get('visualizer')||preferred||'A');}).catch(()=>{});
   const motion=matchMedia('(prefers-reduced-motion: reduce)'),events=new AbortController(),bands=new Float32Array(28);
   let width=0,height=0,frame=0,last=0,clock=0,visible=true,destroyed=false,bass=0,mids=0,treble=0,beat=0,previousBass=0,lastBeat=0,sequence=0;
   const pointerTrail=[];
@@ -20,7 +20,7 @@
   function fit(){
    const heroBox=hero.getBoundingClientRect(),titleBox=hero.querySelector('#hero-title').getBoundingClientRect();
    const gutter=titleBox.left-heroBox.left;
-   if(heroBox.width>700){const left=titleBox.right-heroBox.left+gutter;canvas.style.left=left+'px';canvas.style.width=Math.max(80,heroBox.width-left)+'px';canvas.style.marginLeft='';}else{canvas.style.left='';canvas.style.width=heroBox.width+'px';canvas.style.marginLeft=-gutter+'px';}
+   if(selected==='B'){canvas.style.left='0px';canvas.style.width=heroBox.width+'px';canvas.style.marginLeft='0px';}else if(heroBox.width>700){const left=titleBox.right-heroBox.left+gutter;canvas.style.left=left+'px';canvas.style.width=Math.max(80,heroBox.width-left)+'px';canvas.style.marginLeft='';}else{canvas.style.left='';canvas.style.width=heroBox.width+'px';canvas.style.marginLeft=-gutter+'px';}
    const box=canvas.getBoundingClientRect();width=box.width;height=box.height;
    const ratio=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(width*ratio);canvas.height=Math.round(height*ratio);ctx.setTransform(ratio,0,0,ratio,0,0);draw(performance.now(),0);start();
   }
@@ -36,7 +36,8 @@
 
    while(pointerTrail.length&&now-pointerTrail[0].time>1400)pointerTrail.shift();
    if(selected==='B'&&drawB){drawB(ctx,{width,height,clock,bass,mids,treble,beat,bands,pointer,trail:pointerTrail,reduced,now,elapsed,sequence});}else{
-   ctx.fillStyle='#211044';ctx.fillRect(0,0,width,height);
+   const lineColor=document.body.classList.contains('dark-mode')?'#000000':'#ffffff';
+   ctx.fillStyle=lineColor;ctx.fillRect(0,0,width,height);canvas.dataset.lineColor=lineColor;
    const rowCount=12,rowHeight=height/rowCount,gap=Math.max(1.5,width*.003);
    for(let row=0;row<rowCount;row++){
     const y=row*rowHeight,ny=(row+.5)/rowCount;
@@ -54,6 +55,7 @@
      x+=w;
     }
    }
+   ctx.fillStyle=lineColor;ctx.fillRect(0,0,Math.max(1.5,width*.003),height);
    }
    ctx.restore();canvas.dataset.energy=energy.toFixed(3);canvas.dataset.bass=bass.toFixed(3);canvas.dataset.mids=mids.toFixed(3);canvas.dataset.treble=treble.toFixed(3);canvas.dataset.beat=beat.toFixed(3);canvas.dataset.mode=reduced?'still':active?'audio':'idle';canvas.dataset.shape='rectangle';canvas.dataset.visualizer=selected;
   }
@@ -75,7 +77,7 @@
   },{passive:true,signal:events.signal});
   document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();else start();},{signal:events.signal});
   motion.addEventListener('change',()=>{stop();bands.fill(0);pointerTrail.length=0;beat=0;draw(performance.now(),0);start();},{signal:events.signal});fit();
-  dispose=()=>{destroyed=true;stop();observer.disconnect();intersection.disconnect();events.abort();canvas.remove();selector.remove();hero.classList.remove('has-mosaic');};
+  dispose=()=>{destroyed=true;stop();observer.disconnect();intersection.disconnect();events.abort();canvas.remove();selector.remove();hero.classList.remove('has-mosaic');delete hero.dataset.visualizer;};
  }
  window.addEventListener('pagenavigate',mount);mount();
 })();
