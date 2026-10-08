@@ -6,7 +6,7 @@
 .player-actions>button,.player-actions>#original-track{display:none!important}
 .player-actions .player-streaming-links{gap:7px}
 #listening-room .player-streaming-links .platform-link{width:32px;height:32px;padding:5px;border-radius:7px;color:var(--white);background:#ffffff08;border-color:#ffffff35}
-#listening-room .player-streaming-links .platform-link:hover{color:var(--green);border-color:var(--green);background:#3b845720}
+#listening-room .player-streaming-links .platform-link:hover{color:var(--green);border-color:var(--green);background:#bcff3520}
 .platform-link:focus-visible{outline:3px solid var(--purple);outline-offset:3px}
 #listening-room .platform-link:focus-visible{outline-color:var(--green)}
 @media(max-width:700px){.streaming-links{gap:8px}.platform-link{font-size:11px;padding:8px;gap:6px}}
