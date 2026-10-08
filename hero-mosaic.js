@@ -9,11 +9,18 @@
   let width=0,height=0,cols=0,rows=0,cells=[],frame=0,last=0,visible=true,destroyed=false,energy=0,bass=0,mids=0,treble=0,phase=0,previousBass=0,previousTreble=0,bassFloor=0,lastKick=-1000,lastSpark=-1000,sequence=0;
   const trail=[],pulses=[],sparks=[],bands=new Float32Array(28);
   let idlePhase=0,idleMix=1;
-  const trailLifetime=3600;
+  const trailLifetime=1100;
   const noise=(x,y)=>{const n=Math.sin(x*127.1+y*311.7)*43758.5453;return n-Math.floor(n);};
   const clamp=value=>Math.max(0,Math.min(1,value));
   // Fixed saturated hues preserve each frequency's identity without muddy RGB blends.
   const vivid=(hue,lightness)=>`hsl(${hue} 100% ${lightness}%)`;
+  // A cyclic, saturated palette keeps warm ribbons connected to the purple/green current.
+  const idlePalette=[266,266,238,195,83,52,8,330,285,266];
+  function currentHue(position){
+   const wrapped=((position%1)+1)%1*(idlePalette.length-1),index=Math.floor(wrapped),blend=wrapped-index;
+   const a=idlePalette[index],b=idlePalette[index+1],delta=((b-a+540)%360)-180;
+   return a+delta*blend;
+  }
   function fit(){
    const box=hero.getBoundingClientRect();width=box.width;height=box.height;
    const preferred=width<600?34:64;
@@ -78,13 +85,17 @@
      influence=Math.max(influence,Math.exp(-distance*distance/6)*fade);
      if(point.x>=x&&point.x<x+w&&point.y>=y&&point.y<y+h)proximity=Math.max(proximity,fade);
     }
-    // Cursor memory gently bends the idle current without widening the one-tile trail.
-    const drift=Math.sin(nx*5+ny*3-idlePhase+influence*.9)+Math.cos(ny*5-nx*2+idlePhase*.65);
-    const idleCurrent=Math.pow(clamp((drift+2)/4),4)*idleMix;
+    // Domain-warped ribbons travel through the entire grid; layered currents keep them connected.
+    // The pointer bends their flow locally while its direct highlight remains one tile wide.
+    const flowX=nx+.13*Math.sin(ny*6-idlePhase*.55)+.05*Math.sin(nx*8+ny*5+idlePhase*.4);
+    const flowY=ny+.12*Math.sin(nx*5+idlePhase*.45);
+    const current=flowX*1.05+flowY*.7-idlePhase*.12
+     +.055*Math.sin(flowX*12-flowY*7+idlePhase*.65)+influence*.1;
+    const idleHue=currentHue(current),idleLight=43+5*Math.sin(flowX*7+flowY*5-idlePhase*.5);
     // Continuous shading, never rectangular masks around lines of type.
     ctx.fillStyle=color;ctx.globalAlpha=alpha;ctx.fillRect(x,y,w,h);
     ctx.strokeStyle='#7028dd';ctx.lineWidth=1;ctx.globalAlpha*=.3;ctx.strokeRect(x+.5,y+.5,w-1,h-1);
-    if(idleCurrent>.001){ctx.fillStyle=vivid(266-183*clamp(idleCurrent*1.4),30+wave*12+idleCurrent*14);ctx.globalAlpha=idleMix*.9;ctx.fillRect(x,y,w,h);}
+    if(idleMix>.001){ctx.fillStyle=vivid(idleHue,idleLight);ctx.globalAlpha=idleMix;ctx.fillRect(x,y,w,h);}
     if(proximity>.001){ctx.fillStyle=vivid(83,58);ctx.globalAlpha=proximity*.9;ctx.fillRect(x,y,w,h);}
    }
    ctx.globalAlpha=1;
