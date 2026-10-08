@@ -46,8 +46,8 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
   const index=((Math.floor(flow*3)%palette.length)+palette.length)%palette.length;
   // A little fluid is pulled into the wake at the edge; it fades as one ribbon.
   alpha=Math.max(alpha,wake*.8);
-  if(alpha>.02){
-   ctx.globalAlpha=alpha;ctx.fillStyle=palette[index];
+  if(alpha>.5){
+   ctx.globalAlpha=1;ctx.fillStyle=palette[index];
    ctx.fillRect(Math.round(gx*cw),Math.round(gy*ch),Math.round((gx+1)*cw)-Math.round(gx*cw),Math.round((gy+1)*ch)-Math.round(gy*ch));
   }
  }
