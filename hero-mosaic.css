@@ -1,0 +1,10 @@
+.hero.has-mosaic{isolation:isolate;background:#101116;color:#f7f7f2}
+.hero.has-mosaic .hero-graphic{display:none}
+.hero.has-mosaic>h1,.hero.has-mosaic .hero-top,.hero.has-mosaic .hero-bottom{position:relative;z-index:1;pointer-events:none}
+.hero.has-mosaic #hero-title{color:#f7f7f2}
+.hero.has-mosaic h1 span{color:var(--green)}
+.hero-mosaic{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+body.dark-mode .hero.has-mosaic{background:#101116;color:#f7f7f2}
+body.dark-mode .hero.has-mosaic #hero-title{color:#f7f7f2}
+@media(prefers-reduced-motion:reduce){.hero-mosaic{transition:none}}
+

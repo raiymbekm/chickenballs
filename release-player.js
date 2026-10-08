@@ -40,6 +40,8 @@
   for(let i=0;i<28;i++){const lo=Math.max(1,Math.floor(low*Math.pow(high/low,i/28)/binHz)),hi=Math.min(data.length,Math.max(lo+1,Math.ceil(low*Math.pow(high/low,(i+1)/28)/binHz)));let peak=0,sum=0;for(let j=lo;j<hi;j++){peak=Math.max(peak,data[j]);sum+=data[j];}const average=sum/Math.max(1,hi-lo);result[i]=Math.min(1,(peak*.7+average*.3)/255);}
   return result;
  }
+ // Share the existing analyser; never connect a second audio source.
+ window.readMusicSpectrum=spectrumLevels;
  function draw(){
   if(!panel.classList.contains('is-minimized')){
    const rect=canvas.getBoundingClientRect(),ratio=Math.min(devicePixelRatio||1,2),w=Math.round(rect.width*ratio),h=Math.round(rect.height*ratio);
