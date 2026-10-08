@@ -8,7 +8,8 @@
   const motion=matchMedia('(prefers-reduced-motion: reduce)'),events=new AbortController();
   let width=0,height=0,cols=0,rows=0,cells=[],frame=0,last=0,visible=true,destroyed=false,energy=0,bass=0,mids=0,treble=0,phase=0,previousBass=0,previousTreble=0,bassFloor=0,lastKick=-1000,lastSpark=-1000,sequence=0;
   const trail=[],pulses=[],sparks=[],bands=new Float32Array(28);
-  let idleGlow=null,nextGlow=performance.now()+1000+Math.random()*1000;
+  let idlePhase=0,idleMix=1;
+  const trailLifetime=3600;
   const noise=(x,y)=>{const n=Math.sin(x*127.1+y*311.7)*43758.5453;return n-Math.floor(n);};
   const clamp=value=>Math.max(0,Math.min(1,value));
   // Fixed saturated hues preserve each frequency's identity without muddy RGB blends.
@@ -38,11 +39,9 @@
    }
    energy=clamp(Math.sqrt(sum/28)*1.5);bass=low/9;mids=middle/12;treble=high/7;rawBass/=9;rawTreble/=7;
    const media=document.querySelector('#listening-room audio'),playing=Boolean(media&&!media.paused&&!media.ended)||energy>.015;
-   if(reduced||playing){idleGlow=null;nextGlow=now+1000+Math.random()*1000;}
-   else{
-    if(idleGlow&&now-idleGlow.time>1000)idleGlow=null;
-    if(!idleGlow&&now>=nextGlow){idleGlow={time:now,gx:Math.floor(Math.random()*cols),gy:Math.floor(Math.random()*rows),hue:[52,28,83,280][Math.floor(Math.random()*4)]};nextGlow=now+1000+Math.random()*1000;}
-   }
+   // A slow continuous current takes over only when the music is off.
+   idleMix+=((!playing&&!reduced?1:0)-idleMix)*Math.min(1,elapsed/650);
+   if(!reduced)idlePhase+=elapsed*.00013;
    bassFloor+=(rawBass-bassFloor)*.035;
    // Detect low-frequency onsets rather than claiming to identify individual drum stems.
    if(!reduced&&rawBass>.18&&rawBass-previousBass>.035&&rawBass>bassFloor*1.05&&now-lastKick>220){
@@ -54,7 +53,7 @@
    previousBass=rawBass;previousTreble=rawTreble;
    while(pulses.length&&now-pulses[0].time>1400)pulses.shift();
    while(sparks.length&&now-sparks[0].time>600)sparks.shift();
-   while(trail.length&&now-trail[0].time>1100)trail.shift();
+   while(trail.length&&now-trail[0].time>trailLifetime)trail.shift();
    if(!reduced)phase+=elapsed*(.00002+mids*.00024+(trail.length?.00008:0));
    for(const cell of cells){
     const {x,y,w,h,gx,gy,n}=cell,nx=(gx+.5)/cols,ny=(gy+.5)/rows;
@@ -71,24 +70,32 @@
     // High frequencies form short lime crosses and single-cell sparks.
     let sparkle=0;
     for(const spark of sparks){const distance=Math.abs(gx-spark.gx)+Math.abs(gy-spark.gy);if(distance<=1)sparkle=Math.max(sparkle,(1-(now-spark.time)/600)*spark.strength*(distance===0?1:.55));}
-    if(sparkle>.045){color=vivid(83,24+clamp(sparkle*3)*34);alpha=.98;}
-    let proximity=0;
-    if(!reduced)for(const point of trail){if(point.x>=x&&point.x<x+w&&point.y>=y&&point.y<y+h)proximity=Math.max(proximity,1-(now-point.time)/1100);}
-    if(proximity>.22){color=vivid(52,42+proximity*14);alpha=Math.max(alpha,proximity);}
+    if(sparkle>.045){color=vivid(83,39+clamp(sparkle*3)*20);alpha=.98;}
+    let proximity=0,influence=0;
+    if(!reduced)for(const point of trail){
+     const remaining=clamp(1-(now-point.time)/trailLifetime),fade=remaining*remaining*(3-2*remaining);
+     const distance=Math.hypot((point.x-(x+w/2))/w,(point.y-(y+h/2))/h);
+     influence=Math.max(influence,Math.exp(-distance*distance/6)*fade);
+     if(point.x>=x&&point.x<x+w&&point.y>=y&&point.y<y+h)proximity=Math.max(proximity,fade);
+    }
+    // Cursor memory gently bends the idle current without widening the one-tile trail.
+    const drift=Math.sin(nx*5+ny*3-idlePhase+influence*.9)+Math.cos(ny*5-nx*2+idlePhase*.65);
+    const idleCurrent=Math.pow(clamp((drift+2)/4),4)*idleMix;
     // Continuous shading, never rectangular masks around lines of type.
     ctx.fillStyle=color;ctx.globalAlpha=alpha;ctx.fillRect(x,y,w,h);
     ctx.strokeStyle='#7028dd';ctx.lineWidth=1;ctx.globalAlpha*=.3;ctx.strokeRect(x+.5,y+.5,w-1,h-1);
-    if(idleGlow&&gx===idleGlow.gx&&gy===idleGlow.gy){const glow=Math.sin(Math.PI*clamp((now-idleGlow.time)/1000));ctx.fillStyle=vivid(idleGlow.hue,57);ctx.globalAlpha=glow*.9;ctx.fillRect(x,y,w,h);}
+    if(idleCurrent>.001){ctx.fillStyle=vivid(266-183*clamp(idleCurrent*1.4),30+wave*12+idleCurrent*14);ctx.globalAlpha=idleMix*.9;ctx.fillRect(x,y,w,h);}
+    if(proximity>.001){ctx.fillStyle=vivid(83,58);ctx.globalAlpha=proximity*.9;ctx.fillRect(x,y,w,h);}
    }
    ctx.globalAlpha=1;
-   canvas.dataset.energy=energy.toFixed(3);canvas.dataset.bass=bass.toFixed(3);canvas.dataset.mids=mids.toFixed(3);canvas.dataset.treble=treble.toFixed(3);canvas.dataset.pulses=String(pulses.length);canvas.dataset.sparks=String(sparks.length);canvas.dataset.pointer=String(!reduced&&trail.length>0);canvas.dataset.motion=reduced?'reduced':'active';canvas.dataset.idleGlow=String(Boolean(idleGlow));
+   canvas.dataset.energy=energy.toFixed(3);canvas.dataset.bass=bass.toFixed(3);canvas.dataset.mids=mids.toFixed(3);canvas.dataset.treble=treble.toFixed(3);canvas.dataset.pulses=String(pulses.length);canvas.dataset.sparks=String(sparks.length);canvas.dataset.pointer=String(!reduced&&trail.length>0);canvas.dataset.motion=reduced?'reduced':'active';canvas.dataset.idleFlow=idleMix.toFixed(3);
   }
   function tick(now){frame=0;if(destroyed||!visible||document.hidden||motion.matches)return;const elapsed=now-last;if(elapsed>32){draw(now,Math.min(elapsed,80));last=now;}frame=requestAnimationFrame(tick);}
   function start(){if(!frame&&!destroyed&&visible&&!document.hidden&&!motion.matches){last=performance.now();frame=requestAnimationFrame(tick);}}
   function stop(){cancelAnimationFrame(frame);frame=0;}
   const observer=new ResizeObserver(fit);observer.observe(hero);
   const intersection=new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;if(visible)start();else stop();});intersection.observe(hero);
-  hero.addEventListener('pointermove',event=>{if(motion.matches||event.pointerType==='touch')return;const r=hero.getBoundingClientRect(),x=event.clientX-r.left,y=event.clientY-r.top,previous=trail[trail.length-1];if(!previous||Math.hypot(previous.x-x,previous.y-y)>12){trail.push({x,y,time:performance.now()});if(trail.length>24)trail.shift();}start();},{passive:true,signal:events.signal});
+  hero.addEventListener('pointermove',event=>{if(motion.matches||event.pointerType==='touch')return;const r=hero.getBoundingClientRect(),x=event.clientX-r.left,y=event.clientY-r.top,previous=trail[trail.length-1];if(!previous||Math.hypot(previous.x-x,previous.y-y)>12){trail.push({x,y,time:performance.now()});if(trail.length>128)trail.shift();}start();},{passive:true,signal:events.signal});
   document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();else start();},{signal:events.signal});
   motion.addEventListener('change',()=>{stop();trail.length=0;pulses.length=0;sparks.length=0;bands.fill(0);energy=0;bass=0;mids=0;treble=0;previousBass=0;previousTreble=0;bassFloor=0;draw(performance.now(),0);start();},{signal:events.signal});
   document.fonts?.ready.then(()=>{if(!destroyed)fit();});fit();
