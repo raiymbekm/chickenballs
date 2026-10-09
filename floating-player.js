@@ -14,13 +14,12 @@ const minimizeButton=toolbar.querySelector('.minimize-player'),grip=toolbar.quer
 function clampPlayer(x,y){const r=musicPanel.getBoundingClientRect(),viewport=document.documentElement.clientWidth;musicPanel.style.setProperty('--mini-left',Math.max(12,Math.min(x,viewport-r.width-12))+'px');musicPanel.style.setProperty('--mini-top',Math.max(8,Math.min(y,innerHeight-r.height-8))+'px');}
 function dockMiniPlayer(){
  if(!minimized||miniMoved)return;
- const header=document.querySelector('header'),logo=header.querySelector('.wordmark'),nav=header.querySelector('nav');
+ const header=document.querySelector('header'),dock=header.querySelector('.header-player-dock');
  header.classList.remove('mini-needs-row');
- const brand=logo.getBoundingClientRect(),navigation=nav.getBoundingClientRect(),left=brand.right+28,available=navigation.left-left-28;
- const separateRow=innerWidth<=700||available<300;header.classList.toggle('mini-needs-row',separateRow);
- const box=header.getBoundingClientRect(),width=separateRow?Math.min(440,document.documentElement.clientWidth-24):Math.min(440,available);
+ const separateRow=innerWidth<=1100;header.classList.toggle('mini-needs-row',separateRow);
+ const box=dock.getBoundingClientRect(),width=Math.min(440,box.width);
  musicPanel.style.setProperty('--mini-width',width+'px');
- clampPlayer(separateRow?Math.max(12,box.left+12):left,separateRow?box.bottom-68:box.top+(box.height-60)/2);
+ clampPlayer(box.right-width,box.top+(box.height-60)/2);
 }
 musicPanel.classList.add('is-horizontal');
 minimizeButton.addEventListener('click',()=>{
@@ -33,6 +32,7 @@ grip.addEventListener('pointermove',e=>{if(dragOffset){miniMoved=true;clampPlaye
 grip.addEventListener('pointerup',()=>dragOffset=null);grip.addEventListener('pointercancel',()=>dragOffset=null);
 grip.addEventListener('keydown',e=>{if(!minimized||!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key))return;e.preventDefault();miniMoved=true;const r=musicPanel.getBoundingClientRect(),step=e.shiftKey?10:25;clampPlayer(r.x+(e.key==='ArrowRight'?step:e.key==='ArrowLeft'?-step:0),r.y+(e.key==='ArrowDown'?step:e.key==='ArrowUp'?-step:0));});
 window.addEventListener('resize',()=>{if(!minimized)return;if(!miniMoved)dockMiniPlayer();else{musicPanel.style.setProperty('--mini-width',Math.min(440,document.documentElement.clientWidth-24)+'px');const r=musicPanel.getBoundingClientRect();clampPlayer(r.x,r.y);}});
+window.addEventListener('pagenavigate',()=>{if(minimized&&!miniMoved)dockMiniPlayer();});
 let shuffle=false,autoplay=true,repeatMode='off',shuffleBag=[],playedHistory=[],shuffleCycleStarted=false;
 function keepPlayerFloating(){musicPanel.classList.add('is-floating');document.body.classList.add('has-floating-player');}
 window.floatMusicPlayer=keepPlayerFloating;

@@ -22,7 +22,7 @@
   for(const [key,label] of platforms){
    const target=destination(track,key);if(!target)continue;const link=document.createElement('a');link.className='platform-link';link.href=target.url;link.target='_blank';link.rel='noopener';link.dataset.platform=key;link.dataset.destination='track';
    const action='Listen to '+track.title+' on '+label;link.setAttribute('aria-label',action);link.title=action;
-   const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('aria-hidden','true');svg.innerHTML=playerIcons[key]||extraIcons[key];link.append(svg);
+   const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('aria-hidden','true');svg.innerHTML=window.platformIcons[key];link.append(svg);
    const text=document.createElement('span');text.className=compact?'sr-only':'platform-name';text.textContent=label;link.append(text);
    group.append(link);
   }

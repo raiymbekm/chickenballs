@@ -1,0 +1,39 @@
+{
+  "updatedAt": "2026-10-09",
+  "primary": {
+    "purple": "#7738EB",
+    "green": "#BCFF35"
+  },
+  "extended": {
+    "yellow": "#F5A623",
+    "red": "#FD5439",
+    "blue": "#3D52DF"
+  },
+  "neutral": {
+    "black": "#101010",
+    "white": "#F7F7F2"
+  },
+  "fonts": {
+    "display": "ChickenBallsFont.ttf",
+    "body": "Geist",
+    "websiteTitle": "Barlow Condensed Black 900 uppercase",
+    "footer": "Geist Bold 700"
+  },
+  "shapes": {
+    "allowed": [
+      "sharp squares and rectangles",
+      "rectangles with identical rounded corners",
+      "pills"
+    ],
+    "avoid": [
+      "leaf shapes",
+      "alternating corner radii"
+    ],
+    "cardRadiusPx": 28,
+    "releaseButtonRadiusPx": 10
+  },
+  "icons": {
+    "platforms": "recognizable service marks",
+    "editablePixelBackup": "assets/icons/pixel-backup/"
+  }
+}

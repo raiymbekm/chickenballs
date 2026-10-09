@@ -17,7 +17,7 @@
   let width=0,height=0,frame=0,last=0,clock=0,visible=true,destroyed=false,bass=0,mids=0,treble=0,beat=0,previousBass=0,lastBeat=0,sequence=0,bassFloor=0,previousHigh=0,trebleHit=0,lastHigh=0,focusLeft=0,layoutKey='';
   const pointerTrail=[];
   const streakBands=new Float32Array(28),streakWidths=new Float32Array(96),streakOffsets=new Float32Array(12);
-  let streakClock=0;
+  let streakClock=0,dancePulse=0;
   let pointer={x:.5,y:.5,strength:0,time:0};const clamp=n=>Math.max(0,Math.min(1,n));
   function geometry(){
    const heroBox=hero.getBoundingClientRect(),title=hero.querySelector('#hero-title'),titleBox=title.getBoundingClientRect();
@@ -57,24 +57,26 @@
    const lineColor=document.body.classList.contains('dark-mode')?'#000000':'#ffffff';
    ctx.fillStyle=lineColor;ctx.fillRect(0,0,width,height);canvas.dataset.lineColor=lineColor;
    const rowCount=12,rowHeight=height/rowCount,gap=Math.max(1.5,width*.003);
-   // A follows sustained frequency envelopes, without B's transient kick/treble impulses.
-   for(let i=0;i<28;i++){const target=bands[i],tau=target>streakBands[i]?240:650;streakBands[i]+=(target-streakBands[i])*(1-Math.exp(-elapsed/tau));}
-   if(!reduced)streakClock+=elapsed*(active?.00008+energy*.0001:.00004);
+   // Smooth envelopes drive travelling waves: no fixed frequency-to-streak roles.
+   for(let i=0;i<28;i++){const target=bands[i],tau=target>streakBands[i]?120:420;streakBands[i]+=(target-streakBands[i])*(1-Math.exp(-elapsed/tau));}
+   dancePulse+=(beat-dancePulse)*(1-Math.exp(-elapsed/(beat>dancePulse?100:330)));
+   if(!reduced)streakClock+=elapsed*(active?.00022+energy*.00042:.00004);
    for(let row=0;row<rowCount;row++){
     const y=row*rowHeight,ny=(row+.5)/rowCount;
     const bend=pointer.strength*Math.exp(-Math.pow((ny-pointer.y)*4,2))*(pointer.x-.5)*.45;
-    const targetOffset=Math.sin(streakClock*(.7+row*.023)+row*.63)*(.025+streakBands[12]*.035)+bend*.5;
-    streakOffsets[row]+=(targetOffset-streakOffsets[row])*(1-Math.exp(-elapsed/420));
+    const rowPhase=streakClock*(1+row*.035)+row*.55;
+    const targetOffset=Math.sin(rowPhase)*(.025+energy*.105)+Math.sin(rowPhase*1.7-row*.22)*dancePulse*.055+bend*.7;
+    streakOffsets[row]+=(targetOffset-streakOffsets[row])*(1-Math.exp(-elapsed/170));
     const offset=streakOffsets[row];
     const count=8,weights=[];let total=0;
     for(let col=0;col<count;col++){
-     // Stable bass / mid / treble roles keep large and small streaks legible over time.
-     const role=col%4,band=streakBands[role===0?(row+col)%6:role===2?21+(row+col)%7:6+(row*2+col)%15];
-     const breath=1+.08*Math.sin(streakClock+col*.87+row*.38);
-     const target=(role===0?2.1+band*band*5.8:role===2?.48/(1+band*3):.85+band*.8)*breath;
+     const band=streakBands[(row*3+col*5)%28];
+     const wave=Math.sin(streakClock*1.25-col*.9+row*.38);
+     const counterwave=Math.cos(streakClock*.73+col*1.7-row*.27);
+     const target=(1.1+wave*(.24+energy*.58)+counterwave*.2)*(1+band*1.6+dancePulse*(.6+.5*Math.sin(col*.9-row*.45)));
      const index=row*count+col;
      if(!streakWidths[index])streakWidths[index]=target;
-     streakWidths[index]+=(target-streakWidths[index])*(1-Math.exp(-elapsed/240));
+     streakWidths[index]+=(target-streakWidths[index])*(1-Math.exp(-elapsed/130));
      const weight=streakWidths[index];weights.push(weight);total+=weight;
     }
     let x=-width*.23+offset*width;

@@ -11,7 +11,7 @@ window.catalogTools = (() => {
   return tracks.filter(track=>{
    const duration=seconds(track);
    return (artist==='All'||track.artist===artist)&&
-    (track.title+' '+track.artist+' '+(track.credit||'')).toLocaleLowerCase().includes(term)&&
+    (track.title+' '+track.artist+' '+(track.credit||'')+' '+(window.releaseGroups?.find(group=>group.tracks.includes(track.id))?.title||'')).toLocaleLowerCase().includes(term)&&
     (status==='all'||track.releaseStatus===status)&&
     (length==='all'||length==='wip'&&duration!==null&&duration<90||length==='full'&&duration!==null&&duration>=90||length==='unknown'&&duration===null);
   });
