@@ -9,9 +9,10 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
  const cols=Math.max(20,Math.min(90,Math.round(width/19))),rows=Math.max(16,Math.round(height/(width/cols)));
  const cw=width/cols,ch=height/rows;
  const palette=['#bcff35','#f5a623','#fd5439','#3d52df','#bcff35','#fd5439'];
- // The bloom is larger than the header and is deliberately cropped by its edges.
- const cx=width*(.88+.065*Math.sin(t*.31)+.025*Math.sin(t*.83)),cy=height*(.48+.17*Math.cos(t*.39));
- const core=.88+.09*Math.sin(t*.53)+bass*.24+beat*.38;
+ // A right-weighted bloom alternates between a clover and irregular living folds.
+ const cx=width*(.83+.025*Math.sin(t*.31)),cy=height*(.5+.08*Math.cos(t*.39));
+ const morph=(1-Math.cos(t*.55))*.5;
+ const core=.49+.035*Math.sin(t*.53)+bass*.12+beat*.15;
  const points=reduced?[]:trail.map(p=>({x:p.x*width,y:p.y*height,fade:clamp(1-(now-p.time)/1400)}));
  const segments=[];
  for(let i=1;i<points.length;i++){
@@ -35,14 +36,18 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
   const wy=dy*(1+.17*Math.cos(t*.61)) +(.11+mids*.1)*Math.sin(dx*4.8-t*.73)*Math.cos(dy*2.4+t*.43)+trebleHit*.08*Math.sin(dx*19-t*3)+ny*wake*.22;
   const angle=Math.atan2(wy,wx),distance=Math.hypot(wx,wy);
   // Independently breathing folds change their strength and phase, rather than rotating one silhouette.
-  const petal=core*(1+(.1+.13*Math.sin(t*.37))*Math.sin(angle*2+.6*Math.sin(t*.71))
+  const organic=1+(.1+.13*Math.sin(t*.37))*Math.sin(angle*2+.6*Math.sin(t*.71))
    +(.12+.1*Math.cos(t*.49))*Math.cos(angle*4+.8*Math.cos(t*.57))
-   +(.06+.06*Math.sin(t*.63))*Math.sin(angle*7+t*.41)
-   +beat*.13*Math.sin(angle*6-t*.8));
+   +(.06+.06*Math.sin(t*.63))*Math.sin(angle*7+t*.41);
+  const clover=1+.28*Math.cos(angle*3+t*.24)+.035*Math.sin(angle*6-t*.5);
+  const edgeRipple=(treble*.035+trebleHit*.075)*Math.sin(angle*16-t*7+distance*9);
+  const petal=core*(clover*(1-morph)+organic*morph)+edgeRipple;
   let alpha=clamp((petal-distance)*18);
-  const flow=distance/core*2.1+.24*Math.sin(wx*5+t*.81)+.27*Math.cos(wy*4-t*.63)
+  // Bass pushes broad concentric bands from the centre; highs ripple the perimeter.
+  const edgeWeight=clamp(distance/core);
+  const flow=distance/core*(2.1-beat*.65-bass*.3)+.24*Math.sin(wx*5+t*.81)+.27*Math.cos(wy*4-t*.63)
    +.2*Math.sin(wx*3+wy*4+t*.51)+t*.18
-   +beat*.42*Math.sin(distance*8-t*2)+trebleHit*.32*Math.cos(angle*8+t*3)+wake*.8;
+   +beat*.32*Math.sin(distance*8-t*2)+edgeWeight*edgeWeight*(treble*.15+trebleHit*.35)*Math.cos(angle*16-t*7)+wake*.8;
   const index=((Math.floor(flow*3)%palette.length)+palette.length)%palette.length;
   // A little fluid is pulled into the wake at the edge; it fades as one ribbon.
   alpha=Math.max(alpha,wake*.8);
@@ -52,5 +57,5 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
   }
  }
  ctx.globalAlpha=1;
- ctx.canvas.dataset.ripples='0';ctx.canvas.dataset.trail=String(points.length);ctx.canvas.dataset.effect='oversized-fluid-wake';
+ ctx.canvas.dataset.ripples=trebleHit.toFixed(2);ctx.canvas.dataset.trail=String(points.length);ctx.canvas.dataset.effect='morphing-clover-bloom';
 }

@@ -12,10 +12,12 @@
   const buttons=['A','B'].map(name=>{const button=document.createElement('button');button.type='button';button.textContent=name;button.setAttribute('aria-label','Visualizer '+name);button.setAttribute('aria-pressed',String(name==='A'));if(name==='B'){button.disabled=true;button.title='Loading liquid visualizer';}selector.append(button);return button;});hero.append(selector);
   function choose(name){if(!['A','B'].includes(name)||(name==='B'&&!drawB))return;selected=name;hero.dataset.visualizer=name;pointerTrail.length=0;buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.textContent===name)));try{localStorage.setItem('chicken-balls-visualizer',name);}catch{}fit();}
   buttons.forEach(button=>button.addEventListener('click',()=>choose(button.textContent)));
-  import('./visualizer-b.js?v=20261008-sharp-organic-4').then(module=>{if(destroyed)return;drawB=module.drawLiquidGrid;buttons[1].disabled=false;buttons[1].title='Liquid bloom';let preferred;try{preferred=localStorage.getItem('chicken-balls-visualizer');}catch{}choose(new URLSearchParams(location.search).get('visualizer')||preferred||'A');}).catch(()=>{});
+  import('./visualizer-b.js?v=20261009-morph-bloom-1').then(module=>{if(destroyed)return;drawB=module.drawLiquidGrid;buttons[1].disabled=false;buttons[1].title='Liquid bloom';let preferred;try{preferred=localStorage.getItem('chicken-balls-visualizer');}catch{}choose(new URLSearchParams(location.search).get('visualizer')||preferred||'A');}).catch(()=>{});
   const motion=matchMedia('(prefers-reduced-motion: reduce)'),events=new AbortController(),bands=new Float32Array(28);
   let width=0,height=0,frame=0,last=0,clock=0,visible=true,destroyed=false,bass=0,mids=0,treble=0,beat=0,previousBass=0,lastBeat=0,sequence=0,bassFloor=0,previousHigh=0,trebleHit=0,lastHigh=0,focusLeft=0,layoutKey='';
   const pointerTrail=[];
+  const streakBands=new Float32Array(28),streakWidths=new Float32Array(96),streakOffsets=new Float32Array(12);
+  let streakClock=0;
   let pointer={x:.5,y:.5,strength:0,time:0};const clamp=n=>Math.max(0,Math.min(1,n));
   function geometry(){
    const heroBox=hero.getBoundingClientRect(),title=hero.querySelector('#hero-title'),titleBox=title.getBoundingClientRect();
@@ -55,15 +57,25 @@
    const lineColor=document.body.classList.contains('dark-mode')?'#000000':'#ffffff';
    ctx.fillStyle=lineColor;ctx.fillRect(0,0,width,height);canvas.dataset.lineColor=lineColor;
    const rowCount=12,rowHeight=height/rowCount,gap=Math.max(1.5,width*.003);
+   // A follows sustained frequency envelopes, without B's transient kick/treble impulses.
+   for(let i=0;i<28;i++){const target=bands[i],tau=target>streakBands[i]?240:650;streakBands[i]+=(target-streakBands[i])*(1-Math.exp(-elapsed/tau));}
+   if(!reduced)streakClock+=elapsed*(active?.00008+energy*.0001:.00004);
    for(let row=0;row<rowCount;row++){
     const y=row*rowHeight,ny=(row+.5)/rowCount;
     const bend=pointer.strength*Math.exp(-Math.pow((ny-pointer.y)*4,2))*(pointer.x-.5)*.45;
-    const offset=Math.sin(clock*(.7+row*.023)+row*.63)*(.025+mids*.13)+beat*.12*Math.sin(row*.6+sequence)+bend;
+    const targetOffset=Math.sin(streakClock*(.7+row*.023)+row*.63)*(.025+streakBands[12]*.035)+bend*.5;
+    streakOffsets[row]+=(targetOffset-streakOffsets[row])*(1-Math.exp(-elapsed/420));
+    const offset=streakOffsets[row];
     const count=8,weights=[];let total=0;
     for(let col=0;col<count;col++){
-     const band=bands[(col*3+row*2)%28],wave=Math.sin(clock*1.8+col*.87+row*.38);
-     // Shared motion joins rows; real frequency bands expand and compress their blocks.
-     const weight=.3+(wave+1)*.38+band*4.5+(col%3===sequence%3?beat*5:0)+(col%2===0?trebleHit*1.8:0);weights.push(weight);total+=weight;
+     // Stable bass / mid / treble roles keep large and small streaks legible over time.
+     const role=col%4,band=streakBands[role===0?(row+col)%6:role===2?21+(row+col)%7:6+(row*2+col)%15];
+     const breath=1+.08*Math.sin(streakClock+col*.87+row*.38);
+     const target=(role===0?2.1+band*band*5.8:role===2?.48/(1+band*3):.85+band*.8)*breath;
+     const index=row*count+col;
+     if(!streakWidths[index])streakWidths[index]=target;
+     streakWidths[index]+=(target-streakWidths[index])*(1-Math.exp(-elapsed/240));
+     const weight=streakWidths[index];weights.push(weight);total+=weight;
     }
     let x=-width*.23+offset*width;
     for(let col=0;col<count;col++){
@@ -75,7 +87,7 @@
    }
    ctx.restore();canvas.dataset.energy=energy.toFixed(3);canvas.dataset.bass=bass.toFixed(3);canvas.dataset.mids=mids.toFixed(3);canvas.dataset.treble=treble.toFixed(3);canvas.dataset.beat=beat.toFixed(3);canvas.dataset.trebleHit=trebleHit.toFixed(3);canvas.dataset.mode=reduced?'still':active?'audio':'idle';canvas.dataset.shape='rectangle';canvas.dataset.visualizer=selected;
   }
-  function tick(now){frame=0;if(destroyed||!visible||document.hidden||motion.matches)return;const elapsed=now-last;if(elapsed>=32){draw(now,Math.min(elapsed,80));last=now;}frame=requestAnimationFrame(tick);}
+  function tick(now){frame=0;if(destroyed||!visible||document.hidden||motion.matches)return;const elapsed=now-last;if(elapsed>=(selected==='A'?16:32)){draw(now,Math.min(elapsed,80));last=now;}frame=requestAnimationFrame(tick);}
   function start(){if(!frame&&!destroyed&&visible&&!document.hidden&&!motion.matches){last=performance.now();frame=requestAnimationFrame(tick);}}
   function stop(){cancelAnimationFrame(frame);frame=0;}
   const observer=new ResizeObserver(()=>fit());observer.observe(canvas);observer.observe(hero);observer.observe(hero.querySelector('#hero-title'));
