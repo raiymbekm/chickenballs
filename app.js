@@ -15,21 +15,26 @@ function getFilteredTracks(){
  return catalogTools.sort(catalogTools.filter(source,{artist:selectedArtist,query:search.value,status:releaseFilter?.value||'all',length:lengthFilter?.value||'all'}),sortControl?.value||'newest');
 }
 function render(){
- const found=getFilteredTracks(),displayed=isDiscography?found:found.slice(0,12);
+ const found=getFilteredTracks();
  const seen=new Set(),cards=[];
- displayed.forEach((track,i)=>{
-  const release=list.classList.contains('artwork-grid')&&window.releaseGroups.find(group=>group.tracks.includes(track.id));
+ found.forEach((track,i)=>{
+  const release=(!isDiscography||list.classList.contains('artwork-grid'))&&window.releaseGroups.find(group=>group.tracks.includes(track.id));
   if(release&&seen.has(release.id))return;if(release)seen.add(release.id);cards.push({track,release,index:i});
  });
+ if(!isDiscography){
+  // Count a multi-track release once before applying the landing-page limit.
+  cards.sort((a,b)=>(b.release?.date||catalogTools.date(b.track)||'').localeCompare(a.release?.date||catalogTools.date(a.track)||'')||(a.release?.title||a.track.title).localeCompare(b.release?.title||b.track.title));
+  cards.splice(12);
+ }
  const order=sortControl?.value;
  if(order==='name-asc'||order==='name-desc'||order==='artist-asc')cards.sort((a,b)=>{
   const artist=order==='artist-asc'?a.track.artist.localeCompare(b.track.artist):0;
   return artist||(a.release?.title||a.track.title).localeCompare(b.release?.title||b.track.title,'en',{numeric:true,sensitivity:'base'})*(order==='name-desc'?-1:1);
  });
- list.innerHTML=cards.map(({track,release,index})=>release?releaseCard(release):trackCard(track,index)).join('');
+ list.innerHTML=cards.map(({track,release},index)=>release?releaseCard(release):trackCard(track,index)).join('');
  if(more)more.hidden=false;
- document.getElementById('results-status').textContent=found.length?(isDiscography?`${found.length} ${found.length===1?'track':'tracks'}`:`${displayed.length} latest released tracks`):'No tracks found. Try another title or filter.';
- document.getElementById('total-count').textContent=isDiscography?`${catalog.length} TRACKS / EVERY CHAPTER`:'TWELVE OF OUR LATEST RELEASES';
+ document.getElementById('results-status').textContent=found.length?(isDiscography?`${found.length} ${found.length===1?'track':'tracks'}`:`${cards.length} latest ${cards.length===1?'release':'releases'}`):'No tracks found. Try another title or filter.';
+ document.getElementById('total-count').textContent=isDiscography?`${catalog.length} TRACKS / EVERY CHAPTER`:'OUR LATEST RELEASES';
 }
 function chooseFilter(artist){selectedArtist=artist;document.querySelectorAll('[data-filter]').forEach(b=>{const active=b.dataset.filter===artist;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});render();}
 function mountCatalog(){
