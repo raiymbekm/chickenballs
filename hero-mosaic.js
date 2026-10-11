@@ -4,7 +4,7 @@
   dispose();const hero=document.querySelector('.hero');if(!hero)return;
   const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');if(!ctx)return;
   canvas.className='hero-mosaic';canvas.setAttribute('aria-hidden','true');hero.prepend(canvas);hero.classList.add('has-mosaic');
-  const colors=['#bcff35','#3d52df','#f5a623','#fd5439','#bcff35','#f5a623','#7738eb','#fd5439'];
+  const colors=['#34c978','#4c63e5','#ffc42e','#f94a40','#34c978','#ffc42e','#713ce6','#f94a40'];
   hero.dataset.visualizer='A';
   let drawB=null,selected='A';
   const selector=document.createElement('div');selector.className='hero-visualizer-selector';selector.setAttribute('role','group');selector.setAttribute('aria-label','Choose visualizer');

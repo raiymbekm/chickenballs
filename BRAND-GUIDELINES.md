@@ -1,20 +1,20 @@
 # Chicken Balls Records
 
-Updated 9 October 2026.
+Updated 11 October 2026.
 
 ## Color palette
 
 | Role | Color | Hex |
 | --- | --- | --- |
-| Primary | Purple | #7738EB |
-| Primary | Electric green | #BCFF35 |
-| Extended | Yellow / warm amber | #F5A623 |
-| Extended | Coral red | #FD5439 |
-| Extended | Blue | #3D52DF |
+| Primary | Vivid violet | #713CE6 |
+| Primary | Cool green | #34C978 |
+| Extended | Golden yellow | #FFC42E |
+| Extended | Midpoint red | #F94A40 |
+| Extended | Midpoint blue | #4C63E5 |
 | Neutral | Near-black | #101010 |
 | Neutral | Near-white | #F7F7F2 |
 
-Purple and green lead the identity. Amber is deliberately warmer than green. Use near-white text on purple and blue; near-black text on green, amber and red. Check contrast over animated backgrounds separately.
+Vivid violet and cool green lead the identity. Golden yellow provides a warm, saturated accent clearly distinct from the green. Midpoint red keeps some coral warmth; midpoint blue is slightly lighter than the previous blue. Use near-white text on violet and blue; near-black text on green, yellow and red. These solid-color pairings meet 4.5:1 contrast. Check contrast over animated backgrounds separately.
 
 ## Typography
 

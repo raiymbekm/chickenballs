@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-11",
   "primary": {
-    "purple": "#7738EB",
-    "green": "#BCFF35"
+    "purple": "#713CE6",
+    "green": "#34C978"
   },
   "extended": {
-    "yellow": "#F5A623",
-    "red": "#FD5439",
-    "blue": "#3D52DF"
+    "yellow": "#FFC42E",
+    "red": "#F94A40",
+    "blue": "#4C63E5"
   },
   "neutral": {
     "black": "#101010",

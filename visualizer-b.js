@@ -8,7 +8,7 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
  const t=reduced?0:state.time,scale=Math.min(width,height);
  const cols=Math.max(20,Math.min(90,Math.round(width/19))),rows=Math.max(16,Math.round(height/(width/cols)));
  const cw=width/cols,ch=height/rows;
- const palette=['#bcff35','#f5a623','#fd5439','#3d52df','#bcff35','#fd5439'];
+ const palette=['#34c978','#ffc42e','#f94a40','#4c63e5','#34c978','#f94a40'];
  // A right-weighted bloom alternates between a clover and irregular living folds.
  const cx=width*(.83+.025*Math.sin(t*.31)),cy=height*(.5+.08*Math.cos(t*.39));
  const morph=(1-Math.cos(t*.55))*.5;
