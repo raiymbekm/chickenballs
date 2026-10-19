@@ -8,7 +8,7 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
  const t=reduced?0:state.time,scale=Math.min(width,height);
  const cols=Math.max(20,Math.min(90,Math.round(width/19))),rows=Math.max(16,Math.round(height/(width/cols)));
  const cw=width/cols,ch=height/rows;
- const palette=['#34c978','#ffc42e','#f94a40','#4c63e5','#34c978','#f94a40'];
+ const palette=['#34c978','#ffc42e','#f94a40','#2563eb','#34c978','#f94a40'];
  // Two full-size instances of the original bloom, each with its own drift and phase.
  const blooms=[
   {cx:width*(.8+.035*Math.sin(t*.31)),cy:height*(.22+.08*Math.cos(t*.39)),phase:0},

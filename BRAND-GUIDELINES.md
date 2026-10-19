@@ -1,20 +1,20 @@
 # Chicken Balls Records
 
-Updated 11 October 2026.
+Updated 19 October 2026.
 
 ## Color palette
 
 | Role | Color | Hex |
 | --- | --- | --- |
-| Primary | Vivid violet | #713CE6 |
+| Primary | Vivid violet | #9333EA |
 | Primary | Cool green | #34C978 |
 | Extended | Golden yellow | #FFC42E |
 | Extended | Midpoint red | #F94A40 |
-| Extended | Midpoint blue | #4C63E5 |
+| Extended | Blue | #2563EB |
 | Neutral | Near-black | #101010 |
 | Neutral | Near-white | #F7F7F2 |
 
-Vivid violet and cool green lead the identity. Golden yellow provides a warm, saturated accent clearly distinct from the green. Midpoint red keeps some coral warmth; midpoint blue is slightly lighter than the previous blue. Use near-white text on violet and blue; near-black text on green, yellow and red. These solid-color pairings meet 4.5:1 contrast. Check contrast over animated backgrounds separately.
+Vivid violet and cool green lead the identity. Golden yellow provides a warm, saturated accent clearly distinct from the green. Midpoint red keeps some coral warmth; blue provides a crisp, cool accent. Use near-white text on violet and blue; near-black text on green, yellow and red. These solid-color pairings meet 4.5:1 contrast. Check contrast over animated backgrounds separately.
 
 ## Typography
 
@@ -44,8 +44,8 @@ The previous custom pixel icons are preserved as editable SVGs in `assets/icons/
 
 ## Visualizers
 
-A uses smoothly travelling rows and expanding streaks that dance with the music. Streak length is not assigned to a fixed frequency band.
+A uses two floating blooms with the original sound response, morphing between clover and organic forms mostly on the right. They drift and change size independently. Bass expands their centres; high notes create small outer ripples.
 
-B morphs between clover and organic forms, mostly on the right. Bass expands its centre; high notes create small outer ripples. Tiles stay fully opaque and saturated with sharp edges against the background. Do not add feathering or gradients.
+B uses travelling rows and expanding streaks with the original sound response. Keep tiles fully opaque and saturated with sharp edges against the background. Do not add feathering or gradients.
 
 Respect reduced-motion preferences. Keep hero text legible and idle motion calmer than music-driven motion.
