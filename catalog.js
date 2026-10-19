@@ -1327,8 +1327,8 @@ const catalog = [
       ]
     },
     "durationSeconds": 196.78,
-    "releaseDate": "2026-10-13",
-    "releaseDateSource": "https://open.spotify.com/track/5CNDxo4CZHSylhEVEEz0iY",
+    "releaseDate": "2026-10-19",
+    "releaseDateSource": "Project owner: release date corrected to 19 October 2026",
     "audioBitrateKbps": 320,
     "audioSha256": "cb22da85fe25690f840735834651bf14dc0feb1ab61cbd70fdfc759cd5e5d1c9",
     "archiveSources": [
@@ -1340,13 +1340,14 @@ const catalog = [
       }
     ],
     "spotify": "5CNDxo4CZHSylhEVEEz0iY",
-    "officialReleaseDate": "2026-10-13",
-    "officialReleaseDateSource": "https://open.spotify.com/track/5CNDxo4CZHSylhEVEEz0iY",
+    "officialReleaseDate": "2026-10-19",
+    "officialReleaseDateSource": "Project owner: release date corrected to 19 October 2026",
     "originalUploadDate": "2025-06-20",
     "originalYoutube": "G1nBOYhlirA",
     "genre": "Electronic",
     "label": "Chicken Balls Records",
-    "copyright": "© 2026 Chicken Balls Records ℗ 2026 Chicken Balls Records"
+    "copyright": "© 2026 Chicken Balls Records ℗ 2026 Chicken Balls Records",
+    "platformReleaseDate": "2026-10-13"
   },
   {
     "title": "mad woman ting",

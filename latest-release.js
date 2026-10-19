@@ -28,8 +28,8 @@ window.latestRelease = {
     ]
   },
   "durationSeconds": 196.78,
-  "releaseDate": "2026-10-13",
-  "releaseDateSource": "https://open.spotify.com/track/5CNDxo4CZHSylhEVEEz0iY",
+  "releaseDate": "2026-10-19",
+  "releaseDateSource": "Project owner: release date corrected to 19 October 2026",
   "audioBitrateKbps": 320,
   "audioSha256": "cb22da85fe25690f840735834651bf14dc0feb1ab61cbd70fdfc759cd5e5d1c9",
   "archiveSources": [
@@ -41,8 +41,8 @@ window.latestRelease = {
     }
   ],
   "spotify": "5CNDxo4CZHSylhEVEEz0iY",
-  "officialReleaseDate": "2026-10-13",
-  "officialReleaseDateSource": "https://open.spotify.com/track/5CNDxo4CZHSylhEVEEz0iY",
+  "officialReleaseDate": "2026-10-19",
+  "officialReleaseDateSource": "Project owner: release date corrected to 19 October 2026",
   "originalUploadDate": "2025-06-20",
   "originalYoutube": "G1nBOYhlirA",
   "genre": "Electronic",
@@ -53,5 +53,7 @@ window.latestRelease = {
   "description": "UZI Boomstick, the new single from peacepipe04, released on Chicken Balls Records.",
   "descriptionSource": "Release information",
   "sourceUrl": "https://open.spotify.com/track/5CNDxo4CZHSylhEVEEz0iY",
-  "verifiedAt": "2026-10-19"
+  "verifiedAt": "2026-10-19",
+  "platformReleaseDate": "2026-10-13",
+  "featureColor": "yellow"
 };

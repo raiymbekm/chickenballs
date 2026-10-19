@@ -3,6 +3,7 @@
  window.renderFeaturedRelease=function(){
  const release=window.latestRelease;
  if(release&&document.getElementById('latest-release')){
+ document.getElementById('latest-release').dataset.color=release.featureColor||'green';
  let existing=catalog.find(t=>t.id===release.id);
  if(!existing){catalog.unshift({...release});artwork[release.id]={artwork:release.artwork||'assets/chicken-balls-logo-purple.svg',missing:!release.artwork};render();}else {existing.releaseDate=release.releaseDate;if(release.audio)existing.audio=release.audio;}
  const date=release.releaseDate?new Date(release.releaseDate.slice(0,10)+'T12:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'}):'Date to be confirmed';
