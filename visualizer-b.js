@@ -3,10 +3,12 @@
 const states=new WeakMap();
 const clamp=value=>Math.max(0,Math.min(1,value));
 export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,now,elapsed,trail,trebleHit=0,focusLeft=0,sequence=0}){
- let state=states.get(ctx.canvas);if(!state){state={time:0,music:0};states.set(ctx.canvas,state);}
+ let state=states.get(ctx.canvas);if(!state){state={time:0,music:0,pulse:0,high:0};states.set(ctx.canvas,state);}
  const playing=bass+mids+treble>.035;
  if(!reduced)state.time+=elapsed*.001*(playing?1.05+bass*2.1+mids*1.3:.65);
  state.music+=((playing&&!reduced?1:0)-state.music)*(1-Math.exp(-elapsed/(playing?160:650)));
+ state.pulse+=((reduced?0:beat)-state.pulse)*(1-Math.exp(-elapsed/(beat>state.pulse?95:340)));
+ state.high+=((reduced?0:trebleHit)-state.high)*(1-Math.exp(-elapsed/(trebleHit>state.high?90:240)));
  const t=reduced?0:state.time,scale=Math.min(width,height);
  const cols=Math.max(20,Math.min(90,Math.round(width/19))),rows=Math.max(16,Math.round(height/(width/cols)));
  const cw=width/cols,ch=height/rows;
@@ -20,7 +22,7 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
  const blooms=centres.map((centre,i)=>{
   const phase=t+centre.phase;
   const breathing=i===0?.095*Math.sin(t*.81):.11*Math.cos(t*.67+2.1);
-  const kick=beat*(i===sequence%2?1:.72);
+  const kick=state.pulse*(i===sequence%2?1:.72);
   const core=(i===0?.49:.47)+breathing+state.music*.13+bass*.25+mids*.07+kick*.36;
   return {...centre,phase,core,morph:(1-Math.cos(phase*.64))*.5};
  });
@@ -30,7 +32,7 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
   const a=points[i-1],b=points[i],dx=b.x-a.x,dy=b.y-a.y,len2=dx*dx+dy*dy;
   if(len2>1)segments.push({a,b,dx,dy,len2,fade:(a.fade+b.fade)/2});
  }
- const wakeWidth=Math.max(cw*1.3,scale*.045);
+ const wakeWidth=Math.max(cw*.65,scale*.018);
  for(let gy=0;gy<rows;gy++)for(let gx=0;gx<cols;gx++){
   const x=(gx+.5)*cw,y=(gy+.5)*ch;
   let wake=0,nx=0,ny=0;
@@ -51,11 +53,12 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
   const wy=dy*(1+.1*Math.cos(phase*.71))+ny*wake*.055;
   const angle=Math.atan2(wy,wx),distance=Math.hypot(wx,wy);
   // Independently breathing folds change their strength and phase, rather than rotating one silhouette.
-  const organic=1+(.1+.13*Math.sin(phase*.47))*Math.sin(angle*2+.6*Math.sin(phase*.81))
-   +(.12+.1*Math.cos(phase*.59))*Math.cos(angle*4+.8*Math.cos(phase*.67))
-   +(.06+.06*Math.sin(phase*.73))*Math.sin(angle*7+phase*.51);
-  const clover=1+.28*Math.cos(angle*3+phase*.34)+.035*Math.sin(angle*6-phase*.6);
-  const edgeRipple=core*(treble*.18+trebleHit*.29)*Math.sin(angle*16-phase*9+distance*9);
+  // Broad, rounded lobes: high notes move the surface without growing needle-like spikes.
+  const organic=1+(.13+.07*Math.sin(phase*.47))*Math.sin(angle*2+.6*Math.sin(phase*.81))
+   +(.08+.05*Math.cos(phase*.59))*Math.cos(angle*4+.8*Math.cos(phase*.67))
+   +.035*Math.sin(angle*3+phase*.51);
+  const clover=1+.2*Math.cos(angle*3+phase*.34)+.02*Math.sin(angle*6-phase*.6);
+  const edgeRipple=core*(treble*.012+state.high*.018)*Math.sin(angle*6-phase*3+distance*3);
   const petal=core*(clover*(1-morph)+organic*morph)+edgeRipple;
   if(distance>=petal)continue;
   // Bass pushes broad concentric bands from the centre; highs ripple the perimeter.
@@ -66,6 +69,9 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
   const index=((Math.floor(flow*3+b*2)%palette.length)+palette.length)%palette.length;
   fill=palette[index];
   }
+  // A thin, connected pixel ribbon follows the pointer anywhere in the header.
+  // Only two autonomous blooms are generated; this third field exists solely on input.
+  if(!fill&&wake>.34)fill=palette[((Math.floor(t*.8+x/(cw*4)+y/(ch*5))%palette.length)+palette.length)%palette.length];
   if(fill){
    ctx.globalAlpha=1;ctx.fillStyle=fill;
    ctx.fillRect(Math.round(gx*cw),Math.round(gy*ch),Math.round((gx+1)*cw)-Math.round(gx*cw),Math.round((gy+1)*ch)-Math.round(gy*ch));
