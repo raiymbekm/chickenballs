@@ -16,7 +16,7 @@
   "fonts": {
     "display": "ChickenBallsFont.ttf",
     "body": "Funnel Sans",
-    "websiteTitle": "Funnel Display 800 uppercase",
+    "websiteTitle": "Funnel Display ExtraBold 800 (title case)",
     "footer": "Funnel Sans Bold 700"
   },
   "shapes": {

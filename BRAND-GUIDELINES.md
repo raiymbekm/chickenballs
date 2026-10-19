@@ -20,7 +20,7 @@ Vivid violet and cool green lead the identity. Golden yellow provides a warm, sa
 
 - ChickenBallsFont.ttf: custom display headings, campaign titles and expressive artwork. Keep its proportions intact.
 - Funnel Sans: body copy, track names, UI controls and the footer wordmark. Use regular 400, medium 500, semibold 600 and bold 700 where appropriate.
-- Funnel Display ExtraBold 800: the current uppercase website hero title. It stays near-white in both themes.
+- Funnel Display ExtraBold 800: the title-case website hero title, "Chicken Balls Records". It stays near-white in both themes. The subtitle is "independent electronic music label".
 
 ## Logo
 
