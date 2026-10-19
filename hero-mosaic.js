@@ -4,7 +4,7 @@
   dispose();const hero=document.querySelector('.hero');if(!hero)return;
   const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');if(!ctx)return;
   canvas.className='hero-mosaic';canvas.setAttribute('aria-hidden','true');hero.prepend(canvas);hero.classList.add('has-mosaic');
-  const colors=['#34c978','#2563eb','#ffc42e','#f94a40','#34c978','#ffc42e','#9333ea','#f94a40'];
+  const colors=['#34c978','#2563eb','#ffc42e','#f94a40','#34c978','#ffc42e','#6322f2','#f94a40'];
   hero.dataset.visualizer='A';
   // The new preference key deliberately resets legacy A/B selections to the new default.
   let preferred;try{preferred=localStorage.getItem('chicken-balls-visualizer-v2');}catch{}

@@ -6,7 +6,7 @@ Updated 19 October 2026.
 
 | Role | Color | Hex |
 | --- | --- | --- |
-| Primary | Vivid violet | #9333EA |
+| Primary | Vivid violet | #6322F2 |
 | Primary | Cool green | #34C978 |
 | Extended | Golden yellow | #FFC42E |
 | Extended | Midpoint red | #F94A40 |
@@ -19,8 +19,8 @@ Vivid violet and cool green lead the identity. Golden yellow provides a warm, sa
 ## Typography
 
 - ChickenBallsFont.ttf: custom display headings, campaign titles and expressive artwork. Keep its proportions intact.
-- Geist: body copy, track names, UI controls and the footer wordmark. Use regular 400, medium 500, semibold 600 and bold 700 where appropriate.
-- Barlow Condensed Black 900: the current uppercase website hero title. It stays near-white in both themes.
+- Funnel Sans: body copy, track names, UI controls and the footer wordmark. Use regular 400, medium 500, semibold 600 and bold 700 where appropriate.
+- Funnel Display ExtraBold 800: the current uppercase website hero title. It stays near-white in both themes.
 
 ## Logo
 

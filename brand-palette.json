@@ -1,7 +1,7 @@
 {
   "updatedAt": "2026-10-19",
   "primary": {
-    "purple": "#9333EA",
+    "purple": "#6322F2",
     "green": "#34C978"
   },
   "extended": {
@@ -15,9 +15,9 @@
   },
   "fonts": {
     "display": "ChickenBallsFont.ttf",
-    "body": "Geist",
-    "websiteTitle": "Barlow Condensed Black 900 uppercase",
-    "footer": "Geist Bold 700"
+    "body": "Funnel Sans",
+    "websiteTitle": "Funnel Display 800 uppercase",
+    "footer": "Funnel Sans Bold 700"
   },
   "shapes": {
     "allowed": [
