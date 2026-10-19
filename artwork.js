@@ -270,10 +270,11 @@ const artwork = {
     "provider": "YouTube"
   },
   "G1nBOYhlirA": {
-    "title": "peacepipe04 - UZI boomstick",
-    "artwork": "assets/artwork/G1nBOYhlirA.jpg",
-    "artworkSource": "https://i.ytimg.com/vi/G1nBOYhlirA/hqdefault.jpg",
-    "provider": "YouTube"
+    "title": "peacepipe04 - UZI Boomstick",
+    "artwork": "assets/artwork/uzi-boomstick-official.jpg",
+    "artworkSource": "https://i.scdn.co/image/ab67616d0000e1a351fa05bf7226fd6556ca00bd",
+    "provider": "Spotify",
+    "verifiedAt": "2026-10-19"
   },
   "TXr-XnyhmzQ": {
     "title": "peacepipe04 - a room of tools guided by marked knight",
