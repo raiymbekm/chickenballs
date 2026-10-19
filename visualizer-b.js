@@ -2,25 +2,26 @@
 // remains stable for existing deployments; the selector maps it to A.
 const states=new WeakMap();
 const clamp=value=>Math.max(0,Math.min(1,value));
-export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,now,elapsed,trail,trebleHit=0,focusLeft=0}){
- let state=states.get(ctx.canvas);if(!state){state={time:0};states.set(ctx.canvas,state);}
+export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,now,elapsed,trail,trebleHit=0,focusLeft=0,sequence=0}){
+ let state=states.get(ctx.canvas);if(!state){state={time:0,music:0};states.set(ctx.canvas,state);}
  const playing=bass+mids+treble>.035;
- if(!reduced)state.time+=elapsed*.001*(playing?.85+bass*1.8+mids*1.1:.4);
+ if(!reduced)state.time+=elapsed*.001*(playing?1.05+bass*2.1+mids*1.3:.65);
+ state.music+=((playing&&!reduced?1:0)-state.music)*(1-Math.exp(-elapsed/(playing?160:650)));
  const t=reduced?0:state.time,scale=Math.min(width,height);
  const cols=Math.max(20,Math.min(90,Math.round(width/19))),rows=Math.max(16,Math.round(height/(width/cols)));
  const cw=width/cols,ch=height/rows;
  const palette=['#34c978','#ffc42e','#f94a40','#4c63e5','#34c978','#f94a40'];
- // Two drifting centres, kept apart so the blooms never merge into one form.
+ // Original full-size blooms, not scaled down to fit two inside the header.
+ // Their independent orbits let the large silhouettes spill beyond its edges.
  const centres=[
-  {x:width*(.74+.035*Math.sin(t*.43)),y:height*(.24+.055*Math.cos(t*.51)),phase:0},
-  {x:width*(.9+.035*Math.cos(t*.37)),y:height*(.8+.055*Math.sin(t*.47)),phase:2.7}
+  {x:width*(.79+.085*Math.sin(t*.43)),y:height*(.04+.13*Math.cos(t*.57)),phase:0},
+  {x:width*(.94+.075*Math.cos(t*.37)),y:height*(1.02+.13*Math.sin(t*.49)),phase:2.7}
  ];
- const separation=Math.hypot(centres[0].x-centres[1].x,centres[0].y-centres[1].y);
- const maxRadius=Math.min(scale*.4,separation*.43);
  const blooms=centres.map((centre,i)=>{
   const phase=t+centre.phase;
-  const expansion=clamp(.28+bass*.42+beat*.48+mids*.1);
-  const core=maxRadius/scale/1.45*(.68+expansion*.32)*(1-i*.07);
+  const breathing=i===0?.095*Math.sin(t*.81):.11*Math.cos(t*.67+2.1);
+  const kick=beat*(i===sequence%2?1:.72);
+  const core=(i===0?.49:.47)+breathing+state.music*.13+bass*.25+mids*.07+kick*.36;
   return {...centre,phase,core,morph:(1-Math.cos(phase*.64))*.5};
  });
  const points=reduced?[]:trail.map(p=>({x:p.x*width,y:p.y*height,fade:clamp(1-(now-p.time)/1400)}));
@@ -45,8 +46,7 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
   for(let b=0;b<blooms.length;b++){
   const bloom=blooms[b],{core,morph}=bloom,phase=bloom.phase;
   const dx=(x-bloom.x)/scale,dy=(y-bloom.y)/scale;
-  // Keep a clear gap even on a kick. Cursor movement refracts only these two bodies.
-  if(Math.hypot(dx,dy)>maxRadius/scale)continue;
+  // No separation-based radius cap: both bodies can grow past the header on drops.
   const wx=dx*(1+.1*Math.sin(phase*.57))+nx*wake*.055;
   const wy=dy*(1+.1*Math.cos(phase*.71))+ny*wake*.055;
   const angle=Math.atan2(wy,wx),distance=Math.hypot(wx,wy);
@@ -55,7 +55,7 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
    +(.12+.1*Math.cos(phase*.59))*Math.cos(angle*4+.8*Math.cos(phase*.67))
    +(.06+.06*Math.sin(phase*.73))*Math.sin(angle*7+phase*.51);
   const clover=1+.28*Math.cos(angle*3+phase*.34)+.035*Math.sin(angle*6-phase*.6);
-  const edgeRipple=core*(treble*.14+trebleHit*.23)*Math.sin(angle*16-phase*9+distance*9);
+  const edgeRipple=core*(treble*.18+trebleHit*.29)*Math.sin(angle*16-phase*9+distance*9);
   const petal=core*(clover*(1-morph)+organic*morph)+edgeRipple;
   if(distance>=petal)continue;
   // Bass pushes broad concentric bands from the centre; highs ripple the perimeter.
@@ -73,4 +73,6 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
  }
  ctx.globalAlpha=1;
  ctx.canvas.dataset.ripples=trebleHit.toFixed(2);ctx.canvas.dataset.trail=String(points.length);ctx.canvas.dataset.effect='twin-liquid-blooms';ctx.canvas.dataset.blobs='2';
+ ctx.canvas.dataset.bloomSizes=blooms.map(b=>b.core.toFixed(3)).join(',');
+ ctx.canvas.dataset.bloomCentres=blooms.map(b=>`${b.x.toFixed(0)},${b.y.toFixed(0)}`).join(';');
 }
