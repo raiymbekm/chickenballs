@@ -271,10 +271,10 @@ const artwork = {
   },
   "G1nBOYhlirA": {
     "title": "peacepipe04 - UZI Boomstick",
-    "artwork": "assets/artwork/uzi-boomstick-official.jpg",
-    "artworkSource": "https://i.scdn.co/image/ab67616d0000e1a351fa05bf7226fd6556ca00bd",
-    "provider": "Spotify",
-    "verifiedAt": "2026-10-19"
+    "artwork": "assets/artwork/uzi-boomstick-cover-3000.jpg",
+    "artworkSource": "Project owner",
+    "provider": "Artist-supplied original",
+    "verifiedAt": "2026-10-20"
   },
   "TXr-XnyhmzQ": {
     "title": "peacepipe04 - a room of tools guided by marked knight",
