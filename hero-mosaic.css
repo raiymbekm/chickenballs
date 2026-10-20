@@ -28,3 +28,7 @@ body.dark-mode .hero.has-mosaic #hero-title{color:#f7f7f2}
 @media(hover:none){.hero-visualizer-selector{opacity:1;pointer-events:auto}}
 @media(prefers-reduced-motion:reduce){.hero-visualizer-selector{transition:none}}
 .hero.has-mosaic .hero-bottom p+p{max-width:none}
+
+/* Give the artist line breathing room and lower the complete text group slightly. */
+.hero.has-mosaic .hero-bottom{gap:18px}
+

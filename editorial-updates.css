@@ -8,7 +8,7 @@ header .header-random{position:relative;margin:0;order:0;width:84px;height:48px;
 .header-random .random-tooltip{position:absolute;top:calc(100% + 10px);left:50%;transform:translateX(-50%);font:600 12px 'Funnel Sans',Arial,sans-serif;background:var(--black);color:var(--white);border:1px solid #ffffff40;border-radius:8px;padding:10px 14px;white-space:nowrap;opacity:0;visibility:hidden;pointer-events:none;z-index:80;transition:opacity .15s}
 .header-random:hover .random-tooltip,.header-random:focus-visible .random-tooltip{opacity:1;visibility:visible}
 .header-player-dock{height:60px;width:100%;max-width:440px;justify-self:end}
-.hero.has-mosaic>h1,.hero.has-mosaic .hero-bottom{transform:translateY(-8px)}
+.hero.has-mosaic>h1,.hero.has-mosaic .hero-bottom{transform:translateY(2px)}
 header.mini-needs-row{height:auto!important;min-height:98px!important;padding-top:18px!important;padding-bottom:18px!important;row-gap:16px}
 footer .wordmark,footer .wordmark .brand-name{font-family:'Funnel Sans',Arial,sans-serif;font-synthesis:weight;font-weight:700;line-height:1.1;letter-spacing:-.03em}
 footer .wordmark .brand-symbol{box-sizing:content-box;padding:14px;width:48px;height:30px;background:var(--black);border-radius:8px}
