@@ -65,8 +65,9 @@ footer .wordmark .brand-symbol{box-sizing:content-box;padding:14px;width:48px;he
 #latest-release .latest-copy .release-play:focus-visible{outline:2px solid #101010;outline-offset:4px}
 
 /* Purple rule separates the square artwork from the release details. */
-#latest-release .latest-cover::after{content:'';position:absolute;inset:0 0 0 auto;width:3px;background:var(--purple);pointer-events:none}
-@media(max-width:700px){#latest-release .latest-cover::after{inset:auto 0 0;width:auto;height:3px}}
+#latest-release .latest-cover::after{content:'';position:absolute;inset:0 0 0 auto;width:4px;background:var(--purple);pointer-events:none}
+@media(max-width:700px){#latest-release .latest-cover::after{inset:auto 0 0;width:auto;height:4px}}
 
-.site-cursor-trail{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:2000;image-rendering:pixelated}
-@media(prefers-reduced-motion:reduce){.site-cursor-trail{display:none}}
+
+
+#latest-release.latest-release,.dark-mode #latest-release.latest-release{border:4px solid var(--purple)}

@@ -94,8 +94,9 @@
   const observer=new ResizeObserver(()=>fit());observer.observe(canvas);observer.observe(hero);observer.observe(hero.querySelector('#hero-title'));
   const intersection=new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;if(visible)start();else stop();});intersection.observe(hero);
   hero.addEventListener('pointermove',e=>{
-   if(motion.matches||e.pointerType==='touch')return;
    const r=canvas.getBoundingClientRect(),inside=e.clientX>=r.left&&e.clientX<=r.right&&e.clientY>=r.top&&e.clientY<=r.bottom,now=performance.now();
+   hero.dataset.pointerOverVisualizer=String(inside||!!e.target.closest('.hero-visualizer-selector'));
+   if(motion.matches||e.pointerType==='touch')return;
    pointer={x:clamp((e.clientX-r.left)/r.width),y:clamp((e.clientY-r.top)/r.height),strength:1,time:inside?now:0};
    if(inside){
     const previous=pointerTrail[pointerTrail.length-1],distance=previous?Math.hypot((pointer.x-previous.x)*r.width,(pointer.y-previous.y)*r.height):0;
@@ -104,13 +105,14 @@
     if(pointerTrail.length>90)pointerTrail.splice(0,pointerTrail.length-90);
    }start();
   },{passive:true,signal:events.signal});
+  hero.addEventListener('pointerleave',()=>{delete hero.dataset.pointerOverVisualizer;},{signal:events.signal});
   window.addEventListener('resize',()=>fit(),{passive:true,signal:events.signal});
   window.visualViewport?.addEventListener('resize',()=>fit(),{passive:true,signal:events.signal});
   document.fonts?.ready.then(()=>{if(!destroyed)fit();});
   const themeObserver=new MutationObserver(()=>{if(motion.matches)draw(performance.now(),0);});themeObserver.observe(document.body,{attributes:true,attributeFilter:['class']});
   document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();else start();},{signal:events.signal});
   motion.addEventListener('change',()=>{stop();bands.fill(0);pointerTrail.length=0;beat=0;trebleHit=0;previousBass=0;previousHigh=0;bassFloor=0;draw(performance.now(),0);start();},{signal:events.signal});fit();
-  dispose=()=>{destroyed=true;stop();observer.disconnect();themeObserver.disconnect();intersection.disconnect();events.abort();canvas.remove();selector.remove();hero.classList.remove('has-mosaic');delete hero.dataset.visualizer;};
+  dispose=()=>{destroyed=true;stop();observer.disconnect();themeObserver.disconnect();intersection.disconnect();events.abort();canvas.remove();selector.remove();hero.classList.remove('has-mosaic');delete hero.dataset.visualizer;delete hero.dataset.pointerOverVisualizer;};
  }
  window.addEventListener('pagenavigate',mount);mount();
 })();
