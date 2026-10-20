@@ -13,7 +13,7 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
  // deformation, internal flow, breathing, and travel use independent rhythms.
  const secondTime=t*.79+3.2;
  const blooms=[
-  {cx:width*(.8+.035*Math.sin(t*.31)),cy:height*(.22+.08*Math.cos(t*.39)),time:t,morphRate:.55,breathRate:.53,breath:.035,rotation:0,hand:1,fold:.13,clover:.28},
+  {cx:width*(.775+.035*Math.sin(t*.31)),cy:height*(.265+.08*Math.cos(t*.39)),time:t,morphRate:.55,breathRate:.53,breath:.035,rotation:0,hand:1,fold:.13,clover:.28},
   {cx:width*(.94+.032*Math.cos(secondTime*.23)+.012*Math.sin(secondTime*.71)),cy:height*(.85+.075*Math.sin(secondTime*.43)+.015*Math.cos(secondTime*.81)),time:secondTime,morphRate:.41,breathRate:.71,breath:.043,rotation:.55+.25*Math.sin(secondTime*.29),hand:-1,fold:.09,clover:.24}
  ];
  for(const bloom of blooms){bloom.cos=Math.cos(bloom.rotation);bloom.sin=Math.sin(bloom.rotation);}
