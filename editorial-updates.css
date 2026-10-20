@@ -63,3 +63,7 @@ footer .wordmark .brand-symbol{box-sizing:content-box;padding:14px;width:48px;he
 #latest-release .latest-copy .release-play{position:static;align-self:flex-start;margin-top:4px;padding:11px 18px;border:0;border-radius:999px;background:var(--purple);color:#fff;font-size:12px;font-weight:700;line-height:1.2;box-shadow:none}
 #latest-release .latest-copy .release-play:hover{background:#4e14cb}
 #latest-release .latest-copy .release-play:focus-visible{outline:2px solid #101010;outline-offset:4px}
+
+/* Purple rule separates the square artwork from the release details. */
+#latest-release .latest-cover::after{content:'';position:absolute;inset:0 0 0 auto;width:3px;background:var(--purple);pointer-events:none}
+@media(max-width:700px){#latest-release .latest-cover::after{inset:auto 0 0;width:auto;height:3px}}
