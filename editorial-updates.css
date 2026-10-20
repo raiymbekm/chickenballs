@@ -71,3 +71,10 @@ footer .wordmark .brand-symbol{box-sizing:content-box;padding:14px;width:48px;he
 
 
 #latest-release.latest-release,.dark-mode #latest-release.latest-release{border:4px solid var(--purple)}
+
+/* Brand-colored controls exchange purple and green on hover/focus. */
+:is(body .header-random[data-color="purple"],#latest-release .latest-copy .release-play,body.dark-mode .filters button.active):not(:disabled):is(:hover,:focus-visible){background:var(--green);border-color:var(--green);color:var(--black)}
+:is(body .header-random[data-color="green"],#listening-room .transport-play,#listening-room .queue-options button[aria-pressed="true"],#listening-room .player-actions button.active,.hero-visualizer-selector button[aria-pressed="true"],.release-song-play,.pill):not(:disabled):is(:hover,:focus-visible){background:var(--purple);border-color:var(--purple);color:var(--white)}
+:is(.artwork-grid .art-play,.featured-art):is(:hover,:focus-visible)>:is(span,.art-badge){background:var(--purple);color:var(--white)}
+body .theme-toggle:is(:hover,:focus-visible){color:var(--green)}
+body.dark-mode .theme-toggle:is(:hover,:focus-visible){color:var(--purple)}
