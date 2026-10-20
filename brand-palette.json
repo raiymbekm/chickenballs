@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-20",
   "primary": {
     "purple": "#6322F2",
-    "green": "#34C978"
+    "green": "#27d47b"
   },
   "extended": {
     "yellow": "#FFC42E",
@@ -16,7 +16,7 @@
   "fonts": {
     "display": "ChickenBallsFont.ttf",
     "body": "Funnel Sans",
-    "websiteTitle": "Funnel Display ExtraBold 800 (title case)",
+    "websiteTitle": "ChickenBallsFont.ttf",
     "footer": "Funnel Sans Bold 700"
   },
   "shapes": {

@@ -1,13 +1,13 @@
 # Chicken Balls Records
 
-Updated 19 October 2026.
+Updated 20 October 2026.
 
 ## Color palette
 
 | Role | Color | Hex |
 | --- | --- | --- |
 | Primary | Vivid violet | #6322F2 |
-| Primary | Cool green | #34C978 |
+| Primary | Cool green | #27d47b |
 | Extended | Golden yellow | #FFC42E |
 | Extended | Midpoint red | #F94A40 |
 | Extended | Blue | #2563EB |
@@ -20,7 +20,7 @@ Vivid violet and cool green lead the identity. Golden yellow provides a warm, sa
 
 - ChickenBallsFont.ttf: custom display headings, campaign titles and expressive artwork. Keep its proportions intact.
 - Funnel Sans: body copy, track names, UI controls and the footer wordmark. Use regular 400, medium 500, semibold 600 and bold 700 where appropriate.
-- Funnel Display ExtraBold 800: the title-case website hero title, "Chicken Balls Records". It stays near-white in both themes. The subtitle is "independent electronic music label".
+- ChickenBallsFont.ttf: the website hero title, "Chicken Balls Records". It stays near-white in both themes. The subtitle is "INDEPENDENT ELECTRONIC MUSIC LABEL".
 
 ## Logo
 
@@ -31,7 +31,7 @@ Use the supplied SVG silhouette. Preserve its proportions and leave at least one
 Use only sharp squares and rectangles, or rectangles with the same radius on every corner. Pills are allowed. Do not use leaf shapes or alternating corner radii.
 
 - Large player and featured-release cards: shared 28 px radius.
-- Featured release play button: 10 px on all four corners.
+- Featured release play button: a compact pill beneath the text and streaming links.
 - Small controls: consistent rounded corners, or sharp rectangles.
 - Album artwork: square.
 - UI shape rules do not alter the silhouettes of service logos or illustrations.

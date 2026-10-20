@@ -9,7 +9,7 @@
 .hero-visualizer-selector{position:absolute;right:var(--page-gutter,4%);bottom:24px;top:auto;display:flex;align-items:center;gap:6px;z-index:2;color:#f7f7f2;background:#101010e8;padding:8px 10px;border-radius:10px}
 .hero-visualizer-selector>span{font-family:'Funnel Sans',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:.09em;margin-right:10px}
 .hero-visualizer-selector button{width:38px;height:34px;padding:0;border:1px solid #f7f7f260;border-radius:6px;background:transparent;color:#f7f7f2;font-family:'Funnel Sans',Arial,sans-serif;font-size:14px;font-weight:700;transition:background .2s,color .2s}
-.hero-visualizer-selector button[aria-pressed=true]{background:#34c978;color:#101010;border-color:#34c978}
+.hero-visualizer-selector button[aria-pressed=true]{background:#27d47b;color:#101010;border-color:#27d47b}
 .hero-visualizer-selector button:not(:disabled):hover{background:#ffc42e;color:#101010;border-color:#ffc42e}
 .hero-visualizer-selector button:disabled{opacity:.45;cursor:default}.hero-visualizer-selector button:focus-visible{outline:2px solid white;outline-offset:4px}
 body.dark-mode .hero.has-mosaic{background:#6322f2;color:#f7f7f2}
