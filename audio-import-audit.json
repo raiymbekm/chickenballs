@@ -966,7 +966,7 @@
       "trackId": "drive-1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM",
       "title": "WYCBA",
       "artist": "Fetch Quest",
-      "releaseStatus": "unverified",
+      "releaseStatus": "official",
       "decision": "Matched existing recording",
       "selectedForPlayback": true
     },
@@ -1197,7 +1197,7 @@
       "trackId": "drive-13eas8jXbRojM-rvWChDiEa1wq4IMOVk0",
       "title": "Decoy",
       "artist": "Audionerds",
-      "releaseStatus": "unverified",
+      "releaseStatus": "official",
       "decision": "Matched existing recording",
       "selectedForPlayback": true
     },
