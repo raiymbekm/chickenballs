@@ -1,4 +1,4 @@
-// Multi-track releases verified against Apple Music release IDs and track order.
+// Verified multi-track releases and album destinations.
 window.releaseGroups=[
   {
     "id": "1542545741",
@@ -13,7 +13,12 @@ window.releaseGroups=[
     ],
     "appleMusic": "https://music.apple.com/us/album/flesh-bones-ep/1542545741?uo=4",
     "source": "https://itunes.apple.com/lookup?id=1542545741&entity=song",
-    "verifiedAt": "2026-10-09"
+    "verifiedAt": "2026-10-21",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/flesh-bones-ep/1542545741?uo=4",
+      "spotify": "https://open.spotify.com/album/4dRz6R3KIePIEpUZPqSMcw",
+      "tidal": "https://tidal.com/album/164072928"
+    }
   },
   {
     "id": "1696443364",
@@ -28,7 +33,13 @@ window.releaseGroups=[
     ],
     "appleMusic": "https://music.apple.com/us/album/afternoon-kerfuffles-of-2nd-type-single/1696443364?uo=4",
     "source": "https://itunes.apple.com/lookup?id=1696443364&entity=song",
-    "verifiedAt": "2026-10-09"
+    "verifiedAt": "2026-10-21",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/afternoon-kerfuffles-of-2nd-type-single/1696443364?uo=4",
+      "spotify": "https://open.spotify.com/album/4lUrHNeh6i5cSkc6oTdaqx",
+      "tidal": "https://tidal.com/album/303906942",
+      "deezer": "https://www.deezer.com/album/462338355"
+    }
   },
   {
     "id": "1698509712",
@@ -44,6 +55,12 @@ window.releaseGroups=[
     ],
     "appleMusic": "https://music.apple.com/us/album/fill-in-the-blanks-single/1698509712?uo=4",
     "source": "https://itunes.apple.com/lookup?id=1698509712&entity=song",
-    "verifiedAt": "2026-10-09"
+    "verifiedAt": "2026-10-21",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/fill-in-the-blanks-single/1698509712?uo=4",
+      "spotify": "https://open.spotify.com/album/3rBBPSGde98E2Qzk2QGdmy",
+      "tidal": "https://tidal.com/album/305869838",
+      "deezer": "https://www.deezer.com/album/466821565"
+    }
   }
 ];

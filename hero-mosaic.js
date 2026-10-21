@@ -32,9 +32,9 @@
   function fit(render=true){
    const {heroBox,gutter,textRight,key}=geometry();layoutKey=key;
    focusLeft=Math.min(heroBox.width-80,textRight-heroBox.left+gutter);
-   if(selected==='A'){canvas.style.left='0px';canvas.style.right='0px';canvas.style.width='100%';canvas.style.marginLeft='0px';}
-   else if(heroBox.width>700){canvas.style.left=focusLeft+'px';canvas.style.right='0px';canvas.style.width='calc(100% - '+focusLeft+'px)';canvas.style.marginLeft='0px';}
-   else{canvas.style.left='';canvas.style.right='';canvas.style.width=heroBox.width+'px';canvas.style.marginLeft=-gutter+'px';}
+   if(matchMedia('(max-width:700px)').matches){canvas.style.left='auto';canvas.style.right='auto';canvas.style.width=heroBox.width+'px';canvas.style.marginLeft=-gutter+'px';}
+   else if(selected==='A'){canvas.style.left='0px';canvas.style.right='0px';canvas.style.width='100%';canvas.style.marginLeft='0px';}
+   else{canvas.style.left=focusLeft+'px';canvas.style.right='0px';canvas.style.width='calc(100% - '+focusLeft+'px)';canvas.style.marginLeft='0px';}
    const box=canvas.getBoundingClientRect();width=box.width;height=box.height;
    const ratio=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(width*ratio);canvas.height=Math.round(height*ratio);ctx.setTransform(ratio,0,0,ratio,0,0);
    if(render){draw(performance.now(),0);start();}

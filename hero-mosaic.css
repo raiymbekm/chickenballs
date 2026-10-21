@@ -32,3 +32,11 @@ body.dark-mode .hero.has-mosaic #hero-title{color:#f7f7f2}
 /* Give the artist line breathing room and lower the complete text group slightly. */
 .hero.has-mosaic .hero-bottom{gap:18px}
 
+/* Both mobile options follow the text in one compact, full-width stage. */
+@media(max-width:700px){
+ .hero.has-mosaic,.hero.has-mosaic[data-visualizer=A]{min-height:0;justify-content:flex-start;padding-top:32px;padding-bottom:0}
+ .hero.has-mosaic #hero-title,.hero.has-mosaic .hero-bottom{transform:none}
+ .hero.has-mosaic .hero-mosaic,.hero.has-mosaic[data-visualizer=A] .hero-mosaic{position:relative;inset:auto;order:3;flex:none;align-self:flex-start;height:clamp(180px,55vw,240px);aspect-ratio:auto;margin-top:24px;margin-bottom:0}
+ .hero.has-mosaic .hero-visualizer-selector{top:auto;bottom:12px;right:var(--page-gutter,4%);padding:6px 8px}
+}
+

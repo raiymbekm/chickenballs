@@ -18,7 +18,9 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/waverider/1500466022?i=1500466023&uo=4",
-      "spotify": "https://open.spotify.com/track/0DXO8YcURVZYbte55K0kwI"
+      "spotify": "https://open.spotify.com/track/0DXO8YcURVZYbte55K0kwI",
+      "tidal": "https://tidal.com/track/569248941",
+      "amazonMusic": "https://music.amazon.com/albums/B0HMSK6B9X?trackAsin=B0HMSJFM8S"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -55,7 +57,10 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/hotwire/1698509712?i=1698509715&uo=4",
-      "spotify": "https://open.spotify.com/track/2sJNzaaelWiQBhxULA4DPO"
+      "spotify": "https://open.spotify.com/track/2sJNzaaelWiQBhxULA4DPO",
+      "tidal": "https://tidal.com/track/305869840",
+      "deezer": "https://www.deezer.com/track/2376141755",
+      "amazonMusic": "https://music.amazon.com/albums/B0HMSM8Z8K?trackAsin=B0HMSNC7YR"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -102,7 +107,10 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/concentrated-madness/1519691406?i=1519691407&uo=4",
-      "spotify": "https://open.spotify.com/track/0c1S2sFCGTHT63Mmt4WkSx"
+      "spotify": "https://open.spotify.com/track/0c1S2sFCGTHT63Mmt4WkSx",
+      "tidal": "https://tidal.com/track/569248860",
+      "deezer": "https://www.deezer.com/track/999082732",
+      "amazonMusic": "https://music.amazon.com/albums/B0HMSN4H3P?trackAsin=B0HMSPGB6X"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -142,7 +150,9 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/guesswork/1457449419?i=1457449420&uo=4",
-      "spotify": "https://open.spotify.com/track/1Nbf5DvMU1xk51bEazSVVW"
+      "spotify": "https://open.spotify.com/track/1Nbf5DvMU1xk51bEazSVVW",
+      "tidal": "https://tidal.com/track/106400870",
+      "deezer": "https://www.deezer.com/track/653610232"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -179,7 +189,10 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/vernyi/1621539544?i=1621539545&uo=4",
-      "spotify": "https://open.spotify.com/track/2wYSq6zpv2SKQsYevyVcsn"
+      "spotify": "https://open.spotify.com/track/2wYSq6zpv2SKQsYevyVcsn",
+      "tidal": "https://tidal.com/track/226725126",
+      "deezer": "https://www.deezer.com/track/1734624397",
+      "amazonMusic": "https://music.amazon.com/albums/B0HMSLTZNM?trackAsin=B0HMSN65J1"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -219,7 +232,10 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/speedrun/1591400901?i=1591400902&uo=4",
-      "spotify": "https://open.spotify.com/track/1wqZVMQ1dQfcktU46SXzFy"
+      "spotify": "https://open.spotify.com/track/1wqZVMQ1dQfcktU46SXzFy",
+      "tidal": "https://tidal.com/track/202003211",
+      "deezer": "https://www.deezer.com/track/1528324772",
+      "amazonMusic": "https://music.amazon.com/albums/B0HMSM68PY?trackAsin=B0HMSLQDVS"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -257,7 +273,11 @@
     "audioBytes": 11477229,
     "releaseStatus": "official",
     "streamingLinks": {
-      "appleMusic": "https://music.apple.com/us/album/zoology/1437852738?i=1437852751&uo=4"
+      "appleMusic": "https://music.apple.com/us/album/zoology/1437852738?i=1437852751&uo=4",
+      "spotify": "https://open.spotify.com/track/3hnrtGT3YTIkoPEKYM19kD",
+      "tidal": "https://tidal.com/track/569248851",
+      "deezer": "https://www.deezer.com/track/562440942",
+      "amazonMusic": "https://music.amazon.com/albums/B0HMSDGXWW?trackAsin=B0HMSGK72X"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -276,7 +296,8 @@
         "folder": "Fetch Quest",
         "url": "https://drive.google.com/file/d/1luP0dlNDMDc9dDYEp6QVDZg7ocMdxe7e/view?usp=drivesdk"
       }
-    ]
+    ],
+    "spotify": "3hnrtGT3YTIkoPEKYM19kD"
   },
   {
     "title": "Flesh",
@@ -297,7 +318,9 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/flesh/1542545741?i=1542545742&uo=4",
-      "spotify": "https://open.spotify.com/track/5f6GQPC488w6wzycnY7lpo"
+      "spotify": "https://open.spotify.com/track/5f6GQPC488w6wzycnY7lpo",
+      "tidal": "https://tidal.com/track/569249713",
+      "amazonMusic": "https://music.amazon.com/albums/B0HMSRCRRJ?trackAsin=B0HMSLM386"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -337,7 +360,10 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/zircon/1448618026?i=1448618027&uo=4",
-      "spotify": "https://open.spotify.com/track/1XqhwzdZIB6ahY1u07ZtFk"
+      "spotify": "https://open.spotify.com/track/1XqhwzdZIB6ahY1u07ZtFk",
+      "tidal": "https://tidal.com/track/101956602",
+      "deezer": "https://www.deezer.com/track/613112392",
+      "amazonMusic": "https://music.amazon.com/albums/B0HMSKP7W9?trackAsin=B0HMSGSG57"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -379,7 +405,10 @@
     "audioSource": "https://www.youtube.com/watch?v=ZCJ1nJ3Q79E",
     "releaseStatus": "official",
     "streamingLinks": {
-      "appleMusic": "https://music.apple.com/us/album/framework/1663900487?i=1663900488&uo=4"
+      "appleMusic": "https://music.apple.com/us/album/framework/1663900487?i=1663900488&uo=4",
+      "spotify": "https://open.spotify.com/track/4TfldxzYk8q9Y5ac9Is4kc",
+      "tidal": "https://tidal.com/track/569249107",
+      "deezer": "https://www.deezer.com/track/2101544267"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -402,7 +431,8 @@
         "folder": "Epic Cheesy Toast",
         "url": "https://drive.google.com/file/d/17w9D3EZyBoccoez7Qv4OL9laTYNu0Lhx/view?usp=drivesdk"
       }
-    ]
+    ],
+    "spotify": "4TfldxzYk8q9Y5ac9Is4kc"
   },
   {
     "title": "Touchstone",
@@ -422,7 +452,11 @@
     "audioSource": "https://www.youtube.com/watch?v=hL2ZWAv0278",
     "releaseStatus": "official",
     "streamingLinks": {
-      "appleMusic": "https://music.apple.com/us/album/touchstone/1437694439?i=1437694442&uo=4"
+      "appleMusic": "https://music.apple.com/us/album/touchstone/1437694439?i=1437694442&uo=4",
+      "spotify": "https://open.spotify.com/track/2osWwQ8jg0ufcy3sMpzKMK",
+      "tidal": "https://tidal.com/track/569248808",
+      "deezer": "https://www.deezer.com/track/561586182",
+      "amazonMusic": "https://music.amazon.com/albums/B0HMSJFJLV?trackAsin=B0HMSK9PQ9"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -432,7 +466,8 @@
     "officialReleaseDate": "2018-09-28",
     "officialReleaseDateSource": "https://music.apple.com/us/album/touchstone/1437694439?i=1437694442&uo=4",
     "durationSeconds": 246.439,
-    "audioBitrateKbps": 320
+    "audioBitrateKbps": 320,
+    "spotify": "2osWwQ8jg0ufcy3sMpzKMK"
   },
   {
     "title": "Dog’s Dogma",
@@ -450,7 +485,9 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/dogs-dogma/1696443364?i=1696443365&uo=4",
-      "spotify": "https://open.spotify.com/track/1XUNDs23cW4UI6C1OPZSft"
+      "spotify": "https://open.spotify.com/track/1XUNDs23cW4UI6C1OPZSft",
+      "tidal": "https://tidal.com/track/303906943",
+      "deezer": "https://www.deezer.com/track/2360291195"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -490,7 +527,9 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/pseudoscience/1447895947?i=1447895950&uo=4",
-      "spotify": "https://open.spotify.com/track/4PjDcRrjThtPVomTW4P6ek"
+      "spotify": "https://open.spotify.com/track/4PjDcRrjThtPVomTW4P6ek",
+      "tidal": "https://tidal.com/track/101613739",
+      "deezer": "https://www.deezer.com/track/609856022"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -528,7 +567,10 @@
     "audioBytes": 8705114,
     "releaseStatus": "official",
     "streamingLinks": {
-      "appleMusic": "https://music.apple.com/us/album/omnipotence/1488831034?i=1488831035&uo=4"
+      "appleMusic": "https://music.apple.com/us/album/omnipotence/1488831034?i=1488831035&uo=4",
+      "spotify": "https://open.spotify.com/track/3BarNcam3hxlopi9SHBz8Q",
+      "tidal": "https://tidal.com/track/123214537",
+      "deezer": "https://www.deezer.com/track/814198242"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -553,7 +595,8 @@
         "folder": "Fetch Quest",
         "url": "https://drive.google.com/file/d/1Gs-1MtGGYxzo2EVjnS2-Snt7gB0dYjko/view?usp=drivesdk"
       }
-    ]
+    ],
+    "spotify": "3BarNcam3hxlopi9SHBz8Q"
   },
   {
     "title": "Angry Teenagers",
@@ -571,7 +614,9 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/angry-teenagers/1694287202?i=1694287203&uo=4",
-      "spotify": "https://open.spotify.com/track/0nRVlYqSikAT7XlELocwEn"
+      "spotify": "https://open.spotify.com/track/0nRVlYqSikAT7XlELocwEn",
+      "tidal": "https://tidal.com/track/301721268",
+      "deezer": "https://www.deezer.com/track/2342358005"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -609,7 +654,9 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/nanowire/1698509712?i=1698510076&uo=4",
-      "spotify": "https://open.spotify.com/track/6MUmAIq7I603kHWlb7cYSz"
+      "spotify": "https://open.spotify.com/track/6MUmAIq7I603kHWlb7cYSz",
+      "tidal": "https://tidal.com/track/305869841",
+      "deezer": "https://www.deezer.com/track/2376141765"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -637,7 +684,9 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/kinship/1695575385?i=1695575626&uo=4",
-      "spotify": "https://open.spotify.com/track/5SpiIyEcPyajfs1kPQ8qce"
+      "spotify": "https://open.spotify.com/track/5SpiIyEcPyajfs1kPQ8qce",
+      "tidal": "https://tidal.com/track/302926890",
+      "deezer": "https://www.deezer.com/track/2352236165"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -674,7 +723,10 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/disco-mbobulate/1696443364?i=1696443366&uo=4",
-      "spotify": "https://open.spotify.com/track/0Yg5C3y4fZ1E7d7GbxAgVq"
+      "spotify": "https://open.spotify.com/track/0Yg5C3y4fZ1E7d7GbxAgVq",
+      "tidal": "https://tidal.com/track/303906944",
+      "deezer": "https://www.deezer.com/track/2360291205",
+      "amazonMusic": "https://music.amazon.com/albums/B0HMSTKDW2?trackAsin=B0HMSHWM8Q"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -718,7 +770,9 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/trapwire/1698509712?i=1698509713&uo=4",
-      "spotify": "https://open.spotify.com/track/6oazKy3qGZImKZWp8SEKyf"
+      "spotify": "https://open.spotify.com/track/6oazKy3qGZImKZWp8SEKyf",
+      "tidal": "https://tidal.com/track/305869839",
+      "deezer": "https://www.deezer.com/track/2376141745"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -755,7 +809,10 @@
     "audioBytes": 13778094,
     "releaseStatus": "official",
     "streamingLinks": {
-      "appleMusic": "https://music.apple.com/us/album/ascendant-decade/1501971778?i=1501971779&uo=4"
+      "appleMusic": "https://music.apple.com/us/album/ascendant-decade/1501971778?i=1501971779&uo=4",
+      "spotify": "https://open.spotify.com/track/3AbgARzSFjtJNyXMy8Vdsg",
+      "tidal": "https://tidal.com/track/569248858",
+      "deezer": "https://www.deezer.com/track/898727252"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -774,7 +831,8 @@
         "folder": "Fetch Quest",
         "url": "https://drive.google.com/file/d/1BbKcctxJKvDMP4UdmMTeh9rEhl7gw240/view?usp=drivesdk"
       }
-    ]
+    ],
+    "spotify": "3AbgARzSFjtJNyXMy8Vdsg"
   },
   {
     "title": "Glazed Curd",
@@ -795,7 +853,9 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/glazed-curd/6806023982?i=6806023984&uo=4",
-      "spotify": "https://open.spotify.com/track/157cUaqPeIFLb6h8Lu2Dor"
+      "spotify": "https://open.spotify.com/track/157cUaqPeIFLb6h8Lu2Dor",
+      "tidal": "https://tidal.com/track/178844750",
+      "deezer": "https://www.deezer.com/track/1295875442"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -832,7 +892,9 @@
     "releaseStatus": "official",
     "streamingLinks": {
       "appleMusic": "https://music.apple.com/us/album/bones/1542545741?i=1542545743&uo=4",
-      "spotify": "https://open.spotify.com/track/3TVG0C7iy3Pfg9t3ibD578"
+      "spotify": "https://open.spotify.com/track/3TVG0C7iy3Pfg9t3ibD578",
+      "tidal": "https://tidal.com/track/164072930",
+      "amazonMusic": "https://music.amazon.com/albums/B0HMSRCRRJ?trackAsin=B0HMSHYF93"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -1051,7 +1113,9 @@
     "audioBytes": 13614045,
     "releaseStatus": "official",
     "streamingLinks": {
-      "appleMusic": "https://music.apple.com/us/album/payload/1018861953?i=1018862849&uo=4"
+      "appleMusic": "https://music.apple.com/us/album/payload/1018861953?i=1018862849&uo=4",
+      "spotify": "https://open.spotify.com/track/3dtliFPGwNiujYTkzFmrXe",
+      "deezer": "https://www.deezer.com/track/103766064"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -1070,7 +1134,8 @@
         "folder": "Audionerds",
         "url": "https://drive.google.com/file/d/1NMzkImRHV1mO67gOR9Q729tgtNZ2B_Sk/view?usp=drivesdk"
       }
-    ]
+    ],
+    "spotify": "3dtliFPGwNiujYTkzFmrXe"
   },
   {
     "title": "Phil Fuldner - Miami Pop (peacepipe04 remix)",
@@ -1313,7 +1378,8 @@
       "spotify": "https://open.spotify.com/track/5CNDxo4CZHSylhEVEEz0iY",
       "youtubeMusic": "https://music.youtube.com/watch?v=Zv5tb4Af7AE",
       "tidal": "https://tidal.com/track/571259301",
-      "amazonMusic": "https://music.amazon.com/albums/B0HNLT46FJ?trackAsin=B0HNM91KTT"
+      "amazonMusic": "https://music.amazon.com/albums/B0HNLT46FJ?trackAsin=B0HNM91KTT",
+      "appleMusic": "https://music.apple.com/us/album/uzi-boomstick/6824657598?i=6824657729&uo=4"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-19",
@@ -2262,7 +2328,9 @@
     "audioSource": "https://soundcloud.com/fetchquest/horizon-out-now",
     "releaseStatus": "official",
     "streamingLinks": {
-      "appleMusic": "https://music.apple.com/us/album/horizon/1030071774?i=1030073722&uo=4"
+      "appleMusic": "https://music.apple.com/us/album/horizon/1030071774?i=1030073722&uo=4",
+      "spotify": "https://open.spotify.com/track/7A2HyPTRKl0K0UX4P2fqtJ",
+      "tidal": "https://tidal.com/track/139544901"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -2272,7 +2340,8 @@
     "officialReleaseDate": "2015-08-20",
     "officialReleaseDateSource": "https://music.apple.com/us/album/horizon/1030071774?i=1030073722&uo=4",
     "durationSeconds": 362.031,
-    "audioBitrateKbps": 128
+    "audioBitrateKbps": 128,
+    "spotify": "7A2HyPTRKl0K0UX4P2fqtJ"
   },
   {
     "id": "sc-211693501",
@@ -2290,7 +2359,9 @@
     "audioSource": "https://soundcloud.com/fetchquest/crimson-out-now",
     "releaseStatus": "official",
     "streamingLinks": {
-      "appleMusic": "https://music.apple.com/us/album/crimson/1005486512?i=1005486887&uo=4"
+      "appleMusic": "https://music.apple.com/us/album/crimson/1005486512?i=1005486887&uo=4",
+      "spotify": "https://open.spotify.com/track/35Ji8vbEAWJvTMBZTiqIO6",
+      "tidal": "https://tidal.com/track/47537513"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -2300,7 +2371,8 @@
     "officialReleaseDate": "2015-07-06",
     "officialReleaseDateSource": "https://music.apple.com/us/album/crimson/1005486512?i=1005486887&uo=4",
     "durationSeconds": 228.763,
-    "audioBitrateKbps": 180
+    "audioBitrateKbps": 180,
+    "spotify": "35Ji8vbEAWJvTMBZTiqIO6"
   },
   {
     "id": "sc-191959883",
@@ -2317,7 +2389,9 @@
     "audioBytes": 11855482,
     "releaseStatus": "official",
     "streamingLinks": {
-      "appleMusic": "https://music.apple.com/us/album/back/964042057?i=964042073&uo=4"
+      "appleMusic": "https://music.apple.com/us/album/back/964042057?i=964042073&uo=4",
+      "spotify": "https://open.spotify.com/track/383PyUGquJ3skKP60cLYzD",
+      "deezer": "https://www.deezer.com/track/94559168"
     },
     "releaseVerification": {
       "checkedAt": "2026-10-05",
@@ -2342,7 +2416,8 @@
         "folder": "Audionerds",
         "url": "https://drive.google.com/file/d/1HYVBauiGWrataFVf5APSBI6pYzvYjqyK/view?usp=drivesdk"
       }
-    ]
+    ],
+    "spotify": "383PyUGquJ3skKP60cLYzD"
   },
   {
     "id": "sc-181225059",
@@ -2901,18 +2976,23 @@
     "id": "drive-1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM",
     "title": "WYCBA",
     "artist": "Fetch Quest",
-    "type": "Drive original",
+    "type": "Release",
     "duration": "3:04",
     "audio": "assets/audio/1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM.mp3",
     "drive": "https://drive.google.com/file/d/1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM/view?usp=drivesdk",
     "originalFilename": "Fetch Quest - WYCBA.mp3",
     "audioBytes": 7357196,
-    "releaseStatus": "unverified",
-    "streamingLinks": {},
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/wycba/6822192348?i=6822192349&uo=4",
+      "spotify": "https://open.spotify.com/track/0zL4ONC8NUqI39AHZdTuuT",
+      "tidal": "https://tidal.com/track/569248874",
+      "amazonMusic": "https://music.amazon.com/albums/B0HMSQQVC9?trackAsin=B0HMSRGRGP"
+    },
     "releaseVerification": {
-      "checkedAt": "2026-10-05",
-      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
-      "source": null
+      "checkedAt": "2026-10-21",
+      "reason": "Exact distributed artist/title matched; archive master duration matches within 40 ms. Confirmed on Apple Music and TIDAL.",
+      "source": "https://music.apple.com/us/album/wycba/6822192348?i=6822192349&uo=4"
     },
     "durationSeconds": 183.928,
     "audioBitrateKbps": 320,
@@ -2924,7 +3004,10 @@
         "folder": "Fetch Quest",
         "url": "https://drive.google.com/file/d/1qGjOPDqB3Wf224F9IU_B2StYnIkogYMM/view?usp=drivesdk"
       }
-    ]
+    ],
+    "officialReleaseDate": "2023-06-16",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/wycba/6822192348?i=6822192349&uo=4",
+    "spotify": "0zL4ONC8NUqI39AHZdTuuT"
   },
   {
     "id": "drive-0B6qg46ChnRO7MjBra1pOeVVjNDg",
@@ -3481,19 +3564,24 @@
   {
     "id": "drive-13eas8jXbRojM-rvWChDiEa1wq4IMOVk0",
     "title": "Decoy",
-    "artist": "Audionerds",
-    "type": "Studio archive · credit to confirm",
+    "artist": "Fetch Quest",
+    "type": "Release",
     "duration": "4:11",
     "audio": "https://raw.githubusercontent.com/raiymbekm/chickenballs/main/assets/audio/drive-archive/12bc_6xcM3hGz8hqjT2hw9jhN6pzt0sgx.mp3",
     "drive": "https://drive.google.com/file/d/12bc_6xcM3hGz8hqjT2hw9jhN6pzt0sgx/view?usp=drivesdk",
     "originalFilename": "Decoy Mastered.mp3",
     "audioBytes": 10057212,
-    "releaseStatus": "unverified",
-    "streamingLinks": {},
+    "releaseStatus": "official",
+    "streamingLinks": {
+      "appleMusic": "https://music.apple.com/us/album/decoy/1207153502?i=1207153510&uo=4",
+      "spotify": "https://open.spotify.com/track/2TB1LriG0Cko7bg39fdrVA",
+      "tidal": "https://tidal.com/track/71718223",
+      "deezer": "https://www.deezer.com/track/144921416"
+    },
     "releaseVerification": {
-      "checkedAt": "2026-10-05",
-      "reason": "No exact matching distributed version verified. This is not proof of absence on every service.",
-      "source": null
+      "checkedAt": "2026-10-21",
+      "reason": "Exact distributed artist/title matched; archive master duration matches within 40 ms. Confirmed on Apple Music and TIDAL.",
+      "source": "https://music.apple.com/us/album/decoy/1207153502?i=1207153510&uo=4"
     },
     "durationSeconds": 251.429,
     "audioBitrateKbps": 320,
@@ -3505,7 +3593,10 @@
         "folder": "Audionerds",
         "url": "https://drive.google.com/file/d/12bc_6xcM3hGz8hqjT2hw9jhN6pzt0sgx/view?usp=drivesdk"
       }
-    ]
+    ],
+    "officialReleaseDate": "2017-03-24",
+    "officialReleaseDateSource": "https://music.apple.com/us/album/decoy/1207153502?i=1207153510&uo=4",
+    "spotify": "2TB1LriG0Cko7bg39fdrVA"
   },
   {
     "id": "drive-1TdlUMJaXf6thpFVttdsaGUOmN1iSvR5k",
