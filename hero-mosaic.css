@@ -40,3 +40,5 @@ body.dark-mode .hero.has-mosaic #hero-title{color:#f7f7f2}
  .hero.has-mosaic .hero-visualizer-selector{top:auto;bottom:12px;right:var(--page-gutter,4%);padding:6px 8px}
 }
 
+
+@media(max-width:700px){.hero-bottom .desktop-artist-break{display:none}}
