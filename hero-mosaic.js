@@ -16,7 +16,7 @@
   const buttons=['A','B'].map(name=>{const button=document.createElement('button');button.type='button';button.textContent=name;button.setAttribute('aria-label','Visualizer '+name);button.setAttribute('aria-pressed',String(name===selected));button.title=name==='A'?'Loading two liquid blooms':'Reactive streaks';if(name==='A')button.disabled=true;selector.append(button);return button;});hero.append(selector);
   function choose(name){if(!['A','B'].includes(name)||(name==='A'&&!drawA))return;selected=name;hero.dataset.visualizer=name;pointerTrail.length=0;bands.fill(0);beat=0;previousBass=0;previousHigh=0;bassFloor=0;trebleHit=0;buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.textContent===name)));try{localStorage.setItem('chicken-balls-visualizer-v2',name);}catch{}fit();}
   buttons.forEach(button=>button.addEventListener('click',()=>choose(button.textContent)));
-  import('./visualizer-b.js?v=966828072775').then(module=>{if(destroyed)return;drawA=module.drawLiquidGrid;buttons[0].disabled=false;buttons[0].title='Two liquid blooms';fit();}).catch(()=>{buttons[0].title='Liquid visualizer unavailable';choose('B');});
+  import('./visualizer-b.js?v=fcb6ad3752b2').then(module=>{if(destroyed)return;drawA=module.drawLiquidGrid;buttons[0].disabled=false;buttons[0].title='Two liquid blooms';fit();}).catch(()=>{buttons[0].title='Liquid visualizer unavailable';choose('B');});
   const motion=matchMedia('(prefers-reduced-motion: reduce)'),events=new AbortController(),bands=new Float32Array(28);
   let width=0,height=0,frame=0,last=0,clock=0,visible=true,destroyed=false,bass=0,mids=0,treble=0,beat=0,previousBass=0,lastBeat=0,sequence=0,bassFloor=0,previousHigh=0,trebleHit=0,lastHigh=0,focusLeft=0,layoutKey='';
   const pointerTrail=[];
@@ -32,7 +32,7 @@
   function fit(render=true){
    const {heroBox,gutter,textRight,key}=geometry();layoutKey=key;
    focusLeft=Math.min(heroBox.width-80,textRight-heroBox.left+gutter);
-   if(matchMedia('(max-width:700px)').matches){canvas.style.left='auto';canvas.style.right='auto';canvas.style.width=heroBox.width+'px';canvas.style.marginLeft=-gutter+'px';}
+   if(matchMedia('(max-width:700px)').matches&&selected==='B'){canvas.style.left='auto';canvas.style.right='auto';canvas.style.width=heroBox.width+'px';canvas.style.marginLeft=-gutter+'px';}
    else if(selected==='A'){canvas.style.left='0px';canvas.style.right='0px';canvas.style.width='100%';canvas.style.marginLeft='0px';}
    else{canvas.style.left=focusLeft+'px';canvas.style.right='0px';canvas.style.width='calc(100% - '+focusLeft+'px)';canvas.style.marginLeft='0px';}
    const box=canvas.getBoundingClientRect();width=box.width;height=box.height;
@@ -64,7 +64,7 @@
    ctx.clearRect(0,0,width,height);ctx.save();
 
    while(pointerTrail.length&&now-pointerTrail[0].time>1400)pointerTrail.shift();
-   if(selected==='A'){if(drawA)drawA(ctx,{width,height,clock,bass,mids,treble,beat,bands,pointer,trail:pointerTrail,reduced,now,elapsed,sequence,trebleHit,focusLeft});}else{
+   if(selected==='A'){if(drawA)drawA(ctx,{width,height,clock,bass,mids,treble,beat,bands,pointer,trail:pointerTrail,reduced,now,elapsed,sequence,trebleHit,focusLeft,compact:matchMedia('(max-width:700px)').matches});}else{
    canvas.dataset.effect='reactive-streaks';delete canvas.dataset.blobs;
    const lineColor=document.body.classList.contains('dark-mode')?'#000000':'#ffffff';
    ctx.fillStyle=lineColor;ctx.fillRect(0,0,width,height);canvas.dataset.lineColor=lineColor;

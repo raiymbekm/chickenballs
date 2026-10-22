@@ -9,30 +9,43 @@ const transport=document.createElement('div');transport.className='player-transp
 const playButton=transport.querySelector('.transport-play');
 for(const [mode,button] of Object.entries(modeButtons)){button.innerHTML=playerIcon(mode);button.setAttribute('aria-label',mode.toUpperCase());button.title=mode==='audio'?'Saved archive audio':mode;}
 const originalButton=document.getElementById('original-track');originalButton.innerHTML=playerIcon('external');originalButton.setAttribute('aria-label','Open original track');originalButton.title='Open original track';
-let minimized=false,dragOffset=null,miniMoved=false;
-const minimizeButton=toolbar.querySelector('.minimize-player'),grip=toolbar.querySelector('.player-grip');
-function clampPlayer(x,y){const r=musicPanel.getBoundingClientRect(),viewport=document.documentElement.clientWidth;musicPanel.style.setProperty('--mini-left',Math.max(12,Math.min(x,viewport-r.width-12))+'px');musicPanel.style.setProperty('--mini-top',Math.max(8,Math.min(y,innerHeight-r.height-8))+'px');}
+let minimized=true,playerMotion=null;
+const minimizeButton=toolbar.querySelector('.minimize-player');
+toolbar.querySelector('.player-grip').remove();
+const miniTitle=toolbar.querySelector('.minimized-title'),miniOpen=document.createElement('button');
+miniOpen.type='button';miniOpen.className='minimized-title';miniOpen.title='Open music player';miniOpen.setAttribute('aria-label','Open music player');miniTitle.replaceWith(miniOpen);
 function dockMiniPlayer(){
- if(!minimized||miniMoved)return;
- const header=document.querySelector('header'),dock=header.querySelector('.header-player-dock');
- header.classList.remove('mini-needs-row');
- const separateRow=innerWidth<=1100;header.classList.toggle('mini-needs-row',separateRow);
- const box=dock.getBoundingClientRect(),width=Math.min(440,box.width);
+ const dock=document.querySelector('.header-player-dock');if(!dock||!minimized)return;
+ const box=dock.getBoundingClientRect(),width=box.width;
  musicPanel.style.setProperty('--mini-width',width+'px');
- clampPlayer(box.right-width,box.top+(box.height-60)/2);
+ musicPanel.style.setProperty('--mini-left',box.left+scrollX+'px');
+ musicPanel.style.setProperty('--mini-top',box.top+scrollY+'px');
 }
-musicPanel.classList.add('is-horizontal');
-minimizeButton.addEventListener('click',()=>{
- minimized=!minimized;miniMoved=false;musicPanel.classList.toggle('is-minimized',minimized);
- minimizeButton.innerHTML=playerIcon(minimized?'expand':'minimize');minimizeButton.setAttribute('aria-label',minimized?'Expand player':'Minimize player');minimizeButton.title=minimized?'Expand player':'Minimize player';
- if(minimized)dockMiniPlayer();else document.querySelector('header').classList.remove('mini-needs-row');
-});
-grip.addEventListener('pointerdown',e=>{if(!minimized||e.button!==0)return;const r=musicPanel.getBoundingClientRect();dragOffset={x:e.clientX-r.left,y:e.clientY-r.top};grip.setPointerCapture(e.pointerId);e.preventDefault();});
-grip.addEventListener('pointermove',e=>{if(dragOffset){miniMoved=true;clampPlayer(e.clientX-dragOffset.x,e.clientY-dragOffset.y);}});
-grip.addEventListener('pointerup',()=>dragOffset=null);grip.addEventListener('pointercancel',()=>dragOffset=null);
-grip.addEventListener('keydown',e=>{if(!minimized||!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key))return;e.preventDefault();miniMoved=true;const r=musicPanel.getBoundingClientRect(),step=e.shiftKey?10:25;clampPlayer(r.x+(e.key==='ArrowRight'?step:e.key==='ArrowLeft'?-step:0),r.y+(e.key==='ArrowDown'?step:e.key==='ArrowUp'?-step:0));});
-window.addEventListener('resize',()=>{if(!minimized)return;if(!miniMoved)dockMiniPlayer();else{musicPanel.style.setProperty('--mini-width',Math.min(440,document.documentElement.clientWidth-24)+'px');const r=musicPanel.getBoundingClientRect();clampPlayer(r.x,r.y);}});
-window.addEventListener('pagenavigate',()=>{if(minimized&&!miniMoved)dockMiniPlayer();});
+function setPlayerMinimized(next,animate=true){
+ const before=musicPanel.getBoundingClientRect();playerMotion?.cancel();
+ minimized=next;musicPanel.classList.toggle('is-minimized',minimized);
+ document.body.classList.toggle('player-is-expanded',!minimized);
+ minimizeButton.setAttribute('aria-label','Minimize player');minimizeButton.title='Minimize player';minimizeButton.innerHTML=playerIcon('minimize');
+ if(minimized)dockMiniPlayer();
+ const after=musicPanel.getBoundingClientRect();
+ if(animate&&!matchMedia('(prefers-reduced-motion:reduce)').matches&&before.width&&after.width){
+  playerMotion=musicPanel.animate([
+   {transformOrigin:'top left',transform:`translate(${before.left-after.left}px,${before.top-after.top}px) scale(${before.width/after.width},${before.height/after.height})`,opacity:.75},
+   {transformOrigin:'top left',transform:'none',opacity:1}
+  ],{duration:460,easing:'cubic-bezier(.22,.8,.25,1)'});
+  playerMotion.onfinish=()=>playerMotion=null;
+ }
+}
+musicPanel.classList.add('is-horizontal','is-minimized');
+miniOpen.addEventListener('click',()=>{setPlayerMinimized(false);minimizeButton.focus({preventScroll:true});});
+minimizeButton.addEventListener('click',event=>{event.stopPropagation();setPlayerMinimized(true);miniOpen.focus({preventScroll:true});});
+musicPanel.addEventListener('click',event=>{if(minimized&&!event.composedPath().some(node=>node.matches?.('button,a,input')))setPlayerMinimized(false);});
+window.addEventListener('resize',dockMiniPlayer);
+window.addEventListener('pagenavigate',dockMiniPlayer);
+document.fonts.ready.then(dockMiniPlayer);
+window.dockMiniPlayer=dockMiniPlayer;
+requestAnimationFrame(dockMiniPlayer);
+
 let shuffle=false,autoplay=true,repeatMode='off',shuffleBag=[],playedHistory=[],shuffleCycleStarted=false;
 function keepPlayerFloating(){musicPanel.classList.add('is-floating');document.body.classList.add('has-floating-player');}
 window.floatMusicPlayer=keepPlayerFloating;

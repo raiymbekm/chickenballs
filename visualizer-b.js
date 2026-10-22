@@ -1,11 +1,11 @@
 // Large continuous fluid field. Bass changes the bloom itself, with no detached particles.
 const states=new WeakMap();
 const clamp=value=>Math.max(0,Math.min(1,value));
-export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,now,elapsed,trail,trebleHit=0,focusLeft=0}){
+export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,now,elapsed,trail,trebleHit=0,focusLeft=0,compact=false}){
  let state=states.get(ctx.canvas);if(!state){state={time:0};states.set(ctx.canvas,state);}
  const playing=bass+mids+treble>.035;
  if(!reduced)state.time+=elapsed*.001*(playing?.65+bass*1.4+mids*.9:.32);
- const t=reduced?0:state.time,scale=Math.min(width,height);
+ const t=reduced?0:state.time,scale=Math.min(width,height)*(compact?.68:1);
  const cols=Math.max(20,Math.min(90,Math.round(width/19))),rows=Math.max(16,Math.round(height/(width/cols)));
  const cw=width/cols,ch=height/rows;
  const palette=['#27d47b','#ffc42e','#f94a40','#2563eb','#27d47b','#f94a40'];
@@ -16,6 +16,10 @@ export function drawLiquidGrid(ctx,{width,height,bass,mids,treble,beat,reduced,n
   {cx:width*(.775+.035*Math.sin(t*.31)),cy:height*(.265+.08*Math.cos(t*.39)),time:t,morphRate:.55,breathRate:.53,breath:.035,rotation:0,hand:1,fold:.13,clover:.28},
   {cx:width*(.94+.032*Math.cos(secondTime*.23)+.012*Math.sin(secondTime*.71)),cy:height*(.85+.075*Math.sin(secondTime*.43)+.015*Math.cos(secondTime*.81)),time:secondTime,morphRate:.41,breathRate:.71,breath:.043,rotation:.55+.25*Math.sin(secondTime*.29),hand:-1,fold:.09,clover:.24}
  ];
+ if(compact){
+  blooms[0].cx=width*(.36+.07*Math.sin(t*.31));blooms[0].cy=height*(.79+.055*Math.cos(t*.39));
+  blooms[1].cx=width*(.68+.065*Math.cos(secondTime*.23));blooms[1].cy=height*(.95+.05*Math.sin(secondTime*.43));
+ }
  for(const bloom of blooms){bloom.cos=Math.cos(bloom.rotation);bloom.sin=Math.sin(bloom.rotation);}
  const points=reduced?[]:trail.map(p=>({x:p.x*width,y:p.y*height,fade:clamp(1-(now-p.time)/1400)}));
  const segments=[];
